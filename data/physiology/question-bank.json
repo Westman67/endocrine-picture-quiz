@@ -1161,26 +1161,26 @@
       "reasoning_order": 3,
       "study_skill": "morphology",
       "question_type": "Anatomy Diagram (3rd Party)",
-      "tested_concept": "Sella turcica anatomy and anterior pituitary zonation",
-      "stem": "In the right panel showing upward expansion of a pituitary mass out of the masked bony fossa, which anterior pituitary cell population did the lecturer note is centrally positioned and therefore typically spared until last?",
+      "tested_concept": "Sella turcica anatomy, optic chiasm, and portal stalk",
+      "stem": "In the right panel showing an enlarged pituitary mass rising out of the masked bony fossa (sella turcica), which anatomical relationship and vascular consequence best explain the clinical presentation of a sellar mass?",
       "options": [
-        "Corticotropes clustered centrally to protect vital cortisol secretion",
-        "Somatotrophs located along the lateral wings of the pars distalis",
-        "Lactotrophs distributed broadly near the outer anterior lobe margin",
-        "Pituicytes forming the glial stroma of the posterior pituitary lobe"
+        "Upward growth compresses the overlying optic chiasm while stalk compression disrupts portal transport",
+        "Inferior growth invades the thyroid isthmus while blocking basolateral sodium-iodide symporters",
+        "Posterior growth compresses the adrenal cortex while eliminating sinusoidal cortisol-driven PNMT",
+        "Lateral growth severs the third pharyngeal pouch while impairing chief cell calcium sensing"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. The right panel illustrates an enlarged pituitary mass rising out of the sella turcica to compress the overlying optic chiasm. Step 2. Per E1 lecture (p.22 & Tran1 p.7), anterior pituitary cell clusters show zonation with corticotropes positioned in the center so cortisol secretion is protected longest during external compression.",
+      "explanation": "Step 1. The middle and right panels contrast a normal pituitary nested inside the sella turcica against an enlarged mass rising superiorly against the overlying optic chiasm. Step 2. Upward expansion compresses the optic chiasm (causing bitemporal hemianopsia) and can compromise the infundibular stalk carrying the hypophyseal portal vessels.",
       "choice_rationales": [
-        "Corticotropes are concentrated centrally within the anterior pituitary, protecting ACTH-driven cortisol secretion longest against peripheral mass compression.",
-        "Somatotrophs cluster more laterally rather than occupying the protected central core highlighted in lecture.",
-        "Lactotrophs are not the centrally protected cluster emphasized for preserving cortisol survival.",
-        "Pituicytes are posterior pituitary glial cells rather than anterior pituitary hormone-secreting cells."
+        "The pituitary sits in the sella turcica directly below the optic chiasm; upward mass expansion compresses the chiasm and disrupts hypothalamic-pituitary portal communication down the stalk.",
+        "The thyroid lies in the anterior neck rather than inside the cranial sella turcica; an anterior neck midline schematic would match thyroid anatomy.",
+        "The adrenal glands are retroperitoneal organs atop the kidneys, anatomically distant from the cranial sella turcica and optic chiasm.",
+        "Parathyroid chief cells develop from the third and fourth pharyngeal pouches in the neck rather than residing beneath the optic chiasm."
       ],
       "visual_clues": [
         "Middle panel shows normal pituitary beneath the chiasm; right panel shows an enlarged pituitary mass rising out of the sella turcica against the chiasm."
       ],
-      "visual_target": "In the right panel showing upward expansion of a pituitary mass out of the masked bony fossa, which anterior pituitary cell population did the lecturer note is centrally positioned and therefore typically spared until last?",
+      "visual_target": "In the right panel showing an enlarged pituitary mass rising out of the masked bony fossa (sella turcica), which anatomical relationship and vascular consequence best explain the clinical presentation of a sellar mass?",
       "joint_panels": false,
       "image": "assets/display/84f7160184802d4d2502e0c3586abddf4fb2b4f30bf4bbd6ee2a596995b4296e.webp",
       "zoom_image": "assets/zoom/84f7160184802d4d2502e0c3586abddf4fb2b4f30bf4bbd6ee2a596995b4296e.webp",
@@ -1189,11 +1189,15 @@
       "citations": [
         {
           "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "E1 Endocrine Histology RLS.pdf",
           "page": 6
         },
         {
           "document": "E1 Endocrine Histology RLS.pdf",
-          "page": 22
+          "page": 19
         }
       ],
       "ground_truth_confidence": "high",
@@ -1201,8 +1205,8 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "condition_name": "Sella Turcica & Pituitary Zonation",
-      "condition_overview": "The pituitary resides in the sella turcica beneath the optic chiasm; anterior pituitary zonation places corticotropes centrally, sparing ACTH/cortisol longest during compression."
+      "condition_name": "Sella Turcica & Pituitary Anatomy",
+      "condition_overview": "Anatomic pearl: The pituitary rests in the sella turcica below the optic chiasm; while anterior pituitary cells show a general clustering pattern, the lecturer emphasized understanding the anatomical relations rather than memorizing exact cluster coordinates."
     },
     {
       "question_id": "q-e1-3p-thyroid-descent",
@@ -2258,6 +2262,206 @@
       "case_context": null,
       "condition_name": "Receptor Dysregulation",
       "condition_overview": "GPCR loss-of-function often reflects misfolding/trafficking defects (FSHR/LHCGR), whereas WT ERα bound to SERMs still dimerizes on chromatin but fails to recruit co-activators."
+    },
+    {
+      "question_id": "q-e1-anterior-pituitary-regulation-table",
+      "source_group_id": "g-79d0d8acea08c58f2d13",
+      "collection": "E1",
+      "source_origin": "lecture-table",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "table",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Table completion",
+      "tested_concept": "Anterior pituitary cell types and inhibitory dopamine regulation of lactotrophs",
+      "stem": "In this E1 table of anterior pituitary endocrine cells and their hypothalamic control, which cell-hormone-regulator pairing correctly fills the masked row?",
+      "options": [
+        "Thyrotropes | ACTH | CRH (+)",
+        "Lactotrophs | Prolactin | Dopamine (−)",
+        "Somatotrophs | Prolactin | TRH (+)",
+        "Corticotropes | Growth hormone | Dopamine (−)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The four visible rows account for somatotrophs (GH, GHRH +), gonadotrophs (FSH/LH, GnRH +), corticotropes (ACTH, CRH +), and thyrotropes (TSH, TRH +). Step 2. The remaining anterior pituitary secretory cell type is the lactotroph, which produces prolactin and is uniquely regulated by tonic hypothalamic inhibition via dopamine (−).",
+      "choice_rationales": [
+        "Thyrotropes secrete TSH in response to TRH (+) rather than ACTH in response to CRH (+), which belongs to corticotropes.",
+        "Lactotrophs synthesize prolactin and stand out in the E1 table as the anterior pituitary cell type under negative hypothalamic regulation by dopamine (−).",
+        "Somatotrophs produce growth hormone under positive GHRH (+) control—already listed in the second row—rather than prolactin under TRH.",
+        "Corticotropes secrete ACTH under positive CRH (+) stimulation rather than growth hormone under inhibitory dopamine."
+      ],
+      "visual_clues": [
+        "Every visible row shows a stimulatory (+) hypothalamic releasing factor; the single masked row corresponds to prolactin-secreting lactotrophs under inhibitory (−) dopamine control."
+      ],
+      "visual_target": "Masked Lactotrophs / Prolactin / Dopamine (−) row in the E1 p.21 anterior pituitary regulation table.",
+      "joint_panels": false,
+      "context_table": {
+        "placement": "primary",
+        "title": "Anterior Pituitary Cells & Hypothalamic Regulation (E1 p.21)",
+        "columns": [
+          "Anterior Pituitary Cell",
+          "Hormone(s) Produced",
+          "Hypothalamic Regulation"
+        ],
+        "rows": [
+          [
+            "Lactotrophs",
+            "Prolactin",
+            "Dopamine (−)"
+          ],
+          [
+            "Somatotrophs",
+            "Growth hormone",
+            "GHRH (+)"
+          ],
+          [
+            "Gonadotrophs",
+            "FSH and LH",
+            "GnRH (+)"
+          ],
+          [
+            "Corticotropes",
+            "ACTH",
+            "CRH (+)"
+          ],
+          [
+            "Thyrotropes",
+            "TSH",
+            "TRH (+)"
+          ]
+        ],
+        "hidden_cells": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "source": {
+          "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 21
+        }
+      },
+      "citations": [
+        {
+          "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 21
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verbatim table from E1 Endocrine Histology RLS.pdf p.21 and E1 lecturer-emphasis-ledger.json.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Anterior Pituitary Cell Regulation",
+      "condition_overview": "Exam emphasis: Know all five anterior pituitary cell names, their hormones, and that lactotrophs are uniquely under tonic inhibitory dopamine (−) control whereas the other four receive positive releasing factors."
+    },
+    {
+      "question_id": "q-e1-c-cell-endoderm-origin",
+      "source_group_id": "g-340360dd144ba88532e5",
+      "collection": "E1",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Two-Statement Evaluation",
+      "tested_concept": "Endodermal origin of thyroid C cells and thyroid carcinoma lineages",
+      "stem": "Evaluate the following two statements regarding thyroid embryology and tumor lineage from E1:\nStatement 1: Updated developmental evidence emphasized for examinations indicates that thyroid parafollicular (C) cells arise from endoderm rather than neural crest.\nStatement 2: Papillary and follicular thyroid carcinomas derive from thyroid follicular cells, whereas medullary thyroid carcinoma derives from parafollicular (C) cells.",
+      "options": [
+        "Both Statement 1 and Statement 2 are true",
+        "Statement 1 is true, and Statement 2 is false",
+        "Statement 1 is false, and Statement 2 is true",
+        "Both Statement 1 and Statement 2 are false"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. E1 explicitly highlights updated literature showing that both medial and lateral thyroid anlagen—including parafollicular (C) cells—arise from endoderm, superseding the older neural crest theory for exams. Step 2. E1 links thyroid follicular cells to papillary and follicular carcinomas and parafollicular (C) cells to medullary thyroid carcinoma.",
+      "choice_rationales": [
+        "Both statements match E1 lecture emphasis verbatim: C cells are endodermal on updated embryologic evidence, and medullary carcinoma arises from C cells while papillary and follicular cancers arise from follicular cells.",
+        "Statement 2 is also true: E1 p.27 explicitly pairs papillary and follicular cancers with follicular cells and medullary cancer with parafollicular C cells.",
+        "Statement 1 is also true: E1 p.24 and the E1 emphasis ledger specifically instruct using the updated endodermal origin of C cells for examinations.",
+        "Both statements are directly supported by E1 p.24 and p.27 rather than contradicted by lecture."
+      ],
+      "visual_clues": [],
+      "visual_target": "Two-statement conceptual evaluation of E1 thyroid embryology and carcinoma lineage (p.24, p.27).",
+      "joint_panels": false,
+      "citations": [
+        {
+          "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "E1 Endocrine Histology RLS.pdf",
+          "page": 27
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified verbatim against E1 RLS p.24, p.27, and E1 lecturer-emphasis-ledger.json.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Thyroid Embryology & Tumor Lineage",
+      "condition_overview": "Exam emphasis: Use the updated endodermal origin for thyroid parafollicular (C) cells (not neural crest), and link follicular cells → papillary/follicular cancer vs. C cells → medullary thyroid cancer."
+    },
+    {
+      "question_id": "q-e2-target-receptor-pleiotropy",
+      "source_group_id": "g-d9bab577ed7aff885d84",
+      "collection": "E2",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Conceptual Principles (EXCEPT)",
+      "tested_concept": "Target tissue receptor specificity and pleiotropic hormone action",
+      "stem": "Regarding the general principles of endocrine hormone specificity and action presented in E2, ALL of the following statements are accurate EXCEPT:",
+      "options": [
+        "Target tissues respond to low picomolar hormone concentrations via high-affinity receptors",
+        "A single hormone such as insulin exerts both paracrine effects on glucagon and metabolic effects",
+        "Steroid hormone synthesis rate tracks secretory rate directly because steroids are not stored in granules",
+        "A circulating hormone acts on every organ it perfuses regardless of receptor expression"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Although endocrine hormones travel in the bloodstream to all perfused organs, a cell qualifies as a target tissue only if it expresses specific high-affinity receptors for that hormone. Step 2. E2 also emphasizes pleiotropic actions (insulin acting on both glucagon secretion and glucose metabolism) and on-demand steroid synthesis without storage granules.",
+      "choice_rationales": [
+        "High-affinity receptors enable target tissues to respond specifically to hormones circulating at very low concentrations (10⁻⁶ to 10⁻¹⁵ M).",
+        "E2 p.15 specifically cites insulin as having both paracrine actions on glucagon secretion and metabolic effects on glucose.",
+        "E2 p.18 emphasizes that steroid hormones have no secretory storage granules, so synthesis rate is directly proportional to secretory rate.",
+        "This statement is false (making it the correct EXCEPT choice): blood delivers hormones broadly, but a cell is a target tissue only if it expresses specific receptors for that hormone."
+      ],
+      "visual_clues": [],
+      "visual_target": "Conceptual EXCEPT item covering E2 target-receptor specificity and hormone action principles (p.15, p.18–19).",
+      "joint_panels": false,
+      "citations": [
+        {
+          "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+          "page": 19
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified verbatim against E2 RLS p.15, p.18, p.19, and E2 lecturer-emphasis-ledger.json.",
+      "accepted_synonyms": [],
+      "review_status": "USABLE",
+      "case_context": null,
+      "condition_name": "Endocrine Specificity & Pleiotropy",
+      "condition_overview": "Exam emphasis: Target-tissue specificity requires receptor expression, one hormone can mediate multiple distinct effects (e.g., insulin on glucagon and glucose), and unstored steroids link synthesis rate directly to secretion."
     }
   ],
   "cases": [],
