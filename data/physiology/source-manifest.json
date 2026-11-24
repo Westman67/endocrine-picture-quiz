@@ -1,0 +1,1814 @@
+{
+  "schema_version": 2,
+  "section": "physiology",
+  "sources": [
+    {
+      "asset_id": "a-7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db",
+      "source_id": "s-4392026f675f90dc06a3",
+      "source_group_id": "g-bb688094793358415e5c",
+      "lecture_id": "E1",
+      "relative_path": "E1/Pituitary gland H&E - Histology.png",
+      "sha256": "7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db",
+      "dimensions": [
+        2241,
+        1793
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary anterior and posterior lobe histology",
+      "original_asset": "assets/originals/7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db.png",
+      "display_asset": "assets/display/7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7fcb108bba8ab55172e9",
+          "asset": "assets/display/7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db.webp",
+          "zoom_asset": "assets/zoom/7fcb108bba8ab55172e96a17d372178f64a7f73210ca99ada2e3ec0d96d606db.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2241,
+              1793
+            ],
+            "output_dimensions": [
+              2241,
+              1793
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182",
+      "source_id": "s-922a5da39ff19c69bf7c",
+      "source_group_id": "g-bb688094793358415e5c",
+      "lecture_id": "E1",
+      "relative_path": "E1/Posterior pituitary H&E - Histology.png",
+      "sha256": "88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182",
+      "dimensions": [
+        2477,
+        1902
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Posterior pituitary neurofilament IHC and H&E",
+      "original_asset": "assets/originals/88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182.png",
+      "display_asset": "assets/display/88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 16
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-88cbe08070e47ab9b1bc",
+          "asset": "assets/display/88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182.webp",
+          "zoom_asset": "assets/zoom/88cbe08070e47ab9b1bcb4abe350bd8d79fe4e110cc72ebfb4f3c76834536182.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2477,
+              1902
+            ],
+            "output_dimensions": [
+              2477,
+              1902
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b8c98bd7eef0ecc2dd72804dff707a38d87f85143c3979babc03c9432aefb2c0",
+      "source_id": "s-b8625b75d96dac5581eb",
+      "source_group_id": "g-221877b94aeceaee2696",
+      "lecture_id": "E1",
+      "relative_path": "E1/Pituitary embryology - Diagram.png",
+      "sha256": "b8c98bd7eef0ecc2dd72804dff707a38d87f85143c3979babc03c9432aefb2c0",
+      "dimensions": [
+        2234,
+        1846
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary embryology and Rathke pouch",
+      "original_asset": "assets/originals/b8c98bd7eef0ecc2dd72804dff707a38d87f85143c3979babc03c9432aefb2c0.png",
+      "display_asset": "assets/display/8373114d3e4d621dbf1dc4773fbc2b37b513276540c3b4aa2982b642c4bebb63.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-8373114d3e4d621dbf1d",
+          "asset": "assets/display/8373114d3e4d621dbf1dc4773fbc2b37b513276540c3b4aa2982b642c4bebb63.webp",
+          "zoom_asset": "assets/zoom/8373114d3e4d621dbf1dc4773fbc2b37b513276540c3b4aa2982b642c4bebb63.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2234,
+              1846
+            ],
+            "output_dimensions": [
+              2234,
+              1846
+            ],
+            "reason": "Mask printed Rathke pouch and Rathke cleft cyst labels in margin while preserving embryologic evagination panels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d86ecbdf7ed29f4c4ca9d99518753c19dbf21b422c173d8e0dd160bd6c681381",
+      "source_id": "s-5225e62255e1e0a987c2",
+      "source_group_id": "g-733a36660ef39818a4e8",
+      "lecture_id": "E1",
+      "relative_path": "E1/Hypophyseal portal system - Diagram.png",
+      "sha256": "d86ecbdf7ed29f4c4ca9d99518753c19dbf21b422c173d8e0dd160bd6c681381",
+      "dimensions": [
+        1683,
+        1775
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Hypophyseal portal vascular link",
+      "original_asset": "assets/originals/d86ecbdf7ed29f4c4ca9d99518753c19dbf21b422c173d8e0dd160bd6c681381.png",
+      "display_asset": "assets/display/c2e980d899b068eb06921d2365d24d2132c97c8fa7c8c6a26a74b7beb04be518.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 19
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-c2e980d899b068eb0692",
+          "asset": "assets/display/c2e980d899b068eb06921d2365d24d2132c97c8fa7c8c6a26a74b7beb04be518.webp",
+          "zoom_asset": "assets/zoom/c2e980d899b068eb06921d2365d24d2132c97c8fa7c8c6a26a74b7beb04be518.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1683,
+              1775
+            ],
+            "output_dimensions": [
+              1683,
+              1775
+            ],
+            "reason": "Mask Portal vein (vascular link) box while preserving hypothalamic nuclei, superior hypophyseal artery, and pituitary lobes."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-35eb61bf4779933e98a916c93f71caeaf62c15b57ea4bd7cfbd4394f1ce8ee82",
+      "source_id": "s-baf55ee7429f0a024dad",
+      "source_group_id": "g-3bf28a1f565c0a5c47ba",
+      "lecture_id": "E1",
+      "relative_path": "E1/Preprovasopressin precursor - Diagram.png",
+      "sha256": "35eb61bf4779933e98a916c93f71caeaf62c15b57ea4bd7cfbd4394f1ce8ee82",
+      "dimensions": [
+        2731,
+        1770
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Preprovasopressin and copeptin surrogate marker",
+      "original_asset": "assets/originals/35eb61bf4779933e98a916c93f71caeaf62c15b57ea4bd7cfbd4394f1ce8ee82.png",
+      "display_asset": "assets/display/5fe19256507a26b2aa4ef3e75e55e204a2d739abd2aaabeb5b7ac5d0ac0fbc1e.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-5fe19256507a26b2aa4e",
+          "asset": "assets/display/5fe19256507a26b2aa4ef3e75e55e204a2d739abd2aaabeb5b7ac5d0ac0fbc1e.webp",
+          "zoom_asset": "assets/zoom/5fe19256507a26b2aa4ef3e75e55e204a2d739abd2aaabeb5b7ac5d0ac0fbc1e.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2731,
+              1770
+            ],
+            "output_dimensions": [
+              2731,
+              1770
+            ],
+            "reason": "Mask copeptin label above C-terminal glycopeptide domain while keeping VP, Neurophysin II, and OT precursor comparison."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-194eb1c97ae71352731ae594167060e05e9b8a367f8d8a2939f4bcaa25fd9f6f",
+      "source_id": "s-42374726678c8c60f119",
+      "source_group_id": "g-395c26c89a4d15f796e9",
+      "lecture_id": "E1",
+      "relative_path": "E1/POMC processing - Diagram.png",
+      "sha256": "194eb1c97ae71352731ae594167060e05e9b8a367f8d8a2939f4bcaa25fd9f6f",
+      "dimensions": [
+        2659,
+        1900
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Proopiomelanocortin proteolytic processing",
+      "original_asset": "assets/originals/194eb1c97ae71352731ae594167060e05e9b8a367f8d8a2939f4bcaa25fd9f6f.png",
+      "display_asset": "assets/display/8b8df2646202b63dae1df01b9187e56ef4c13cd06193e7087132ea833ce2e13f.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 20
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-8b8df2646202b63dae1d",
+          "asset": "assets/display/8b8df2646202b63dae1df01b9187e56ef4c13cd06193e7087132ea833ce2e13f.webp",
+          "zoom_asset": "assets/zoom/8b8df2646202b63dae1df01b9187e56ef4c13cd06193e7087132ea833ce2e13f.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2659,
+              1900
+            ],
+            "output_dimensions": [
+              2659,
+              1900
+            ],
+            "reason": "Mask printed title Pro-Opiomelanocortin (POMC) while preserving cleavage products in pituitary and hypothalamic neurons."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-29856758cf8d9ef85d36e624158a69d1862f20798bac4a1e06d765b07a87f89a",
+      "source_id": "s-09972da786ed1c2b7681",
+      "source_group_id": "g-51c1f08acc92798b26c0",
+      "lecture_id": "E1",
+      "relative_path": "E1/Anterior pituitary cell types H&E - Histology.png",
+      "sha256": "29856758cf8d9ef85d36e624158a69d1862f20798bac4a1e06d765b07a87f89a",
+      "dimensions": [
+        2551,
+        2058
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Anterior pituitary chromophobes, acidophils, and basophils",
+      "original_asset": "assets/originals/29856758cf8d9ef85d36e624158a69d1862f20798bac4a1e06d765b07a87f89a.png",
+      "display_asset": "assets/display/362f1637504bd56e3ec9e9b05e6c20b2cb9bf0f1400eb27499726049da2f6438.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 23
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-362f1637504bd56e3ec9",
+          "asset": "assets/display/362f1637504bd56e3ec9e9b05e6c20b2cb9bf0f1400eb27499726049da2f6438.webp",
+          "zoom_asset": "assets/zoom/362f1637504bd56e3ec9e9b05e6c20b2cb9bf0f1400eb27499726049da2f6438.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2551,
+              2058
+            ],
+            "output_dimensions": [
+              2551,
+              2058
+            ],
+            "reason": "Mask bottom margin cell-type legend while preserving arrows and all H&E cellular morphology."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea",
+      "source_id": "s-ad231249b247107a4c47",
+      "source_group_id": "g-d4e3832c57f9b9dafb00",
+      "lecture_id": "E1",
+      "relative_path": "E1/Thyroid follicles H&E - Histology.png",
+      "sha256": "7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea",
+      "dimensions": [
+        2142,
+        1243
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Thyroid follicle colloid and activity state",
+      "original_asset": "assets/originals/7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea.png",
+      "display_asset": "assets/display/7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7c5a530a52a91a9947dc",
+          "asset": "assets/display/7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea.webp",
+          "zoom_asset": "assets/zoom/7c5a530a52a91a9947dce5c542fed97d4d88ee647079daa454b8de56a7f86cea.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2142,
+              1243
+            ],
+            "output_dimensions": [
+              2142,
+              1243
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722",
+      "source_id": "s-163e8036d0572d4210fd",
+      "source_group_id": "g-f6e6e82df8e333c89a0f",
+      "lecture_id": "E1",
+      "relative_path": "E1/Thyroid follicular cells H&E - Histology.png",
+      "sha256": "7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722",
+      "dimensions": [
+        3034,
+        1917
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Thyroid follicular cell apical-basal polarity",
+      "original_asset": "assets/originals/7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722.png",
+      "display_asset": "assets/display/7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7da9af72e70faf7eb3d6",
+          "asset": "assets/display/7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722.webp",
+          "zoom_asset": "assets/zoom/7da9af72e70faf7eb3d64af1d7d7daf2f2494661665ec64ee364c195d9a76722.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3034,
+              1917
+            ],
+            "output_dimensions": [
+              3034,
+              1917
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6c20049ca9576f66ba783db9f59eafeb02ba5fecc69857a5a7d20c19b261e1c3",
+      "source_id": "s-483cfe380eb142656a5b",
+      "source_group_id": "g-3fa7b05647ddbc378a07",
+      "lecture_id": "E1",
+      "relative_path": "E1/Thyroglobulin synthesis and iodide transport - Diagram.png",
+      "sha256": "6c20049ca9576f66ba783db9f59eafeb02ba5fecc69857a5a7d20c19b261e1c3",
+      "dimensions": [
+        2770,
+        1905
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "NIS, pendrin, and TPO in thyroid hormone synthesis",
+      "original_asset": "assets/originals/6c20049ca9576f66ba783db9f59eafeb02ba5fecc69857a5a7d20c19b261e1c3.png",
+      "display_asset": "assets/display/4c66299601daceb496102c740b8909324b76aaae4392f7bec6d83e762640ba5c.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 31
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-4c66299601daceb49610",
+          "asset": "assets/display/4c66299601daceb496102c740b8909324b76aaae4392f7bec6d83e762640ba5c.webp",
+          "zoom_asset": "assets/zoom/4c66299601daceb496102c740b8909324b76aaae4392f7bec6d83e762640ba5c.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2770,
+              1905
+            ],
+            "output_dimensions": [
+              2770,
+              1905
+            ],
+            "reason": "Mask NIS, pendrin, TPO labels and glossary text while keeping TSH, iodide, colloid, and apical/basolateral polarity."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34",
+      "source_id": "s-cb8cd2e8a8edf6e13bb8",
+      "source_group_id": "g-c1477e66fc39d27646fe",
+      "lecture_id": "E1",
+      "relative_path": "E1/Parafollicular cells calcitonin IHC and H&E - Histology.png",
+      "sha256": "450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34",
+      "dimensions": [
+        1935,
+        1939
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Parafollicular C cells and calcitonin IHC",
+      "original_asset": "assets/originals/450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34.png",
+      "display_asset": "assets/display/450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 36
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-450e2f7b8e10e34088de",
+          "asset": "assets/display/450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34.webp",
+          "zoom_asset": "assets/zoom/450e2f7b8e10e34088de7c8ed7acb1fbda97e6724b3512b713972ef960271e34.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1935,
+              1939
+            ],
+            "output_dimensions": [
+              1935,
+              1939
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ac47754a991b2136737284e6a1f29201e5b91cbb9c8333d203ddc319c6e9a9fb",
+      "source_id": "s-c7d7329d78fa0e5311ff",
+      "source_group_id": "g-fa44b8a3baba98455449",
+      "lecture_id": "E1",
+      "relative_path": "E1/Parathyroid chief cells and oxyphils - Histology.png",
+      "sha256": "ac47754a991b2136737284e6a1f29201e5b91cbb9c8333d203ddc319c6e9a9fb",
+      "dimensions": [
+        1395,
+        1857
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Parathyroid chief cells, oxyphils, and adipose",
+      "original_asset": "assets/originals/ac47754a991b2136737284e6a1f29201e5b91cbb9c8333d203ddc319c6e9a9fb.png",
+      "display_asset": "assets/display/29bae37b4ef2c3efd797f0e36d35c8ec74ea465f60563bf8292d6932e46ee74c.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 39
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-29bae37b4ef2c3efd797",
+          "asset": "assets/display/29bae37b4ef2c3efd797f0e36d35c8ec74ea465f60563bf8292d6932e46ee74c.webp",
+          "zoom_asset": "assets/zoom/29bae37b4ef2c3efd797f0e36d35c8ec74ea465f60563bf8292d6932e46ee74c.webp",
+          "transform": {
+            "type": "crop_and_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1395,
+              1857
+            ],
+            "output_dimensions": [
+              1395,
+              985
+            ],
+            "reason": "Isolate H&E micrograph panel and mask right-margin labels while preserving the three brackets."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-8d0040b71c4e26dea35282530fd442d4a2974cd827cd66744940ce49dff3b82c",
+      "source_id": "s-f05aebcedbe6ec853ee2",
+      "source_group_id": "g-0974979d159953055f9b",
+      "lecture_id": "E1",
+      "relative_path": "E1/PTH action on osteoclasts - Diagram.png",
+      "sha256": "8d0040b71c4e26dea35282530fd442d4a2974cd827cd66744940ce49dff3b82c",
+      "dimensions": [
+        1947,
+        1120
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "PTH indirect osteoclast activation via RANKL/OPG",
+      "original_asset": "assets/originals/8d0040b71c4e26dea35282530fd442d4a2974cd827cd66744940ce49dff3b82c.png",
+      "display_asset": "assets/display/dbe6e5398e05c490043f61e4c4a76bafed51742a778e71de5a57927222bba300.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 41
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-dbe6e5398e05c490043f",
+          "asset": "assets/display/dbe6e5398e05c490043f61e4c4a76bafed51742a778e71de5a57927222bba300.webp",
+          "zoom_asset": "assets/zoom/dbe6e5398e05c490043f61e4c4a76bafed51742a778e71de5a57927222bba300.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1947,
+              1120
+            ],
+            "output_dimensions": [
+              1947,
+              1120
+            ],
+            "reason": "Mask RANKL/OPG callout and legend while preserving PTH acting on osteoblasts and signaling to osteoclasts."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d7ea97704c9e627238fc6a283d93007067b6e88754a9aa3205e7288a4520fd5d",
+      "source_id": "s-243dd43bcad33743f1a9",
+      "source_group_id": "g-48603f2740be69ed43e7",
+      "lecture_id": "E1",
+      "relative_path": "E1/Adrenal gland H&E - Histology.png",
+      "sha256": "d7ea97704c9e627238fc6a283d93007067b6e88754a9aa3205e7288a4520fd5d",
+      "dimensions": [
+        2255,
+        1564
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Adrenal gland cortex and medulla embryology",
+      "original_asset": "assets/originals/d7ea97704c9e627238fc6a283d93007067b6e88754a9aa3205e7288a4520fd5d.png",
+      "display_asset": "assets/display/1edb2ac1d4db6674560f0eb0034b84164e4c7af885ca6bd3ffc20637646dff8d.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 42
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1edb2ac1d4db6674560f",
+          "asset": "assets/display/1edb2ac1d4db6674560f0eb0034b84164e4c7af885ca6bd3ffc20637646dff8d.webp",
+          "zoom_asset": "assets/zoom/1edb2ac1d4db6674560f0eb0034b84164e4c7af885ca6bd3ffc20637646dff8d.webp",
+          "transform": {
+            "type": "crop",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2255,
+              1564
+            ],
+            "output_dimensions": [
+              2255,
+              1439
+            ],
+            "reason": "Trim bottom caption strip identifying the adrenal gland."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-1a451e15487120df99ee3fb1f4515c3b96f93a67ab2ab34ca1ae93d95aee038a",
+      "source_id": "s-b36ef9e3faa8f460c5d8",
+      "source_group_id": "g-48603f2740be69ed43e7",
+      "lecture_id": "E1",
+      "relative_path": "E1/Adrenal cortex zones H&E - Histology.png",
+      "sha256": "1a451e15487120df99ee3fb1f4515c3b96f93a67ab2ab34ca1ae93d95aee038a",
+      "dimensions": [
+        1925,
+        1442
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Adrenal cortex functional zones",
+      "original_asset": "assets/originals/1a451e15487120df99ee3fb1f4515c3b96f93a67ab2ab34ca1ae93d95aee038a.png",
+      "display_asset": "assets/display/b3e43804b21b3fa8dff99baedd2dcccaa2046f18c0bfa360a4c74e111361d702.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 44
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b3e43804b21b3fa8dff9",
+          "asset": "assets/display/b3e43804b21b3fa8dff99baedd2dcccaa2046f18c0bfa360a4c74e111361d702.webp",
+          "zoom_asset": "assets/zoom/b3e43804b21b3fa8dff99baedd2dcccaa2046f18c0bfa360a4c74e111361d702.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1925,
+              1442
+            ],
+            "output_dimensions": [
+              1925,
+              1442
+            ],
+            "reason": "Mask printed zone names and Medulla in outer margins while preserving all arrows."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7619b102a8a00257b25736467d5853b4116de6c1f93bcd4c1532f3932c4c069b",
+      "source_id": "s-623028830283c9ee883e",
+      "source_group_id": "g-42e5a21baa5c154c46f2",
+      "lecture_id": "E1",
+      "relative_path": "E1/Steroid secreting cell - EM.png",
+      "sha256": "7619b102a8a00257b25736467d5853b4116de6c1f93bcd4c1532f3932c4c069b",
+      "dimensions": [
+        1893,
+        1270
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Steroid-secreting cell ultrastructure (EM)",
+      "original_asset": "assets/originals/7619b102a8a00257b25736467d5853b4116de6c1f93bcd4c1532f3932c4c069b.png",
+      "display_asset": "assets/display/2bcec40e10807dc3f72fe43163ecc14012f043a88ad3ff7ecca131b8ddec4ece.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 46
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2bcec40e10807dc3f72f",
+          "asset": "assets/display/2bcec40e10807dc3f72fe43163ecc14012f043a88ad3ff7ecca131b8ddec4ece.webp",
+          "zoom_asset": "assets/zoom/2bcec40e10807dc3f72fe43163ecc14012f043a88ad3ff7ecca131b8ddec4ece.webp",
+          "transform": {
+            "type": "crop",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1893,
+              1270
+            ],
+            "output_dimensions": [
+              1893,
+              1042
+            ],
+            "reason": "Trim top cholesterol header and bottom organelle legend while preserving the full electron micrograph."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-74a7f04fcf22cdfc75e15cf34fa6b2dd155ccdbd62d9b10ffd886c5235c936bd",
+      "source_id": "s-12f6b97397917ecf12bb",
+      "source_group_id": "g-e61e361f62097ec9a091",
+      "lecture_id": "E1",
+      "relative_path": "E1/Adrenal medulla blood supply and catecholamine synthesis - Diagram.png",
+      "sha256": "74a7f04fcf22cdfc75e15cf34fa6b2dd155ccdbd62d9b10ffd886c5235c936bd",
+      "dimensions": [
+        1917,
+        1386
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Adrenal dual blood supply and cortisol induction of PNMT",
+      "original_asset": "assets/originals/74a7f04fcf22cdfc75e15cf34fa6b2dd155ccdbd62d9b10ffd886c5235c936bd.png",
+      "display_asset": "assets/display/37a8a4ffbcebd8a90d8570195e59a868ce9b3149422a37210ed15e01e3024f67.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 48
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-37a8a4ffbcebd8a90d85",
+          "asset": "assets/display/37a8a4ffbcebd8a90d8570195e59a868ce9b3149422a37210ed15e01e3024f67.webp",
+          "zoom_asset": "assets/zoom/37a8a4ffbcebd8a90d8570195e59a868ce9b3149422a37210ed15e01e3024f67.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1917,
+              1386
+            ],
+            "output_dimensions": [
+              1917,
+              1386
+            ],
+            "reason": "Mask Cortisol and PNMT text callouts while preserving cortical sinusoids, direct medullary arteriole, and methylation step."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888",
+      "source_id": "s-1d8545520a9c97ba634c",
+      "source_group_id": "g-2146fbe87cc8e09c898e",
+      "lecture_id": "E1",
+      "relative_path": "E1/Islets of Langerhans H&E - Histology.png",
+      "sha256": "703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888",
+      "dimensions": [
+        2716,
+        1414
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Islets of Langerhans H&E histology",
+      "original_asset": "assets/originals/703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888.png",
+      "display_asset": "assets/display/703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 49
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-703718d0bf8bbcc28b60",
+          "asset": "assets/display/703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888.webp",
+          "zoom_asset": "assets/zoom/703718d0bf8bbcc28b60a73368d5204d0455e8404cf4a98d5453a9035b311888.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2716,
+              1414
+            ],
+            "output_dimensions": [
+              2716,
+              1414
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-fc092a0383fdc5936ca2441e8714c38e810e9c37b63899a0e9220eabaf03fc2b",
+      "source_id": "s-2873af4e3ccb9dae1ce3",
+      "source_group_id": "g-86fe0de7278585977876",
+      "lecture_id": "E1",
+      "relative_path": "E1/Islet H&E IHC and IF - Histology.png",
+      "sha256": "fc092a0383fdc5936ca2441e8714c38e810e9c37b63899a0e9220eabaf03fc2b",
+      "dimensions": [
+        2455,
+        1504
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Islet beta and alpha cell immunofluorescence proportions",
+      "original_asset": "assets/originals/fc092a0383fdc5936ca2441e8714c38e810e9c37b63899a0e9220eabaf03fc2b.png",
+      "display_asset": "assets/display/7164af102d1aa1e69ece961bbaf439676c0bd8bbb591f1c3726b51a2992c4d54.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 50
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7164af102d1aa1e69ece",
+          "asset": "assets/display/7164af102d1aa1e69ece961bbaf439676c0bd8bbb591f1c3726b51a2992c4d54.webp",
+          "zoom_asset": "assets/zoom/7164af102d1aa1e69ece961bbaf439676c0bd8bbb591f1c3726b51a2992c4d54.webp",
+          "transform": {
+            "type": "crop",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2455,
+              1504
+            ],
+            "output_dimensions": [
+              2455,
+              1219
+            ],
+            "reason": "Trim bottom captions naming insulin/glucagon stains while keeping the complete H&E, IHC, and IF panels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d421399367652ce8a9c5e983329f2c2654f5e9172d9b40312e422f6f4aa89436",
+      "source_id": "s-2e770b26cbf46a1efd7b",
+      "source_group_id": "g-b2b37149f89f29c15456",
+      "lecture_id": "E1",
+      "relative_path": "E1/C-peptide and proinsulin processing - Diagram.png",
+      "sha256": "d421399367652ce8a9c5e983329f2c2654f5e9172d9b40312e422f6f4aa89436",
+      "dimensions": [
+        1961,
+        1705
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Proinsulin processing and C-peptide 1:1 secretion",
+      "original_asset": "assets/originals/d421399367652ce8a9c5e983329f2c2654f5e9172d9b40312e422f6f4aa89436.png",
+      "display_asset": "assets/display/92401373cbfd230fbbfaad247af7d3f0edcbded9ba69b5bf3a9f070d6d3f37db.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 51
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-92401373cbfd230fbbfa",
+          "asset": "assets/display/92401373cbfd230fbbfaad247af7d3f0edcbded9ba69b5bf3a9f070d6d3f37db.webp",
+          "zoom_asset": "assets/zoom/92401373cbfd230fbbfaad247af7d3f0edcbded9ba69b5bf3a9f070d6d3f37db.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1961,
+              1705
+            ],
+            "output_dimensions": [
+              1961,
+              1705
+            ],
+            "reason": "Mask insulin/C-peptide right-margin labels and legend box while keeping the numbered ER-to-vesicle cleavage steps."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3",
+      "source_id": "s-79918688b8a5fec8506b",
+      "source_group_id": "g-e52ec7fbdfe40038a37e",
+      "lecture_id": "E1",
+      "relative_path": "Bootcamp Endocrinology/Bitemporal hemianopia visual fields - Diagram.png",
+      "sha256": "6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3",
+      "dimensions": [
+        1600,
+        582
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Bitemporal hemianopsia from pituitary adenoma compression",
+      "original_asset": "assets/originals/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.png",
+      "display_asset": "assets/display/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-6230ef79553c3132b110",
+          "asset": "assets/display/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
+          "zoom_asset": "assets/zoom/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1600,
+              582
+            ],
+            "output_dimensions": [
+              1600,
+              582
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-94a0a119984124b43879c349d8174ccc85bce2ff0e85410b8e9db9b5c8e12b54",
+      "source_id": "s-df1b0821521408b868fb",
+      "source_group_id": "g-0d6164cb50b8fbc4d3f8",
+      "lecture_id": "E1",
+      "relative_path": "Bootcamp Endocrinology/Pituitary tumor and optic chiasm - Diagram.png",
+      "sha256": "94a0a119984124b43879c349d8174ccc85bce2ff0e85410b8e9db9b5c8e12b54",
+      "dimensions": [
+        1602,
+        617
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Sella turcica and optic chiasm compression",
+      "original_asset": "assets/originals/94a0a119984124b43879c349d8174ccc85bce2ff0e85410b8e9db9b5c8e12b54.png",
+      "display_asset": "assets/display/84f7160184802d4d2502e0c3586abddf4fb2b4f30bf4bbd6ee2a596995b4296e.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-84f7160184802d4d2502",
+          "asset": "assets/display/84f7160184802d4d2502e0c3586abddf4fb2b4f30bf4bbd6ee2a596995b4296e.webp",
+          "zoom_asset": "assets/zoom/84f7160184802d4d2502e0c3586abddf4fb2b4f30bf4bbd6ee2a596995b4296e.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1602,
+              617
+            ],
+            "output_dimensions": [
+              1602,
+              617
+            ],
+            "reason": "Mask Optic nerve and Sella turcica top labels while preserving pointers and normal vs enlarged pituitary panels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f5b42254d70a7b1593f4f6ac70634945e92a5fabd5f817e7adbaef3b34f2b959",
+      "source_id": "s-47ac10c49eb9701f30ad",
+      "source_group_id": "g-180109c7c317b5958641",
+      "lecture_id": "E1",
+      "relative_path": "Bootcamp Endocrinology/Embryonic thyroid descent - Diagram.png",
+      "sha256": "f5b42254d70a7b1593f4f6ac70634945e92a5fabd5f817e7adbaef3b34f2b959",
+      "dimensions": [
+        768,
+        660
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Embryonic thyroid descent and congenital hypothyroidism",
+      "original_asset": "assets/originals/f5b42254d70a7b1593f4f6ac70634945e92a5fabd5f817e7adbaef3b34f2b959.png",
+      "display_asset": "assets/display/8a1205fe22aa637c41b5b933248ce53d983fe452999d31e38dad006b71b110ab.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-8a1205fe22aa637c41b5",
+          "asset": "assets/display/8a1205fe22aa637c41b5b933248ce53d983fe452999d31e38dad006b71b110ab.webp",
+          "zoom_asset": "assets/zoom/8a1205fe22aa637c41b5b933248ce53d983fe452999d31e38dad006b71b110ab.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              768,
+              660
+            ],
+            "output_dimensions": [
+              768,
+              660
+            ],
+            "reason": "Mask THYROGLOSSAL DUCT label while preserving tongue, foramen cecum, hyoid, and descent pathway."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd",
+      "source_id": "s-7ac27ac8e3d11cf7b366",
+      "source_group_id": "g-529a760116ff40728bc9",
+      "lecture_id": "E2",
+      "relative_path": "E2/Dose response with no spare receptors - Diagram.png",
+      "sha256": "8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd",
+      "dimensions": [
+        1735,
+        1429
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Down-regulation without spare receptors",
+      "original_asset": "assets/originals/8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd.png",
+      "display_asset": "assets/display/8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd.webp",
+      "source_origin": "lecture",
+      "source_collection": "E2 Lecture RLS",
+      "source_citation": {
+        "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+        "page": 29
+      },
+      "source_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "current_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-8101c87c96acb2779f53",
+          "asset": "assets/display/8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd.webp",
+          "zoom_asset": "assets/zoom/8101c87c96acb2779f538c978ba2570b4ecccfc02d505ef61effa197a479debd.webp",
+          "transform": {
+            "type": "display_resize",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1735,
+              1429
+            ],
+            "output_dimensions": [
+              1735,
+              1429
+            ],
+            "reason": "Clean unlabeled source preserved at natural aspect ratio."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-cf6f888bf91d64bb4d668189bd89919eb4e19213ff4204adf65f057971011b1d",
+      "source_id": "s-8ea69e94e688e18806b7",
+      "source_group_id": "g-674d054fbed9140e9e23",
+      "lecture_id": "E2",
+      "relative_path": "E2/Dose response with spare receptors and down regulation - Diagram.png",
+      "sha256": "cf6f888bf91d64bb4d668189bd89919eb4e19213ff4204adf65f057971011b1d",
+      "dimensions": [
+        2249,
+        1746
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Down-regulation with spare receptors",
+      "original_asset": "assets/originals/cf6f888bf91d64bb4d668189bd89919eb4e19213ff4204adf65f057971011b1d.png",
+      "display_asset": "assets/display/71c310413320a58132cf3f6cbdeac6ff56f0f210925c4e6b78394752297cb27d.webp",
+      "source_origin": "lecture",
+      "source_collection": "E2 Lecture RLS",
+      "source_citation": {
+        "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "current_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-71c310413320a58132cf",
+          "asset": "assets/display/71c310413320a58132cf3f6cbdeac6ff56f0f210925c4e6b78394752297cb27d.webp",
+          "zoom_asset": "assets/zoom/71c310413320a58132cf3f6cbdeac6ff56f0f210925c4e6b78394752297cb27d.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2249,
+              1746
+            ],
+            "output_dimensions": [
+              2249,
+              1746
+            ],
+            "reason": "Mask Down Regulation text in top arrow and slide watermark while keeping Curves A, B, C, Half Maximum line, and axes."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-007a0edfdfd2f7690239168cdce2e738a6cc816de216f9d50356c586c3e71cde",
+      "source_id": "s-f6cfc3186a51771763e6",
+      "source_group_id": "g-f686a200591ce844713b",
+      "lecture_id": "E2",
+      "relative_path": "E2/Plasma GH ACTH and melatonin profiles - Diagram.png",
+      "sha256": "007a0edfdfd2f7690239168cdce2e738a6cc816de216f9d50356c586c3e71cde",
+      "dimensions": [
+        901,
+        1896
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "24-hour plasma GH, ACTH, and melatonin secretion profiles",
+      "original_asset": "assets/originals/007a0edfdfd2f7690239168cdce2e738a6cc816de216f9d50356c586c3e71cde.png",
+      "display_asset": "assets/display/ad8f64d148ba7ceccbc07ca917bd2c7ff308c42b230dbd9ebb81fe556ffb7678.webp",
+      "source_origin": "lecture",
+      "source_collection": "E2 Lecture RLS",
+      "source_citation": {
+        "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "current_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-ad8f64d148ba7ceccbc0",
+          "asset": "assets/display/ad8f64d148ba7ceccbc07ca917bd2c7ff308c42b230dbd9ebb81fe556ffb7678.webp",
+          "zoom_asset": "assets/zoom/ad8f64d148ba7ceccbc07ca917bd2c7ff308c42b230dbd9ebb81fe556ffb7678.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              901,
+              1896
+            ],
+            "output_dimensions": [
+              901,
+              1896
+            ],
+            "reason": "Mask hormone names next to C, D, and E while preserving panel letters, concentration units, and shaded sleep-period curves."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-217f75780db0f0e2c4c09588ad9aaba6e025eeca9abc6afff230a42a4138bb2a",
+      "source_id": "s-d299bd1dd64f54cf04ee",
+      "source_group_id": "g-d5e58d361f41584bc564",
+      "lecture_id": "E2",
+      "relative_path": "E2/Long loop feedback control - Diagram.png",
+      "sha256": "217f75780db0f0e2c4c09588ad9aaba6e025eeca9abc6afff230a42a4138bb2a",
+      "dimensions": [
+        1173,
+        1748
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Long-loop negative feedback control",
+      "original_asset": "assets/originals/217f75780db0f0e2c4c09588ad9aaba6e025eeca9abc6afff230a42a4138bb2a.png",
+      "display_asset": "assets/display/a9033b5a2eb4809a0fd5be43e8dc57c927161f24b8e7c0c23dcc75a039a6533d.webp",
+      "source_origin": "lecture",
+      "source_collection": "E2 Lecture RLS",
+      "source_citation": {
+        "document": "E2 Introduction to Endocrine Physiology RLS.pdf",
+        "page": 21
+      },
+      "source_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "current_document_sha256": "7c246722887c595d15acdfe14f0a2458f3ca86652ec24d7a2262ed94a7424dae",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a9033b5a2eb4809a0fd5",
+          "asset": "assets/display/a9033b5a2eb4809a0fd5be43e8dc57c927161f24b8e7c0c23dcc75a039a6533d.webp",
+          "zoom_asset": "assets/zoom/a9033b5a2eb4809a0fd5be43e8dc57c927161f24b8e7c0c23dcc75a039a6533d.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1173,
+              1748
+            ],
+            "output_dimensions": [
+              1173,
+              1748
+            ],
+            "reason": "Mask top title and Negative feedback callout while preserving red minus signs and hypothalamic-pituitary-peripheral axis boxes."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0e87249b690f9b3e454b70062c14f14d87e76a0985992f17d728ae450eb0634b",
+      "source_id": "s-28fcea18076794944e7e",
+      "source_group_id": "g-95460bbec81cb6b3138c",
+      "lecture_id": "E3",
+      "relative_path": "E3/GPCR activation cycle - Diagram.png",
+      "sha256": "0e87249b690f9b3e454b70062c14f14d87e76a0985992f17d728ae450eb0634b",
+      "dimensions": [
+        1492,
+        1764
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "GPCR activation cycle and G-alpha GTPase reversibility",
+      "original_asset": "assets/originals/0e87249b690f9b3e454b70062c14f14d87e76a0985992f17d728ae450eb0634b.png",
+      "display_asset": "assets/display/2e8164096e35b591bcb732e42ff58c46296ba03b20f152806bca9063ce67d051.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2e8164096e35b591bcb7",
+          "asset": "assets/display/2e8164096e35b591bcb732e42ff58c46296ba03b20f152806bca9063ce67d051.webp",
+          "zoom_asset": "assets/zoom/2e8164096e35b591bcb732e42ff58c46296ba03b20f152806bca9063ce67d051.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1492,
+              1764
+            ],
+            "output_dimensions": [
+              1492,
+              1764
+            ],
+            "reason": "Mask both G-alpha-GTPase labels while preserving GDP/GTP exchange, dissociation, and Pi release."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-c9cd9bab173054ec5773d4eb614958ec8accd33f05f7f3697d8055674538bb93",
+      "source_id": "s-d58a9868296d567c8a64",
+      "source_group_id": "g-d2bdb5b1b420d90f3786",
+      "lecture_id": "E3",
+      "relative_path": "E3/cAMP PKA signaling pathway - Diagram.png",
+      "sha256": "c9cd9bab173054ec5773d4eb614958ec8accd33f05f7f3697d8055674538bb93",
+      "dimensions": [
+        2879,
+        1611
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "cAMP/PKA signal integration and PDE termination",
+      "original_asset": "assets/originals/c9cd9bab173054ec5773d4eb614958ec8accd33f05f7f3697d8055674538bb93.png",
+      "display_asset": "assets/display/685f78c199d89bdf8d1c067649f8aaf17b24408967adbab5e5750a7cb7299427.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-685f78c199d89bdf8d1c",
+          "asset": "assets/display/685f78c199d89bdf8d1c067649f8aaf17b24408967adbab5e5750a7cb7299427.webp",
+          "zoom_asset": "assets/zoom/685f78c199d89bdf8d1c067649f8aaf17b24408967adbab5e5750a7cb7299427.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2879,
+              1611
+            ],
+            "output_dimensions": [
+              2879,
+              1611
+            ],
+            "reason": "Mask PDE enzyme diamond while keeping cAMP conversion to 5-AMP, G-alpha-s/G-alpha-i integration on AC, and PKA/CREB."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-43070ebd58eae5505b455704bbcf3cd4643844d2cb3eb5daadb277dff50e1017",
+      "source_id": "s-868b2fa03f41b454d686",
+      "source_group_id": "g-ef95c48b9f01177ac8fc",
+      "lecture_id": "E3",
+      "relative_path": "E3/IP3 DAG signaling pathway - Diagram.png",
+      "sha256": "43070ebd58eae5505b455704bbcf3cd4643844d2cb3eb5daadb277dff50e1017",
+      "dimensions": [
+        2461,
+        1343
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "G-alpha-q PLC-beta IP3/DAG and Ca2+/PKC convergence",
+      "original_asset": "assets/originals/43070ebd58eae5505b455704bbcf3cd4643844d2cb3eb5daadb277dff50e1017.png",
+      "display_asset": "assets/display/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a9484534f4ce23a25c55",
+          "asset": "assets/display/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+          "zoom_asset": "assets/zoom/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2461,
+              1343
+            ],
+            "output_dimensions": [
+              2461,
+              1343
+            ],
+            "reason": "Mask PLC-beta and PKC labels while preserving G-alpha-q, PIP2 cleavage into IP3 and DAG, ER Ca2+ release, and convergence."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-17ea62c69df1cce83834d0d02ad254d21f4029a06ea5018ec1480ecd4ae94790",
+      "source_id": "s-eb6dbff7f0c6ff972eab",
+      "source_group_id": "g-e90dc8d0280083d40a8f",
+      "lecture_id": "E3",
+      "relative_path": "E3/Receptor tyrosine kinase signaling - Diagram.png",
+      "sha256": "17ea62c69df1cce83834d0d02ad254d21f4029a06ea5018ec1480ecd4ae94790",
+      "dimensions": [
+        1597,
+        1448
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "RTK dimerization, Ras/MAPK cascade, and GAP feedback",
+      "original_asset": "assets/originals/17ea62c69df1cce83834d0d02ad254d21f4029a06ea5018ec1480ecd4ae94790.png",
+      "display_asset": "assets/display/51c823b971f765146cfdb1b465cfb0f551ec9c6aff89ef5fd16bcade272c280e.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-51c823b971f765146cfd",
+          "asset": "assets/display/51c823b971f765146cfdb1b465cfb0f551ec9c6aff89ef5fd16bcade272c280e.webp",
+          "zoom_asset": "assets/zoom/51c823b971f765146cfdb1b465cfb0f551ec9c6aff89ef5fd16bcade272c280e.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1597,
+              1448
+            ],
+            "output_dimensions": [
+              1597,
+              1448
+            ],
+            "reason": "Mask GAP label inside green feedback regulator while preserving RTK dimerization, adaptor/GNRP, Ras-GDP/GTP, and Raf/MEK/ERK."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4224d4bd58becda0e2d311fbfb6795d21560fb8f8e559936e907fef4a5f4e3b6",
+      "source_id": "s-f98933882d97f6f8254a",
+      "source_group_id": "g-2e36256b1dd9398c33f4",
+      "lecture_id": "E3",
+      "relative_path": "E3/Insulin and IGF signaling pathway - Diagram.png",
+      "sha256": "4224d4bd58becda0e2d311fbfb6795d21560fb8f8e559936e907fef4a5f4e3b6",
+      "dimensions": [
+        1750,
+        1389
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Insulin/IGF IRS branching to PI3K/AKT vs MAPK",
+      "original_asset": "assets/originals/4224d4bd58becda0e2d311fbfb6795d21560fb8f8e559936e907fef4a5f4e3b6.png",
+      "display_asset": "assets/display/624785bb9190094d581907f08511b259bed5fe5251f1bfe89501fe51d9c2bb00.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-624785bb9190094d5819",
+          "asset": "assets/display/624785bb9190094d581907f08511b259bed5fe5251f1bfe89501fe51d9c2bb00.webp",
+          "zoom_asset": "assets/zoom/624785bb9190094d581907f08511b259bed5fe5251f1bfe89501fe51d9c2bb00.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1750,
+              1389
+            ],
+            "output_dimensions": [
+              1750,
+              1389
+            ],
+            "reason": "Mask PI3K and PI3K pathway labels while preserving IRS, PIP2->PIP3, PDK1, AKT, mTOR, and parallel GRB2/SOS/MAPK branch."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-79edd12b47407b8fb05013782ce612907547b11ebde39df26f3a69a9bac00686",
+      "source_id": "s-4bce4b62cd4daf777542",
+      "source_group_id": "g-1883a8dee39591724762",
+      "lecture_id": "E3",
+      "relative_path": "E3/JAK STAT pathway - Diagram.png",
+      "sha256": "79edd12b47407b8fb05013782ce612907547b11ebde39df26f3a69a9bac00686",
+      "dimensions": [
+        2336,
+        2120
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "JAK-STAT cytokine receptor signaling",
+      "original_asset": "assets/originals/79edd12b47407b8fb05013782ce612907547b11ebde39df26f3a69a9bac00686.png",
+      "display_asset": "assets/display/2166a3d815cdf28ff38b950cd68e60dc356f48ea1ab96eb5a7a6f4a2173694f4.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 12
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2166a3d815cdf28ff38b",
+          "asset": "assets/display/2166a3d815cdf28ff38b950cd68e60dc356f48ea1ab96eb5a7a6f4a2173694f4.webp",
+          "zoom_asset": "assets/zoom/2166a3d815cdf28ff38b950cd68e60dc356f48ea1ab96eb5a7a6f4a2173694f4.webp",
+          "transform": {
+            "type": "crop_and_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2336,
+              2120
+            ],
+            "output_dimensions": [
+              1262,
+              1993
+            ],
+            "reason": "Crop to left schematic panel and mask JAK labels while keeping cytokine receptor dimerization and STAT nuclear translocation."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d88fcddb85a2bbda8347d83a9032650e0d7b221fc9b0dfce3851a1ce730946fb",
+      "source_id": "s-ba5cae1f42a013503fcc",
+      "source_group_id": "g-100002ebf5ea279c6a58",
+      "lecture_id": "E3",
+      "relative_path": "E3/Serine threonine kinase receptor signaling - Diagram.png",
+      "sha256": "d88fcddb85a2bbda8347d83a9032650e0d7b221fc9b0dfce3851a1ce730946fb",
+      "dimensions": [
+        2311,
+        1295
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "TGF-beta receptor serine/threonine kinase and Smad activation",
+      "original_asset": "assets/originals/d88fcddb85a2bbda8347d83a9032650e0d7b221fc9b0dfce3851a1ce730946fb.png",
+      "display_asset": "assets/display/3a4e4a5d67b6b254e44181763d7cc4f25b5fc17960d382e0a2bfe1448283500f.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-3a4e4a5d67b6b254e441",
+          "asset": "assets/display/3a4e4a5d67b6b254e44181763d7cc4f25b5fc17960d382e0a2bfe1448283500f.webp",
+          "zoom_asset": "assets/zoom/3a4e4a5d67b6b254e44181763d7cc4f25b5fc17960d382e0a2bfe1448283500f.webp",
+          "transform": {
+            "type": "crop_and_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2311,
+              1295
+            ],
+            "output_dimensions": [
+              1942,
+              1295
+            ],
+            "reason": "Crop off left summary flowchart and mask Smad labels while preserving Type II/Type I receptor heterodimerization and nuclear translocation."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-30d7530e82554c0de18e753d1223b57ed1607f98fce7c1cc99154cd25e28c0a8",
+      "source_id": "s-cb274bfbc400d7307eba",
+      "source_group_id": "g-9eaf2e6d11b251668232",
+      "lecture_id": "E3",
+      "relative_path": "E3/Intracellular glucocorticoid receptor model - Diagram.png",
+      "sha256": "30d7530e82554c0de18e753d1223b57ed1607f98fce7c1cc99154cd25e28c0a8",
+      "dimensions": [
+        2586,
+        1514
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Intracellular nuclear receptor HSP release and NLS exposure",
+      "original_asset": "assets/originals/30d7530e82554c0de18e753d1223b57ed1607f98fce7c1cc99154cd25e28c0a8.png",
+      "display_asset": "assets/display/0e00795fa6c7c315b957f1de24c8a99d693013db3ae9ace26d99b09e51e2d63d.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 14
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-0e00795fa6c7c315b957",
+          "asset": "assets/display/0e00795fa6c7c315b957f1de24c8a99d693013db3ae9ace26d99b09e51e2d63d.webp",
+          "zoom_asset": "assets/zoom/0e00795fa6c7c315b957f1de24c8a99d693013db3ae9ace26d99b09e51e2d63d.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2586,
+              1514
+            ],
+            "output_dimensions": [
+              2586,
+              1514
+            ],
+            "reason": "Mask HSP90 label and top-left title while preserving steroid binding domain, hinge region, zinc fingers, and GRE transcription."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-102ab55d8f4e3dc888e5b298c0d318c1de9763e621c94815a79914a52f709688",
+      "source_id": "s-df724689db471d3927b0",
+      "source_group_id": "g-412e2c077657cd96c8d5",
+      "lecture_id": "E3",
+      "relative_path": "E3/Gain of function endocrine therapy resistance - Diagram.png",
+      "sha256": "102ab55d8f4e3dc888e5b298c0d318c1de9763e621c94815a79914a52f709688",
+      "dimensions": [
+        2016,
+        1503
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "ER-alpha Y537S gain-of-function SERM resistance",
+      "original_asset": "assets/originals/102ab55d8f4e3dc888e5b298c0d318c1de9763e621c94815a79914a52f709688.png",
+      "display_asset": "assets/display/831496b9a46f7d8db99706882137d5c1dde7c5a206137e58bbe11c9dc167d37e.webp",
+      "source_origin": "lecture",
+      "source_collection": "E3 Lecture RLS",
+      "source_citation": {
+        "document": "E3 Hormones, Receptors and Cell Signalling RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "current_document_sha256": "37550b3a22d142e8458b84651153bce6b5ed577c39c22f71ba99ee68854648f7",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-831496b9a46f7d8db997",
+          "asset": "assets/display/831496b9a46f7d8db99706882137d5c1dde7c5a206137e58bbe11c9dc167d37e.webp",
+          "zoom_asset": "assets/zoom/831496b9a46f7d8db99706882137d5c1dde7c5a206137e58bbe11c9dc167d37e.webp",
+          "transform": {
+            "type": "opaque_mask",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2016,
+              1503
+            ],
+            "output_dimensions": [
+              2016,
+              1503
+            ],
+            "reason": "Mask both top summary header boxes while keeping left WT SERM antagonism vs right ERa Y537S constitutive transcription."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697",
+      "source_id": "s-f29ee3578d86967407fc",
+      "source_group_id": "g-568b1444b25761e97bdb",
+      "lecture_id": "E1",
+      "relative_path": "E1/Anterior pituitary cell types H&E + Posterior pituitary H&E (A/B Comparison)",
+      "sha256": "f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697",
+      "dimensions": [
+        2770,
+        1004
+      ],
+      "status": "USABLE",
+      "review_reason": "Side-by-side comparison composite of anterior pituitary H&E (Panel A) and posterior pituitary H&E + neurofilament IHC (Panel B).",
+      "tested_concept": "Anterior versus posterior pituitary embryology and histology",
+      "original_asset": "assets/originals/f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697.png",
+      "display_asset": "assets/display/f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697.webp",
+      "source_origin": "lecture",
+      "source_collection": "E1 Lecture RLS",
+      "source_citation": {
+        "document": "E1 Endocrine Histology RLS.pdf",
+        "page": 16
+      },
+      "source_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "current_document_sha256": "cabd375b49d493d986836b8a2b89183371e620e2668d777d1610ac3e64338f1c",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against E1 RLS pages 5, 16, and 23.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-f29ee3578d86967407fc",
+          "asset": "assets/display/f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697.webp",
+          "zoom_asset": "assets/zoom/f29ee3578d86967407fc26dcb9c7d94bb723b8157cfd96cb3e3eb7e3a1d21697.webp",
+          "transform": {
+            "type": "comparison_composite",
+            "coordinate_basis": "derived side-by-side composite",
+            "output_dimensions": [
+              2770,
+              1004
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

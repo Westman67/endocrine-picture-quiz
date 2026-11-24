@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "section": "physiology",
+  "lectures": {
+    "E1": {
+      "status": "Reviewed active visual bank (18 lecture + 3 labeled 3rd-party support items)",
+      "tested_summary": [
+        "Pituitary dual embryology, anterior/posterior histology & portal link",
+        "Preprovasopressin/copeptin, proinsulin/C-peptide & POMC convertases",
+        "Thyroid follicles, apical-basal polarity (NIS/pendrin/TPO), embryonic descent & C cells",
+        "Parathyroid chief/oxyphil histology & PTH RANKL/OPG mechanism",
+        "Adrenal cortex zonation, steroid-cell EM, dual blood supply & cortisol-PNMT",
+        "Islets of Langerhans H&E/IF proportions"
+      ],
+      "gaps": [
+        "Additional overview slides archived as redundant."
+      ],
+      "basis": "E1 RLS (51p), E1 Transcripts 1-2, and reviewed PNGs."
+    },
+    "E2": {
+      "status": "Reviewed active visual, table, and quantitative bank (6 lecture items)",
+      "tested_summary": [
+        "Down-regulation with & without spare receptors (Kd, EC50, Emax)",
+        "24-hour GH, ACTH & melatonin profiles",
+        "Long-loop negative vs open-loop feedback",
+        "Peptide vs steroid table & [H] = Kd x (Bound/Free) equilibrium"
+      ],
+      "gaps": [
+        "Hormone assays (bioassay/chemical/RIA) available for future pass."
+      ],
+      "basis": "E2 RLS (35p), E2 Notes, E2 Transcript, and reviewed PNGs."
+    },
+    "E3": {
+      "status": "Reviewed active visual and mechanistic bank (9 lecture items)",
+      "tested_summary": [
+        "GPCR cycle & G-alpha GTPase reversibility",
+        "cAMP/PKA integration & PDE; G-alpha-q/PLC-beta/IP3/DAG/PKC",
+        "RTK Ras/MAPK & GAP feedback; Insulin/IGF1 PI3K/AKT vs MAPK",
+        "JAK-STAT & TGF-beta/Smad pathways; GR HSP90/NLS",
+        "ER-alpha Y537S SERM resistance & GPCR folding/trafficking loss-of-function"
+      ],
+      "gaps": [
+        "JAK-STAT drug targets (p.20) reserved for Pharmacology section."
+      ],
+      "basis": "E3 RLS (20p), E3 LO, E3 Transcript, and reviewed PNGs."
+    }
+  }
+}
