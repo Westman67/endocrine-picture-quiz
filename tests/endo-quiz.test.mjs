@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import { empty, filtered, session, see, answer, override, totals, canReveal, validateImport, ordered } from '../engine.js';
+import { empty, filtered, session, see, answer, override, totals, canReveal, validateImport, ordered, CONTENT_CATEGORIES } from '../engine.js';
 import { BANKS, CLINICAL_CASES, PHARMACOLOGY, COMBINED, STUDY_SECTIONS, resolveBankConfig } from '../bank-config.js';
 
 const base = path.resolve(import.meta.dirname, '..');
@@ -138,4 +138,19 @@ test('source groups rotate before repeat and filters respect origin and collecti
     ];
     const out = ordered(pool, () => 0.4);
     for (let i = 1; i < out.length; i++) assert.notEqual(out[i].source_group_id, out[i - 1].source_group_id);
+});
+
+test('canonical 3-bucket content categories support multi-select filtering', () => {
+    const allowed = new Set(CONTENT_CATEGORIES);
+    for (const q of bank) {
+        assert.ok(allowed.has(q.category), `${q.question_id}: unexpected category ${q.category}`);
+    }
+    const p = empty();
+    const imgOnly = filtered(bank, p, { category: ['Imaging'] });
+    const dgtOnly = filtered(bank, p, { category: ['Diagrams/Graphs/Tables'] });
+    const qOnly = filtered(bank, p, { category: ['Questions'] });
+    const combinedTwo = filtered(bank, p, { category: ['Imaging', 'Questions'] });
+    assert.ok(imgOnly.length > 0 && dgtOnly.length > 0 && qOnly.length > 0);
+    assert.equal(imgOnly.length + dgtOnly.length + qOnly.length, bank.length);
+    assert.equal(combinedTwo.length, imgOnly.length + qOnly.length);
 });

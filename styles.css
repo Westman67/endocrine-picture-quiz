@@ -195,3 +195,5 @@
 #bank-switch a.tab-empty { opacity: 0.55; }
 #bank-switch a .tab-count { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 1px 6px; border-radius: 999px; background: rgba(17, 105, 93, 0.14); color: inherit; margin-left: 4px; vertical-align: middle; }
 #bank-switch a[aria-current="page"] .tab-count { background: rgba(255, 255, 255, 0.22); }
+.category-boxes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 600px) { .category-boxes { grid-template-columns: 1fr; } }
