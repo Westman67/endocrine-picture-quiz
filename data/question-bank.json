@@ -58,7 +58,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Pituitary Gland Embryology",
-      "condition_overview": "The pituitary rests in the sella turcica below the optic chiasm and combines an oral ectoderm-derived anterior lobe with a neural ectoderm-derived posterior lobe."
+      "condition_overview": "Clinical correlate: The pituitary sits in the sella turcica beneath the optic chiasm; dual embryology explains why anterior adenomas produce hormone syndromes whereas posterior lesions affect ADH/oxytocin storage."
     },
     {
       "question_id": "q-e1-posterior-pituitary-ihc",
@@ -114,7 +114,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Posterior Pituitary (Neurohypophysis)",
-      "condition_overview": "The posterior pituitary stores oxytocin and vasopressin inside Herring bodies along unmyelinated axons supported by glial pituicytes."
+      "condition_overview": "Clinical correlate: Glial pituicytes provide structural and metabolic support around axonal endings and can give rise to rare posterior pituitary tumors (pituicytomas)."
     },
     {
       "question_id": "q-e1-pituitary-embryology-cleft",
@@ -130,7 +130,7 @@
       "study_skill": "morphology",
       "question_type": "Embryology Diagram",
       "tested_concept": "Rathke pouch and Rathke cleft cysts",
-      "stem": "In this developmental sequence (panels A\u2013D), persistence of the embryonic cleft formed by the upward evagination in panel A most directly predisposes to which clinical lesion?",
+      "stem": "In this developmental sequence (panels A–D), persistence of the embryonic cleft formed by the upward evagination in panel A most directly predisposes to which clinical lesion?",
       "options": [
         "Pituicytoma arising from posterior pituitary glial cells",
         "Ectopic parathyroid tissue within the anterior mediastinum",
@@ -138,17 +138,17 @@
         "Thyroglossal duct cyst along the anterior neck midline"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Panels A\u2013C show upward invagination of pharyngeal oral ectoderm meeting the downward neuroectodermal infundibulum and pinching off a cleft between the anterior and posterior lobes. Step 2. Remnants of Rathke's pouch cleft can form Rathke cleft cysts.",
+      "explanation": "Step 1. Panels A–C show upward invagination of pharyngeal oral ectoderm meeting the downward neuroectodermal infundibulum and pinching off a cleft between the anterior and posterior lobes. Step 2. Remnants of Rathke's pouch cleft can form Rathke cleft cysts.",
       "choice_rationales": [
         "Pituicytomas arise from glial pituicytes in the diencephalon-derived pars nervosa rather than from the oral ectoderm cleft; a mass arising from the yellow infundibular stalk would fit pituicytoma.",
         "Mediastinal ectopic parathyroids stem from abnormal migration of the third pharyngeal pouch rather than Rathke's pouch.",
-        "Rathke's pouch invaginates from oral ectoderm and leaves a cleft (panels B\u2013C) whose persistence produces Rathke cleft cysts.",
+        "Rathke's pouch invaginates from oral ectoderm and leaves a cleft (panels B–C) whose persistence produces Rathke cleft cysts.",
         "Thyroglossal duct cysts result from incomplete obliteration of the descending thyroid tract from the tongue, not from pituitary pouch formation."
       ],
       "visual_clues": [
-        "Panel A shows upward invagination from pharyngeal epithelium meeting downward diencephalic neuroectoderm; panels B\u2013C label the resulting cleft."
+        "Panel A shows upward invagination from pharyngeal epithelium meeting downward diencephalic neuroectoderm; panels B–C label the resulting cleft."
       ],
-      "visual_target": "Panels A\u2013D jointly showing pituitary development from oral ectoderm and neuroectoderm.",
+      "visual_target": "Panels A–D jointly showing pituitary development from oral ectoderm and neuroectoderm.",
       "joint_panels": true,
       "image": "assets/display/8373114d3e4d621dbf1dc4773fbc2b37b513276540c3b4aa2982b642c4bebb63.webp",
       "zoom_image": "assets/zoom/8373114d3e4d621dbf1dc4773fbc2b37b513276540c3b4aa2982b642c4bebb63.webp",
@@ -166,7 +166,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Pituitary Embryology",
-      "condition_overview": "Rathke's pouch develops as an upward invagination of oral ectoderm to form the adenohypophysis and can leave behind Rathke cleft cysts."
+      "condition_overview": "Embryology pearl: The pars intermedia is an embryonic remnant of Rathke’s pouch, while the pars tuberalis forms a vascular sheath around the infundibular stalk."
     },
     {
       "question_id": "q-e1-hypophyseal-portal-link",
@@ -222,7 +222,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Hypophyseal Portal System",
-      "condition_overview": "Communication between hypothalamus and pituitary is vascular (hypophyseal portal system) for the anterior lobe and neural (hypothalamic-hypophyseal tract) for the posterior lobe."
+      "condition_overview": "Axis pearl: All five anterior pituitary tropic/lactotropic axes (TRH, CRH, GnRH, GHRH, and inhibitory dopamine) depend on intact portal blood flow down the pituitary stalk."
     },
     {
       "question_id": "q-e1-preprovasopressin-copeptin",
@@ -278,7 +278,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Preprovasopressin & Copeptin",
-      "condition_overview": "Proteolytic cleavage of preprovasopressin yields vasopressin, neurophysin II, and copeptin\u2014a stable circulating surrogate marker of ADH synthesis."
+      "condition_overview": "Clinical correlate: Because mature ADH is unstable in plasma, equimolar copeptin helps distinguish central diabetes insipidus (low copeptin) from nephrogenic diabetes insipidus (elevated copeptin)."
     },
     {
       "question_id": "q-e1-pomc-convertases",
@@ -294,7 +294,7 @@
       "study_skill": "mechanism",
       "question_type": "Molecular Diagram",
       "tested_concept": "POMC tissue-specific proteolytic cleavage",
-      "stem": "Based on the cleavage map shown, what determines why pituitary cells stop at ACTH and beta-lipotropin while hypothalamic neurons generate alpha-MSH and beta-endorphin?",
+      "stem": "Based on the cleavage map shown, what determines why pituitary cells stop at ACTH and β-lipotropin while hypothalamic neurons generate α-MSH and β-endorphin?",
       "options": [
         "Selective iodide coupling catalyzed by luminal thyroid peroxidase",
         "Tissue-specific expression of distinct prohormone convertases",
@@ -302,7 +302,7 @@
         "Alternative splicing of nuclear receptor zinc-finger domains"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. The diagram shows a single inactive prohormone (POMC) cleaved into ACTH and beta-lipotropin in the pituitary, then further cleaved into alpha-MSH, CLIP, and endorphins in hypothalamic neurons. Step 2. This differential processing is driven by tissue-specific expression of endopeptidases (prohormone convertases).",
+      "explanation": "Step 1. The diagram shows a single inactive prohormone (POMC) cleaved into ACTH and β-lipotropin in the pituitary, then further cleaved into α-MSH, CLIP, and endorphins in hypothalamic neurons. Step 2. This differential processing is driven by tissue-specific expression of endopeptidases (prohormone convertases).",
       "choice_rationales": [
         "Luminal thyroid peroxidase couples iodinated tyrosines on thyroglobulin rather than cleaving POMC.",
         "Different tissues express specific prohormone convertases (endopeptidases) that cleave the same inactive POMC precursor into distinct active peptides.",
@@ -310,7 +310,7 @@
         "Nuclear receptor zinc-finger splicing governs transcriptional DNA binding, not proteolytic processing of a peptide prohormone."
       ],
       "visual_clues": [
-        "Upper pituitary bracket produces ACTH and beta-lipotropin; lower hypothalamic neuron bracket cleaves those further into alpha-MSH and endorphins."
+        "Upper pituitary bracket produces ACTH and β-lipotropin; lower hypothalamic neuron bracket cleaves those further into α-MSH and endorphins."
       ],
       "visual_target": "Based on the cleavage map shown, what determines why pituitary cells stop at ACTH and beta-lipotropin while hypothalamic neurons generate alpha-MSH and beta-endorphin?",
       "joint_panels": false,
@@ -330,7 +330,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "POMC Processing",
-      "condition_overview": "Proopiomelanocortin (POMC) is an inactive prohormone whose final active peptides depend on tissue-specific prohormone convertase expression.",
+      "condition_overview": "Clinical correlate: Lecturer noted that genetic variants disrupting POMC processing impair hypothalamic appetite and thermoregulation, causing monogenic obesity targeted by newer therapies.",
       "choice_images": [
         null,
         [
@@ -368,10 +368,10 @@
       "correct_index": 2,
       "explanation": "Step 1. The circled cell at the leftmost arrow has minimal cytoplasmic staining compared with the bright pink (acidophilic) and purple-granular (basophilic) neighbors. Step 2. Chromophobes account for approximately 50% of anterior pituitary cells and represent degranulated secretory cells or stem/progenitor cells.",
       "choice_rationales": [
-        "Basophils display purple-blue granular cytoplasm\u2014pointed to by the rightmost pair of arrows\u2014and secrete ACTH, TSH, FSH, or LH.",
+        "Basophils display purple-blue granular cytoplasm—pointed to by the rightmost pair of arrows—and secrete ACTH, TSH, FSH, or LH.",
         "Pituicytes reside in the posterior pituitary among unmyelinated axons rather than among anterior pituitary secretory cords.",
         "Chromophobes lack intense cytoplasmic dye affinity, make up ~50% of anterior pituitary cells, and represent degranulated secretory or progenitor cells.",
-        "Acidophils have deeply pink (eosinophilic) cytoplasm\u2014pointed to by the middle pair of arrows\u2014and secrete GH or prolactin; pointing to the bright pink cells would select acidophil."
+        "Acidophils have deeply pink (eosinophilic) cytoplasm—pointed to by the middle pair of arrows—and secrete GH or prolactin; pointing to the bright pink cells would select acidophil."
       ],
       "visual_clues": [
         "Leftmost arrow points to a pale-cytoplasm cell (dashed outline), contrasted with pink acidophils (center arrows) and purple basophils (right arrows)."
@@ -398,7 +398,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Anterior Pituitary Cell Types",
-      "condition_overview": "Anterior pituitary cells stain on H&E as chromophobes (~50%), acidophils (~40%: somatotrophs, lactotrophs), and basophils (~10%: corticotropes, thyrotropes, gonadotrophs)."
+      "condition_overview": "Clinical correlate: Non-functional pituitary adenomas frequently arise from chromophobes (~50% of anterior cells) and present with mass effect rather than hormone excess."
     },
     {
       "question_id": "q-e1-compare-ant-post-pituitary",
@@ -454,7 +454,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Anterior vs. Posterior Pituitary",
-      "condition_overview": "Anterior pituitary (oral ectoderm, portal vascular control, hormone-synthesizing epithelial cells) contrasts directly with posterior pituitary (neural ectoderm, direct axonal storage)."
+      "condition_overview": "High-yield contrast: Anterior lobe hormones are synthesized on-site under portal vascular control; posterior lobe hormones are synthesized in hypothalamic magnocellular nuclei (supraoptic/paraventricular) and only stored distally."
     },
     {
       "question_id": "q-e1-thyroid-follicles-activity",
@@ -510,7 +510,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Thyroid Follicle Histology",
-      "condition_overview": "Thyroid follicle diameter and colloid content reflect plane of section and metabolic activity: less activity yields more colloid, while more activity yields less colloid."
+      "condition_overview": "Microanatomy pearl: Thyroid follicles are wrapped in an extensive fenestrated capillary network so mobilized T₄ and T₃ enter systemic circulation rapidly once resorbed from colloid."
     },
     {
       "question_id": "q-e1-thyroid-polarity-nis",
@@ -528,7 +528,7 @@
       "tested_concept": "Thyroid follicular cell basolateral NIS polarity",
       "stem": "Using the labeled polarity of this thyroid follicular cell, which transporter mediates active iodide uptake across the labeled basal surface from the adjacent capillary?",
       "options": [
-        "Type II deiodinase converting circulating T4 into active nuclear T3",
+        "Type II deiodinase converting circulating T₄ into active nuclear T₃",
         "Sodium-iodide symporter (NIS) importing iodide into the follicular cell",
         "Pendrin transporting iodide out across the luminal membrane into colloid",
         "Thyroid peroxidase (TPO) oxidizing iodide to iodine inside the colloid"
@@ -536,7 +536,7 @@
       "correct_index": 1,
       "explanation": "Step 1. The high-power inset identifies the basal surface facing the pink capillary in connective tissue and the apical surface facing the colloid lumen. Step 2. Iodide enters the follicular cell across the basolateral membrane via the sodium-iodide symporter (NIS) before exiting apically via pendrin.",
       "choice_rationales": [
-        "Type II deiodinase acts in peripheral target tissues to convert T4 to biologically active T3 rather than transporting iodide into thyroid follicular cells.",
+        "Type II deiodinase acts in peripheral target tissues to convert T₄ to biologically active T₃ rather than transporting iodide into thyroid follicular cells.",
         "NIS is positioned on the basolateral (basal) membrane adjacent to fenestrated capillaries to concentrate iodide inside follicular cells.",
         "Pendrin sits on the apical membrane facing the colloid to export iodide into the follicular lumen; asking about the labeled apical surface would make pendrin correct.",
         "Thyroid peroxidase acts at the apical-colloid interface to oxidize iodide, iodinate thyroglobulin, and couple iodotyrosines, not to import iodide at the basal surface."
@@ -566,7 +566,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Thyroid Follicular Polarity",
-      "condition_overview": "Thyroid follicular cell polarity is essential: NIS imports iodide basolaterally, pendrin exports it apically, and TPO catalyzes oxidation, iodination, and coupling in the colloid."
+      "condition_overview": "Physiology pearl: Follicular cells release ~80% T₄ and ~20% T₃, but peripheral target-tissue Type II deiodinases convert T₄ into biologically active T₃ to regulate nuclear gene transcription."
     },
     {
       "question_id": "q-e1-thyroid-tpo-biosynthesis",
@@ -582,7 +582,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram (EXCEPT)",
       "tested_concept": "Thyroid peroxidase (TPO) three luminal roles",
-      "stem": "In this diagram of thyroid hormone biosynthesis, ALL of the following reactions are catalyzed by the masked apical-colloid enzyme EXCEPT:",
+      "stem": "In this endocrine follicular cell diagram, ALL of the following luminal reactions are catalyzed by the masked apical enzyme EXCEPT:",
       "options": [
         "Iodination of tyrosine residues along secreted thyroglobulin chains",
         "Coupling of iodinated tyrosine residues within the follicular colloid",
@@ -593,14 +593,14 @@
       "explanation": "Step 1. The masked blue oval at the apical-colloid border is thyroid peroxidase (TPO), whereas the masked basolateral channel on the left is NIS and the apical channel is pendrin. Step 2. TPO performs oxidation, iodination, and coupling inside the colloid, whereas basolateral iodide import is performed by NIS.",
       "choice_rationales": [
         "Thyroid peroxidase catalyzes the iodination (organification) of tyrosine residues on thyroglobulin inside the colloid.",
-        "Thyroid peroxidase couples iodinated tyrosine residues on thyroglobulin inside the colloid to form T4 and T3 precursors.",
-        "Basolateral iodide uptake from the vasculature is mediated by the sodium-iodide symporter (NIS), not by thyroid peroxidase\u2014making this the correct EXCEPT choice.",
+        "Thyroid peroxidase couples iodinated tyrosine residues on thyroglobulin inside the colloid to form T₄ and T₃ precursors.",
+        "Basolateral iodide uptake from the vasculature is mediated by the sodium-iodide symporter (NIS), not by thyroid peroxidase—making this the correct EXCEPT choice.",
         "Thyroid peroxidase oxidizes iodide to iodine in the colloid lumen as its first biosynthetic step."
       ],
       "visual_clues": [
-        "Masked apical enzyme sits at the colloid interface beside iodine (I), iodination of tyrosine residues, and coupling of tyrosine residues."
+        "Basolateral NIS imports I⁻ from capillaries, apical pendrin exports I⁻ into colloid, and luminal TPO catalyzes oxidation, iodination, and coupling."
       ],
-      "visual_target": "In this diagram of thyroid hormone biosynthesis, ALL of the following reactions are catalyzed by the masked apical-colloid enzyme EXCEPT:",
+      "visual_target": "In this endocrine follicular cell diagram, ALL of the following luminal reactions are catalyzed by the masked apical enzyme EXCEPT:",
       "joint_panels": false,
       "image": "assets/display/4c66299601daceb496102c740b8909324b76aaae4392f7bec6d83e762640ba5c.webp",
       "zoom_image": "assets/zoom/4c66299601daceb496102c740b8909324b76aaae4392f7bec6d83e762640ba5c.webp",
@@ -618,7 +618,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Thyroid Hormone Biosynthesis",
-      "condition_overview": "Thyroid peroxidase (TPO) catalyzes three colloid-localized steps: oxidation of iodide, iodination of thyroglobulin tyrosines, and coupling of iodotyrosines."
+      "condition_overview": "Clinical correlate: Thyroid follicular cells derive from foregut endoderm and give rise to papillary and follicular thyroid carcinomas, whereas parafollicular C cells give rise to medullary carcinoma."
     },
     {
       "question_id": "q-e1-parafollicular-c-cells",
@@ -642,7 +642,7 @@
         "Secretion of calcitonin triggered by high calcium outside the HPT axis"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. The brown calcitonin IHC panel identifies parafollicular (C) cells situated between or peripheral to thyroid follicles\u2014cells that are difficult to spot on routine H&E alone. Step 2. C cells are not part of the HPT axis, secrete calcitonin in response to elevated serum calcium to inhibit osteoclasts, and give rise to medullary thyroid carcinoma.",
+      "explanation": "Step 1. The brown calcitonin IHC panel identifies parafollicular (C) cells situated between or peripheral to thyroid follicles—cells that are difficult to spot on routine H&E alone. Step 2. C cells are not part of the HPT axis, secrete calcitonin in response to elevated serum calcium to inhibit osteoclasts, and give rise to medullary thyroid carcinoma.",
       "choice_rationales": [
         "Thyroglobulin secretion into colloid under TSH regulation is the function of thyroid follicular cells, which line the unstained follicles in the top IHC panel.",
         "Parathyroid hormone is secreted by chief cells of the parathyroid gland when serum calcium falls, not by thyroid C cells.",
@@ -674,7 +674,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Parafollicular (C) Cells",
-      "condition_overview": "Parafollicular (C) cells are calcitonin-producing endodermal cells peripheral to thyroid follicles, independent of the HPT axis, and the origin of medullary thyroid cancer."
+      "condition_overview": "Embryology update: Although C cells were classically taught as neural crest-derived, E1 notes modern evidence indicates both follicular and parafollicular cells arise from endoderm."
     },
     {
       "question_id": "q-e1-parathyroid-chief-oxyphil",
@@ -730,7 +730,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Parathyroid Gland Histology",
-      "condition_overview": "Parathyroid glands contain PTH-secreting basophilic chief cells, larger eosinophilic oxyphils (unclear function), and adipocytes that increase with age."
+      "condition_overview": "Clinical correlate: Superior parathyroids derive from the 4th pharyngeal pouch and inferior parathyroids from the 3rd; accidental surgical removal during thyroidectomy causes hypoparathyroidism and hypocalcemia, while chief-cell adenomas cause primary hyperparathyroidism."
     },
     {
       "question_id": "q-e1-pth-osteoblast-rankl",
@@ -746,7 +746,7 @@
       "study_skill": "mechanism",
       "question_type": "Mechanism Diagram",
       "tested_concept": "PTH indirect osteoclast activation via RANKL/OPG",
-      "stem": "As illustrated in this bone-remodeling diagram, how does PTH stimulate the multinucleated cell on the left to increase bone resorption?",
+      "stem": "In this bone-remodeling diagram, how does the hormone at the top right stimulate the multinucleated cell on the left to increase bone resorption?",
       "options": [
         "Phosphorylating Smad transcription factors inside resting osteocytes",
         "Acting on osteoblasts to raise RANKL and suppress osteoprotegerin",
@@ -754,17 +754,17 @@
         "Activating calcitonin receptors on osteoclasts to inhibit resorption"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. The arrow from PTH points directly to the osteoblast\u2014not the osteoclast\u2014which then signals across the space to RANK on the osteoclast. Step 2. PTH activates osteoclasts indirectly by increasing osteoblast RANKL expression and suppressing osteoprotegerin (OPG), raising the RANKL/OPG ratio.",
+      "explanation": "Step 1. The arrow from PTH points directly to the osteoblast—not the osteoclast—which then signals across the space to RANK on the osteoclast. Step 2. PTH activates osteoclasts indirectly by increasing osteoblast RANKL expression and suppressing osteoprotegerin (OPG), raising the RANKL/OPG ratio.",
       "choice_rationales": [
-        "Smad transcription factor phosphorylation is driven by TGF-beta serine/threonine kinase receptors rather than PTH signaling on osteoblasts.",
+        "Smad transcription factor phosphorylation is driven by TGF-β serine/threonine kinase receptors rather than PTH signaling on osteoblasts.",
         "PTH binds receptors on osteoblasts to stimulate RANKL expression and suppress OPG, shifting the RANKL/OPG ratio to indirectly activate osteoclasts.",
-        "PTH does not directly stimulate osteoclasts, and increasing OPG would decoy-bind RANKL and inhibit\u2014rather than promote\u2014bone resorption.",
+        "PTH does not directly stimulate osteoclasts, and increasing OPG would decoy-bind RANKL and inhibit—rather than promote—bone resorption.",
         "Calcitonin acts on osteoclasts to inhibit bone resorption rather than mediating PTH-induced bone breakdown."
       ],
       "visual_clues": [
         "PTH arrow targets the blue osteoblasts, which then signal via surface/released ligands to the RANK receptor on the multinucleated osteoclast."
       ],
-      "visual_target": "As illustrated in this bone-remodeling diagram, how does PTH stimulate the multinucleated cell on the left to increase bone resorption?",
+      "visual_target": "In this bone-remodeling diagram, how does the hormone at the top right stimulate the multinucleated cell on the left to increase bone resorption?",
       "joint_panels": false,
       "image": "assets/display/dbe6e5398e05c490043f61e4c4a76bafed51742a778e71de5a57927222bba300.webp",
       "zoom_image": "assets/zoom/dbe6e5398e05c490043f61e4c4a76bafed51742a778e71de5a57927222bba300.webp",
@@ -782,7 +782,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "PTH Mechanism on Bone",
-      "condition_overview": "PTH stimulates bone resorption indirectly by binding osteoblasts, increasing RANKL expression, and suppressing osteoprotegerin (OPG)."
+      "condition_overview": "Clinical pearl: Unlike continuous PTH elevation (net bone resorption via elevated RANKL/OPG), intermittent PTH exhibits the \"anabolic paradox,\" promoting net bone formation."
     },
     {
       "question_id": "q-e1-adrenal-zones-hormones",
@@ -800,17 +800,17 @@
       "tested_concept": "Adrenal cortex zonation and trophic control",
       "stem": "Following the three masked arrows from the capsule inward across the cortex in this adrenal section, which sequence correctly pairs each zone with its primary stimulus and hormone?",
       "options": [
-        "TSH\u2192thyroxine; low calcium\u2192PTH; elevated calcium\u2192calcitonin",
-        "Sympathetic ACh\u2192epinephrine; ACTH\u2192cortisol; Ang II\u2192aldosterone",
-        "Angiotensin II\u2192aldosterone; ACTH\u2192cortisol; adrenal androgens",
-        "ACTH\u2192cortisol; angiotensin II\u2192aldosterone; catecholamines"
+        "TSH→thyroxine; low calcium→PTH; elevated calcium→calcitonin",
+        "Sympathetic ACh→epinephrine; ACTH→cortisol; Ang II→aldosterone",
+        "Angiotensin II→aldosterone; ACTH→cortisol; adrenal androgens",
+        "ACTH→cortisol; angiotensin II→aldosterone; catecholamines"
       ],
       "correct_index": 2,
       "explanation": "Step 1. Moving inward from the capsule, the three cortical arrows point sequentially to the zona glomerulosa (outer ~15%), zona fasciculata (middle ~80%), and zona reticularis (innermost cortex). Step 2. Zona glomerulosa secretes aldosterone in response to angiotensin II, zona fasciculata secretes cortisol in response to ACTH, and zona reticularis secretes adrenal androgens.",
       "choice_rationales": [
         "Thyroxine, PTH, and calcitonin are hormones of the thyroid and parathyroid glands rather than the adrenal cortex.",
         "Sympathetic ACh-driven epinephrine release occurs in the central adrenal medulla (bottom arrow), not in the outermost subcapsular cortex.",
-        "From outer to inner cortex: zona glomerulosa (Ang II \u2192 aldosterone), zona fasciculata (ACTH \u2192 cortisol), and zona reticularis (androgens and small amounts of glucocorticoids).",
+        "From outer to inner cortex: zona glomerulosa (Ang II → aldosterone), zona fasciculata (ACTH → cortisol), and zona reticularis (androgens and small amounts of glucocorticoids).",
         "The outer and middle cortical zones are swapped here, and catecholamines come from the central medulla (bottom arrow) rather than the innermost cortical zone."
       ],
       "visual_clues": [
@@ -838,7 +838,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Adrenal Cortex Functional Zones",
-      "condition_overview": "The adrenal cortex (intermediate mesoderm) comprises zona glomerulosa (aldosterone, Ang II), zona fasciculata (80%, cortisol, ACTH), and zona reticularis (androgens).",
+      "condition_overview": "Embryology & clinical pearl: Adrenal cortex arises from intermediate mesoderm (adenomas → hyperaldosteronism or Cushing syndrome), whereas the medulla arises from neural crest (chromaffin tumors → pheochromocytoma).",
       "choice_images": [
         null,
         null,
@@ -902,7 +902,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Steroid-Secreting Cell (EM)",
-      "condition_overview": "Steroid-secreting endocrine cells lack secretory granules and are characterized by abundant smooth ER, lipid droplets, and foamy cytoplasm."
+      "condition_overview": "Biochemistry pearl: Because steroid-secreting cells do not store preformed hormone in granules, their synthesis rate is directly proportional to secretory rate, buffered in plasma by lipid solubility and carrier proteins."
     },
     {
       "question_id": "q-e1-adrenal-dual-blood-pnmt",
@@ -954,7 +954,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Adrenal Medulla Dual Blood Supply",
-      "condition_overview": "The adrenal medulla receives a dual blood supply; cortisol-rich blood from cortical sinusoids induces PNMT to convert norepinephrine into epinephrine."
+      "condition_overview": "Physiology pearl: Preganglionic sympathetic fibers release acetylcholine directly onto modified sympathetic chromaffin cells, triggering rapid release of ~80% epinephrine and ~20% norepinephrine from dense secretory granules."
     },
     {
       "question_id": "q-e1-islet-he-if-proportions",
@@ -1010,7 +1010,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Islets of Langerhans",
-      "condition_overview": "Islets of Langerhans comprise ~60% beta cells (insulin), ~30% alpha cells (glucagon), and ~10% delta cells (somatostatin).",
+      "condition_overview": "Histology pearl: Beyond α (30%), β (60%), and δ (10%) cells, islets also contain minor γ (PP) and ε (ghrelin) cell populations embedded within pale endocrine clusters surrounded by dark exocrine acini.",
       "choice_images": [
         null,
         [
@@ -1038,7 +1038,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "Proinsulin cleavage and C-peptide surrogate marker",
-      "stem": "At Step 5 inside the secretory vesicle shown, prohormone convertases cleave the folded precursor into the two pointed-to peptides released at Step 6. What is the clinical utility of the curved red fragment?",
+      "stem": "At Step 5 inside the secretory vesicle shown, cleavage splits the folded precursor into the two pointed-to peptides released at Step 6. What is the clinical utility of the curved red fragment?",
       "options": [
         "Glucagon is co-secreted 1:1 with insulin to stabilize blood glucose",
         "Copeptin is co-secreted 1:1 with insulin to assess osmotic regulation",
@@ -1046,7 +1046,7 @@
         "Signal peptide is co-secreted 1:1 with insulin to measure ER translation"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Preproinsulin loses its signal peptide in the ER (Step 1), folds with disulfide bonds (Step 2), moves through the Golgi (Steps 3\u20134), and is cleaved inside secretory vesicles (Step 5) into mature two-chain insulin plus the red loop. Step 2. That red loop is C-peptide, which is secreted in a 1:1 molar ratio with endogenous insulin and serves as a clinical surrogate marker of insulin production.",
+      "explanation": "Step 1. Preproinsulin loses its signal peptide in the ER (Step 1), folds with disulfide bonds (Step 2), moves through the Golgi (Steps 3–4), and is cleaved inside secretory vesicles (Step 5) into mature two-chain insulin plus the red loop. Step 2. That red loop is C-peptide, which is secreted in a 1:1 molar ratio with endogenous insulin and serves as a clinical surrogate marker of insulin production.",
       "choice_rationales": [
         "Glucagon is synthesized by pancreatic alpha cells rather than cleaved from proinsulin in beta-cell secretory vesicles.",
         "Copeptin is the C-terminal surrogate marker of vasopressin (ADH) from preprovasopressin, not of insulin from proinsulin; a neurohypophyseal precursor diagram would point to copeptin.",
@@ -1056,7 +1056,7 @@
       "visual_clues": [
         "Step 5 inside the blue secretory vesicle cleaves the red connecting loop away from the disulfide-linked green/blue chains before Step 6 exocytosis."
       ],
-      "visual_target": "At Step 5 inside the secretory vesicle shown, prohormone convertases cleave the folded precursor into the two pointed-to peptides released at Step 6. What is the clinical utility of the curved red fragment?",
+      "visual_target": "At Step 5 inside the secretory vesicle shown, cleavage splits the folded precursor into the two pointed-to peptides released at Step 6. What is the clinical utility of the curved red fragment?",
       "joint_panels": false,
       "image": "assets/display/92401373cbfd230fbbfaad247af7d3f0edcbded9ba69b5bf3a9f070d6d3f37db.webp",
       "zoom_image": "assets/zoom/92401373cbfd230fbbfaad247af7d3f0edcbded9ba69b5bf3a9f070d6d3f37db.webp",
@@ -1074,7 +1074,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Proinsulin & C-Peptide Processing",
-      "condition_overview": "Proinsulin cleavage inside beta-cell secretory granules yields mature insulin and C-peptide in a 1:1 ratio, providing a surrogate marker of endogenous insulin production.",
+      "condition_overview": "Clinical correlate: Measuring C-peptide distinguishes endogenous hyperinsulinemia (elevated C-peptide) from exogenous insulin administration (suppressed C-peptide), mirroring copeptin’s surrogate role for ADH.",
       "choice_images": [
         null,
         null,
@@ -1110,7 +1110,7 @@
         "Optic chiasm carrying crossing nasal retinal fibers from both eyes"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. The perimetry diagram shows loss of both outer (temporal) visual fields\u2014bitemporal hemianopsia. Step 2. Because the pituitary rests in the sella turcica immediately beneath the optic chiasm (E1 p.5\u20137), upward expansion of a pituitary adenoma compresses crossing nasal retinal fibers, producing bitemporal hemianopsia.",
+      "explanation": "Step 1. The perimetry diagram shows loss of both outer (temporal) visual fields—bitemporal hemianopsia. Step 2. Because the pituitary rests in the sella turcica immediately beneath the optic chiasm, upward expansion of a pituitary adenoma compresses crossing nasal retinal fibers, producing bitemporal hemianopsia.",
       "choice_rationales": [
         "Unilateral optic nerve compression causes monocular vision loss in one eye rather than bilateral temporal field cuts.",
         "Compressing hypophyseal portal veins disrupts anterior pituitary hormone regulation rather than producing a bitemporal visual field defect.",
@@ -1229,7 +1229,7 @@
       "explanation": "Step 1. The schematic traces midline thyroid descent from the foramen cecum at the base of the tongue past the hyoid via the thyroglossal duct. Step 2. As emphasized in E1 Tran1 (p.11), thyroid tissue that becomes arrested along its descent from the tongue fails to function normally, causing congenital hypothyroidism.",
       "choice_rationales": [
         "Medullary thyroid carcinoma arises from parafollicular C cells (which E1 p.24 notes are now considered endodermal, not neural crest).",
-        "Arrest of embryonic thyroid migration along the thyroglossal tract produces non-functioning ectopic tissue and congenital hypothyroidism (E1 Tran1 p.11).",
+        "Arrest of embryonic thyroid migration along the thyroglossal tract produces non-functioning ectopic tissue and congenital hypothyroidism.",
         "Parathyroid glands derive from the 3rd and 4th pharyngeal pouches rather than descending from the foramen cecum.",
         "Central diabetes insipidus reflects impaired hypothalamic-neurohypophyseal vasopressin synthesis rather than thyroid descent arrest."
       ],
@@ -1270,23 +1270,23 @@
       "study_skill": "interpretation",
       "question_type": "Graph Interpretation",
       "tested_concept": "Dose-response down-regulation without spare receptors",
-      "stem": "In this dose-response family showing receptor down-regulation (blue arrow), how do Kd, EC50, and maximal biological response change across the three curves?",
+      "stem": "In this dose-response family showing receptor down-regulation (blue arrow), how do Kd, EC₅₀, and maximal biological response change across the three curves?",
       "options": [
         "Maximal response drops, while receptor affinity falls and Kd increases",
-        "Maximal response stays 100%, while receptor affinity and EC50 decrease",
-        "Maximal response drops, while Kd and EC50 remain unchanged (EC50 = Kd)",
-        "Maximal response stays 100%, while EC50 rises and Kd remains unchanged"
+        "Maximal response stays 100%, while receptor affinity and EC₅₀ decrease",
+        "Maximal response drops, while Kd and EC₅₀ remain unchanged (EC₅₀ = Kd)",
+        "Maximal response stays 100%, while EC₅₀ rises and Kd remains unchanged"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Moving down the blue arrow, the plateau (maximal response) drops from 100 to 50 to 25, while the vertical dashed ED50 line stays fixed at hormone concentration = 1. Step 2. This is classic down-regulation WITHOUT spare receptors: maximal response decreases, whereas Kd (affinity) and EC50 (sensitivity) are unchanged and EC50 = Kd.",
+      "explanation": "Step 1. Moving down the blue arrow, the plateau (maximal response) drops from 100 to 50 to 25, while the vertical dashed ED₅₀ line stays fixed at hormone concentration = 1. Step 2. This is classic down-regulation WITHOUT spare receptors: maximal response decreases, whereas Kd (affinity) and EC₅₀ (sensitivity) are unchanged and EC₅₀ = Kd.",
       "choice_rationales": [
         "Down-regulation reduces receptor number rather than altering the intrinsic chemical binding affinity (Kd) of each remaining receptor.",
-        "Both maximal response preservation and decreased EC50 contradict the downward-compressed curves anchored at ED50 = 1.",
-        "Without spare receptors, down-regulation reduces maximal biological response while leaving receptor affinity (Kd) and sensitivity (EC50) unchanged, with EC50 = Kd.",
-        "Preserved 100% maximal response with a rightward shift in EC50 occurs when spare receptors ARE present; three parallel curves reaching 100% would make this choice correct."
+        "Both maximal response preservation and decreased EC₅₀ contradict the downward-compressed curves anchored at ED₅₀ = 1.",
+        "Without spare receptors, down-regulation reduces maximal biological response while leaving receptor affinity (Kd) and sensitivity (EC₅₀) unchanged, with EC₅₀ = Kd.",
+        "Preserved 100% maximal response with a rightward shift in EC₅₀ occurs when spare receptors ARE present; three parallel curves reaching 100% would make this choice correct."
       ],
       "visual_clues": [
-        "Maximal plateau drops from 100 \u2192 50 \u2192 25 while the vertical dashed ED50 line stays fixed at 1."
+        "Maximal plateau drops from 100 → 50 → 25 while the vertical dashed ED₅₀ line stays fixed at 1."
       ],
       "visual_target": "In this dose-response family showing receptor down-regulation (blue arrow), how do Kd, EC50, and maximal biological response change across the three curves?",
       "joint_panels": false,
@@ -1306,7 +1306,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "No Spare Receptors",
-      "condition_overview": "With no spare receptors, receptor down-regulation lowers maximal biological response without changing Kd or EC50 (EC50 = Kd)."
+      "condition_overview": "Terminology pearl: Lecturer stressed separating affinity (Kd, an intrinsic chemical property measurable in a test tube) from sensitivity (EC₅₀, which reflects the entire hormone-receptor-effector system)."
     },
     {
       "question_id": "q-e2-with-spare-receptors",
@@ -1327,18 +1327,18 @@
         "No spare receptors are present, so Kd rises while sensitivity stays constant",
         "Receptor up-regulation increases affinity and shifts the curve rightward",
         "Open-loop feedback overrides receptor saturation to keep Emax constant",
-        "Spare receptors preserve Emax while down-regulation raises EC50 (EC50 \u2264 Kd)"
+        "Spare receptors preserve Emax while down-regulation raises EC₅₀ (EC₅₀ ≤ Kd)"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. Curves A, B, and C all reach 100% maximal biological response, while the half-maximal concentration (EC50) shifts rightward from 0.1 nM to 1 nM to 10 nM. Step 2. When spare receptors are present, maximal response occurs before 100% receptor occupancy; down-regulation preserves maximal response and Kd while decreasing sensitivity (increasing EC50, with EC50 \u2264 Kd).",
+      "explanation": "Step 1. Curves A, B, and C all reach 100% maximal biological response, while the half-maximal concentration (EC₅₀) shifts rightward from 0.1 nM to 1 nM to 10 nM. Step 2. When spare receptors are present, maximal response occurs before 100% receptor occupancy; down-regulation preserves maximal response and Kd while decreasing sensitivity (increasing EC₅₀, with EC₅₀ ≤ Kd).",
       "choice_rationales": [
         "Without spare receptors, down-regulation reduces maximal response rather than shifting parallel 100%-Emax curves to the right.",
-        "Receptor up-regulation increases sensitivity (shifting the curve leftward to a lower EC50) and does not alter intrinsic chemical affinity (Kd).",
+        "Receptor up-regulation increases sensitivity (shifting the curve leftward to a lower EC₅₀) and does not alter intrinsic chemical affinity (Kd).",
         "Open-loop feedback refers to pathologic loss of output-dependent regulation, not to spare-receptor dose-response kinetics.",
-        "Spare receptors allow maximal response without occupying all receptors, so down-regulation keeps Emax at 100% and Kd constant while increasing EC50 (lower sensitivity)."
+        "Spare receptors allow maximal response without occupying all receptors, so down-regulation keeps Emax at 100% and Kd constant while increasing EC₅₀ (lower sensitivity)."
       ],
       "visual_clues": [
-        "Curves A, B, and C all plateau at 100% maximal response, while half-maximum concentration shifts right from 0.1 \u2192 1 \u2192 10 nM."
+        "Curves A, B, and C all plateau at 100% maximal response, while half-maximum concentration shifts right from 0.1 → 1 → 10 nM."
       ],
       "visual_target": "In this dose-response family shifting from Curve A to Curve B to Curve C (top blue arrow), which statement best explains why maximal biological response remains at 100%?",
       "joint_panels": false,
@@ -1362,7 +1362,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Spare Receptors & Down-Regulation",
-      "condition_overview": "With spare receptors, down-regulation leaves maximal response and Kd unchanged while decreasing sensitivity (increasing EC50; EC50 \u2264 Kd)."
+      "condition_overview": "Physiology pearl: Spare receptors do not mean \"extra\" defective receptors—every receptor is identical, but maximal effector output is reached before 100% occupancy, buffering Emax against down-regulation."
     },
     {
       "question_id": "q-e2-circadian-profiles",
@@ -1386,7 +1386,7 @@
         "C = growth hormone, D = melatonin, E = ACTH"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. Panel C shows discrete episodic spikes with a tall surge right after sleep onset (~12 am); Panel D drops to a late-evening nadir then climbs before waking (~4\u20138 am); Panel E stays flat and low all day then rises smoothly throughout the dark period. Step 2. These match pulsatile GH (C), early-morning peaking ACTH (D), and dark-phase melatonin (E).",
+      "explanation": "Step 1. Panel C shows discrete episodic spikes with a tall surge right after sleep onset (~12 am); Panel D drops to a late-evening nadir then climbs before waking (~4–8 am); Panel E stays flat and low all day then rises smoothly throughout the dark period. Step 2. These match pulsatile GH (C), early-morning peaking ACTH (D), and dark-phase melatonin (E).",
       "choice_rationales": [
         "GH (Panel C) shows sharp pulsatile bursts peaking early in sleep; ACTH (Panel D) hits a midnight nadir and rises before 8 am; melatonin (Panel E) rises smoothly during darkness.",
         "Melatonin does not show multiple sharp daytime pulses like Panel C, and ACTH does not stay near zero all day before a single nocturnal hump.",
@@ -1414,7 +1414,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Circadian & Pulsatile Profiles",
-      "condition_overview": "Hormone secretion displays ultradian/pulsatile and circadian patterns: GH surges early in sleep, ACTH peaks toward morning waking, and melatonin rises during darkness."
+      "condition_overview": "Chronobiology pearl: Endocrine cycles span ultradian (multiple times/day: stress, appetite), circadian (~24 h: sleep-wake, GH, ACTH, melatonin), and infradian (>24 h: menstrual, seasonal, developmental)."
     },
     {
       "question_id": "q-e2-long-loop-feedback",
@@ -1438,7 +1438,7 @@
         "Both Statement 1 and Statement 2 are false"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. The diagram shows a peripheral gland hormone feeding back negatively (red minus signs) on both the pituitary and hypothalamus\u2014a classic closed-loop long-loop negative feedback axis. Step 2. By E2 p.20, negative closed-loop feedback maintains constancy, whereas open-loop control is independent of output and is often a sign of pathology.",
+      "explanation": "Step 1. The diagram shows a peripheral gland hormone feeding back negatively (red minus signs) on both the pituitary and hypothalamus—a classic closed-loop long-loop negative feedback axis. Step 2. By E2 p.20, negative closed-loop feedback maintains constancy, whereas open-loop control is independent of output and is often a sign of pathology.",
       "choice_rationales": [
         "Statement 1 accurately describes closed-loop long-loop negative feedback shown by the inhibitory arrows, while Statement 2 is false because open-loop control is independent of output and often signals pathology.",
         "Statement 1 is directly supported by the inhibitory feedback arrows in the diagram, and Statement 2 misdefines open-loop control as normal closed-loop feedback.",
@@ -1470,7 +1470,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Endocrine Feedback Control",
-      "condition_overview": "Closed-loop negative feedback keeps endocrine variables constant; open-loop control (action independent of output) is typically a sign of pathology."
+      "condition_overview": "Feedback pearl: Positive feedback accelerates output to drive episodic events (such as the pre-ovulatory LH surge), whereas closed-loop negative feedback stabilizes homeostatic variables.",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/5abcf3370e1134b92e6849f8e0c638c053fc8beafb68bd80de89e6592d401c0a.webp",
+            "caption": "3rd party (First Aid): Cortisol regulation - Diagram",
+            "source": "First Aid 2023 Endocrinology/Cortisol regulation - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-e3-gpcr-gtpase-reversibility",
@@ -1486,25 +1498,25 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "GPCR activation cycle and G-alpha GTPase reversibility",
-      "stem": "In this GPCR activation cycle, what enzymatic activity at the two masked sites terminates signaling and returns the heterotrimeric G protein to its inactive GDP-bound complex?",
+      "stem": "In this transmembrane receptor cycle, what enzymatic activity at the two masked sites terminates signaling and restores the inactive complex?",
       "options": [
-        "Phosphodiesterase hydrolyzing cyclic AMP into inactive 5'-AMP",
+        "Phosphodiesterase hydrolyzing cyclic AMP into inactive 5′-AMP",
         "Receptor trans-autophosphorylation recruiting SH2 adaptor proteins",
-        "Intrinsic G-alpha GTPase hydrolyzing bound GTP to GDP and Pi",
+        "Intrinsic Gα GTPase hydrolyzing bound GTP to GDP and Pi",
         "Extracellular ligand protease cleaving agonist off the GPCR"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Moving from the middle ACTIVE state to the bottom INACTIVE state releases Pi, converts G\u03b1-GTP back to G\u03b1-GDP, and reassociates G\u03b1 with G\u03b2\u03b3. Step 2. Per E3 p.6 & Tran p.3, this reversibility is driven by the intrinsically weak G\u03b1-GTPase activity, whose rate sets the duration of GPCR signal activation.",
+      "explanation": "Step 1. Moving from the middle ACTIVE state to the bottom INACTIVE state releases Pi, converts Gα-GTP back to Gα-GDP, and reassociates Gα with Gβγ. Step 2. Per E3 p.6 & Tran p.3, this reversibility is driven by the intrinsically weak Gα-GTPase activity, whose rate sets the duration of GPCR signal activation.",
       "choice_rationales": [
-        "Phosphodiesterase terminates downstream cAMP accumulation rather than directly hydrolyzing GTP on the G\u03b1 subunit; a cAMP-to-5'-AMP diagram would point to PDE.",
+        "Phosphodiesterase terminates downstream cAMP accumulation rather than directly hydrolyzing GTP on the Gα subunit; a cAMP-to-5′-AMP diagram would point to PDE.",
         "Trans-autophosphorylation and SH2 adaptor recruitment are hallmarks of receptor tyrosine kinases rather than seven-pass GPCRs.",
-        "G\u03b1 possesses intrinsic GTPase activity that hydrolyzes bound GTP to GDP + Pi, causing G\u03b1-GDP to reassociate with G\u03b2\u03b3 and shut off signaling.",
-        "Signal termination in the depicted cycle occurs intracellularly via GTP hydrolysis on G\u03b1 rather than extracellular agonist proteolysis."
+        "Gα possesses intrinsic GTPase activity that hydrolyzes bound GTP to GDP + Pi, causing Gα-GDP to reassociate with Gβγ and shut off signaling.",
+        "Signal termination in the depicted cycle occurs intracellularly via GTP hydrolysis on Gα rather than extracellular agonist proteolysis."
       ],
       "visual_clues": [
-        "Lower transition converts GTP \u2192 GDP + Pi and reassociates G\u03b1 with G\u03b2\u03b3 to restore the INACTIVE state."
+        "Lower transition converts GTP → GDP + Pi and reassociates Gα with Gβγ to restore the INACTIVE state."
       ],
-      "visual_target": "In this GPCR activation cycle, what enzymatic activity at the two masked sites terminates signaling and returns the heterotrimeric G protein to its inactive GDP-bound complex?",
+      "visual_target": "In this transmembrane receptor cycle, what enzymatic activity at the two masked sites terminates signaling and restores the inactive complex?",
       "joint_panels": false,
       "image": "assets/display/2e8164096e35b591bcb732e42ff58c46296ba03b20f152806bca9063ce67d051.webp",
       "zoom_image": "assets/zoom/2e8164096e35b591bcb732e42ff58c46296ba03b20f152806bca9063ce67d051.webp",
@@ -1522,7 +1534,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "GPCR Activation Cycle",
-      "condition_overview": "GPCRs are seven-pass transmembrane receptors; agonist binding swaps GDP for GTP on G\u03b1, while intrinsic G\u03b1-GTPase hydrolyzes GTP to terminate the signal.",
+      "condition_overview": "Pharmacology pearl: Seven-pass transmembrane GPCRs are the targets of roughly 34% of FDA-approved drugs, and both free Gα-GTP and free Gβγ can activate distinct downstream effectors.",
       "choice_images": [
         null,
         null,
@@ -1550,25 +1562,25 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "cAMP/PKA signal integration and PDE termination",
-      "stem": "In this cAMP/PKA signal-integration diagram, inhibition of the masked yellow diamond enzyme would produce which immediate intracellular effect?",
+      "stem": "In this intracellular signaling diagram, pharmacologic inhibition of the masked yellow diamond enzyme produces which immediate downstream effect?",
       "options": [
         "Blocked conversion of ATP to cAMP by membrane adenylate cyclase",
-        "Prevented dissociation of inhibitory G-alpha-i from beta-gamma",
-        "Accelerated breakdown of PIP2 into cytosolic IP3 and membrane DAG",
+        "Prevented dissociation of inhibitory Gαi from beta-gamma",
+        "Accelerated breakdown of PIP₂ into cytosolic IP₃ and membrane DAG",
         "Prolonged elevation of cAMP and sustained PKA/CREB activation"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. The masked yellow diamond catalyzes the conversion of cAMP into 5'-AMP\u2014that enzyme is phosphodiesterase (PDE). Step 2. Inhibiting PDE blocks cAMP breakdown, prolonging cAMP accumulation and downstream PKA/CREB signaling (E3 p.8 & Tran p.3).",
+      "explanation": "Step 1. The masked yellow diamond catalyzes the conversion of cAMP into 5′-AMP—that enzyme is phosphodiesterase (PDE). Step 2. Inhibiting PDE blocks cAMP breakdown, prolonging cAMP accumulation and downstream PKA/CREB signaling.",
       "choice_rationales": [
-        "Adenylate cyclase (AC, shown at the membrane) synthesizes cAMP from ATP; blocking AC\u2014not the masked cytosolic enzyme\u2014would prevent cAMP formation.",
-        "G\u03b1i dissociation is triggered by ligand binding to the inhibitory GPCR at the top right, upstream of cAMP hydrolysis.",
-        "PIP2 cleavage into IP3 and DAG is catalyzed by phospholipase C-beta in the G\u03b1q pathway rather than by the cAMP/PKA pathway.",
-        "The masked enzyme is phosphodiesterase (PDE), which degrades cAMP to 5'-AMP; inhibiting it sustains elevated cAMP and PKA/CREB activity."
+        "Adenylate cyclase (AC, shown at the membrane) synthesizes cAMP from ATP; blocking AC—not the masked cytosolic enzyme—would prevent cAMP formation.",
+        "Gαi dissociation is triggered by ligand binding to the inhibitory GPCR at the top right, upstream of cAMP hydrolysis.",
+        "PIP₂ cleavage into IP₃ and DAG is catalyzed by phospholipase C-beta in the Gαq pathway rather than by the cAMP/PKA pathway.",
+        "The masked enzyme is phosphodiesterase (PDE), which degrades cAMP to 5′-AMP; inhibiting it sustains elevated cAMP and PKA/CREB activity."
       ],
       "visual_clues": [
-        "Masked yellow diamond sits on the arrow converting orange cAMP circles into 5'-AMP."
+        "Phosphodiesterase (PDE) sits on the cytosolic arrow hydrolyzing orange cAMP circles into inactive 5′-AMP, while Gαs and Gαi converge oppositely on adenylate cyclase (AC)."
       ],
-      "visual_target": "In this cAMP/PKA signal-integration diagram, inhibition of the masked yellow diamond enzyme would produce which immediate intracellular effect?",
+      "visual_target": "In this intracellular signaling diagram, pharmacologic inhibition of the masked yellow diamond enzyme produces which immediate downstream effect?",
       "joint_panels": false,
       "image": "assets/display/685f78c199d89bdf8d1c067649f8aaf17b24408967adbab5e5750a7cb7299427.webp",
       "zoom_image": "assets/zoom/685f78c199d89bdf8d1c067649f8aaf17b24408967adbab5e5750a7cb7299427.webp",
@@ -1590,13 +1602,25 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "cAMP / PKA Pathway",
-      "condition_overview": "G\u03b1s and G\u03b1i integrate opposite signals on adenylate cyclase; cAMP activates PKA/CREB and is reversibly terminated by phosphodiesterase (PDE)."
+      "condition_overview": "Integration pearl: Myocardial cells co-express stimulatory (Gαs) and inhibitory (Gαi) GPCRs on adenylate cyclase to integrate opposing autonomic inputs, while PKA cascades amplify catabolic enzymes (lipolysis, glycogenolysis).",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-e3-ip3-dag-convergence",
       "source_id": "s-868b2fa03f41b454d686",
       "source_group_id": "g-ef95c48b9f01177ac8fc",
-      "variant_id": "v-a9484534f4ce23a25c55",
+      "variant_id": "v-ff428bb9a36d93a62b46",
       "collection": "E3",
       "source_origin": "lecture",
       "category": "Diagrams",
@@ -1605,29 +1629,29 @@
       "reasoning_order": 2,
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
-      "tested_concept": "G\u03b1q PLC-beta and IP3/DAG/Ca2+ convergence on PKC",
-      "stem": "In this phosphatidylinositol signaling pathway, which pair of enzymes corresponds to the masked green membrane effector (left) and the masked brown kinase (right) where DAG and Ca2+ converge?",
+      "tested_concept": "Gαq PLC-beta and IP3/DAG/Ca2+ convergence on PKC",
+      "stem": "In this membrane signaling pathway, which pair of enzymes corresponds to the masked green membrane effector (left) and the masked brown cytosolic kinase (right)?",
       "options": [
-        "Phospholipase C-beta (PLC\u03b2) and protein kinase C (PKC)",
+        "Phospholipase C-beta (PLCβ) and protein kinase C (PKC)",
         "Adenylate cyclase (AC) and cAMP-dependent protein kinase A (PKA)",
         "Phosphatidylinositol 3-kinase (PI3K) and serine/threonine kinase AKT",
         "Janus kinase (JAK) and STAT transcription factor homodimer"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. Activated G\u03b1q-GTP stimulates the green membrane effector to cleave PIP2 into cytosolic IP3 and membrane-bound DAG. Step 2. That effector is PLC\u03b2, and both membrane DAG and IP3-mobilized ER Ca2+ converge to activate the brown kinase\u2014protein kinase C (PKC) (E3 p.7, p.9).",
+      "explanation": "Step 1. Activated Gαq-GTP stimulates the green membrane effector to cleave PIP₂ into cytosolic IP₃ and membrane-bound DAG. Step 2. That effector is PLCβ, and both membrane DAG and IP₃-mobilized ER Ca²⁺ converge to activate the brown kinase—protein kinase C (PKC).",
       "choice_rationales": [
-        "G\u03b1q activates phospholipase C-beta (PLC\u03b2) to cleave PIP2 into IP3 and DAG, and both DAG and IP3-released Ca2+ converge to activate protein kinase C (PKC).",
-        "Adenylate cyclase and PKA belong to the G\u03b1s/G\u03b1i cAMP pathway rather than the G\u03b1q/PIP2/Ca2+ pathway.",
-        "PI3K and AKT are activated downstream of insulin/IGF receptor tyrosine kinase and IRS rather than G\u03b1q-coupled GPCRs.",
-        "JAK and STAT mediate cytokine receptor signaling without generating IP3, DAG, or ER Ca2+ release."
+        "Gαq activates phospholipase C-beta (PLCβ) to cleave PIP₂ into IP₃ and DAG, and both DAG and IP₃-released Ca²⁺ converge to activate protein kinase C (PKC).",
+        "Adenylate cyclase (AC) and PKA belong to the Gαs/Gαi cAMP pathway, not membrane phospholipid cleavage; seeing ATP → cAMP → PKA/CREB without PIP₂ or ER Ca²⁺ release would make AC/PKA correct.",
+        "PI3K and AKT are recruited by tyrosine-phosphorylated IRS downstream of insulin/IGF1 RTKs rather than a seven-pass Gαq GPCR; seeing PIP₂ → PIP₃ → PDK1 → AKT would make PI3K/AKT correct.",
+        "JAK and STAT mediate cytokine receptor dimerization directly to nuclear transcription without heterotrimeric G proteins, PIP₂ cleavage, or ER Ca²⁺ stores."
       ],
       "visual_clues": [
-        "G\u03b1q-GTP activates the masked green membrane enzyme to split PIP2 into IP3 (releasing ER Ca2+) and DAG, which converge on the masked brown kinase."
+        "Gαq-GTP activates membrane PLCβ to split PIP₂ into cytosolic IP₃ (releasing ER Ca²⁺) and membrane DAG, both of which converge on PKC."
       ],
-      "visual_target": "In this phosphatidylinositol signaling pathway, which pair of enzymes corresponds to the masked green membrane effector (left) and the masked brown kinase (right) where DAG and Ca2+ converge?",
+      "visual_target": "In this membrane signaling pathway, which pair of enzymes corresponds to the masked green membrane effector (left) and the masked brown cytosolic kinase (right)?",
       "joint_panels": false,
-      "image": "assets/display/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
-      "zoom_image": "assets/zoom/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+      "image": "assets/display/ff428bb9a36d93a62b46e15d9734c908d9552359a017fbac071b78b37d495439.webp",
+      "zoom_image": "assets/zoom/ff428bb9a36d93a62b46e15d9734c908d9552359a017fbac071b78b37d495439.webp",
       "original_image": "assets/originals/43070ebd58eae5505b455704bbcf3cd4643844d2cb3eb5daadb277dff50e1017.png",
       "original_filename": "E3/IP3 DAG signaling pathway - Diagram.png",
       "citations": [
@@ -1646,7 +1670,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "IP3 / DAG Signaling Pathway",
-      "condition_overview": "G\u03b1q activates PLC\u03b2 to cleave PIP2 into IP3 (ER Ca2+ release \u2192 CaM/CaMK) and DAG; DAG and Ca2+ converge on PKC."
+      "condition_overview": "Amplification pearl: Cytosolic Ca²⁺ mobilized by IP₃ not only co-activates PKC with DAG, but also binds calmodulin to trigger CaM kinase (CaMK) cascades across multiple cellular targets.",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-e3-rtk-gap-feedback",
@@ -1670,15 +1706,15 @@
         "Failure of GNRP (SOS) to load GTP onto inactive GDP-bound Ras"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. The masked green protein binds a phosphorylated tyrosine on the RTK and points directly to the arrow converting active Ras-GTP back into inactive Ras-GDP. Step 2. That regulator is GAP (GTPase-activating protein), which stimulates GTP hydrolysis to shut off Ras and control RTK signal strength and duration (E3 p.10).",
+      "explanation": "Step 1. The masked green protein binds a phosphorylated tyrosine on the RTK and points directly to the arrow converting active Ras-GTP back into inactive Ras-GDP. Step 2. That regulator is GAP (GTPase-activating protein), which stimulates GTP hydrolysis to shut off Ras and control RTK signal strength and duration.",
       "choice_rationales": [
         "ERK nuclear translocation occurs at the bottom of the MAPK cascade downstream of Ras, Raf, and MEK.",
         "GAP stimulates Ras GTP hydrolysis to return Ras-GTP to inactive Ras-GDP; losing GAP prolongs active Ras-GTP signaling to Raf/MEK/ERK.",
         "Ligand binding and trans-autophosphorylation occur upstream of GAP recruitment to the phosphorylated receptor tail.",
-        "GNRP (SOS) sits on the right side of the receptor tail and promotes GDP\u2192GTP exchange to activate Ras; losing GNRP would prevent Ras activation."
+        "GNRP (SOS) sits on the right side of the receptor tail and promotes GDP→GTP exchange to activate Ras; losing GNRP would prevent Ras activation."
       ],
       "visual_clues": [
-        "Green protein docked to phosphorylated RTK tail directs an arrow onto the Ras-GTP \u2192 Ras-GDP inactivation step."
+        "Green protein docked to phosphorylated RTK tail directs an arrow onto the Ras-GTP → Ras-GDP inactivation step."
       ],
       "visual_target": "In this receptor tyrosine kinase pathway, loss-of-function of the masked green regulator (left of the receptor tail) would have which direct effect on Ras signaling?",
       "joint_panels": false,
@@ -1698,7 +1734,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "RTK & Ras/MAPK Feedback",
-      "condition_overview": "RTK activation recruits adaptor/GNRP (SOS) to activate Ras-GTP \u2192 Raf/MEK/ERK, while GAP stimulates GTP hydrolysis as feedback regulation."
+      "condition_overview": "Oncology pearl: Because Ras cycles between active GTP-bound and inactive GDP-bound states under opposing GNRP (SOS) and GAP control, constitutively active KRAS mutants (e.g., G12C) are major targeted-therapy sites.",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ],
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-e3-insulin-igf-branching",
@@ -1714,25 +1762,25 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram (INCORRECT)",
       "tested_concept": "Insulin/IGF1 IRS branching (PI3K/AKT vs MAPK)",
-      "stem": "In this insulin/IGF1 receptor signaling diagram, which functional statement about the masked left kinase branch (leading through PDK1, AKT, and mTOR) versus the right MAPK branch is INCORRECT?",
+      "stem": "In this receptor signaling diagram, which functional statement comparing the masked left kinase branch against the right branch is INCORRECT?",
       "options": [
         "AKT regulates mTOR (translation/autophagy) and FOXO (metabolic stress)",
-        "The masked left branch converts membrane PIP2 into PIP3 to activate PDK1",
+        "The masked left branch converts membrane PIP₂ into PIP₃ to activate PDK1",
         "The right GRB2/SOS/MAPK branch mediates insulin's primary metabolic effects",
         "IRS serves as a tyrosine-phosphorylated docking platform for both branches"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Autophosphorylated INSR/IGF1R phosphorylates IRS, which branches left through PI3K/PIP3/PDK1/AKT/mTOR and right through GRB2/SOS/Ras/Raf/MEK/ERK. Step 2. Per E3 p.11 & Tran p.4, the PI3K/AKT branch mediates insulin's primary metabolic actions, whereas the GRB2/SOS/MAPK branch regulates cell growth and differentiation.",
+      "explanation": "Step 1. Autophosphorylated INSR/IGF1R phosphorylates IRS, which branches left through PI3K/PIP₃/PDK1/AKT/mTOR and right through GRB2/SOS/Ras/Raf/MEK/ERK. Step 2. Per E3 p.11 & Tran p.4, the PI3K/AKT branch mediates insulin's primary metabolic actions, whereas the GRB2/SOS/MAPK branch regulates cell growth and differentiation.",
       "choice_rationales": [
         "AKT does regulate both mTOR (translation and autophagy) and FOXO (metabolic stress response), as stated in E3 p.11.",
-        "The masked enzyme (PI3K) converts PIP2 into PIP3 to recruit and activate PDK1 and AKT, as depicted directly in the diagram.",
-        "This statement is INCORRECT (making it the keyed answer): the left PI3K/AKT branch\u2014not the right MAPK branch\u2014mediates insulin/IGF1's primary metabolic actions, whereas MAPK drives growth and differentiation.",
+        "The masked enzyme (PI3K) converts PIP₂ into PIP₃ to recruit and activate PDK1 and AKT, as depicted directly in the diagram.",
+        "This statement is INCORRECT (making it the keyed answer): the left PI3K/AKT branch—not the right MAPK branch—mediates insulin/IGF1's primary metabolic actions, whereas MAPK drives growth and differentiation.",
         "IRS is indeed a large adaptor phosphorylated on multiple tyrosine residues to dock both PI3K and GRB2."
       ],
       "visual_clues": [
-        "IRS splits left into masked PI3K \u2192 PIP3 \u2192 PDK1 \u2192 AKT \u2192 mTOR and right into GRB2 \u2192 SOS \u2192 Ras \u2192 c-Raf \u2192 MEK \u2192 ERK."
+        "Tyrosine-phosphorylated IRS branches left into PI3K → PIP₃ → PDK1 → AKT → mTOR (metabolic) and right into GRB2 → SOS → Ras → Raf → MEK → ERK (mitogenic)."
       ],
-      "visual_target": "In this insulin/IGF1 receptor signaling diagram, which functional statement about the masked left kinase branch (leading through PDK1, AKT, and mTOR) versus the right MAPK branch is INCORRECT?",
+      "visual_target": "In this receptor signaling diagram, which functional statement comparing the masked left kinase branch against the right branch is INCORRECT?",
       "joint_panels": false,
       "image": "assets/display/624785bb9190094d581907f08511b259bed5fe5251f1bfe89501fe51d9c2bb00.webp",
       "zoom_image": "assets/zoom/624785bb9190094d581907f08511b259bed5fe5251f1bfe89501fe51d9c2bb00.webp",
@@ -1750,7 +1798,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Insulin / IGF1 Signaling",
-      "condition_overview": "Insulin/IGF1 receptors phosphorylate IRS to split into PI3K/AKT (metabolic actions via mTOR & FOXO) and GRB2/SOS/MAPK (growth & differentiation)."
+      "condition_overview": "Integration pearl: One RTK (INSR/IGF1R) can split via a single giant adaptor (IRS) into two functionally distinct pathways—metabolic control (PI3K/AKT/mTOR/FOXO) and mitogenic growth (GRB2/SOS/MAPK).",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ],
+        null
+      ]
     },
     {
       "question_id": "q-e3-jak-stat-pathway",
@@ -1768,21 +1828,21 @@
       "tested_concept": "JAK-STAT cytokine receptor signaling",
       "stem": "In this cytokine receptor cascade, what is the role of the masked orange intracellular kinases associated with the dimerized receptor chains?",
       "options": [
-        "Cleave membrane PIP2 into IP3 and DAG to release endoplasmic reticulum Ca2+",
+        "Cleave membrane PIP₂ into IP₃ and DAG to release endoplasmic reticulum Ca²⁺",
         "Release heat shock protein 90 to unmask a cytosolic nuclear localization signal",
         "Open a transmembrane ion channel pore to trigger rapid postsynaptic depolarization",
         "Trans-phosphorylate each other and receptor tails to recruit and activate STAT"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. Cytokine binding dimerizes two receptor chains, bringing the masked orange kinases together so they become phosphorylated and subsequently phosphorylate green STAT proteins that dimerize and enter the nucleus. Step 2. Those kinases are JAKs (Janus kinases), which trans-phosphorylate each other and the receptor to create docking sites and phosphorylate STAT transcription factors (E3 p.12).",
+      "explanation": "Step 1. Cytokine binding dimerizes two receptor chains, bringing the masked orange kinases together so they become phosphorylated and subsequently phosphorylate green STAT proteins that dimerize and enter the nucleus. Step 2. Those kinases are JAKs (Janus kinases), which trans-phosphorylate each other and the receptor to create docking sites and phosphorylate STAT transcription factors.",
       "choice_rationales": [
-        "PIP2 cleavage into IP3 and DAG is mediated by G\u03b1q-coupled PLC\u03b2 rather than cytokine-associated JAKs.",
-        "HSP90 dissociation exposing a nuclear localization signal characterizes intracellular steroid/glucocorticoid receptors rather than membrane cytokine receptors.",
-        "Direct ion-pore opening for rapid electrical depolarization is the mechanism of ligand-gated ion channels at synapses.",
+        "PIP₂ cleavage into IP₃ and DAG is catalyzed by Gαq-activated PLCβ at a seven-pass GPCR; seeing a heterotrimeric G protein and ER Ca²⁺ channels would make this mechanism correct.",
+        "HSP90 dissociation unmasking a nuclear localization signal occurs on cytosolic steroid receptors (like GR) rather than dimerized transmembrane cytokine receptors.",
+        "Direct ion-channel gating converts neurotransmitter binding into rapid synaptic depolarization without tyrosine phosphorylation or STAT nuclear translocation.",
         "Janus kinases (JAKs) trans-phosphorylate upon cytokine-induced receptor dimerization, creating receptor docking sites and phosphorylating STATs for nuclear translocation."
       ],
       "visual_clues": [
-        "Cytokine dimerizes two transmembrane chains; masked orange kinases gain yellow P groups and phosphorylate green STATs that dimerize into the nucleus."
+        "Cytokine-induced receptor dimerization brings intracellular Janus kinases (JAKs) together to trans-phosphorylate and activate STAT dimers that translocate to the nucleus."
       ],
       "visual_target": "In this cytokine receptor cascade, what is the role of the masked orange intracellular kinases associated with the dimerized receptor chains?",
       "joint_panels": false,
@@ -1802,7 +1862,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "JAK-STAT Pathway",
-      "condition_overview": "Cytokine receptor dimerization activates receptor-associated JAKs, which trans-phosphorylate and phosphorylate STAT dimers to regulate transcription."
+      "condition_overview": "Physiology & therapy pearl: Beyond immune cytokines (IL-6, IFN-γ, EPO), JAK-STAT signaling regulates fetal bone and mammary gland development and is a major target for small-molecule JAK inhibitors.",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ]
+      ]
     },
     {
       "question_id": "q-e3-tgfb-smad-pathway",
@@ -1818,7 +1890,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "TGF-beta serine/threonine kinase and Smad activation",
-      "stem": "In this receptor serine/threonine kinase pathway, after the type II receptor phosphorylates the type I receptor (heterodimer), which masked transcription factor family is directly phosphorylated to regulate gene expression?",
+      "stem": "In the signaling cascade shown, after the ligand-bound receptor heterodimer activates its partner chain, which masked transcription factor family is directly phosphorylated to regulate gene expression?",
       "options": [
         "Smad transcription factors that complex and translocate to the nucleus",
         "CREB transcription factors phosphorylated by cytosolic protein kinase A",
@@ -1826,17 +1898,17 @@
         "STAT dimers phosphorylated by cytokine-associated Janus kinases"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. Panels A and B show TGF-beta/activin/BMP ligands assembling type II and type I receptor dimers, followed by phosphorylation of the masked green cytosolic proteins that pair with a yellow partner and enter the nucleus. Step 2. Activated type I serine/threonine kinase receptors phosphorylate Smad family transcription factors (Smad 2,3 or Smad 1,5 pairing with Smad 4) (E3 p.13).",
+      "explanation": "Step 1. Panels A and B show TGF-β/activin/BMP ligands assembling type II and type I receptor dimers, followed by phosphorylation of the masked green cytosolic proteins that pair with a yellow partner and enter the nucleus. Step 2. Activated type I serine/threonine kinase receptors phosphorylate Smad family transcription factors (Smad 2/3 or Smad 1/5 pairing with Smad 4).",
       "choice_rationales": [
-        "Activated type I TGF-beta receptors phosphorylate Smad transcription factors (Smad 2/3 or 1/5), which complex with Smad 4 and translocate to the nucleus.",
-        "CREB is phosphorylated by PKA downstream of cAMP in GPCR signaling rather than by type I TGF-beta receptors.",
-        "FOXO is phosphorylated by AKT in the insulin/IGF1 PI3K pathway rather than by serine/threonine kinase TGF-beta receptors.",
-        "STAT dimers are phosphorylated by JAKs downstream of cytokine receptors rather than by type I TGF-beta receptors."
+        "Activated type I TGF-β receptors phosphorylate Smad transcription factors (Smad 2/3 or 1/5), which complex with Smad 4 and translocate to the nucleus.",
+        "CREB is phosphorylated by cAMP-activated PKA downstream of a seven-pass GPCR, whereas this figure depicts single-pass Type II and Type I catalytic receptor dimers.",
+        "FOXO is regulated by AKT downstream of insulin/IGF1 receptor tyrosine kinase and IRS/PI3K—not by the Type II/Type I heterodimer shown; an IRS → PI3K → AKT cascade would make FOXO correct.",
+        "STAT dimers require cytokine receptor-associated Janus kinases (JAKs) rather than intrinsic receptor serine/threonine kinase activity; seeing cytosolic JAKs docked beneath a cytokine receptor would make STAT correct."
       ],
       "visual_clues": [
-        "Ligand brings Receptor type II and Receptor type I together; activated type I phosphorylates masked green proteins that bind a yellow partner and enter the nucleus."
+        "Ligand binding assembles a Type II/Type I Ser/Thr kinase heterodimer; Type II phosphorylates the Type I GS box, which phosphorylates Smad 2/3 or 1/5 to complex with Smad 4."
       ],
-      "visual_target": "In this receptor serine/threonine kinase pathway, after the type II receptor phosphorylates the type I receptor (heterodimer), which masked transcription factor family is directly phosphorylated to regulate gene expression?",
+      "visual_target": "In the signaling cascade shown, after the ligand-bound receptor heterodimer activates its partner chain, which masked transcription factor family is directly phosphorylated to regulate gene expression?",
       "joint_panels": false,
       "image": "assets/display/3a4e4a5d67b6b254e44181763d7cc4f25b5fc17960d382e0a2bfe1448283500f.webp",
       "zoom_image": "assets/zoom/3a4e4a5d67b6b254e44181763d7cc4f25b5fc17960d382e0a2bfe1448283500f.webp",
@@ -1854,7 +1926,19 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Serine/Threonine Kinase Receptors",
-      "condition_overview": "In TGF-beta signaling, ligand binding lets the type II receptor phosphorylate serine/threonine on the type I receptor, which then activates Smad transcription factors."
+      "condition_overview": "Signaling contrast: Unlike RTKs (which autophosphorylate tyrosines on homodimers), TGF-β/Activin/BMP receptors form Type II/Type I heterodimers that phosphorylate serine/threonine residues to activate Smad complexes.",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/75a8f57e8f2e6489f9681a8af95e1b1ad354a901a187e540dbea8cee57bf0c96.webp",
+            "caption": "3rd party (Bootcamp): Membrane receptor signaling - Diagram",
+            "source": "Bootcamp Endocrinology/Membrane receptor signaling - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
     },
     {
       "question_id": "q-e3-glucocorticoid-hsp-nls",
@@ -1875,18 +1959,18 @@
         "Type II receptor phosphorylates the zinc-finger domain at the membrane",
         "The masked chaperone releases, exposing the hinge NLS for nuclear entry",
         "The receptor activates adenylate cyclase to elevate cytosolic cAMP",
-        "G-alpha-GTP dissociates from beta-gamma to open ER calcium channels"
+        "Gα-GTP dissociates from beta-gamma to open ER calcium channels"
       ],
       "correct_index": 1,
       "explanation": "Step 1. In the unliganded cytosolic state, the masked dark-blue chaperone sits over the receptor; after hormone G binds, the chaperone dissociates and the receptor dimerizes on nuclear DNA (GRE). Step 2. Per E3 p.14, heat shock proteins (HSP90) cover the nuclear localization signal (NLS) in the hinge region until hormone binding triggers a conformational change releasing HSP and permitting nuclear entry.",
       "choice_rationales": [
-        "Receptor type II phosphorylation of a partner receptor describes TGF-beta serine/threonine kinase receptors, not glucocorticoid receptors.",
+        "Type II receptor phosphorylation of a partner chain describes transmembrane TGF-β serine/threonine kinase heterodimers, not cytosolic steroid hormone receptors.",
         "Hormone binding causes a conformational change that releases HSP90 from the hinge region, unmasking the nuclear localization signal (NLS) so the hormone-receptor complex enters the nucleus.",
-        "Intracellular nuclear receptors regulate gene transcription directly on DNA response elements rather than activating membrane adenylate cyclase.",
-        "G-protein dissociation and ER calcium release belong to GPCR/G\u03b1q signaling rather than cytosolic steroid nuclear receptors."
+        "Adenylate cyclase activation and cAMP synthesis occur at the plasma membrane via Gαs-coupled GPCRs; a seven-pass transmembrane receptor with Gαs/AC would make this choice correct.",
+        "G-protein dissociation and ER calcium release belong to GPCR/Gαq signaling rather than cytosolic steroid nuclear receptors."
       ],
       "visual_clues": [
-        "Masked dark-blue protein sits attached to the cytosolic GR beside the hinge region and disappears once hormone G enters and GR dimerizes on GRE."
+        "In the unliganded cytosolic state, HSP90 caps the receptor near its hinge region and dissociates once glucocorticoid (G) binds, enabling GR dimerization on nuclear GREs."
       ],
       "visual_target": "In this intracellular nuclear receptor model, what happens immediately after the yellow hormone (G) binds the receptor's steroid-binding domain?",
       "joint_panels": false,
@@ -1906,7 +1990,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Intracellular Nuclear Receptors",
-      "condition_overview": "Unbound intracellular receptors (GR, ER, PR, AR) are held inactive by heat shock proteins (HSPs) covering the hinge NLS; ligand binding releases HSPs for nuclear translocation."
+      "condition_overview": "Receptor family pearl: Estrogen (ER), progesterone (PR), and androgen (AR) receptors share this same intracellular HSP-release → nuclear dimerization → DNA response-element mechanism."
     },
     {
       "question_id": "q-e3-era-y537s-serm-resistance",
@@ -1922,25 +2006,25 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "Gain-of-function ER-alpha Y537S SERM resistance",
-      "stem": "Comparing the left (wild-type ER\u03b1) and right (ER\u03b1 Y537S mutant) panels, why does SERM treatment fail to halt IRS1 transcription and cell proliferation in the right panel?",
+      "stem": "Comparing the left and right panels of this nuclear-receptor diagram, why does SERM treatment fail to halt IRS1 transcription and cell proliferation in the right panel?",
       "options": [
-        "SERMs prevent ER\u03b1 dimerization in wild-type cells but not in mutants",
+        "SERMs prevent ERα dimerization in wild-type cells but not in mutants",
         "Progestins convert SERMs into active estrogen agonists in mutant cells",
-        "ER\u03b1 Y537S is constitutively active with reduced SERM binding affinity",
-        "ER\u03b1 Y537S is misfolded in the ER and cannot reach the plasma membrane"
+        "ERα Y537S is constitutively active with reduced SERM binding affinity",
+        "ERα Y537S is misfolded in the ER and cannot reach the plasma membrane"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. In the left panel, SERM competitively blocks E2 and allows ER\u03b1 dimerization on ERE while blocking co-activator recruitment (flat red bar). Step 2. In the right panel, the glowing ER\u03b1 Y537S gain-of-function mutant is constitutively active and has reduced affinity for SERM binding, driving persistent CoReg recruitment and cell proliferation despite endocrine therapy (E3 p.18).",
+      "explanation": "Step 1. In the left panel, SERM competitively blocks E2 and allows ERα dimerization on ERE while blocking co-activator recruitment (flat red bar). Step 2. In the right panel, the glowing ERα Y537S gain-of-function mutant is constitutively active and has reduced affinity for SERM binding, driving persistent CoReg recruitment and cell proliferation despite endocrine therapy.",
       "choice_rationales": [
-        "Per E3 p.18, SERM-bound wild-type ER\u03b1 CAN still dimerize and bind chromatin (shown at bottom left)\u2014SERMs instead block co-activator recruitment.",
+        "Per E3 p.18, SERM-bound wild-type ERα CAN still dimerize and bind chromatin (shown at bottom left)—SERMs instead block co-activator recruitment.",
         "Progestins bind progesterone receptors (PR) and do not enzymatically convert SERMs into estrogen agonists.",
-        "ER\u03b1 Y537S is a gain-of-function mutation that is constitutively active and exhibits reduced SERM affinity, rendering cells resistant to SERM endocrine therapy.",
-        "Misfolding and impaired plasma membrane trafficking describe loss-of-function seven-pass GPCR mutations (such as FSHR/LHCGR on E3 p.17), not nuclear ER\u03b1 Y537S."
+        "ERα Y537S is a gain-of-function mutation that is constitutively active and exhibits reduced SERM affinity, rendering cells resistant to SERM endocrine therapy.",
+        "Misfolding and impaired plasma membrane trafficking describe loss-of-function seven-pass GPCR mutations (such as FSHR/LHCGR on E3 p.17), not nuclear ERα Y537S."
       ],
       "visual_clues": [
-        "Left panel shows SERM blocking E2 and halting ERE activation; right panel shows glowing ER\u03b1 Y537S driving ERE/PRE transcription and proliferation."
+        "Left panel shows SERM blocking E2 and halting ERE activation; right panel shows glowing ERα Y537S driving ERE/PRE transcription and proliferation."
       ],
-      "visual_target": "Comparing the left (wild-type ER\u03b1) and right (ER\u03b1 Y537S mutant) panels, why does SERM treatment fail to halt IRS1 transcription and cell proliferation in the right panel?",
+      "visual_target": "Comparing the left and right panels of this nuclear-receptor diagram, why does SERM treatment fail to halt IRS1 transcription and cell proliferation in the right panel?",
       "joint_panels": false,
       "image": "assets/display/831496b9a46f7d8db99706882137d5c1dde7c5a206137e58bbe11c9dc167d37e.webp",
       "zoom_image": "assets/zoom/831496b9a46f7d8db99706882137d5c1dde7c5a206137e58bbe11c9dc167d37e.webp",
@@ -1961,8 +2045,8 @@
       "accepted_synonyms": [],
       "review_status": "USABLE",
       "case_context": null,
-      "condition_name": "Endocrine Therapy Resistance (ER\u03b1 Y537S)",
-      "condition_overview": "Wild-type ER\u03b1 bound to SERMs dimerizes on chromatin but fails to recruit co-activators; the gain-of-function ER\u03b1 Y537S mutant is constitutively active with reduced SERM affinity."
+      "condition_name": "Endocrine Therapy Resistance (ERα Y537S)",
+      "condition_overview": "Therapeutic pearl: Because constitutively active ERα Y537S resists competitive SERMs, selective estrogen receptor degraders (SERDs) are used as an alternative strategy to eliminate the mutant receptor."
     },
     {
       "question_id": "q-e2-peptide-vs-steroid-table",
@@ -2139,7 +2223,7 @@
       "study_skill": "mechanism",
       "question_type": "Two-Statement Evaluation",
       "tested_concept": "Loss-of-function GPCR trafficking vs SERM mechanism",
-      "stem": "Evaluate the following two statements regarding receptor signaling dysregulation:\nStatement 1: Seven-pass transmembrane GPCRs such as FSHR and LHCGR can lose function when mutations impair protein folding and plasma membrane trafficking.\nStatement 2: In wild-type ER-alpha cells, SERMs block estrogen signaling by preventing ER-alpha from dimerizing or binding to chromatin.",
+      "stem": "Evaluate the following two statements regarding receptor signaling dysregulation:\nStatement 1: Seven-pass transmembrane GPCRs such as FSHR and LHCGR can lose function when mutations impair protein folding and plasma membrane trafficking.\nStatement 2: In wild-type ERα cells, SERMs block estrogen signaling by preventing ERα from dimerizing or binding to chromatin.",
       "options": [
         "Statement 1 is true, and Statement 2 is false",
         "Statement 1 is false, and Statement 2 is true",
@@ -2147,11 +2231,11 @@
         "Both Statement 1 and Statement 2 are false"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. Seven-pass transmembrane GPCRs (FSHR and LHCGR) require accurate protein folding and trafficking to orient properly in the plasma membrane, so misfolding mutations cause loss-of-function disease. Step 2. In wild-type ER-alpha cells, SERM-bound ER-alpha can still dimerize and bind chromatin, but SERMs block recruitment of the co-activators required for transcription.",
+      "explanation": "Step 1. Seven-pass transmembrane GPCRs (FSHR and LHCGR) require accurate protein folding and trafficking to orient properly in the plasma membrane, so misfolding mutations cause loss-of-function disease. Step 2. In wild-type ERα cells, SERM-bound ERα can still dimerize and bind chromatin, but SERMs block recruitment of the co-activators required for transcription.",
       "choice_rationales": [
-        "Statement 1 is true (misfolding/trafficking defects cause GPCR loss-of-function), while Statement 2 is false because SERM-bound WT ER-alpha still dimerizes and binds chromatin while blocking co-activators.",
+        "Statement 1 is true (misfolding/trafficking defects cause GPCR loss-of-function), while Statement 2 is false because SERM-bound WT ERα still dimerizes and binds chromatin while blocking co-activators.",
         "Statement 1 is directly confirmed by E3 p.17, whereas Statement 2 contradicts E3 p.18 mechanism of SERM inhibition.",
-        "Statement 2 is false: SERMs do not prevent ER-alpha dimerization or chromatin binding; they block co-activator recruitment.",
+        "Statement 2 is false: SERMs do not prevent ERα dimerization or chromatin binding; they block co-activator recruitment.",
         "Statement 1 is true because accurate folding and trafficking of 7-TM hydrophobic alpha-helices are required for GPCR membrane localization."
       ],
       "visual_clues": [],
@@ -2173,7 +2257,7 @@
       "review_status": "USABLE",
       "case_context": null,
       "condition_name": "Receptor Dysregulation",
-      "condition_overview": "GPCR loss-of-function often reflects misfolding/trafficking defects (FSHR/LHCGR), whereas WT ER-alpha bound to SERMs still dimerizes on chromatin but fails to recruit co-activators."
+      "condition_overview": "GPCR loss-of-function often reflects misfolding/trafficking defects (FSHR/LHCGR), whereas WT ERα bound to SERMs still dimerizes on chromatin but fails to recruit co-activators."
     }
   ],
   "cases": [],

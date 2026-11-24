@@ -99,6 +99,11 @@
     position: sticky;
     top: 1rem;
     max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+  }
+  .quiz-layout > .visual .image-frame {
+    height: min(500px, calc(100vh - 200px));
+    min-height: 280px;
   }
 }
 

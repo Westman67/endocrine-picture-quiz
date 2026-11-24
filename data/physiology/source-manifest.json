@@ -1438,7 +1438,7 @@
       "review_reason": "Individually inspected original and quiz-safe variant.",
       "tested_concept": "G-alpha-q PLC-beta IP3/DAG and Ca2+/PKC convergence",
       "original_asset": "assets/originals/43070ebd58eae5505b455704bbcf3cd4643844d2cb3eb5daadb277dff50e1017.png",
-      "display_asset": "assets/display/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+      "display_asset": "assets/display/ff428bb9a36d93a62b46e15d9734c908d9552359a017fbac071b78b37d495439.webp",
       "source_origin": "lecture",
       "source_collection": "E3 Lecture RLS",
       "source_citation": {
@@ -1453,9 +1453,9 @@
       "rights_status": "Underlying image rights retained by original owners; local study use only.",
       "variants": [
         {
-          "variant_id": "v-a9484534f4ce23a25c55",
-          "asset": "assets/display/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
-          "zoom_asset": "assets/zoom/a9484534f4ce23a25c55ec0abac5eae63ac7198916ef7fe40816010554f61cfa.webp",
+          "variant_id": "v-ff428bb9a36d93a62b46",
+          "asset": "assets/display/ff428bb9a36d93a62b46e15d9734c908d9552359a017fbac071b78b37d495439.webp",
+          "zoom_asset": "assets/zoom/ff428bb9a36d93a62b46e15d9734c908d9552359a017fbac071b78b37d495439.webp",
           "transform": {
             "type": "opaque_mask",
             "coordinate_basis": "immutable teaching original",
@@ -1467,7 +1467,7 @@
               2461,
               1343
             ],
-            "reason": "Mask PLC-beta and PKC labels while preserving G-alpha-q, PIP2 cleavage into IP3 and DAG, ER Ca2+ release, and convergence."
+            "reason": "Mask PLC\u03b2 and PKC labels tightly above the Ca\u00b2\u207a binding site while preserving G\u03b1q, PIP\u2082 cleavage, and ER Ca\u00b2\u207a release."
           }
         }
       ]
