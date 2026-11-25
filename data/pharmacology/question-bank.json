@@ -1,8 +1,202 @@
 {
   "schema_version": 2,
-  "title": "Endocrine \u00b7 Pharmacology Quiz",
+  "title": "Endocrine · Pharmacology Quiz",
   "section": "pharmacology",
-  "questions": [],
+  "release_status": "ready",
+  "questions": [
+    {
+      "question_id": "q-ex10-biotin-immunoassay-interference",
+      "source_group_id": "g-b8ae52e5aaf975ec04e7",
+      "collection": "EX.10",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Lab Assay Interference",
+      "tested_concept": "High-dose biotin (vitamin B7) interference with streptavidin-biotin thyroid assays",
+      "stem": "A clinically euthyroid 35-year-old woman taking an over-the-counter high-dose hair-and-nail supplement has routine labs showing markedly suppressed TSH and markedly elevated free T₄, mimicking Graves disease. Her heart rate, weight, and thyroid exam are completely normal. Which supplement and mechanism best explain these discordant labs?",
+      "options": [
+        "High-dose biotin interfering with streptavidin-biotin immunoassays (false-low TSH, false-high free T₄)",
+        "Dietary seaweed iodine triggering the Wolff-Chaikoff effect (false-high TSH, false-low free T₄)",
+        "Over-the-counter calcium carbonate blocking levothyroxine absorption in the jejunum",
+        "St. John's wort inducing hepatic CYP3A4 clearance of endogenous pituitary TSH"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A clinically euthyroid patient with severe apparent biochemical hyperthyroidism (low TSH + high free T₄) should immediately prompt a medication/supplement history for assay interference. Step 2. High-dose biotin (vitamin B₇) competes with biotinylated reagents in streptavidin-biotin immunoassays, causing false-low results on sandwich assays (like TSH) and false-high results on competitive assays (like free T₄/T₃).",
+      "choice_rationales": [
+        "Excess biotin disrupts streptavidin-biotin lab platforms, producing a classic 'pseudo-Graves' pattern (false-low TSH, false-high free T₄) that resolves after holding biotin for 48–72 hours.",
+        "Wolff-Chaikoff from excess iodine causes true hypothyroidism (high TSH, low T₄), not a false-low TSH / false-high T₄ pattern.",
+        "Calcium carbonate impairs oral levothyroxine gut absorption in treated hypothyroid patients, raising TSH rather than mimicking Graves disease.",
+        "St. John's wort induces hepatic cytochrome P450 enzymes for steroid/drug metabolism rather than falsely altering TSH/free T₄ immunoassays."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Biotin Immunoassay Interference",
+      "condition_overview": "Always take a complete supplement history before treating unexpected endocrine lab abnormalities; pausing high-dose biotin for 2–3 days and retesting prevents misdiagnosis and unnecessary antithyroid drugs."
+    },
+    {
+      "question_id": "q-ex10-amiodarone-lithium-thyroid",
+      "source_group_id": "g-094c58e10860e400b794",
+      "collection": "EX.10",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "question_type": "Drug-Induced Endocrinopathy",
+      "tested_concept": "Amiodarone and lithium mechanisms of thyroid and renal endocrine disruption",
+      "stem": "A 64-year-old man started on amiodarone for atrial fibrillation develops thyroid dysfunction, while a 41-year-old woman on chronic lithium develops goiter and hypothyroidism. Which mechanistic pairing accurately describes how lithium and amiodarone disrupt thyroid physiology?",
+      "options": [
+        "Lithium directly stimulates TSH receptors causing Graves disease; amiodarone selectively destroys parathyroid chief cells",
+        "Lithium inhibits thyroid hormone synthesis/release (iodine uptake & thyroglobulin processing); amiodarone causes iodine-induced dysfunction and blocks 5'-deiodinase",
+        "Lithium blocks hepatic TBG synthesis causing low total T₄; amiodarone triggers biotin-like immunoassay interference",
+        "Lithium stimulates renal aquaporin-2 insertion causing SIADH; amiodarone accelerates peripheral T₄-to-T₃ conversion"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Lithium concentrates in the thyroid gland and directly inhibits iodine uptake, thyroglobulin processing, and thyroid hormone release (causing hypothyroidism/goiter, alongside nephrogenic DI in the kidney). Step 2. Amiodarone is ~37% iodine by weight and inhibits 5'-deiodinase; it can cause hypothyroidism (Wolff-Chaikoff) or hyperthyroidism via Type 1 (Jod-Basedow iodine excess) or Type 2 (direct destructive thyroiditis).",
+      "choice_rationales": [
+        "Lithium causes hypothyroidism (not Graves) and nephrogenic DI, and amiodarone targets the thyroid rather than parathyroid chief cells.",
+        "Lithium directly inhibits thyroid hormone synthesis/release, whereas iodine-rich amiodarone disrupts thyroid function via Wolff-Chaikoff, Jod-Basedow, destructive thyroiditis, and 5'-deiodinase inhibition.",
+        "Neither drug acts primarily through TBG depletion or streptavidin-biotin assay interference.",
+        "Lithium causes nephrogenic DI (AQP2 resistance, not SIADH), and amiodarone inhibits (not accelerates) peripheral T₄-to-T₃ conversion."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Lithium & Amiodarone Endocrine Effects",
+      "condition_overview": "Distinguishing drug-induced thyroid disease from primary thyroid disease relies on timing after drug initiation, dose-response relationship, and reversibility on drug modification."
+    },
+    {
+      "question_id": "q-ex10-steroids-hpa-megestrol",
+      "source_group_id": "g-facba3ea239a327975f8",
+      "collection": "EX.10",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Feedback Loop Disruption",
+      "tested_concept": "Exogenous glucocorticoid (including inhaled & megestrol) HPA axis suppression",
+      "stem": "A 58-year-old man with severe COPD using high-dose inhaled fluticasone plus oral megestrol acetate for appetite stimulation develops fatigue, hypotension, and hyponatremia after abruptly stopping both agents. Morning cortisol and ACTH are both markedly low. What mechanism explains this presentation?",
+      "options": [
+        "Megestrol acetate blocked peripheral glucocorticoid receptors, triggering compensatory ACTH elevation and hyperpigmentation",
+        "Inhaled corticosteroids directly destroyed the adrenal zona glomerulosa, causing primary Addison disease with high ACTH",
+        "Exogenous glucocorticoid activity (even inhaled steroids and megestrol) suppressed hypothalamic-pituitary-adrenal negative feedback, causing secondary adrenal insufficiency",
+        "Abrupt cessation triggered acute pituitary apoplexy with cavernous sinus ophthalmoplegia"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Systemic absorption of high-dose inhaled glucocorticoids—as well as progestins with intrinsic glucocorticoid activity like megestrol acetate—exerts chronic negative feedback on hypothalamic CRH and pituitary ACTH. Step 2. Prolonged ACTH suppression causes adrenal fasciculata atrophy, so abrupt withdrawal precipitates iatrogenic secondary adrenal insufficiency (low cortisol + low ACTH), requiring gradual tapering.",
+      "choice_rationales": [
+        "Megestrol acts as a glucocorticoid agonist (suppressing ACTH), not an antagonist raising ACTH.",
+        "Primary Addison disease presents with elevated ACTH and aldosterone loss (hyperkalemia), whereas exogenous steroid suppression produces low ACTH.",
+        "Both high-dose inhaled corticosteroids and megestrol acetate suppress CRH/ACTH via negative feedback, so sudden cessation unmasks secondary adrenal insufficiency (low cortisol, low ACTH).",
+        "Pituitary apoplexy causes sudden thunderclap headache and diplopia from sellar hemorrhage, not quiet post-withdrawal HPA suppression."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Iatrogenic HPA Axis Suppression",
+      "condition_overview": "Remember that non-oral steroids (inhaled, intra-articular, topical) and megestrol acetate can all suppress the HPA axis; abrupt withdrawal without a taper risks adrenal crisis."
+    },
+    {
+      "question_id": "q-ex10-estrogen-tbg-and-checkpoint",
+      "source_group_id": "g-1449a41f2e422b3a3a05",
+      "collection": "EX.10",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Estrogen-induced TBG elevation vs immune checkpoint inhibitor endocrinopathies",
+      "stem": "Evaluate the following two statements regarding drug effects on endocrine testing and glands:\n\nStatement 1: Oral estrogen-containing contraceptives increase hepatic thyroxine-binding globulin (TBG), raising total serum T₄ while free T₄ and TSH remain normal in a euthyroid patient.\nStatement 2: Immune checkpoint inhibitors (such as CTLA-4 and PD-1 blockers) can trigger autoimmune endocrinopathies including hypophysitis, destructive thyroiditis, and autoimmune diabetes.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Oral estrogens stimulate hepatic synthesis of binding globulins (TBG, CBG, SHBG), increasing total bound hormone levels without altering biologically active free T₄ or TSH in a patient with an intact thyroid axis. Step 2. Immune checkpoint inhibitors unleash T-cell autoimmunity against endocrine organs, classically causing lymphocytic hypophysitis (especially CTLA-4), thyroiditis, and immune-mediated Type 1 diabetes.",
+      "choice_rationales": [
+        "Both statements accurately describe estrogen-driven TBG elevation (high total T₄, normal free T₄/TSH) and immune checkpoint inhibitor-induced autoimmune endocrinopathies.",
+        "Neither statement is false; both are key clinical traps emphasized in EX.10.",
+        "Statement 2 is also true because checkpoint inhibitors frequently cause autoimmune thyroiditis, hypophysitis, and adrenalitis/diabetes.",
+        "Statement 1 is also true because measuring free T₄ and TSH avoids mistaking estrogen-elevated total T₄ for hyperthyroidism."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Transport Protein Interference & Checkpoint Endocrinopathies",
+      "condition_overview": "Because women taking oral estrogens or during pregnancy have higher TBG, patients with preexisting hypothyroidism who cannot up-regulate endogenous T₄ often require an upward adjustment of their levothyroxine dose."
+    }
+  ],
   "cases": [],
   "retired_questions": []
 }

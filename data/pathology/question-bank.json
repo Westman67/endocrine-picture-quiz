@@ -1518,6 +1518,718 @@
       "case_context": null,
       "condition_name": "Water Deprivation & Desmopressin Test",
       "condition_overview": "Diabetes insipidus is characterized by polyuria (>3 L/day), dilute urine (<200 mOsm/kg), and hypernatremia (>145 mEq/L) if thirst or water access is impaired. In pregnancy, placental vasopressinase causes gestational DI that responds to vasopressinase-resistant desmopressin."
+    },
+    {
+      "question_id": "q-ex5-nephron-water-diluting-adh",
+      "source_id": "s-d38d8a4daae55946ae80",
+      "source_group_id": "g-d38d8a4daae55946ae80",
+      "variant_id": "v-8f1104d2c64ddc573bab",
+      "collection": "EX.5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Renal Physiology Diagram",
+      "tested_concept": "Nephron diluting segment vs ADH-sensitive collecting duct water reabsorption",
+      "stem": "In this nephron osmolality map, tubular fluid drops to 100 mOsm/kg in the thick ascending limb/distal tubule ('Diluting segment') before entering Segment X (collecting duct). In the complete absence of ADH (central AVP deficiency), how does tubular fluid osmolality change along Segment X?",
+      "options": [
+        "Equilibrates to 300 mOsm/kg in the distal tubule because loop NaCl pumping requires ADH",
+        "Concentrates to >600 mOsm/kg because the medullary gradient passively pulls water even without ADH",
+        "Remains markedly dilute (~50–100 mOsm/kg) because collecting duct walls stay water-impermeable without AQP2",
+        "Drops to 0 mOsm/kg because proximal convoluted tubule water reabsorption ceases without ADH"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Active NaCl reabsorption in the water-impermeable thick ascending limb generates both the hypertonic medullary interstitium and dilute luminal fluid (~100 mOsm/kg). Step 2. Segment X (collecting duct) is ADH-sensitive: without ADH binding V₂ receptors to insert aquaporin-2 channels, water cannot follow the medullary gradient, so urine exits markedly dilute (~50–100 mOsm/kg) in massive polyuria.",
+      "choice_rationales": [
+        "NaCl pumping in the thick ascending limb does not require ADH, and diluting segment fluid stays ~100 mOsm/kg rather than 300 mOsm/kg.",
+        "The medullary gradient cannot pull water out of an impermeable collecting duct unless ADH inserts apical aquaporin-2 channels.",
+        "Without ADH-driven AQP2 insertion in the collecting duct (Segment X), water stays trapped in the lumen and urine exits severely dilute (~50 mOsm/kg).",
+        "Bulk isosmotic water reabsorption in the proximal tubule (left) is ADH-independent and continues normally in AVP deficiency."
+      ],
+      "visual_clues": [
+        "Left: isosmotic bulk water and NaCl reabsorption in the proximal tubule (300 mOsm/kg)",
+        "Middle: diluting segment actively pumping NaCl out to lower luminal osmolality to 100 mOsm/kg",
+        "Right (Segment X): collecting duct showing dashed hormone-dependent water arrows and final 50 mOsm/kg dilute output"
+      ],
+      "visual_target": "Nephron diluting segment and ADH-sensitive collecting duct",
+      "joint_panels": [],
+      "image": "assets/display/ex5-water-nephron-90717e9ecc696014.webp",
+      "zoom_image": "assets/zoom/ex5-water-nephron-90717e9ecc696014.webp",
+      "original_image": "assets/originals/da18b404a3f2a517.png",
+      "original_filename": "Water regulation in the nephron.png",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary Hormones, Water Balance, AVP Deficiency & SIADH (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Renal Water Handling, AVP Deficiency & SIADH",
+      "condition_overview": "Conversely, in SIADH, inappropriate continuous ADH secretion makes Segment X maximally permeable to water, concentrating the urine (>300 mOsm/kg) while retaining free water and producing euvolemic hyponatremia."
+    },
+    {
+      "question_id": "q-ex6-raiu-scan-patterns",
+      "source_id": "s-1e06efef30f2f12310e0",
+      "source_group_id": "g-1e06efef30f2f12310e0",
+      "variant_id": "v-cdaa810f45378411e8de",
+      "collection": "EX.6",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Nuclear Medicine Thyroid Scintigraphy",
+      "tested_concept": "RAIU scan patterns: Graves, TMNG, toxic adenoma, and thyroiditis",
+      "stem": "Five radioactive iodine uptake (RAIU) thyroid scans (A–E) are shown. Which pairing accurately matches the diffuse intense uptake in B, patchy focal uptake in C, and markedly decreased uptake in E?",
+      "options": [
+        "B: Hashimoto thyroiditis; C: solitary hot nodule; E: iodine deficiency",
+        "B: toxic adenoma; C: Graves disease; E: toxic multinodular goiter",
+        "B: subacute thyroiditis; C: normal thyroid; E: Graves disease",
+        "B: Graves disease; C: toxic multinodular goiter; E: thyroiditis or exogenous thyroid hormone"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Scan A shows normal symmetric uptake, B shows diffusely dark high uptake across both enlarged lobes, C shows patchy heterogeneous hot and cold nodules, D shows one dominant hot nodule with suppressed background, and E shows near-absent uptake. Step 2. Diffuse high uptake (B) is classic Graves disease, patchy uptake (C) is toxic multinodular goiter, and low/absent uptake (E) indicates destructive thyroiditis or exogenous levothyroxine.",
+      "choice_rationales": [
+        "Iodine deficiency raises (rather than abolishes) RAIU, and solitary hot nodule matches scan D.",
+        "A solitary toxic adenoma corresponds to scan D (one hot focus with suppressed surrounding tissue), not diffuse scan B.",
+        "Subacute thyroiditis releases stored hormone and suppresses RAIU (E), whereas Graves produces high diffuse uptake (B).",
+        "TSI antibodies drive diffuse hyperfunction in Graves (B), autonomous nodules create patchy uptake in TMNG (C), and preformed hormone release or exogenous T₄ suppresses uptake (E)."
+      ],
+      "visual_clues": [
+        "B: diffusely enlarged, intensely dark symmetric thyroid lobes",
+        "C: irregular, patchy multifocal areas of increased and decreased radiotracer uptake",
+        "D: single dark focal nodule with pale suppressed background parenchyma; E: diffusely pale low uptake"
+      ],
+      "visual_target": "Five classic thyroid RAIU scan patterns (A–E)",
+      "joint_panels": [],
+      "image": "assets/display/ex6-raiu-patterns-939a6ec292ee1f45.webp",
+      "zoom_image": "assets/zoom/ex6-raiu-patterns-939a6ec292ee1f45.webp",
+      "original_image": "assets/originals/312018c99f44923c.png",
+      "original_filename": "RAIU scan patterns.png",
+      "citations": [
+        {
+          "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Radioactive Iodine Uptake (RAIU) Interpretation",
+      "condition_overview": "RAIU separates hyperthyroidism caused by active de novo hormone synthesis (high uptake: Graves, TMNG, toxic adenoma) from thyrotoxicosis caused by follicular destruction (subacute/painless thyroiditis) or factitious hormone intake (low uptake)."
+    },
+    {
+      "question_id": "q-ex6-autonomous-hot-nodule",
+      "source_id": "s-f751f4baddc62e7b18a7",
+      "source_group_id": "g-f751f4baddc62e7b18a7",
+      "variant_id": "v-a1457d5c994d1ba4e71b",
+      "collection": "EX.6",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Nuclear Medicine Thyroid Scintigram",
+      "tested_concept": "Autonomous hyperfunctioning (toxic) thyroid adenoma scan",
+      "stem": "A 58-year-old woman with palpitations, weight loss, suppressed TSH, and a palpable solitary left thyroid nodule undergoes this nuclear thyroid scan. Why is the rest of her thyroid gland barely visible?",
+      "options": [
+        "Autonomous T₃/T₄ from the hot nodule suppresses pituitary TSH, shutting down uptake in normal tissue",
+        "Autoimmune TSI antibodies selectively destroy the contralateral right thyroid lobe",
+        "Papillary thyroid carcinoma typically appears as an intensely hot autonomous nodule",
+        "Recent iodinated CT contrast blocked uptake in the right lobe while sparing the left"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The scan demonstrates intense focal radiotracer accumulation within a solitary autonomous ('hot') thyroid nodule with virtual absence of uptake in the surrounding parenchyma. Step 2. Autonomous T₃/T₄ production suppresses pituitary TSH via negative feedback, leaving the normal TSH-dependent thyroid tissue quiescent while the hot nodule continues trapping iodine.",
+      "choice_rationales": [
+        "Excess T₃/T₄ from an autonomous toxic adenoma suppresses TSH, turning off iodine uptake in the remaining normal gland; hot nodules are almost always benign.",
+        "TSI antibodies in Graves disease stimulate the entire thyroid diffusely rather than suppressing one lobe.",
+        "Thyroid malignancies (like papillary carcinoma) characteristically appear as 'cold' (non-functioning) nodules, not autonomous hot nodules.",
+        "Iodinated contrast causes global (not unilateral) suppression of thyroid iodine uptake via the Wolff-Chaikoff effect."
+      ],
+      "visual_clues": [
+        "Single intensely dark, well-defined focus of radiotracer uptake in the left thyroid lobe",
+        "Near-complete suppression of radiotracer uptake in the contralateral lobe and surrounding parenchyma"
+      ],
+      "visual_target": "Solitary autonomous hyperfunctioning ('hot') thyroid nodule",
+      "joint_panels": [],
+      "image": "assets/display/ex6-hot-nodule-scan-ff4762b19bc1a91e.webp",
+      "zoom_image": "assets/zoom/ex6-hot-nodule-scan-ff4762b19bc1a91e.webp",
+      "original_image": "assets/originals/573d484da893b476.png",
+      "original_filename": "Autonomous hyperfunctioning nodule scan.png",
+      "citations": [
+        {
+          "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Toxic Thyroid Adenoma",
+      "condition_overview": "Because hyperfunctioning ('hot') nodules carry an extremely low risk of malignancy, they generally do not require fine-needle aspiration biopsy; cold nodules with suspicious ultrasound features undergo FNA."
+    },
+    {
+      "question_id": "q-ex6-papillary-thyroid-carcinoma",
+      "source_id": "s-b93accea8ee32b816ac6",
+      "source_group_id": "g-b93accea8ee32b816ac6",
+      "variant_id": "v-ba3dc621ca1c447c6f16",
+      "collection": "EX.6",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Histopathology (H&E)",
+      "tested_concept": "Papillary thyroid carcinoma Orphan Annie eye nuclei, nuclear grooves, and genetics",
+      "stem": "Fine-needle biopsy of a solitary cold thyroid nodule reveals overlapping enlarged nuclei with ground-glass central clearing ('Orphan Annie eyes') and longitudinal nuclear grooves (shown). Which tumor, spread pattern, and genetic drivers match this histology?",
+      "options": [
+        "Follicular thyroid carcinoma; hematogenous spread; RAS mutations and PAX8-PPARγ translocations",
+        "Papillary thyroid carcinoma; lymphatic spread; RET/PTC rearrangements and BRAF mutations",
+        "Medullary thyroid carcinoma; calcitonin-amyloid stroma; germline RET proto-oncogene mutation",
+        "Anaplastic thyroid carcinoma; pleomorphic giant cells; elderly rapid local airway invasion"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Optically clear ('Orphan Annie eye') nuclei, nuclear grooves, and intranuclear pseudoinclusions are pathognomonic cytologic hallmarks of papillary thyroid carcinoma (often accompanied by concentric calcified psammoma bodies). Step 2. Papillary carcinoma is the most common thyroid malignancy, has an excellent prognosis, spreads primarily via lymphatics, and is linked to childhood radiation exposure, RET/PTC rearrangements, and BRAF mutations.",
+      "choice_rationales": [
+        "Follicular carcinoma shows uniform follicles invading the capsule/vessels (not Orphan Annie nuclei) and spreads hematogenously.",
+        "Ground-glass Orphan Annie eye nuclei and nuclear grooves define papillary thyroid carcinoma, which spreads via lymphatics and is driven by RET/PTC or BRAF mutations.",
+        "Medullary carcinoma arises from parafollicular C cells with amyloid-rich stroma and neuroendocrine salt-and-pepper nuclei rather than optically clear grooves.",
+        "Anaplastic carcinoma displays highly pleomorphic, necrotic undifferentiated spindle/giant cells with a dismal prognosis."
+      ],
+      "visual_clues": [
+        "Enlarged, overlapping oval nuclei with empty-appearing ground-glass central clearing ('Orphan Annie eyes')",
+        "Longitudinal nuclear grooves and intranuclear cytoplasmic inclusions"
+      ],
+      "visual_target": "Papillary thyroid carcinoma nuclear features",
+      "joint_panels": [],
+      "image": "assets/display/ex6-papillary-thyroid-ca-d38349f48931059b.webp",
+      "zoom_image": "assets/zoom/ex6-papillary-thyroid-ca-d38349f48931059b.webp",
+      "original_image": "assets/originals/5ccc87dec8c409f4.png",
+      "original_filename": "Thyroid carcinoma histology.png",
+      "citations": [
+        {
+          "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Papillary Thyroid Carcinoma",
+      "condition_overview": "Because papillary carcinoma is diagnosed by its nuclear cytology (Orphan Annie eyes, grooves, pseudoinclusions), fine-needle aspiration (FNA) readily diagnoses it—whereas follicular carcinoma requires surgical excision to demonstrate capsular or vascular invasion."
+    },
+    {
+      "question_id": "q-ex6-thyroid-synthesis-wolff-chaikoff",
+      "source_id": "s-b05aa58f0dc80cfd4c4c",
+      "source_group_id": "g-b05aa58f0dc80cfd4c4c",
+      "variant_id": "v-b75f8093cda54103ca7e",
+      "collection": "EX.6",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Cellular Synthesis Diagram",
+      "tested_concept": "Thyroid hormone synthesis steps (NIS, pendrin, TPO) and Wolff-Chaikoff effect",
+      "stem": "In this thyroid follicular cell diagram, iodide enters basolaterally via NIS (step 2), exits apically via pendrin, and is oxidized/coupled by TPO (steps 3–4). What protective autoregulatory response occurs when a normal thyroid is suddenly exposed to excess exogenous iodine (e.g., iodinated contrast)?",
+      "options": [
+        "Peripheral 5'-deiodinase activation: excess iodine accelerates T₄-to-T₃ conversion in liver",
+        "Jod-Basedow effect: acute excess iodine permanently destroys NIS, causing irreversible myxedema",
+        "Wolff-Chaikoff effect: acute excess iodine temporarily inhibits TPO, lowering T₃/T₄ synthesis",
+        "Pendrin up-regulation: excess iodine stimulates immediate colloid proteolysis and thyroid storm"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Thyroid peroxidase (TPO) at the apical colloid border catalyzes iodide oxidation, organification onto thyroglobulin tyrosines (MIT/DIT), and coupling into T₃ and T₄. Step 2. Sudden exposure to large iodine loads triggers the protective Wolff-Chaikoff effect—temporary inhibition of TPO activity and T₃/T₄ production to prevent iodine-induced thyrotoxicosis.",
+      "choice_rationales": [
+        "Peripheral conversion of T₄ to active T₃ is inhibited by PTU, glucocorticoids, and β-blockers—not accelerated by acute excess iodine.",
+        "Jod-Basedow is iodine-induced hyperthyroidism (occurring in autonomous/iodine-deficient glands), not permanent NIS destruction.",
+        "The Wolff-Chaikoff effect transiently shuts down TPO organification in response to acute excess iodine, protecting a normal gland from hormone overproduction.",
+        "Excess iodine inhibits rather than accelerates colloid proteolysis and hormone release."
+      ],
+      "visual_clues": [
+        "Basolateral Na⁺/I⁻ symporter (NIS) trapping iodide into the follicular cell",
+        "Apical pendrin transporter and TPO catalyzing MIT/DIT organification (3) and coupling (4) on thyroglobulin",
+        "Endocytosis and lysosomal proteolysis (5) releasing T₃ and T₄ into blood"
+      ],
+      "visual_target": "Thyroid follicular hormone synthesis pathway",
+      "joint_panels": [],
+      "image": "assets/display/ex6-thyroid-synthesis-a2f40922b4878bf9.webp",
+      "zoom_image": "assets/zoom/ex6-thyroid-synthesis-a2f40922b4878bf9.webp",
+      "original_image": "assets/originals/30fcf41c8c26fe9e.png",
+      "original_filename": "Thyroid hormone synthesis steps.png",
+      "citations": [
+        {
+          "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Thyroid Hormone Synthesis & Iodine Autoregulation",
+      "condition_overview": "Thionamides (methimazole and propylthiouracil) inhibit TPO (steps 3–4); propylthiouracil (PTU) additionally inhibits peripheral 5'-deiodinase conversion of T₄ to active T₃ (alongside glucocorticoids and propranolol)."
+    },
+    {
+      "question_id": "q-ex6-thyroiditis-antibodies-except",
+      "source_group_id": "g-b408046566135c1142a8",
+      "collection": "EX.6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Concept Discrimination (EXCEPT)",
+      "tested_concept": "Graves, Hashimoto, subacute De Quervain, and Riedel thyroiditis comparison",
+      "stem": "All of the following pairings of thyroid disorders with their classic clinical, histologic, or antibody features are accurate EXCEPT:",
+      "options": [
+        "Graves disease — thyroid-stimulating immunoglobulins (TSI) activating TSH receptors with diffuse goiter",
+        "Hashimoto thyroiditis — anti-TPO/anti-thyroglobulin antibodies, lymphoid follicles, and Hürthle cells",
+        "Subacute (de Quervain) thyroiditis — tender painful thyroid after viral illness with granulomatous inflammation",
+        "Riedel thyroiditis — painful fluctuating hyperthyroidism with markedly elevated radioactive iodine uptake"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Graves (TSI), Hashimoto (anti-TPO, Hürthle cells, germinal centers), and subacute de Quervain thyroiditis (post-viral painful granulomatous inflammation) are all accurately paired. Step 2. Riedel thyroiditis presents as a painless, rock-hard ('woody') fibrosing goiter mimicking anaplastic carcinoma—not painful hyperthyroidism with high RAIU.",
+      "choice_rationales": [
+        "This pairing is accurate: Graves is mediated by stimulatory anti-TSH-receptor antibodies (TSI).",
+        "This pairing is accurate: Hashimoto features anti-TPO antibodies, dense lymphocytic follicles, and eosinophilic Hürthle cell metaplasia.",
+        "This pairing is accurate: de Quervain thyroiditis follows a viral URI with tender jaw/neck pain, elevated ESR, and multinucleated giant cells.",
+        "This pairing is incorrect: Riedel thyroiditis causes painless stony-hard fibrosis (IgG4-related) that compresses the trachea and causes hypothyroidism, not painful high-RAIU hyperthyroidism."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Thyroiditis & Autoimmune Thyroid Disease",
+      "condition_overview": "Subacute de Quervain thyroiditis is typically self-limited and biphasic (transient destructive hyperthyroidism with low RAIU → transient hypothyroidism → euthyroidism)."
+    },
+    {
+      "question_id": "q-ex8-cah-enzyme-deficiencies",
+      "source_id": "s-ada9b00d10fb6fc33884",
+      "source_group_id": "g-ada9b00d10fb6fc33884",
+      "variant_id": "v-6e3b03c5c6b8b85afd11",
+      "collection": "EX.8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "question_type": "Steroidogenesis Pathway Diagram",
+      "tested_concept": "Congenital adrenal hyperplasia: 21-OH vs 11β-OH vs 17α-OH deficiency",
+      "stem": "Using the adrenal steroidogenesis pathway shown, a newborn 46,XX infant presents with clitoromegaly, labioscrotal fusion, HYPERTENSION, and hypokalemia. Elevated 11-deoxycorticosterone (a weak mineralocorticoid) and elevated 11-deoxycortisol confirm which enzyme deficiency?",
+      "options": [
+        "11β-hydroxylase deficiency (virilization plus DOC-driven hypertension and hypokalemia)",
+        "21-hydroxylase deficiency (virilization plus salt-wasting hypotension and hyperkalemia)",
+        "17α-hydroxylase deficiency (hypertension and hypokalemia with absent virilization/undervirilization)",
+        "Cholesterol desmolase deficiency (loss of all cortical steroids with severe salt-wasting shock)"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Blocking 11β-hydroxylase prevents conversion of 11-deoxycorticosterone (DOC) to corticosterone and 11-deoxycortisol to cortisol, so ACTH rises and shunts precursors into zona reticularis androgens (virilizing a 46,XX infant). Step 2. Unlike 21-hydroxylase deficiency (which causes salt-wasting hypotension and hyperkalemia), accumulating 11-deoxycorticosterone acts as a mineralocorticoid, producing hypertension and hypokalemia.",
+      "choice_rationales": [
+        "11β-hydroxylase deficiency uniquely combines androgen-driven virilization (from shunted precursors) with hypertension and hypokalemia (from accumulated mineralocorticoid 11-deoxycorticosterone).",
+        "21-hydroxylase deficiency (the most common CAH) elevates 17-OH progesterone and virilizes females, but causes salt-wasting hypotension and hyperkalemia rather than hypertension.",
+        "17α-hydroxylase deficiency causes hypertension and hypokalemia, but blocks sex-steroid synthesis—so females lack virilization/secondary sex traits and 46,XY infants are undervirilized.",
+        "Cholesterol desmolase (StAR/CYP11A1) deficiency halts all three zones at the top of the pathway, causing life-threatening salt wasting without virilization or hypertension."
+      ],
+      "visual_clues": [
+        "Left (Zona glomerulosa): 21-OH forming 11-deoxycorticosterone, followed by 11β-OH",
+        "Middle (Zona fasciculata): 21-OH forming 11-deoxycortisol, followed by 11β-OH to cortisol",
+        "Right (Zona reticularis): 17α-OH and 17,20-lyase shunting precursors into DHEA, androstenedione, and testosterone"
+      ],
+      "visual_target": "Adrenal cortical steroidogenesis enzyme steps",
+      "joint_panels": [],
+      "image": "assets/display/ex8-cah-pathway-ca309bfc13fa9f3b.webp",
+      "zoom_image": "assets/zoom/ex8-cah-pathway-ca309bfc13fa9f3b.webp",
+      "original_image": "assets/originals/135dfc4071e2ce2e.png",
+      "original_filename": "CAH pathway and enzyme deficiency table.png",
+      "citations": [
+        {
+          "document": "EX.8 Physiology, Pathology & Pharmacology of Adrenal Cortex and Medullary Disorders (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Congenital Adrenal Hyperplasia (CAH)",
+      "condition_overview": "Quick board rule for CAH: 21-OH = hypotension + hyperkalemia + ↑17-OHP + virilization; 11β-OH = hypertension + hypokalemia + virilization (↑DOC); 17α-OH = hypertension + hypokalemia + NO virilization (undervirilized XY, primary amenorrhea XX)."
+    },
+    {
+      "question_id": "q-ex8-addison-vs-secondary-ai",
+      "source_group_id": "g-68e08f79f0e609a13b2f",
+      "collection": "EX.8",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Clinical Differential",
+      "tested_concept": "Primary (Addison) vs secondary adrenal insufficiency",
+      "stem": "A 39-year-old woman presents with fatigue, orthostatic hypotension, weight loss, salt craving, and darkening of her palmar creases and buccal mucosa. Labs show Na⁺ 128 mEq/L, K⁺ 5.8 mEq/L, morning cortisol 2 µg/dL, and markedly elevated ACTH. Why are hyperpigmentation and hyperkalemia present in primary adrenal insufficiency but absent in secondary (pituitary) adrenal insufficiency?",
+      "options": [
+        "Low ACTH stimulates melanocytes directly, and intact renin-angiotensin-aldosterone causes potassium retention",
+        "High POMC/ACTH generates α-MSH (hyperpigmentation), and destroyed zona glomerulosa loses aldosterone (hyperkalemia)",
+        "High cortisol cross-activates mineralocorticoid receptors while low CRH triggers dermal melanin synthesis",
+        "Secondary adrenal insufficiency destroys the zona glomerulosa first, sparing pituitary ACTH secretion"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. In primary adrenal insufficiency (Addison disease), destruction of all three cortical zones removes cortisol negative feedback—driving high pituitary POMC/ACTH cleavage (co-producing α-MSH, which darkens skin creases and mucosa)—and abolishes aldosterone, causing hyponatremia, volume depletion, and hyperkalemia. Step 2. In secondary adrenal insufficiency, ACTH is low (no α-MSH hyperpigmentation) and the zona glomerulosa remains intact under renin-angiotensin II control (no hyperkalemia).",
+      "choice_rationales": [
+        "Low ACTH does not stimulate melanocytes, and an intact RAAS prevents hyperkalemia in secondary adrenal insufficiency.",
+        "Elevated POMC-derived α-MSH drives hyperpigmentation, and loss of zona glomerulosa aldosterone drives hyperkalemia—both hallmarks of primary (not secondary) adrenal insufficiency.",
+        "Cortisol is low (not high) in Addison disease, and α-MSH (not low CRH) causes hyperpigmentation.",
+        "Secondary adrenal insufficiency originates in the pituitary (low ACTH), leaving the RAAS-regulated zona glomerulosa intact."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.8 Physiology, Pathology & Pharmacology of Adrenal Cortex and Medullary Disorders (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Primary vs. Secondary Adrenal Insufficiency",
+      "condition_overview": "Autoimmune adrenalitis is the most common cause of primary adrenal insufficiency in developed countries (tuberculosis worldwide); treatment requires both glucocorticoid (hydrocortisone) and mineralocorticoid (fludrocortisone) replacement."
+    },
+    {
+      "question_id": "q-ex8-pheochromocytoma-alpha-first",
+      "source_group_id": "g-c1038305680e6c8a3b5f",
+      "collection": "EX.8",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Clinical Management",
+      "tested_concept": "Pheochromocytoma preoperative α-blockade before β-blockade",
+      "stem": "A 42-year-old man with episodic headaches, diaphoresis, palpitations, and severe hypertension (196/114 mmHg) has markedly elevated plasma free metanephrines and a 4 cm right adrenal mass. Why must α-adrenergic blockade (e.g., phenoxybenzamine) be started before β-adrenergic blockade prior to surgery?",
+      "options": [
+        "β-blockers directly accelerate adrenal catecholamine synthesis via up-regulation of tyrosine hydroxylase",
+        "Starting an α-blocker first prevents hypoglycemia by stimulating pancreatic β-cell insulin secretion",
+        "Starting a β-blocker alone blocks β₂-mediated vasodilation, leaving unopposed α₁-vasoconstriction and hypertensive crisis",
+        "α-blockers shrink the adrenal tumor by inhibiting pituitary ACTH secretion"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Pheochromocytomas secrete bursts of epinephrine and norepinephrine acting on α₁ (vasoconstriction) and β₁/β₂ (tachycardia / peripheral vasodilation) receptors. Step 2. Administering a β-blocker first abolishes β₂-mediated vasodilation while leaving α₁-mediated vasoconstriction unopposed, precipitating catastrophic hypertensive crisis—so α-blockade is always established before β-blockade.",
+      "choice_rationales": [
+        "β-blockers do not up-regulate tyrosine hydroxylase; the danger is hemodynamic loss of β₂ vasodilation.",
+        "The mandatory α-before-β rule prevents acute hypertensive crisis, not hypoglycemia.",
+        "Unopposed α₁-adrenergic vasoconstriction occurs if β₂-vasodilation is blocked first, so α-blockade (phenoxybenzamine/doxazosin) must precede β-blockade before adrenalectomy.",
+        "Pheochromocytomas arise from neural crest chromaffin cells in the adrenal medulla and are not ACTH-dependent."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.8 Physiology, Pathology & Pharmacology of Adrenal Cortex and Medullary Disorders (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pheochromocytoma Preoperative Blockade",
+      "condition_overview": "Classic screening uses plasma free metanephrines or 24-hour urinary fractionated metanephrines. Remember to evaluate for familial syndromes (MEN 2A/2B, VHL, NF1) in young or bilateral cases."
+    },
+    {
+      "question_id": "q-ex9-men-syndromes-comparison",
+      "source_group_id": "g-866ba53bad7c704144ae",
+      "collection": "EX.9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Syndrome Genetics Matching",
+      "tested_concept": "MEN 1 (menin) vs MEN 2A vs MEN 2B (RET) tumor triads",
+      "stem": "A 19-year-old man with a tall marfanoid build and multiple benign mucosal neuromas on his lips and tongue is diagnosed with medullary thyroid carcinoma and pheochromocytoma, with normal serum calcium and PTH. Which syndrome and underlying gene mutation explain this presentation?",
+      "options": [
+        "MEN 2A — autosomal dominant RET mutation featuring mucosal neuromas and marfanoid habitus",
+        "MEN 2A — autosomal dominant loss-of-function mutation in the MEN1 (menin) tumor suppressor",
+        "MEN 1 — autosomal dominant gain-of-function mutation in the RET proto-oncogene",
+        "MEN 2B — autosomal dominant gain-of-function mutation in the RET proto-oncogene"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The combination of medullary thyroid carcinoma, pheochromocytoma, mucosal neuromas (present in 100% of patients), and marfanoid habitus—without hyperparathyroidism—defines MEN 2B (1 P + 3 Ms). Step 2. Both MEN 2A and MEN 2B are caused by autosomal dominant gain-of-function mutations in the RET proto-oncogene, whereas MEN 1 (3 Ps: pituitary, parathyroid, pancreas) results from loss of the MEN1 (menin) tumor suppressor.",
+      "choice_rationales": [
+        "Mucosal neuromas and marfanoid habitus distinguish MEN 2B from MEN 2A (which has hyperparathyroidism instead).",
+        "MEN 2A is caused by RET (not MEN1) and includes parathyroid hyperplasia rather than mucosal neuromas.",
+        "MEN 1 is caused by MEN1 (menin) tumor suppressor loss and presents with pituitary, parathyroid, and pancreatic tumors.",
+        "MEN 2B (RET gain-of-function) uniquely adds mucosal neuromas and marfanoid habitus to medullary thyroid carcinoma and pheochromocytoma, while sparing the parathyroids."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.9 Multiple Endocrine Neoplasia Syndromes & Neuroendocrine Tumors (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "MEN 1, MEN 2A, and MEN 2B Syndromes",
+      "condition_overview": "Because RET mutation carriers face an extremely high lifetime risk of aggressive medullary thyroid carcinoma (especially in MEN 2B), genetic testing of family members and prophylactic thyroidectomy in childhood are standard of care."
+    },
+    {
+      "question_id": "q-ex9-mtc-pheo-surgical-order",
+      "source_group_id": "g-e325d665b81e65f6b93c",
+      "collection": "EX.9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Surgical Sequencing",
+      "tested_concept": "Screening and resecting pheochromocytoma before medullary thyroid carcinoma in MEN 2",
+      "stem": "A 26-year-old woman with a confirmed RET mutation (MEN 2A) is scheduled for thyroidectomy for medullary thyroid carcinoma (elevated calcitonin). Preoperative screening detects elevated plasma metanephrines and a 3 cm adrenal pheochromocytoma. What is the mandatory surgical sequence?",
+      "options": [
+        "Perform α-blockade and resect the pheochromocytoma FIRST, then perform thyroidectomy",
+        "Perform thyroidectomy FIRST to prevent calcitonin-induced intraoperative hypocalcemia",
+        "Start propranolol alone and perform simultaneous neck and adrenal surgery immediately",
+        "Observe the pheochromocytoma until post-thyroidectomy radioiodine ablation is complete"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Operating on any patient with an undiagnosed or untreated pheochromocytoma risks massive intraoperative catecholamine release, malignant hypertension, arrhythmias, and death during anesthesia. Step 2. In MEN 2A/2B, pheochromocytoma must always be ruled out before thyroidectomy—and if present, α-blocked and resected FIRST before thyroid surgery.",
+      "choice_rationales": [
+        "Resecting the pheochromocytoma first under α-adrenergic blockade prevents lethal intraoperative catecholamine crisis during subsequent thyroidectomy.",
+        "Calcitonin rarely causes severe hypocalcemia, whereas an untreated pheochromocytoma poses an immediate fatal surgical risk.",
+        "Starting β-blockade (propranolol) without prior α-blockade precipitates unopposed α₁ hypertensive crisis.",
+        "Medullary thyroid carcinoma arises from C cells (which do not trap iodine, so radioiodine is ineffective), and pheochromocytoma must be treated first."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.9 Multiple Endocrine Neoplasia Syndromes & Neuroendocrine Tumors (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "MEN 2 Preoperative Pheochromocytoma Rule",
+      "condition_overview": "Always check plasma/urine metanephrines in any patient with medullary thyroid carcinoma before taking them to the operating room."
+    },
+    {
+      "question_id": "q-ex9-carcinoid-insulinoma-markers",
+      "source_group_id": "g-5bb45c85ec3a752bf6ce",
+      "collection": "EX.9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Carcinoid syndrome (5-HIAA, liver metastases) and C-peptide in insulinoma",
+      "stem": "Evaluate the following two statements regarding neuroendocrine tumors:\n\nStatement 1: Classic carcinoid syndrome (flushing, secretory diarrhea, wheezing, right-sided valvular fibrosis) typically appears only after gastrointestinal carcinoid tumors metastasize to the liver, allowing serotonin to bypass hepatic first-pass inactivation and raising 24-hour urinary 5-HIAA.\nStatement 2: In a patient with fasting hypoglycemia and high serum insulin, an elevated C-peptide confirms endogenous hyperinsulinemia (such as insulinoma) rather than exogenous insulin injection.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The liver normally metabolizes portal serotonin from GI carcinoid tumors via monoamine oxidase; once hepatic metastases release serotonin directly into systemic venous blood, carcinoid syndrome develops (with right-sided tricuspid/pulmonic valve fibrosis, as lungs inactivate serotonin before the left heart) and urinary 5-HIAA rises. Step 2. Endogenous proinsulin cleavage co-secretes equimolar insulin and C-peptide, whereas commercial exogenous insulin contains no C-peptide.",
+      "choice_rationales": [
+        "Both statements accurately describe hepatic-bypass carcinoid syndrome with elevated 5-HIAA and C-peptide differentiation of insulinoma from exogenous insulin.",
+        "Neither statement is false; both are classic neuroendocrine tumor diagnostic rules from EX.9.",
+        "Statement 2 is also true because exogenous insulin suppresses endogenous β-cell secretion, yielding high insulin with low C-peptide.",
+        "Statement 1 is also true because hepatic first-pass metabolism normally prevents GI carcinoid syndrome until liver metastases occur."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.9 Multiple Endocrine Neoplasia Syndromes & Neuroendocrine Tumors (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Carcinoid Syndrome & Insulinoma Diagnostics",
+      "condition_overview": "Additional EX.9 neuroendocrine markers: gastrinoma (Zollinger-Ellison recurrent peptic ulcers), VIPoma (WDHA: watery diarrhea, hypokalemia, achlorhydria), glucagonoma (necrolytic migratory erythema + diabetes), and neuroblastoma (urinary VMA/HVA)."
+    },
+    {
+      "question_id": "q-ex12-insulin-resistance-progression",
+      "source_id": "s-cd704a8933964670d5ae",
+      "source_group_id": "g-cd704a8933964670d5ae",
+      "variant_id": "v-7273e6e40907093084b2",
+      "collection": "EX.12",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Disease Progression Diagram",
+      "tested_concept": "Type 2 DM progression from insulin resistance to β-cell compensation and β-cell failure",
+      "stem": "In this Type 2 diabetes mellitus progression diagram, adipose-derived free fatty acids and inflammation induce peripheral insulin resistance. What happens to pancreatic β-cell insulin output during Stage 2 (prediabetes) versus Stage 3 (overt Type 2 DM)?",
+      "options": [
+        "Stage 2: complete autoimmune β-cell destruction; Stage 3: rebound compensatory hyperinsulinemia",
+        "Stage 2: compensatory hyperinsulinemia (β-cell hypertrophy); Stage 3: declining insulin from β-cell failure",
+        "Stage 2: normal insulin secretion with severe ketoacidosis; Stage 3: hyperinsulinemic hypoglycemia",
+        "Stage 2: absent glucagon secretion; Stage 3: total reversal of peripheral insulin resistance"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Initially, obesity-associated free fatty acids, adipokines, and inflammation impair peripheral insulin signaling, prompting pancreatic β cells to hypertrophy and secrete extra insulin (Stage 2: β-cell compensation / prediabetes) to keep fasting glucose near normal. Step 2. Over years, chronic metabolic stress and lipotoxicity cause progressive β-cell exhaustion and apoptosis (Stage 3: β-cell failure), leading to falling insulin output and overt Type 2 diabetes hyperglycemia.",
+      "choice_rationales": [
+        "Autoimmune T-cell β-cell destruction characterizes Type 1 diabetes rather than obesity-driven insulin resistance.",
+        "Early insulin resistance drives compensatory hyperinsulinemia (Stage 2, prediabetes) before chronic stress leads to β-cell failure and overt hyperglycemia (Stage 3, T2DM).",
+        "Severe ketoacidosis typifies absolute insulin deficiency (Type 1 DM), and Stage 3 T2DM produces hyperglycemia rather than hypoglycemia.",
+        "Type 2 DM features persistent insulin resistance and relative hyperglucagonemia rather than absent glucagon."
+      ],
+      "visual_clues": [
+        "Top: obese adipose tissue releasing adipokines, free fatty acids, and inflammatory signals causing insulin resistance",
+        "Stage 2: enlarged islet showing increased insulin secretion granules",
+        "Stage 3: shrunken depleted islet showing decreased insulin secretion and overt hyperglycemia"
+      ],
+      "visual_target": "β-cell compensation (Stage 2) progressing to β-cell failure (Stage 3)",
+      "joint_panels": [],
+      "image": "assets/display/ex12-insulin-resistance-5021f3158281f061.webp",
+      "zoom_image": "assets/zoom/ex12-insulin-resistance-5021f3158281f061.webp",
+      "original_image": "assets/originals/bba7ab18e26050d7.png",
+      "original_filename": "Insulin resistance.png",
+      "citations": [
+        {
+          "document": "EX.12 Diabetes Mellitus Pathophysiology, Diagnosis, Management & Complications (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Type 2 Diabetes Mellitus Pathogenesis",
+      "condition_overview": "Because Type 2 DM retains enough residual insulin early on to suppress ketogenesis, acute decompensation in older patients classically produces hyperosmolar hyperglycemic state (HHS) rather than DKA."
+    },
+    {
+      "question_id": "q-ex12-dka-hhs-and-cutoffs",
+      "source_group_id": "g-88db9348d6796f188b95",
+      "collection": "EX.12",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Diagnostic Criteria & Acute Complications",
+      "tested_concept": "Diabetes diagnostic thresholds and DKA vs HHS differentiation",
+      "stem": "A 67-year-old man with Type 2 diabetes presents obtunded with blood glucose 890 mg/dL, serum osmolality 348 mOsm/kg, arterial pH 7.36, bicarbonate 21 mEq/L, and trace urine ketones. Which acute hyperglycemic emergency is present, and what HbA1c or fasting plasma glucose cutoff establishes a diabetes mellitus diagnosis?",
+      "options": [
+        "Hyperosmolar hyperglycemic state (HHS); diagnosis requires HbA1c ≥7.5% or fasting plasma glucose ≥150 mg/dL",
+        "Diabetic ketoacidosis (DKA); diagnosis requires HbA1c ≥5.7% or fasting plasma glucose ≥100 mg/dL",
+        "Hyperosmolar hyperglycemic state (HHS); diagnosis requires HbA1c ≥6.5% or fasting plasma glucose ≥126 mg/dL",
+        "Diabetic ketoacidosis (DKA); diagnosis requires HbA1c ≥6.5% or 2-hour OGTT ≥140 mg/dL"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Extreme hyperglycemia (>600 mg/dL) and severe hyperosmolarity (>320 mOsm/kg) with near-normal pH (>7.30), preserved bicarbonate, and minimal ketosis define hyperosmolar hyperglycemic state (HHS), because residual insulin prevents uncontrolled lipolysis/ketogenesis. Step 2. Standard diagnostic thresholds for diabetes mellitus are HbA1c ≥6.5%, fasting plasma glucose ≥126 mg/dL, 2-hour 75 g OGTT ≥200 mg/dL, or random glucose ≥200 mg/dL with classic symptoms.",
+      "choice_rationales": [
+        "The diabetes diagnostic cutoffs are HbA1c ≥6.5% and FPG ≥126 mg/dL, not 7.5% or 150 mg/dL.",
+        "DKA requires high-anion-gap metabolic acidosis (pH <7.30, low HCO₃⁻, strong ketonemia), and HbA1c 5.7–6.4% or FPG 100–125 mg/dL represents prediabetes.",
+        "Extreme hyperosmolarity (348 mOsm/kg) without ketoacidosis defines HHS, and standard diabetes diagnostic cutoffs are HbA1c ≥6.5% or FPG ≥126 mg/dL.",
+        "A 2-hour OGTT of 140–199 mg/dL indicates impaired glucose tolerance (prediabetes); diabetes requires ≥200 mg/dL, and this patient lacks DKA acidosis."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.12 Diabetes Mellitus Pathophysiology, Diagnosis, Management & Complications (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "DKA vs. HHS & Diabetes Diagnostic Cutoffs",
+      "condition_overview": "Both DKA and HHS require aggressive isotonic IV fluid resuscitation, IV insulin, and close potassium monitoring (as insulin drives K⁺ intracellularly even when initial serum K⁺ looks normal or elevated)."
     }
   ],
   "cases": [],

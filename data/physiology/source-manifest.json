@@ -2152,6 +2152,594 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "a-df496f21cf97b3f858b9a3d2cab19ef471d019e79ebef64b92302e708327f1b0",
+      "source_id": "s-3ab627792e48107e2101",
+      "source_group_id": "g-3ab627792e48107e2101",
+      "lecture_id": "EX.1",
+      "relative_path": "EX.1 - Development of the Endocrine System/Adrenal gland development.png",
+      "sha256": "df496f21cf97b3f858b9a3d2cab19ef471d019e79ebef64b92302e708327f1b0",
+      "dimensions": [
+        754,
+        228
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Adrenal gland dual embryologic origin and postnatal zonation",
+      "original_asset": "assets/originals/df496f21cf97b3f8.png",
+      "display_asset": "assets/display/ex1-adrenal-dev-ed7c27f32343daa8.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.1 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "current_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-119d8dd7df48a497dff7",
+          "asset": "assets/display/ex1-adrenal-dev-ed7c27f32343daa8.webp",
+          "zoom_asset": "assets/zoom/ex1-adrenal-dev-ed7c27f32343daa8.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              754,
+              228
+            ],
+            "output_dimensions": [
+              754,
+              228
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-34251067eb6e3c96753b1eaf3a19e0b4f4e1f1fba15b5f7fdeaf8a701b735c1d",
+      "source_id": "s-56526e3e5e5ccc92cb1d",
+      "source_group_id": "g-56526e3e5e5ccc92cb1d",
+      "lecture_id": "EX.1",
+      "relative_path": "EX.1 - Development of the Endocrine System/Pancreatic bud development.png",
+      "sha256": "34251067eb6e3c96753b1eaf3a19e0b4f4e1f1fba15b5f7fdeaf8a701b735c1d",
+      "dimensions": [
+        907,
+        391
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Ventral and dorsal pancreatic bud rotation and fusion anomalies",
+      "original_asset": "assets/originals/34251067eb6e3c96.png",
+      "display_asset": "assets/display/ex1-pancreas-dev-8693e4978d9a6346.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.1 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "current_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-29e1045ed52a79c2e695",
+          "asset": "assets/display/ex1-pancreas-dev-8693e4978d9a6346.webp",
+          "zoom_asset": "assets/zoom/ex1-pancreas-dev-8693e4978d9a6346.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              907,
+              391
+            ],
+            "output_dimensions": [
+              907,
+              391
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5e206379e5419d009fd714ab9848ecf4281a4549797cfb068dfe2c73d819b256",
+      "source_id": "s-b0c3af424012f4578373",
+      "source_group_id": "g-b0c3af424012f4578373",
+      "lecture_id": "EX.1",
+      "relative_path": "EX.1 - Development of the Endocrine System/Thyroglossal duct cyst.png",
+      "sha256": "5e206379e5419d009fd714ab9848ecf4281a4549797cfb068dfe2c73d819b256",
+      "dimensions": [
+        471,
+        355
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Thyroglossal duct cyst midline location and swallowing/tongue movement",
+      "original_asset": "assets/originals/5e206379e5419d00.png",
+      "display_asset": "assets/display/ex1-thyroglossal-cyst-a773c2b5d8d200e9.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.1 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "current_document_sha256": "ec0e25bf26f7c3bfd3b1b8d88f324cd819aad8fa65f92516fc9e0a0c9303a25f",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-6c6937d31e37c3d1cf72",
+          "asset": "assets/display/ex1-thyroglossal-cyst-a773c2b5d8d200e9.webp",
+          "zoom_asset": "assets/zoom/ex1-thyroglossal-cyst-a773c2b5d8d200e9.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              471,
+              355
+            ],
+            "output_dimensions": [
+              471,
+              355
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ab64ff7da43bc369d7cc0e625481d0b8ee3cc721c17394453f882a8e9c7bba7c",
+      "source_id": "s-dce70c171e16ef61f781",
+      "source_group_id": "g-dce70c171e16ef61f781",
+      "lecture_id": "EX.2",
+      "relative_path": "EX.2 - Histology of the Endocrine System/Parathyroid histology.png",
+      "sha256": "ab64ff7da43bc369d7cc0e625481d0b8ee3cc721c17394453f882a8e9c7bba7c",
+      "dimensions": [
+        1951,
+        1325
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Parathyroid chief cells, oxyphil cells, and stromal adipocytes",
+      "original_asset": "assets/originals/ab64ff7da43bc369.png",
+      "display_asset": "assets/display/ex2-parathyroid-hist-c4b4bc29ba150539.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.2 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.2 Histology of the Endocrine System (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "6f8bc29ebb80f7adc4a68b78af7f10be14ff21bd1d7a3821b6001b054c2818bc",
+      "current_document_sha256": "6f8bc29ebb80f7adc4a68b78af7f10be14ff21bd1d7a3821b6001b054c2818bc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-282e69edd53fed58b81f",
+          "asset": "assets/display/ex2-parathyroid-hist-c4b4bc29ba150539.webp",
+          "zoom_asset": "assets/zoom/ex2-parathyroid-hist-c4b4bc29ba150539.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1951,
+              1325
+            ],
+            "output_dimensions": [
+              1951,
+              1325
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-35f149821cd68757e616b56b39d76588f937dfac1375905bd22d00b89cfa8d91",
+      "source_id": "s-ad5d09e878ddf6e3d9de",
+      "source_group_id": "g-ad5d09e878ddf6e3d9de",
+      "lecture_id": "EX.2",
+      "relative_path": "EX.2 - Histology of the Endocrine System/Thyroid follicle close-up.png",
+      "sha256": "35f149821cd68757e616b56b39d76588f937dfac1375905bd22d00b89cfa8d91",
+      "dimensions": [
+        1847,
+        1668
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Thyroid follicular epithelial cells vs calcitonin-secreting parafollicular C cells",
+      "original_asset": "assets/originals/35f149821cd68757.png",
+      "display_asset": "assets/display/ex2-thyroid-follicle-22c74ae7a79df2d0.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.2 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.2 Histology of the Endocrine System (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "6f8bc29ebb80f7adc4a68b78af7f10be14ff21bd1d7a3821b6001b054c2818bc",
+      "current_document_sha256": "6f8bc29ebb80f7adc4a68b78af7f10be14ff21bd1d7a3821b6001b054c2818bc",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-050616d6cac24460b92c",
+          "asset": "assets/display/ex2-thyroid-follicle-22c74ae7a79df2d0.webp",
+          "zoom_asset": "assets/zoom/ex2-thyroid-follicle-22c74ae7a79df2d0.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1847,
+              1668
+            ],
+            "output_dimensions": [
+              1847,
+              1668
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-21111414c2611e65854678e29b412c5d56fefac7bac0997a2db73c4c3bfab7d0",
+      "source_id": "s-7dd56784baf21bf9dd71",
+      "source_group_id": "g-7dd56784baf21bf9dd71",
+      "lecture_id": "EX.3",
+      "relative_path": "EX.3 - General Principles of Endocrinology, Receptors and Hormone Action/Laron syndrome and short stature.png",
+      "sha256": "21111414c2611e65854678e29b412c5d56fefac7bac0997a2db73c4c3bfab7d0",
+      "dimensions": [
+        749,
+        429
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Laron syndrome GH receptor defect (high GH, low IGF-1)",
+      "original_asset": "assets/originals/21111414c2611e65.png",
+      "display_asset": "assets/display/ex3-laron-syndrome-e8b9e0d4a2640835.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.3 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "cc736c696e09dca7c8722abe9025cfa2561ce2569f65be411a2dbb783f3795f8",
+      "current_document_sha256": "cc736c696e09dca7c8722abe9025cfa2561ce2569f65be411a2dbb783f3795f8",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b366ac7169dcd530332e",
+          "asset": "assets/display/ex3-laron-syndrome-e8b9e0d4a2640835.webp",
+          "zoom_asset": "assets/zoom/ex3-laron-syndrome-e8b9e0d4a2640835.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              749,
+              429
+            ],
+            "output_dimensions": [
+              749,
+              429
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b34cb4de00f71e520a80bc25283c79d762031a03faa5fd1ca6a0141e6520f2ca",
+      "source_id": "s-4e10fd745ea9ce87495a",
+      "source_group_id": "g-4e10fd745ea9ce87495a",
+      "lecture_id": "EX.4",
+      "relative_path": "EX.4 - Hypothalamic-Pituitary Axis/Pituitary anatomy and MRI.png",
+      "sha256": "b34cb4de00f71e520a80bc25283c79d762031a03faa5fd1ca6a0141e6520f2ca",
+      "dimensions": [
+        439,
+        411
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Normal pituitary sagittal MRI landmarks (optic chiasm, bright spot, anterior lobe)",
+      "original_asset": "assets/originals/b34cb4de00f71e52.png",
+      "display_asset": "assets/display/ex4-pituitary-mri-97530428924b368e.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.4 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.4 Hypothalamic-Pituitary Axis (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "1e02aba4fb3d50bb530dfd1bcf682b1b75337f4f60dadd1602ef15712df6f7be",
+      "current_document_sha256": "1e02aba4fb3d50bb530dfd1bcf682b1b75337f4f60dadd1602ef15712df6f7be",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-084ba4ef5b82dc138a12",
+          "asset": "assets/display/ex4-pituitary-mri-97530428924b368e.webp",
+          "zoom_asset": "assets/zoom/ex4-pituitary-mri-97530428924b368e.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              439,
+              411
+            ],
+            "output_dimensions": [
+              439,
+              411
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e264425d6e3196022e84a60ce05d5b553135be4d30d4d984827474ff7dbeea2b",
+      "source_id": "s-750e32e2d3da9a5d5c8b",
+      "source_group_id": "g-750e32e2d3da9a5d5c8b",
+      "lecture_id": "EX.7",
+      "relative_path": "EX.7 - Calcium and Phosphate Metabolism/Acidemia and alkalemia on ionized calcium.png",
+      "sha256": "e264425d6e3196022e84a60ce05d5b553135be4d30d4d984827474ff7dbeea2b",
+      "dimensions": [
+        867,
+        775
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Acid-base effects on albumin-bound vs ionized calcium",
+      "original_asset": "assets/originals/e264425d6e319602.png",
+      "display_asset": "assets/display/ex7-acidemia-alkalemia-ca-852cec5cb622f3b2.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.7 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "current_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a2676870c9c3bd423125",
+          "asset": "assets/display/ex7-acidemia-alkalemia-ca-852cec5cb622f3b2.webp",
+          "zoom_asset": "assets/zoom/ex7-acidemia-alkalemia-ca-852cec5cb622f3b2.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              867,
+              775
+            ],
+            "output_dimensions": [
+              867,
+              775
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d76d01341511997908f983b61b87fd6f7dfde82386e44d58c535824534af5cf9",
+      "source_id": "s-1a90af5b8525d6b6b27b",
+      "source_group_id": "g-1a90af5b8525d6b6b27b",
+      "lecture_id": "EX.7",
+      "relative_path": "EX.7 - Calcium and Phosphate Metabolism/Vitamin D activation.png",
+      "sha256": "d76d01341511997908f983b61b87fd6f7dfde82386e44d58c535824534af5cf9",
+      "dimensions": [
+        2051,
+        1456
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Hepatic 25-hydroxylation and renal 1α-hydroxylation of vitamin D",
+      "original_asset": "assets/originals/d76d013415119979.png",
+      "display_asset": "assets/display/ex7-vitamin-d-activation-4fd396b644b75424.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.7 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "current_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-4248c7db3374ff7e56ae",
+          "asset": "assets/display/ex7-vitamin-d-activation-4fd396b644b75424.webp",
+          "zoom_asset": "assets/zoom/ex7-vitamin-d-activation-4fd396b644b75424.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2051,
+              1456
+            ],
+            "output_dimensions": [
+              2051,
+              1456
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-36ac59ab257a238925efebd115233dd0b68d8c9c108ee8734b3034aff75a52f2",
+      "source_id": "s-7a927c93cf330258ea8b",
+      "source_group_id": "g-7a927c93cf330258ea8b",
+      "lecture_id": "EX.7",
+      "relative_path": "EX.7 - Calcium and Phosphate Metabolism/PTH release and actions.png",
+      "sha256": "36ac59ab257a238925efebd115233dd0b68d8c9c108ee8734b3034aff75a52f2",
+      "dimensions": [
+        3731,
+        3788
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "PTH actions on bone, intestine (indirect), and kidney (Ca2+ vs PO43-)",
+      "original_asset": "assets/originals/36ac59ab257a2389.png",
+      "display_asset": "assets/display/ex7-pth-actions-1bc3c534eae7ec56.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.7 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "current_document_sha256": "be6e36d30cc90ec0a80c620e38e618403bbe8512ee4cb7dfb42396f2e0f10b9b",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-38193396dd6f6ffb124b",
+          "asset": "assets/display/ex7-pth-actions-1bc3c534eae7ec56.webp",
+          "zoom_asset": "assets/zoom/ex7-pth-actions-1bc3c534eae7ec56.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3731,
+              3788
+            ],
+            "output_dimensions": [
+              3731,
+              3788
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-dbf2c906c2d92bb2a48ae6926dca294f64cb0dc54afdca50f7a64c2e8645a1c0",
+      "source_id": "s-de908793da2c9fb3d3b7",
+      "source_group_id": "g-de908793da2c9fb3d3b7",
+      "lecture_id": "EX.11",
+      "relative_path": "EX.11 - Energy Homeostasis, Endocrine Pancreas and Neurohormonal Regulation of Appetite/Leptin signaling in the arcuate nucleus.png",
+      "sha256": "dbf2c906c2d92bb2a48ae6926dca294f64cb0dc54afdca50f7a64c2e8645a1c0",
+      "dimensions": [
+        1969,
+        1737
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Leptin dual action on POMC (anorexigenic) and NPY/AgRP (orexigenic) arcuate neurons",
+      "original_asset": "assets/originals/dbf2c906c2d92bb2.png",
+      "display_asset": "assets/display/ex11-leptin-arcuate-9032b2e18f0e5069.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.11 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "ad316dd0dab5f30d1c7c48ca571d1cd713f6b9917cb7fed83316f2c07f20aa07",
+      "current_document_sha256": "ad316dd0dab5f30d1c7c48ca571d1cd713f6b9917cb7fed83316f2c07f20aa07",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-5741567386a611f7c7d1",
+          "asset": "assets/display/ex11-leptin-arcuate-9032b2e18f0e5069.webp",
+          "zoom_asset": "assets/zoom/ex11-leptin-arcuate-9032b2e18f0e5069.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1969,
+              1737
+            ],
+            "output_dimensions": [
+              1969,
+              1737
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-edf38c1b9df9c7b14c867bb8086a0f4091205f2141e5b519ea38cf3063b1278f",
+      "source_id": "s-83826a19dd84c769ff38",
+      "source_group_id": "g-83826a19dd84c769ff38",
+      "lecture_id": "EX.11",
+      "relative_path": "EX.11 - Energy Homeostasis, Endocrine Pancreas and Neurohormonal Regulation of Appetite/Hypothalamic lesion syndromes.png",
+      "sha256": "edf38c1b9df9c7b14c867bb8086a0f4091205f2141e5b519ea38cf3063b1278f",
+      "dimensions": [
+        1176,
+        1019
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Lateral hypothalamic (anorexia) vs ventromedial hypothalamic (hyperphagia) lesion syndromes",
+      "original_asset": "assets/originals/edf38c1b9df9c7b1.png",
+      "display_asset": "assets/display/ex11-hypothalamic-lesions-a7d01159fedb60b7.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.11 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "ad316dd0dab5f30d1c7c48ca571d1cd713f6b9917cb7fed83316f2c07f20aa07",
+      "current_document_sha256": "ad316dd0dab5f30d1c7c48ca571d1cd713f6b9917cb7fed83316f2c07f20aa07",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1a20be064b03680d5219",
+          "asset": "assets/display/ex11-hypothalamic-lesions-a7d01159fedb60b7.webp",
+          "zoom_asset": "assets/zoom/ex11-hypothalamic-lesions-a7d01159fedb60b7.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1176,
+              1019
+            ],
+            "output_dimensions": [
+              1176,
+              1019
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
     }
   ]
 }

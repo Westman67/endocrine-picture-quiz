@@ -13,8 +13,8 @@ export const BANKS = Object.fromEntries(BANK_OPTIONS.map(({ id, label, href }) =
     brand: `${label.toUpperCase()} PICTURE QUIZ`,
     eyebrow: `Endocrine · ${label}`,
     description: id === 'physiology'
-        ? 'Practice E1–E4 histology, hormone physiology, feedback, receptor signaling, and hypothalamic-pituitary control (plus labeled 3rd-party support under Source type).'
-        : 'Practice E5 hypothalamic & pituitary pathology MRI, histology, gross, clinical photos, and pathway diagrams (plus labeled 3rd-party support under Source type).',
+        ? 'Practice E1–E4 lectures plus EX RxBricks (EX.1–EX.4, EX.7, EX.11) covering histology, hormone physiology, calcium/vitamin D, and appetite control.'
+        : 'Practice E5 pituitary pathology plus EX RxBricks (EX.5, EX.6, EX.8, EX.9, EX.12) covering water balance, thyroid, adrenal/CAH, MEN syndromes, and diabetes.',
     footer: `Endocrine · ${label} · Local picture quiz`,
     homeUrl: href,
 }]));
@@ -42,7 +42,7 @@ export const PHARMACOLOGY = {
     title: 'Endocrine · Pharmacology Quiz',
     brand: 'PHARMACOLOGY QUIZ',
     eyebrow: 'Endocrine · Pharmacology',
-    description: 'Drug mechanism, adverse effect, and endocrine therapy reasoning will populate here as pharmacology lectures are added.',
+    description: 'Practice EX.10 medication & supplement effects on endocrine axes and lab assays (biotin, amiodarone, lithium, steroids, estrogens, checkpoint inhibitors).',
     footer: 'Endocrine · Pharmacology · Local quiz',
     homeUrl: '?bank=pharmacology',
 };

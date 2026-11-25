@@ -14,6 +14,10 @@ const pathBankPayload = JSON.parse(fs.readFileSync(path.join(base, 'data/patholo
 const pathBank = pathBankPayload.questions;
 const pathSources = JSON.parse(fs.readFileSync(path.join(base, 'data/pathology/source-manifest.json'), 'utf8')).sources;
 
+const pharmBankPayload = JSON.parse(fs.readFileSync(path.join(base, 'data/pharmacology/question-bank.json'), 'utf8'));
+const pharmBank = pharmBankPayload.questions;
+const pharmSources = JSON.parse(fs.readFileSync(path.join(base, 'data/pharmacology/source-manifest.json'), 'utf8')).sources;
+
 test('4-section Endocrine bank config resolves cleanly with isolated storage keys', () => {
     assert.equal(STUDY_SECTIONS.length, 4);
     assert.equal(resolveBankConfig('').id, 'physiology');
@@ -67,24 +71,25 @@ function validateBankIntegrity(questions, manifestSources, label) {
     }
 }
 
-test('physiology bank (E1-E4) lineage, assets, schema v2 rationales, and protocol metadata', () => {
-    assert.ok(bank.length >= 50, `expected >= 50 E1-E4 questions, got ${bank.length}`);
+test('physiology, pathology, and pharmacology banks pass full lineage, asset, and schema v2 checks', () => {
+    assert.ok(bank.length >= 60, `expected >= 60 physiology questions, got ${bank.length}`);
+    assert.ok(pathBank.length >= 35, `expected >= 35 pathology questions, got ${pathBank.length}`);
+    assert.ok(pharmBank.length >= 4, `expected >= 4 pharmacology questions, got ${pharmBank.length}`);
     validateBankIntegrity(bank, sources, 'physiology');
-});
-
-test('pathology bank (E5) lineage, assets, schema v2 rationales, and protocol metadata', () => {
-    assert.ok(pathBank.length >= 20, `expected >= 20 E5 questions, got ${pathBank.length}`);
     validateBankIntegrity(pathBank, pathSources, 'pathology');
+    validateBankIntegrity(pharmBank, pharmSources, 'pharmacology');
 });
 
-test('all E1-E4 physiology and E5 pathology lectures plus labeled third-party support are represented', () => {
-    for (const id of ['E1', 'E2', 'E3', 'E4']) {
-        assert.ok(bank.some(q => q.collection === id), `missing physiology lecture ${id}`);
+test('all E1-E5 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
+    const allQs = [...bank, ...pathBank, ...pharmBank];
+    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5']) {
+        assert.ok(allQs.some(q => q.collection === id), `missing lecture ${id}`);
     }
-    assert.ok(pathBank.some(q => q.collection === 'E5'), 'missing pathology lecture E5');
-    assert.ok(bank.some(q => q.source_origin === 'lecture'), 'missing physiology lecture items');
+    for (let i = 1; i <= 12; i++) {
+        const exId = `EX.${i}`;
+        assert.ok(allQs.some(q => q.collection === exId), `missing RxBrick ${exId}`);
+    }
     assert.ok(bank.some(q => q.source_origin === 'third_party'), 'missing physiology third_party items');
-    assert.ok(pathBank.some(q => q.source_origin === 'lecture'), 'missing pathology lecture items');
     assert.ok(pathBank.some(q => q.source_origin === 'third_party'), 'missing pathology third_party items');
 });
 
@@ -144,13 +149,14 @@ test('Learn and Exam reveal timing, skips, saved drafts and shuffled rationales'
     }
 });
 
-test('source groups rotate before repeat and filters respect origin and collection', () => {
+test('source groups rotate before repeat and filters respect origin and EX collection selection', () => {
     const p = empty(), q = bank[0];
     see(p, q, session([q]).items[0]);
     assert.ok(filtered(bank, p, { filter: 'unseen' }).every(x => x.source_group_id !== q.source_group_id));
     assert.ok(filtered(bank, p, { origin: 'third_party' }).every(x => x.source_origin === 'third_party'));
-    assert.ok(filtered(bank, p, { collection: ['E4'] }).every(x => x.collection === 'E4'));
-    assert.ok(filtered(pathBank, p, { collection: ['E5'] }).every(x => x.collection === 'E5'));
+    assert.ok(filtered(bank, p, { collection: ['EX.7'] }).every(x => x.collection === 'EX.7'));
+    assert.ok(filtered(pathBank, p, { collection: ['EX.6'] }).every(x => x.collection === 'EX.6'));
+    assert.ok(filtered(pharmBank, p, { collection: ['EX.10'] }).every(x => x.collection === 'EX.10'));
     const pool = [
         { question_id: 'a', source_group_id: '1' },
         { question_id: 'b', source_group_id: '1' },
@@ -161,7 +167,7 @@ test('source groups rotate before repeat and filters respect origin and collecti
     for (let i = 1; i < out.length; i++) assert.notEqual(out[i].source_group_id, out[i - 1].source_group_id);
 });
 
-test('canonical 3-bucket content categories support multi-select filtering across both sections', () => {
+test('canonical 3-bucket content categories support multi-select filtering across sections', () => {
     const p = empty();
     for (const qs of [bank, pathBank]) {
         const imgOnly = filtered(qs, p, { category: ['Imaging'] });

@@ -18,6 +18,65 @@
         "Strictly excluded Not Required topics per lecture emphasis ledger: congenital anomaly gene lists (HESX1/SOX2/ANOS1), GNAS/USP8 PitNET mutations, densely vs. sparsely granulated PitNET subtypes, and giant adenoma (>4 cm) extension staging."
       ],
       "basis": "E5 RLS (56p), E5 Transcript (14p), E5 Obsidian Detailed Notes, reviewed E5 PNGs, and strictly in-scope Bootcamp/First Aid pituitary pathology visuals."
+    },
+    "EX.5": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Nephron diluting segment vs. ADH-sensitive collecting duct water reabsorption"
+      ],
+      "gaps": [
+        "Expanded dedicated pathology lectures will build further depth as they arrive."
+      ],
+      "basis": "EX.5 Posterior Pituitary Hormones, Water Balance, AVP Deficiency & SIADH (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.6": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "RAIU scan patterns (Graves, TMNG, toxic adenoma, low-uptake thyroiditis)",
+        "Autonomous hot nodule TSH suppression",
+        "Papillary thyroid carcinoma Orphan Annie nuclei & RET/PTC / BRAF",
+        "Thyroid hormone synthesis (NIS/pendrin/TPO) & Wolff-Chaikoff effect",
+        "Graves, Hashimoto, subacute de Quervain & Riedel thyroiditis"
+      ],
+      "gaps": [
+        "Expanded dedicated pathology lectures will build further depth as they arrive."
+      ],
+      "basis": "EX.6 All About the Thyroid (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.8": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "CAH steroidogenesis pathway (21-OH vs. 11β-OH vs. 17α-OH)",
+        "Primary (Addison) vs. secondary adrenal insufficiency",
+        "Pheochromocytoma α-blockade before β-blockade"
+      ],
+      "gaps": [
+        "Expanded dedicated pathology lectures will build further depth as they arrive."
+      ],
+      "basis": "EX.8 Physiology, Pathology & Pharmacology of Adrenal Cortex and Medullary Disorders (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.9": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "MEN 1 (menin) vs. MEN 2A vs. MEN 2B (RET)",
+        "Preoperative pheochromocytoma resection before MTC thyroidectomy",
+        "Carcinoid syndrome (5-HIAA, liver metastases) & C-peptide insulinoma rule"
+      ],
+      "gaps": [
+        "Expanded dedicated pathology lectures will build further depth as they arrive."
+      ],
+      "basis": "EX.9 Multiple Endocrine Neoplasia Syndromes & Neuroendocrine Tumors (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.12": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Type 2 DM progression: insulin resistance → β-cell compensation → β-cell failure",
+        "DKA vs. HHS differentiation & diabetes diagnostic thresholds (HbA1c ≥6.5%, FPG ≥126)"
+      ],
+      "gaps": [
+        "Expanded dedicated pathology lectures will build further depth as they arrive."
+      ],
+      "basis": "EX.12 Diabetes Mellitus Pathophysiology, Diagnosis, Management & Complications (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
     }
   }
 }

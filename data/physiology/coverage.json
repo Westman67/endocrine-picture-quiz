@@ -59,6 +59,73 @@
         "Full-slide duplicate PNGs and overview banners excluded as redundant."
       ],
       "basis": "E4 RLS (32p), E4 Transcript (11p), E4 Obsidian Detailed Notes, and reviewed PNGs."
+    },
+    "EX.1": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Adrenal cortex (mesoderm) vs. medulla (neural crest) development",
+        "Ventral/dorsal pancreatic bud rotation (annular pancreas vs. pancreas divisum)",
+        "Midline thyroglossal duct cyst clinical recognition"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.1 Development of the Endocrine System (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.2": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Parathyroid chief cells, oxyphil cells & stromal adipocytes",
+        "Thyroid follicular cells, colloid & neural crest parafollicular C cells"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.2 Histology of the Endocrine System (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.3": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Laron syndrome GH receptor insensitivity (high GH, low IGF-1)"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.4": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Normal sagittal T1 pituitary MRI landmarks (optic chiasm, bright spot, anterior lobe)"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.4 Hypothalamic-Pituitary Axis (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.7": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Acidemia vs. alkalemia effect on albumin-bound and ionized Ca²⁺",
+        "Hepatic 25-OH and renal 1α-hydroxylase vitamin D activation in CKD",
+        "Coordinated PTH actions on bone, intestine, and kidney (Ca²⁺ retention, PO₄³⁻ wasting)"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.11": {
+      "status": "Reviewed Scholar Rx Brick EX module",
+      "tested_summary": [
+        "Leptin activation of arcuate POMC/CART and inhibition of NPY/AgRP",
+        "Lateral (aphagia) vs. ventromedial (hyperphagia) hypothalamic feeding lesions",
+        "Ghrelin, PYY, CCK & GLP-1 receptor agonist physiology"
+      ],
+      "gaps": [
+        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
+      ],
+      "basis": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
     }
   }
 }

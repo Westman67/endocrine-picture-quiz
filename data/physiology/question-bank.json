@@ -2958,6 +2958,699 @@
       "case_context": null,
       "condition_name": "Hormone Clearance & Feed-Forward Control",
       "condition_overview": "Plasma hormone concentration reflects the balance between secretion rate and metabolic clearance rate. Feed-forward mechanisms minimize homeostatic error in advance, whereas negative feedback corrects deviations after they occur."
+    },
+    {
+      "question_id": "q-ex1-adrenal-dual-embryology",
+      "source_id": "s-3ab627792e48107e2101",
+      "source_group_id": "g-3ab627792e48107e2101",
+      "variant_id": "v-119d8dd7df48a497dff7",
+      "collection": "EX.1",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Embryology Timeline Diagram",
+      "tested_concept": "Adrenal gland dual embryologic origin and postnatal zonation",
+      "stem": "This developmental sequence shows the fetal zone regressing while the adult cortical layers mature around the central medulla by age 3 years. What are the distinct embryologic origins of the adrenal cortex and adrenal medulla?",
+      "options": [
+        "Cortex from oral ectoderm; medulla from surface ectoderm placodes",
+        "Cortex from foregut endoderm; medulla from intermediate mesoderm",
+        "Cortex from neural crest (ectoderm); medulla from pharyngeal endoderm",
+        "Cortex from mesoderm; medulla from neural crest (ectoderm)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The diagram shows neural-derived chromaffin tissue (blue medulla) becoming enveloped by layered steroidogenic cortex as the fetal zone regresses and the zona reticularis appears postnatally. Step 2. The adrenal cortex derives from mesoderm (coelomic epithelium), whereas the catecholamine-secreting adrenal medulla derives from neural crest cells (ectoderm).",
+      "choice_rationales": [
+        "Oral ectoderm forms Rathke pouch (anterior pituitary), not the adrenal cortex.",
+        "Foregut endoderm forms the thyroid, liver, and pancreas rather than the adrenal cortex.",
+        "This reverses the neural crest lineage: neural crest forms the medulla (modified sympathetic ganglion), not the cortex.",
+        "Mesoderm forms the steroid-producing cortical zones, while ectodermal neural crest cells migrate centrally to form the chromaffin medulla."
+      ],
+      "visual_clues": [
+        "Large pale fetal zone present in early fetal life that regresses by birth",
+        "Central blue medulla progressively enclosed by cortical layers",
+        "Three mature cortical zones (glomerulosa, fasciculata, reticularis) established by age 3 years"
+      ],
+      "visual_target": "Dual embryology and postnatal zonation of the adrenal gland",
+      "joint_panels": [],
+      "image": "assets/display/ex1-adrenal-dev-ed7c27f32343daa8.webp",
+      "zoom_image": "assets/zoom/ex1-adrenal-dev-ed7c27f32343daa8.webp",
+      "original_image": "assets/originals/df496f21cf97b3f8.png",
+      "original_filename": "Adrenal gland development.png",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Adrenal Gland Development",
+      "condition_overview": "During fetal life, the prominent fetal zone synthesizes androgen precursors converted to estrogens/testosterone, while the zona fasciculata makes cortisol under ACTH. After birth, the fetal zone involutes and the zona reticularis matures by age 3 years."
+    },
+    {
+      "question_id": "q-ex1-pancreatic-bud-rotation",
+      "source_id": "s-56526e3e5e5ccc92cb1d",
+      "source_group_id": "g-56526e3e5e5ccc92cb1d",
+      "variant_id": "v-29e1045ed52a79c2e695",
+      "collection": "EX.1",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Embryology Rotation Diagram",
+      "tested_concept": "Ventral and dorsal pancreatic bud rotation and fusion anomalies",
+      "stem": "In this foregut embryology sequence, the ventral pancreatic bud rotates posteriorly to fuse with the dorsal bud. Which congenital anomaly results from abnormal rotation of the ventral bud forming a ring around the duodenum, versus failure of the two buds to fuse?",
+      "options": [
+        "Abnormal ventral rotation → Meckel diverticulum; failed bud fusion → biliary atresia",
+        "Abnormal ventral rotation → pancreas divisum; failed bud fusion → annular pancreas",
+        "Abnormal ventral rotation → annular pancreas; failed bud fusion → pancreas divisum",
+        "Abnormal ventral rotation → thyroglossal cyst; failed bud fusion → ectopic thyroid"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Normally, the ventral pancreatic bud (carrying the bile duct) rotates posteriorly around the duodenum to fuse with the larger dorsal pancreatic bud. Step 2. Abnormal bifid rotation of the ventral bud encircles and constricts the duodenum (annular pancreas), whereas failure of the dorsal and ventral ductal systems to fuse produces pancreas divisum.",
+      "choice_rationales": [
+        "Meckel diverticulum reflects persistent vitelline duct in the midgut, unrelated to pancreatic bud rotation.",
+        "This swaps the two mechanisms: annular pancreas is a rotation defect, whereas pancreas divisum is a fusion defect.",
+        "Bifid abnormal rotation of the ventral bud wraps around the duodenum (annular pancreas), while failed fusion of dorsal and ventral ducts causes pancreas divisum.",
+        "Thyroglossal cyst and ectopic thyroid are thyroid descent anomalies rather than foregut pancreatic bud defects."
+      ],
+      "visual_clues": [
+        "Ventral pancreatic bud arising near the hepatic diverticulum and gallbladder",
+        "Curved arrow showing posterior rotation of the ventral bud around the foregut",
+        "Final fused pancreas draining alongside the common bile duct"
+      ],
+      "visual_target": "Rotation and fusion of ventral and dorsal pancreatic buds",
+      "joint_panels": [],
+      "image": "assets/display/ex1-pancreas-dev-8693e4978d9a6346.webp",
+      "zoom_image": "assets/zoom/ex1-pancreas-dev-8693e4978d9a6346.webp",
+      "original_image": "assets/originals/34251067eb6e3c96.png",
+      "original_filename": "Pancreatic bud development.png",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pancreatic Bud Development & Anomalies",
+      "condition_overview": "Because the dorsal pancreatic bud generates the majority of the pancreatic body, tail, and islet β-cell mass, congenital agenesis of the dorsal bud can cause reduced insulin secretion and early-onset diabetes mellitus."
+    },
+    {
+      "question_id": "q-ex1-thyroglossal-duct-cyst",
+      "source_id": "s-b0c3af424012f4578373",
+      "source_group_id": "g-b0c3af424012f4578373",
+      "variant_id": "v-6c6937d31e37c3d1cf72",
+      "collection": "EX.1",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Clinical Photograph",
+      "tested_concept": "Thyroglossal duct cyst midline location and swallowing/tongue movement",
+      "stem": "A 9-year-old girl presents with a painless, fluctuant midline neck mass near the hyoid bone (arrow) that elevates when she swallows or protrudes her tongue. What embryologic remnant accounts for this finding?",
+      "options": [
+        "Persistent oral ectodermal Rathke pouch herniating beneath the hyoid bone",
+        "Persistent second branchial cleft along the anterior border of the sternocleidomastoid",
+        "Persistent fourth pharyngeal pouch containing calcitonin-secreting parafollicular C cells",
+        "Persistent thyroglossal duct along the path of thyroid descent from the foramen cecum"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The clinical photo shows a classic anterior midline neck swelling near the hyoid bone. Step 2. Because the thyroid descends from the foramen cecum at the base of the tongue via the thyroglossal duct, a persistent midline thyroglossal duct cyst remains tethered to the tongue base/hyoid and rises with swallowing or tongue protrusion.",
+      "choice_rationales": [
+        "Rathke pouch ascends intracranially toward the sella turcica (forming Rathke cleft cyst or craniopharyngioma), not the anterior neck.",
+        "Branchial cleft cysts occur laterally along the anterior border of the sternocleidomastoid and do not move with tongue protrusion.",
+        "The ultimobranchial body (fourth/fifth pouch) supplies parafollicular C cells inside the thyroid lobes rather than forming a midline hyoid cyst.",
+        "Midline location near the hyoid with upward movement on swallowing or tongue protrusion is pathognomonic for a persistent thyroglossal duct cyst."
+      ],
+      "visual_clues": [
+        "Smooth painless anterior midline neck swelling near the hyoid bone (white arrow)",
+        "Midline position distinguishing it from lateral neck masses"
+      ],
+      "visual_target": "Midline thyroglossal duct cyst",
+      "joint_panels": [],
+      "image": "assets/display/ex1-thyroglossal-cyst-a773c2b5d8d200e9.webp",
+      "zoom_image": "assets/zoom/ex1-thyroglossal-cyst-a773c2b5d8d200e9.webp",
+      "original_image": "assets/originals/5e206379e5419d00.png",
+      "original_filename": "Thyroglossal duct cyst.png",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Thyroglossal Duct Cyst",
+      "condition_overview": "Arrest of thyroid descent anywhere along the thyroglossal tract produces ectopic thyroid tissue—most commonly a lingual thyroid at the base of the tongue—which may be the patient's only functioning thyroid tissue."
+    },
+    {
+      "question_id": "q-ex2-parathyroid-cells",
+      "source_id": "s-dce70c171e16ef61f781",
+      "source_group_id": "g-dce70c171e16ef61f781",
+      "variant_id": "v-282e69edd53fed58b81f",
+      "collection": "EX.2",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Histopathology (H&E)",
+      "tested_concept": "Parathyroid chief cells, oxyphil cells, and stromal adipocytes",
+      "stem": "In this H&E section of the parathyroid gland, which pairing correctly identifies the abundant small basophilic PTH-secreting cells (A) and the larger eosinophilic mitochondria-rich clusters (B)?",
+      "options": [
+        "A: oxyphil cells; B: chief (principal) cells (with C: thyroid colloid)",
+        "A: chief (principal) cells; B: oxyphil cells (with C: adipose cells)",
+        "A: parafollicular C cells; B: follicular epithelial cells (with C: adipocytes)",
+        "A: chromaffin cells; B: zona fasciculata spongiocytes (with C: sinusoids)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Parathyroid parenchyma contains dense sheets of small dark-nucleated chief cells (A), distinct nests of larger bright-pink eosinophilic oxyphil cells (B), and clear round adipocytes (C) that increase with age. Step 2. Chief cells synthesize and secrete parathyroid hormone (PTH), whereas oxyphil cells are packed with mitochondria and appear after puberty.",
+      "choice_rationales": [
+        "This swaps chief and oxyphil cells, and clear vacuoles in the parathyroid are adipocytes rather than pink thyroid colloid.",
+        "Small abundant chief cells (A) secrete PTH, larger pink oxyphil cells (B) are mitochondria-rich, and clear spaces (C) are stromal adipocytes.",
+        "Parafollicular C cells and follicular cells belong to the thyroid gland, which forms colloid-filled follicles rather than solid sheets with fat.",
+        "Chromaffin cells and spongiocytes belong to the adrenal medulla and cortex, not the parathyroid gland."
+      ],
+      "visual_clues": [
+        "A: densely packed small dark-staining basophilic cells forming most of the gland",
+        "B: islands of larger bright-pink eosinophilic cells with abundant cytoplasm",
+        "C: large optically clear round adipocytes interspersed in the stroma"
+      ],
+      "visual_target": "Parathyroid chief cells (A), oxyphil cells (B), and adipocytes (C)",
+      "joint_panels": [],
+      "image": "assets/display/ex2-parathyroid-hist-c4b4bc29ba150539.webp",
+      "zoom_image": "assets/zoom/ex2-parathyroid-hist-c4b4bc29ba150539.webp",
+      "original_image": "assets/originals/ab64ff7da43bc369.png",
+      "original_filename": "Parathyroid histology.png",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Parathyroid Histology",
+      "condition_overview": "Stromal adipose tissue normally increases with age in the parathyroid gland; loss of stromal fat with hypercellular chief-cell sheets is a key histologic clue to parathyroid adenoma or hyperplasia."
+    },
+    {
+      "question_id": "q-ex2-thyroid-follicle-c-cell",
+      "source_id": "s-ad5d09e878ddf6e3d9de",
+      "source_group_id": "g-ad5d09e878ddf6e3d9de",
+      "variant_id": "v-050616d6cac24460b92c",
+      "collection": "EX.2",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "High-Power Histopathology (H&E)",
+      "tested_concept": "Thyroid follicular epithelial cells vs calcitonin-secreting parafollicular C cells",
+      "stem": "In this high-power thyroid follicle micrograph, cells at A line the pink colloid lumen (C), whereas the circled cell at B sits outside the luminal border in the parafollicular space. What hormone is secreted by cell B, and what is its embryologic origin?",
+      "options": [
+        "Parathyroid hormone (PTH); derived from the third and fourth pharyngeal pouches",
+        "Thyroxine (T₄); derived from foregut endoderm of the floor of the pharynx",
+        "Calcitonin; derived from neural crest cells via the ultimobranchial body",
+        "Thyroglobulin; derived from oral ectoderm of Rathke pouch"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Simple cuboidal follicular epithelial cells (A) surround central thyroglobulin-rich colloid (C), while the paler parafollicular C cell (B, black circle) sits basally adjacent to the follicle without contacting the lumen. Step 2. Parafollicular C cells arise from neural crest cells migrating via the ultimobranchial body and secrete calcitonin, which lowers serum Ca²⁺ by inhibiting osteoclasts.",
+      "choice_rationales": [
+        "PTH is secreted by parathyroid chief cells, which are anatomically separate from thyroid follicles.",
+        "T₄ and T₃ are synthesized by the endoderm-derived follicular epithelial cells (A), not parafollicular C cells (B).",
+        "Parafollicular C cells (B) originate from neural crest / ultimobranchial body and secrete calcitonin (and give rise to medullary thyroid carcinoma).",
+        "Thyroglobulin is secreted into the colloid (C) by follicular cells (A), not by oral-ectoderm-derived cells."
+      ],
+      "visual_clues": [
+        "A: simple cuboidal follicular epithelium bordering the lumen",
+        "B: paler parafollicular C cell nestled along the outer follicular rim (black oval)",
+        "C: homogeneous pink colloid filling the central follicular lumen"
+      ],
+      "visual_target": "Thyroid follicular cells (A), parafollicular C cell (B), and colloid (C)",
+      "joint_panels": [],
+      "image": "assets/display/ex2-thyroid-follicle-22c74ae7a79df2d0.webp",
+      "zoom_image": "assets/zoom/ex2-thyroid-follicle-22c74ae7a79df2d0.webp",
+      "original_image": "assets/originals/35f149821cd68757.png",
+      "original_filename": "Thyroid follicle close-up.png",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Thyroid Follicle & Parafollicular C Cells",
+      "condition_overview": "Medullary thyroid carcinoma arises from malignant transformation of parafollicular C cells (B), secretes excess calcitonin, and deposits calcitonin-derived amyloid in the tumor stroma."
+    },
+    {
+      "question_id": "q-ex3-laron-syndrome-gh-resistance",
+      "source_id": "s-7dd56784baf21bf9dd71",
+      "source_group_id": "g-7dd56784baf21bf9dd71",
+      "variant_id": "v-b366ac7169dcd530332e",
+      "collection": "EX.3",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "question_type": "Endocrine Resistance Diagram",
+      "tested_concept": "Laron syndrome GH receptor defect (high GH, low IGF-1)",
+      "stem": "Three causes of severe proportionate short stature are compared in Panels A, B, and C. A child with proportionate dwarfism has markedly elevated serum GH, very low serum IGF-1, and fails to grow after exogenous recombinant GH injections. Which panel depicts this mechanism, and what is the diagnosis?",
+      "options": [
+        "Panel B: pituitary gigantism caused by autonomous somatotroph hypersecretion",
+        "Panel A: isolated pituitary GH deficiency from failed somatotroph secretion",
+        "Panel C: primary hypothyroidism suppressing pituitary GH gene transcription",
+        "Panel B: Laron syndrome caused by loss-of-function GH receptor mutations"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Panel B shows abundant pituitary GH triangles arriving at a defective GH receptor, resulting in very low hepatic IGF-1, reduced negative feedback (driving even higher GH), and poor linear growth. Step 2. This end-organ GH resistance defines Laron syndrome (GH receptor mutation), which does not respond to exogenous GH injections and requires recombinant IGF-1 therapy.",
+      "choice_rationales": [
+        "Gigantism features high GH AND high IGF-1 with excessive linear growth, the opposite of Laron dwarfism.",
+        "Panel A shows low/absent pituitary GH secretion (GH deficiency), which would have low GH and respond well to exogenous GH replacement.",
+        "Panel C depicts neutralizing anti-GH antibodies blocking both endogenous and exogenous GH, rather than hypothyroidism.",
+        "Laron syndrome (Panel B) causes defective GH receptor signaling, producing high circulating GH, low IGF-1, reduced feedback suppression, and resistance to exogenous GH."
+      ],
+      "visual_clues": [
+        "Panel A: red X blocking pituitary GH release (low GH, low IGF-1)",
+        "Panel B: multiple GH ligands accumulating above a non-responsive GH receptor with reduced IGF-1 feedback",
+        "Panel C: antibodies neutralizing exogenous and endogenous GH before receptor binding"
+      ],
+      "visual_target": "Three mechanisms of GH-axis short stature (Laron syndrome in Panel B)",
+      "joint_panels": [],
+      "image": "assets/display/ex3-laron-syndrome-e8b9e0d4a2640835.webp",
+      "zoom_image": "assets/zoom/ex3-laron-syndrome-e8b9e0d4a2640835.webp",
+      "original_image": "assets/originals/21111414c2611e65.png",
+      "original_filename": "Laron syndrome and short stature.png",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Laron Syndrome (GH Insensitivity)",
+      "condition_overview": "Because Laron syndrome results from GH receptor defects rather than hormone absence, recombinant IGF-1 (mecasermin) bypasses the defective receptor. Notably, adults with Laron syndrome exhibit markedly reduced rates of cancer and type 2 diabetes."
+    },
+    {
+      "question_id": "q-ex4-pituitary-sagittal-mri-anatomy",
+      "source_id": "s-4e10fd745ea9ce87495a",
+      "source_group_id": "g-4e10fd745ea9ce87495a",
+      "variant_id": "v-084ba4ef5b82dc138a12",
+      "collection": "EX.4",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Normal Sagittal T1 Brain MRI",
+      "tested_concept": "Normal pituitary sagittal MRI landmarks (optic chiasm, bright spot, anterior lobe)",
+      "stem": "On this normal unenhanced sagittal T1-weighted MRI of the sellar region, which pairing correctly identifies the T1-hyperintense bright spot at D and the structure superior to the suprasellar cistern at A?",
+      "options": [
+        "D: posterior lobe of pituitary (neurohypophysis); A: optic chiasm",
+        "D: anterior lobe of pituitary (adenohypophysis); A: pituitary stalk",
+        "D: sphenoid sinus air space; A: posterior lobe of pituitary",
+        "D: suprasellar cistern; A: hypothalamus"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. On normal unenhanced sagittal T1 MRI, phospholipid/neurosecretory granules in the posterior pituitary create a distinctive bright spot (D) immediately posterior to the isointense anterior lobe (E). Step 2. Tracing upward along the pituitary stalk (C) through the dark CSF-filled suprasellar cistern (F) leads directly to the optic chiasm (A) and hypothalamus (B).",
+      "choice_rationales": [
+        "The classic T1-bright spot marks the posterior pituitary (D), while arrow A points to the optic chiasm resting above the dark suprasellar cistern (F).",
+        "The anterior lobe is labeled E (anterior to the bright spot), and the pituitary stalk is labeled C.",
+        "The dark air-filled sphenoid sinus sits inferior/anterior to the sella turcica, not at the bright spot D.",
+        "The suprasellar cistern is the dark CSF space at F, and the hypothalamus is labeled B posterior to the optic chiasm."
+      ],
+      "visual_clues": [
+        "D: characteristic bright T1-hyperintense spot in the posterior sella turcica",
+        "E: larger isointense anterior pituitary lobe sitting anterior to D",
+        "A: optic chiasm positioned immediately above the dark suprasellar cistern (F) and stalk (C)"
+      ],
+      "visual_target": "Normal sagittal T1 MRI sellar landmarks (A–F)",
+      "joint_panels": [],
+      "image": "assets/display/ex4-pituitary-mri-97530428924b368e.webp",
+      "zoom_image": "assets/zoom/ex4-pituitary-mri-97530428924b368e.webp",
+      "original_image": "assets/originals/b34cb4de00f71e52.png",
+      "original_filename": "Pituitary anatomy and MRI.png",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Normal Pituitary MRI Anatomy",
+      "condition_overview": "Loss of the normal posterior pituitary bright spot (D) occurs in central diabetes insipidus (AVP deficiency), whereas displacement of the bright spot superiorly to the median eminence characterizes pituitary stalk interruption syndrome."
+    },
+    {
+      "question_id": "q-ex7-alkalemia-ionized-calcium",
+      "source_id": "s-750e32e2d3da9a5d5c8b",
+      "source_group_id": "g-750e32e2d3da9a5d5c8b",
+      "variant_id": "v-a2676870c9c3bd423125",
+      "collection": "EX.7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Biochemical Binding Diagram",
+      "tested_concept": "Acid-base effects on albumin-bound vs ionized calcium",
+      "stem": "A 24-year-old woman hyperventilates during a panic attack, developing acute respiratory alkalemia (pH 7.56), perioral numbness, and carpopedal spasm despite a normal total serum calcium. Based on the albumin-binding diagram shown, why do hypocalcemic symptoms appear?",
+      "options": [
+        "More H⁺ ions displace Ca²⁺ from albumin sites, raising free ionized Ca²⁺ and suppressing PTH",
+        "Fewer H⁺ ions compete for negatively charged albumin sites, increasing bound Ca²⁺ and lowering free ionized Ca²⁺",
+        "Alkalemia rapidly destroys circulating albumin, causing total serum calcium to drop while ionized Ca²⁺ stays normal",
+        "Alkalemia blocks renal 1α-hydroxylase within minutes, halting intestinal calcium absorption"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. In blood, H⁺ and Ca²⁺ compete for negatively charged binding sites on serum albumin. Step 2. During alkalemia (right panel), lower H⁺ concentration frees additional negative sites on albumin to bind Ca²⁺, leaving total calcium unchanged while decreasing physiologically active free ionized Ca²⁺—triggering neuromuscular excitability (tetany, paresthesias).",
+      "choice_rationales": [
+        "This describes acidemia (left panel), where excess H⁺ displaces Ca²⁺ off albumin and raises free ionized Ca²⁺.",
+        "Reduced H⁺ in alkalemia exposes more anionic albumin binding sites for Ca²⁺, lowering free ionized Ca²⁺ and triggering acute tetany despite normal total calcium.",
+        "Acute hyperventilation does not degrade albumin; it shifts the equilibrium between albumin-bound and free ionized Ca²⁺.",
+        "Vitamin D 1α-hydroxylation operates over hours to days and cannot explain rapid-onset tetany during acute hyperventilation."
+      ],
+      "visual_clues": [
+        "Left (Acidemia): three H⁺ ions occupying albumin sites, leaving more free Ca²⁺ in solution",
+        "Right (Alkalemia): only one H⁺ ion bound, allowing four Ca²⁺ ions to bind albumin and depleting free Ca²⁺"
+      ],
+      "visual_target": "Competition between H⁺ and Ca²⁺ for albumin binding",
+      "joint_panels": [],
+      "image": "assets/display/ex7-acidemia-alkalemia-ca-852cec5cb622f3b2.webp",
+      "zoom_image": "assets/zoom/ex7-acidemia-alkalemia-ca-852cec5cb622f3b2.webp",
+      "original_image": "assets/originals/e264425d6e319602.png",
+      "original_filename": "Acidemia and alkalemia on ionized calcium.png",
+      "citations": [
+        {
+          "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Acid-Base Effects on Ionized Calcium",
+      "condition_overview": "About 45% of serum calcium is physiologically active ionized Ca²⁺, ~40% is protein-bound (chiefly albumin), and ~15% is complexed to anions. In hypoalbuminemia, total calcium falls even when free ionized Ca²⁺ is normal, which is why corrected or direct ionized Ca²⁺ is measured."
+    },
+    {
+      "question_id": "q-ex7-vitamin-d-activation-ckd",
+      "source_id": "s-1a90af5b8525d6b6b27b",
+      "source_group_id": "g-1a90af5b8525d6b6b27b",
+      "variant_id": "v-4248c7db3374ff7e56ae",
+      "collection": "EX.7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Organ Pathway Diagram",
+      "tested_concept": "Hepatic 25-hydroxylation and renal 1α-hydroxylation of vitamin D",
+      "stem": "In this vitamin D activation pathway, which metabolite is formed by the liver at A (used clinically to assess vitamin D stores), and why does stage 5 chronic kidney disease cause hypocalcemia and secondary hyperparathyroidism at B?",
+      "options": [
+        "A: 7-dehydrocholesterol; CKD causes excess renal calcitonin secretion that blocks intestinal Ca²⁺ uptake",
+        "A: 1,25-(OH)₂D (calcitriol); CKD impairs hepatic 25-hydroxylase, reducing storage 25-(OH)D at B",
+        "A: 25-(OH)D (calcidiol); CKD impairs renal 1α-hydroxylase, reducing active 1,25-(OH)₂D (calcitriol) at B",
+        "A: parathyroid hormone; CKD prevents hepatic clearance of calcitriol, causing severe hypercalcemia"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Cutaneous and dietary vitamin D undergoes hepatic 25-hydroxylation to 25-(OH)D (calcidiol, A), followed by tightly regulated renal proximal-tubule 1α-hydroxylation to active 1,25-(OH)₂D (calcitriol, B). Step 2. In chronic kidney disease, loss of renal 1α-hydroxylase (plus hyperphosphatemia) drops calcitriol (B), reducing gut Ca²⁺ absorption and driving hypocalcemia and compensatory secondary hyperparathyroidism.",
+      "choice_rationales": [
+        "7-dehydrocholesterol is the skin precursor converted by UV light, and calcitonin is secreted by thyroid C cells rather than the kidney.",
+        "This swaps the liver and kidney metabolites: 25-(OH)D is made in the liver (A) and active 1,25-(OH)₂D is made in the kidney (B).",
+        "The liver generates storage 25-(OH)D (A) and the kidney activates it via 1α-hydroxylase to 1,25-(OH)₂D (B); CKD impairs step B, causing hypocalcemia and secondary hyperparathyroidism.",
+        "CKD causes calcitriol deficiency and hypocalcemia (not calcitriol excess and hypercalcemia)."
+      ],
+      "visual_clues": [
+        "Sunlit skin and intestinal absorption both feeding vitamin D into the liver",
+        "Liver arrow producing intermediate A (25-hydroxylated storage form)",
+        "Kidney arrow producing final active hormone B (1,25-dihydroxylated calcitriol)"
+      ],
+      "visual_target": "Two-step hepatic and renal activation of vitamin D",
+      "joint_panels": [],
+      "image": "assets/display/ex7-vitamin-d-activation-4fd396b644b75424.webp",
+      "zoom_image": "assets/zoom/ex7-vitamin-d-activation-4fd396b644b75424.webp",
+      "original_image": "assets/originals/d76d013415119979.png",
+      "original_filename": "Vitamin D activation.png",
+      "citations": [
+        {
+          "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Vitamin D Activation & Renal Osteodystrophy",
+      "condition_overview": "PTH and hypophosphatemia stimulate renal 1α-hydroxylase to raise calcitriol, whereas FGF-23 and high calcitriol inhibit it. Measuring serum 25-(OH)D (A) best reflects body vitamin D stores because of its long half-life."
+    },
+    {
+      "question_id": "q-ex7-pth-organ-actions",
+      "source_id": "s-7a927c93cf330258ea8b",
+      "source_group_id": "g-7a927c93cf330258ea8b",
+      "variant_id": "v-38193396dd6f6ffb124b",
+      "collection": "EX.7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Homeostatic Loop Diagram",
+      "tested_concept": "PTH actions on bone, intestine (indirect), and kidney (Ca2+ vs PO43-)",
+      "stem": "Low ionized Ca²⁺ stimulates parathyroid PTH release onto three target organs (A: bone, B: intestine, C: kidney). What is PTH's direct effect on renal tubular handling of calcium and phosphate at C?",
+      "options": [
+        "Directly absorbs dietary Ca²⁺ across intestinal enterocytes without requiring calcitriol",
+        "Decreases renal Ca²⁺ reabsorption and increases PO₄³⁻ reabsorption to prevent kidney stones",
+        "Increases both Ca²⁺ and PO₄³⁻ reabsorption equally while inhibiting renal 1α-hydroxylase",
+        "Increases renal Ca²⁺ reabsorption (distal tubule) and decreases PO₄³⁻ reabsorption (proximal tubule)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. PTH restores serum Ca²⁺ via three coordinated actions: osteoclast-mediated bone resorption (A), indirect intestinal Ca²⁺ uptake via calcitriol (B), and direct renal tubular regulation (C). Step 2. In the kidney (C), PTH increases distal-tubule Ca²⁺ reabsorption, promotes 1α-hydroxylase activation, and inhibits proximal-tubule Na⁺/PO₄³⁻ cotransporters (causing phosphaturia) so released bone phosphate does not precipitate with free Ca²⁺.",
+      "choice_rationales": [
+        "PTH's intestinal effect (B) is indirect via calcitriol synthesis in the kidney, not a direct enterocyte receptor effect.",
+        "PTH conserves Ca²⁺ and wastes PO₄³⁻—the reverse of this option.",
+        "PTH lowers (not raises) phosphate reabsorption and stimulates (not inhibits) renal 1α-hydroxylase.",
+        "PTH increases renal Ca²⁺ retention while promoting phosphate excretion (↓ PO₄³⁻ reabsorption), keeping free ionized Ca²⁺ elevated without Ca-PO₄ precipitation."
+      ],
+      "visual_clues": [
+        "Parathyroid glands stimulated by hypocalcemia and inhibited by rising blood Ca²⁺",
+        "Three organ targets along the systemic loop: Bone (A), Intestine (B), and Kidney (C)"
+      ],
+      "visual_target": "Coordinated PTH actions on bone, gut, and kidney",
+      "joint_panels": [],
+      "image": "assets/display/ex7-pth-actions-1bc3c534eae7ec56.webp",
+      "zoom_image": "assets/zoom/ex7-pth-actions-1bc3c534eae7ec56.webp",
+      "original_image": "assets/originals/36ac59ab257a2389.png",
+      "original_filename": "PTH release and actions.png",
+      "citations": [
+        {
+          "document": "EX.7 Calcium and Phosphate Metabolism (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Parathyroid Hormone (PTH) Physiology",
+      "condition_overview": "Classic primary hyperparathyroidism therefore shows high Ca²⁺, low PO₄³⁻, high PTH, and high urinary cAMP/phosphate, whereas calcitriol (vitamin D) increases intestinal absorption of BOTH Ca²⁺ and PO₄³⁻."
+    },
+    {
+      "question_id": "q-ex11-leptin-arcuate-signaling",
+      "source_id": "s-de908793da2c9fb3d3b7",
+      "source_group_id": "g-de908793da2c9fb3d3b7",
+      "variant_id": "v-5741567386a611f7c7d1",
+      "collection": "EX.11",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Neuroendocrine Signaling Diagram",
+      "tested_concept": "Leptin dual action on POMC (anorexigenic) and NPY/AgRP (orexigenic) arcuate neurons",
+      "stem": "In this arcuate nucleus appetite circuit, adipose-derived leptin sends a stimulatory (+) signal to neuronal population A (anorexigenic) and an inhibitory (−) signal to population B (orexigenic). Which neuropeptides correspond to A and B?",
+      "options": [
+        "A: POMC/CART (α-MSH, decreases appetite); B: NPY/AgRP (increases appetite)",
+        "A: NPY/AgRP (increases appetite); B: POMC/CART (decreases appetite)",
+        "A: Ghrelin (increases appetite); B: GLP-1 (decreases appetite)",
+        "A: Somatostatin (inhibits GH); B: Dopamine (inhibits prolactin)"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Adipocytes secrete leptin in proportion to fat stores to signal satiety and raise energy expenditure. Step 2. Within the hypothalamic arcuate nucleus, leptin activates anorexigenic POMC/CART neurons (A, releasing α-MSH onto melanocortin receptors) while inhibiting orexigenic NPY/AgRP neurons (B, which otherwise stimulate feeding and inhibit POMC via GABA).",
+      "choice_rationales": [
+        "Leptin stimulates appetite-suppressing POMC/CART neurons (A) and inhibits appetite-stimulating NPY/AgRP neurons (B), tilting net melanocortin signaling toward satiety.",
+        "This reverses the two arcuate populations: POMC/CART is anorexigenic (A) and NPY/AgRP is orexigenic (B).",
+        "Ghrelin is secreted by gastric fundus cells during fasting and GLP-1 by intestinal L cells, rather than being the two arcuate neuron classes.",
+        "Somatostatin and dopamine regulate pituitary GH and prolactin rather than the POMC vs. NPY/AgRP appetite circuit."
+      ],
+      "visual_clues": [
+        "Top yellow Leptin oval with a (+) arrow to left circle A (Anorexigenic) and a (−) line to right circle B (Orexigenic)",
+        "Inhibitory GABA bridge from B suppressing A inside the arcuate nucleus",
+        "Downstream melanocortin receptor (MCR) target in the lateral hypothalamic area"
+      ],
+      "visual_target": "Leptin regulation of arcuate POMC (A) and NPY/AgRP (B) neurons",
+      "joint_panels": [],
+      "image": "assets/display/ex11-leptin-arcuate-9032b2e18f0e5069.webp",
+      "zoom_image": "assets/zoom/ex11-leptin-arcuate-9032b2e18f0e5069.webp",
+      "original_image": "assets/originals/dbf2c906c2d92bb2.png",
+      "original_filename": "Leptin signaling in the arcuate nucleus.png",
+      "citations": [
+        {
+          "document": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Arcuate Nucleus Appetite Circuit",
+      "condition_overview": "Ghrelin (secreted by the empty stomach) exerts the exact opposite effect on this circuit—activating NPY/AgRP neurons and stimulating hunger. Loss-of-function mutations in leptin or the MC4R melanocortin receptor cause severe early-onset monogenic obesity."
+    },
+    {
+      "question_id": "q-ex11-hypothalamic-feeding-lesions",
+      "source_id": "s-83826a19dd84c769ff38",
+      "source_group_id": "g-83826a19dd84c769ff38",
+      "variant_id": "v-1a20be064b03680d5219",
+      "collection": "EX.11",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Experimental Neuroanatomy Diagram",
+      "tested_concept": "Lateral hypothalamic (anorexia) vs ventromedial hypothalamic (hyperphagia) lesion syndromes",
+      "stem": "Lesions to two distinct paired hypothalamic regions produce opposite feeding phenotypes compared with a normal animal: emaciation/aphagia (Syndrome A) versus hyperphagia/obesity (Syndrome B). Which nuclei are damaged in Syndrome A and Syndrome B?",
+      "options": [
+        "Syndrome A: ventromedial nucleus (satiety center); Syndrome B: lateral hypothalamic area (hunger center)",
+        "Syndrome A: lateral hypothalamic area (hunger center); Syndrome B: ventromedial nucleus (satiety center)",
+        "Syndrome A: suprachiasmatic nucleus; Syndrome B: supraoptic nucleus",
+        "Syndrome A: anterior hypothalamic nucleus; Syndrome B: posterior hypothalamic nucleus"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The pink outer region represents the lateral hypothalamic area (the hunger/feeding center); destroying it eliminates the drive to eat, causing aphagia and severe weight loss (Syndrome A). Step 2. The blue medial region represents the ventromedial hypothalamic nucleus (the satiety center); destroying it removes satiety braking, causing hyperphagia and obesity (Syndrome B).",
+      "choice_rationales": [
+        "This reverses the two centers: ventromedial lesions make you 'very massive' (obesity, B), while lateral lesions cause anorexia/emaciation (A).",
+        "Destroying the lateral hypothalamus (hunger center) causes aphagia/emaciation (Syndrome A), whereas destroying the ventromedial nucleus (satiety center) causes hyperphagia/obesity (Syndrome B).",
+        "The suprachiasmatic nucleus regulates circadian rhythm and the supraoptic nucleus synthesizes ADH, not hunger vs. satiety.",
+        "Anterior and posterior hypothalamic nuclei regulate thermoregulation (heat dissipation vs. heat conservation) rather than feeding centers."
+      ],
+      "visual_clues": [
+        "Pink lateral hypothalamic nuclei projecting to the emaciated animal (Syndrome A)",
+        "Blue ventromedial nuclei flanking the third ventricle projecting to the obese animal (Syndrome B)",
+        "Normal control animal centered between the two lesion phenotypes"
+      ],
+      "visual_target": "Lateral (A) vs. ventromedial (B) hypothalamic feeding lesion phenotypes",
+      "joint_panels": [],
+      "image": "assets/display/ex11-hypothalamic-lesions-a7d01159fedb60b7.webp",
+      "zoom_image": "assets/zoom/ex11-hypothalamic-lesions-a7d01159fedb60b7.webp",
+      "original_image": "assets/originals/edf38c1b9df9c7b1.png",
+      "original_filename": "Hypothalamic lesion syndromes.png",
+      "citations": [
+        {
+          "document": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypothalamic Hunger & Satiety Centers",
+      "condition_overview": "Clinically, suprasellar tumors (such as craniopharyngioma) or hypothalamic surgery that damage the ventromedial hypothalamus can trigger refractory hypothalamic obesity."
+    },
+    {
+      "question_id": "q-ex11-incretin-appetite-hormones",
+      "source_group_id": "g-065cfa4af45414542131",
+      "collection": "EX.11",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Ghrelin, GLP-1, PYY, and CCK appetite and incretin physiology",
+      "stem": "Evaluate the following two statements regarding gut-brain appetite hormones:\n\nStatement 1: Ghrelin is secreted by gastric cells before meals to stimulate hunger, whereas intestinal PYY, CCK, and GLP-1 rise after eating to promote satiety.\nStatement 2: GLP-1 receptor agonists reduce body weight and hyperglycemia by enhancing glucose-dependent insulin release, suppressing glucagon, slowing gastric emptying, and acting centrally to reduce appetite.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Ghrelin is the primary peripheral orexigenic (hunger) peptide rising during fasting, while postprandial gut peptides (PYY, CCK, GLP-1) signal satiety to the hypothalamus and brainstem. Step 2. GLP-1 receptor agonists leverage both pancreatic incretin effects (glucose-dependent insulin secretion, lower glucagon) and gastrointestinal/central effects (delayed gastric emptying, central satiety).",
+      "choice_rationales": [
+        "Both statements accurately describe orexigenic ghrelin vs. anorexigenic PYY/CCK/GLP-1 and the multi-organ actions of GLP-1 receptor agonists.",
+        "Neither statement is false; both reflect core EX.11 energy homeostasis physiology.",
+        "Statement 2 is also true because GLP-1 analogs both improve glucose-dependent insulin release and slow gastric emptying/suppress appetite.",
+        "Statement 1 is also true because ghrelin rises preprandially while PYY, CCK, and GLP-1 signal postprandial fullness."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick)",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Gut-Brain Appetite Hormones & GLP-1 Agonists",
+      "condition_overview": "Because GLP-1 stimulates insulin secretion in a glucose-dependent manner, GLP-1 receptor agonists carry a low intrinsic risk of hypoglycemia when used alone, unlike sulfonylureas or exogenous insulin."
     }
   ],
   "cases": [],

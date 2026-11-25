@@ -1128,6 +1128,349 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "a-da18b404a3f2a51705c35e54e3ecfd9a9ca6d8f854a09312542b35a9a7fbbfb5",
+      "source_id": "s-d38d8a4daae55946ae80",
+      "source_group_id": "g-d38d8a4daae55946ae80",
+      "lecture_id": "EX.5",
+      "relative_path": "EX.5 - Posterior Pituitary Hormones, Water Balance, AVP Deficiency, and SIADH/Water regulation in the nephron.png",
+      "sha256": "da18b404a3f2a51705c35e54e3ecfd9a9ca6d8f854a09312542b35a9a7fbbfb5",
+      "dimensions": [
+        1358,
+        1335
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Nephron diluting segment vs ADH-sensitive collecting duct water reabsorption",
+      "original_asset": "assets/originals/da18b404a3f2a517.png",
+      "display_asset": "assets/display/ex5-water-nephron-90717e9ecc696014.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.5 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.5 Posterior Pituitary Hormones, Water Balance, AVP Deficiency & SIADH (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "765a3430b24b9228e973b8c19cb19cc9750e708a16d4739355b17c0d4ff09712",
+      "current_document_sha256": "765a3430b24b9228e973b8c19cb19cc9750e708a16d4739355b17c0d4ff09712",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-8f1104d2c64ddc573bab",
+          "asset": "assets/display/ex5-water-nephron-90717e9ecc696014.webp",
+          "zoom_asset": "assets/zoom/ex5-water-nephron-90717e9ecc696014.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1358,
+              1335
+            ],
+            "output_dimensions": [
+              1358,
+              1335
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-312018c99f44923c13ecb1a2aee172fff417eb4719ac70e0d19c839bde3f0666",
+      "source_id": "s-1e06efef30f2f12310e0",
+      "source_group_id": "g-1e06efef30f2f12310e0",
+      "lecture_id": "EX.6",
+      "relative_path": "EX.6 - All About the Thyroid/RAIU scan patterns.png",
+      "sha256": "312018c99f44923c13ecb1a2aee172fff417eb4719ac70e0d19c839bde3f0666",
+      "dimensions": [
+        1405,
+        1002
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "RAIU scan patterns: Graves, TMNG, toxic adenoma, and thyroiditis",
+      "original_asset": "assets/originals/312018c99f44923c.png",
+      "display_asset": "assets/display/ex6-raiu-patterns-939a6ec292ee1f45.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.6 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "current_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-cdaa810f45378411e8de",
+          "asset": "assets/display/ex6-raiu-patterns-939a6ec292ee1f45.webp",
+          "zoom_asset": "assets/zoom/ex6-raiu-patterns-939a6ec292ee1f45.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1405,
+              1002
+            ],
+            "output_dimensions": [
+              1405,
+              1002
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-573d484da893b476e8339ea719fce8e75b12a18f8535be1b49024354078099c6",
+      "source_id": "s-f751f4baddc62e7b18a7",
+      "source_group_id": "g-f751f4baddc62e7b18a7",
+      "lecture_id": "EX.6",
+      "relative_path": "EX.6 - All About the Thyroid/Autonomous hyperfunctioning nodule scan.png",
+      "sha256": "573d484da893b476e8339ea719fce8e75b12a18f8535be1b49024354078099c6",
+      "dimensions": [
+        955,
+        731
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Autonomous hyperfunctioning (toxic) thyroid adenoma scan",
+      "original_asset": "assets/originals/573d484da893b476.png",
+      "display_asset": "assets/display/ex6-hot-nodule-scan-ff4762b19bc1a91e.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.6 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "current_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a1457d5c994d1ba4e71b",
+          "asset": "assets/display/ex6-hot-nodule-scan-ff4762b19bc1a91e.webp",
+          "zoom_asset": "assets/zoom/ex6-hot-nodule-scan-ff4762b19bc1a91e.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              955,
+              731
+            ],
+            "output_dimensions": [
+              955,
+              731
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5ccc87dec8c409f4240cd6c32b72a909c3734ff59352c9f69359eebbeb8af394",
+      "source_id": "s-b93accea8ee32b816ac6",
+      "source_group_id": "g-b93accea8ee32b816ac6",
+      "lecture_id": "EX.6",
+      "relative_path": "EX.6 - All About the Thyroid/Thyroid carcinoma histology.png",
+      "sha256": "5ccc87dec8c409f4240cd6c32b72a909c3734ff59352c9f69359eebbeb8af394",
+      "dimensions": [
+        267,
+        191
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Papillary thyroid carcinoma Orphan Annie eye nuclei, nuclear grooves, and genetics",
+      "original_asset": "assets/originals/5ccc87dec8c409f4.png",
+      "display_asset": "assets/display/ex6-papillary-thyroid-ca-d38349f48931059b.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.6 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "current_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-ba3dc621ca1c447c6f16",
+          "asset": "assets/display/ex6-papillary-thyroid-ca-d38349f48931059b.webp",
+          "zoom_asset": "assets/zoom/ex6-papillary-thyroid-ca-d38349f48931059b.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              267,
+              191
+            ],
+            "output_dimensions": [
+              267,
+              191
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-30fcf41c8c26fe9e7c38b40f34a37bb643f8845c5c2c8328c70bdf889143a2e1",
+      "source_id": "s-b05aa58f0dc80cfd4c4c",
+      "source_group_id": "g-b05aa58f0dc80cfd4c4c",
+      "lecture_id": "EX.6",
+      "relative_path": "EX.6 - All About the Thyroid/Thyroid hormone synthesis steps.png",
+      "sha256": "30fcf41c8c26fe9e7c38b40f34a37bb643f8845c5c2c8328c70bdf889143a2e1",
+      "dimensions": [
+        597,
+        532
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Thyroid hormone synthesis steps (NIS, pendrin, TPO) and Wolff-Chaikoff effect",
+      "original_asset": "assets/originals/30fcf41c8c26fe9e.png",
+      "display_asset": "assets/display/ex6-thyroid-synthesis-a2f40922b4878bf9.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.6 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.6 All About the Thyroid (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "current_document_sha256": "d82584ef6b3cedbb2e2850d0aecbd10d72d037b9894f71d261c8078a932c7fd4",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b75f8093cda54103ca7e",
+          "asset": "assets/display/ex6-thyroid-synthesis-a2f40922b4878bf9.webp",
+          "zoom_asset": "assets/zoom/ex6-thyroid-synthesis-a2f40922b4878bf9.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              597,
+              532
+            ],
+            "output_dimensions": [
+              597,
+              532
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-135dfc4071e2ce2e23749395e85adb56f93b4deff183cdb9628603e63e4f5830",
+      "source_id": "s-ada9b00d10fb6fc33884",
+      "source_group_id": "g-ada9b00d10fb6fc33884",
+      "lecture_id": "EX.8",
+      "relative_path": "EX.8 - Physiology, Pathology and Pharmacology of Adrenal Cortex and Medullary Disorders/CAH pathway and enzyme deficiency table.png",
+      "sha256": "135dfc4071e2ce2e23749395e85adb56f93b4deff183cdb9628603e63e4f5830",
+      "dimensions": [
+        774,
+        579
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Congenital adrenal hyperplasia: 21-OH vs 11β-OH vs 17α-OH deficiency",
+      "original_asset": "assets/originals/135dfc4071e2ce2e.png",
+      "display_asset": "assets/display/ex8-cah-pathway-ca309bfc13fa9f3b.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.8 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.8 Physiology, Pathology & Pharmacology of Adrenal Cortex and Medullary Disorders (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "e646c2843623a99e8415df3bfeda099b73e2e3ecb9d1cd90b37498dd2c784789",
+      "current_document_sha256": "e646c2843623a99e8415df3bfeda099b73e2e3ecb9d1cd90b37498dd2c784789",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-6e3b03c5c6b8b85afd11",
+          "asset": "assets/display/ex8-cah-pathway-ca309bfc13fa9f3b.webp",
+          "zoom_asset": "assets/zoom/ex8-cah-pathway-ca309bfc13fa9f3b.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              774,
+              579
+            ],
+            "output_dimensions": [
+              774,
+              579
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-bba7ab18e26050d72ef2712de46be8afa511f04d36f06d36001e14447e0bc79e",
+      "source_id": "s-cd704a8933964670d5ae",
+      "source_group_id": "g-cd704a8933964670d5ae",
+      "lecture_id": "EX.12",
+      "relative_path": "EX.12 - Diabetes Mellitus Pathophysiology, Diagnosis, Management and Complications/Insulin resistance.png",
+      "sha256": "bba7ab18e26050d72ef2712de46be8afa511f04d36f06d36001e14447e0bc79e",
+      "dimensions": [
+        1013,
+        1457
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected Scholar Rx Brick original and quiz-safe derivative.",
+      "tested_concept": "Type 2 DM progression from insulin resistance to β-cell compensation and β-cell failure",
+      "original_asset": "assets/originals/bba7ab18e26050d7.png",
+      "display_asset": "assets/display/ex12-insulin-resistance-5021f3158281f061.webp",
+      "source_origin": "lecture",
+      "source_collection": "EX.12 Scholar Rx Brick",
+      "source_citation": {
+        "document": "EX.12 Diabetes Mellitus Pathophysiology, Diagnosis, Management & Complications (Scholar Rx Brick)",
+        "page": 1
+      },
+      "source_document_sha256": "3992b62cfd29fadb0d6c64c424d0d0dc830b4af7308ca70264c5f50c91872a21",
+      "current_document_sha256": "3992b62cfd29fadb0d6c64c424d0d0dc830b4af7308ca70264c5f50c91872a21",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against Scholar Rx Brick EX Detailed Notes and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7273e6e40907093084b2",
+          "asset": "assets/display/ex12-insulin-resistance-5021f3158281f061.webp",
+          "zoom_asset": "assets/zoom/ex12-insulin-resistance-5021f3158281f061.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1013,
+              1457
+            ],
+            "output_dimensions": [
+              1013,
+              1457
+            ],
+            "reason": "Cropped/masked quiz-safe derivative removing embedded teaching text."
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,19 @@
 {
   "schema_version": 1,
   "section": "pharmacology",
-  "lectures": []
+  "lectures": {
+    "EX.10": {
+      "status": "Reviewed Scholar Rx Brick EX module (4 conceptual pharmacology items)",
+      "tested_summary": [
+        "High-dose biotin interference with streptavidin-biotin thyroid immunoassays",
+        "Lithium & amiodarone thyroid/renal disruption mechanisms",
+        "Exogenous glucocorticoid (inhaled & megestrol) HPA axis suppression",
+        "Oral estrogen TBG elevation vs. immune checkpoint inhibitor endocrinopathies"
+      ],
+      "gaps": [
+        "Dedicated endocrine pharmacology lectures will append here as they arrive."
+      ],
+      "basis": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    }
+  }
 }
