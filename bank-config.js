@@ -13,8 +13,8 @@ export const BANKS = Object.fromEntries(BANK_OPTIONS.map(({ id, label, href }) =
     brand: `${label.toUpperCase()} PICTURE QUIZ`,
     eyebrow: `Endocrine · ${label}`,
     description: id === 'physiology'
-        ? 'Practice E1–E3 histology, hormone physiology, feedback, and receptor signaling visuals (plus labeled 3rd-party support under Source type).'
-        : 'Upcoming Endocrine Pathology visuals will populate here as pathology lectures are added.',
+        ? 'Practice E1–E4 histology, hormone physiology, feedback, receptor signaling, and hypothalamic-pituitary control (plus labeled 3rd-party support under Source type).'
+        : 'Practice E5 hypothalamic & pituitary pathology MRI, histology, gross, clinical photos, and pathway diagrams (plus labeled 3rd-party support under Source type).',
     footer: `Endocrine · ${label} · Local picture quiz`,
     homeUrl: href,
 }]));

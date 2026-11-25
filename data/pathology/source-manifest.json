@@ -1,5 +1,1133 @@
 {
-  "schema_version": 2,
+  "schema_version": 1,
   "section": "pathology",
-  "sources": []
+  "sources": [
+    {
+      "asset_id": "a-50981f2713d553e2ad818e8cc36e36aa6014a071db83e3574d7d04248e8e517e",
+      "source_id": "s-d7e124c7bd9e4c6cb1a2",
+      "source_group_id": "g-d7e124c7bd9e4c6cb1a2",
+      "lecture_id": "E5",
+      "relative_path": "E5/Pituitary Mass Bitemporal Hemianopia Visual Pathway - Diagram.png",
+      "sha256": "50981f2713d553e2ad818e8cc36e36aa6014a071db83e3574d7d04248e8e517e",
+      "dimensions": [
+        1604,
+        1693
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Optic chiasm compression causing bitemporal hemianopia",
+      "original_asset": "assets/originals/50981f2713d553e2.png",
+      "display_asset": "assets/display/e5-bitemporal-hemianopia-0659353b7ea8c3e1.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b8919383213c9e5b484e",
+          "asset": "assets/display/e5-bitemporal-hemianopia-0659353b7ea8c3e1.webp",
+          "zoom_asset": "assets/zoom/e5-bitemporal-hemianopia-0659353b7ea8c3e1.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1604,
+              1693
+            ],
+            "output_dimensions": [
+              1604,
+              1693
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d0caa47cae3ba40c1ae779afcd07a2af52065e2217dd0c38158f11e3b660a487",
+      "source_id": "s-2bcf3bd159e3050fbb53",
+      "source_group_id": "g-2bcf3bd159e3050fbb53",
+      "lecture_id": "E5",
+      "relative_path": "E5/Pituitary Adenoma Gross Brain - Gross.png",
+      "sha256": "d0caa47cae3ba40c1ae779afcd07a2af52065e2217dd0c38158f11e3b660a487",
+      "dimensions": [
+        1493,
+        1336
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary neuroendocrine tumor (PitNET) gross morphology and suprasellar compression",
+      "original_asset": "assets/originals/d0caa47cae3ba40c.png",
+      "display_asset": "assets/display/e5-pit-adenoma-gross-a7b11b079e3edbf0.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 36
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b40271c2c398f7c00b65",
+          "asset": "assets/display/e5-pit-adenoma-gross-a7b11b079e3edbf0.webp",
+          "zoom_asset": "assets/zoom/e5-pit-adenoma-gross-a7b11b079e3edbf0.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1493,
+              1336
+            ],
+            "output_dimensions": [
+              1493,
+              1336
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9e9862191c5ec929658ba0e9122669842579360937e0e19edefe25d2e3168249",
+      "source_id": "s-633eeabebf1fe733de19",
+      "source_group_id": "g-633eeabebf1fe733de19",
+      "lecture_id": "E5",
+      "relative_path": "E5/Pituitary Adenoma Monomorphic Cells Histology - Histology.png",
+      "sha256": "9e9862191c5ec929658ba0e9122669842579360937e0e19edefe25d2e3168249",
+      "dimensions": [
+        1632,
+        941
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Monomorphic PitNET sheets vs variegated normal anterior pituitary and need for IHC",
+      "original_asset": "assets/originals/9e9862191c5ec929.png",
+      "display_asset": "assets/display/e5-pitnet-monomorphic-6412d06cb02ded39.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-dbd2afb9a9773de065f8",
+          "asset": "assets/display/e5-pitnet-monomorphic-6412d06cb02ded39.webp",
+          "zoom_asset": "assets/zoom/e5-pitnet-monomorphic-6412d06cb02ded39.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1632,
+              941
+            ],
+            "output_dimensions": [
+              1632,
+              941
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4408454fbd2b2b4bca10b3d9d4c524847e1226bc9afacdf45bbb23080bb903cd",
+      "source_id": "s-620d07a287a92e31d2fe",
+      "source_group_id": "g-620d07a287a92e31d2fe",
+      "lecture_id": "E5",
+      "relative_path": "E5/Reticulin Stain Hyperplasia vs Neoplasia - Histology.png",
+      "sha256": "4408454fbd2b2b4bca10b3d9d4c524847e1226bc9afacdf45bbb23080bb903cd",
+      "dimensions": [
+        1504,
+        701
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Reticulin stain distinguishing pituitary hyperplasia from PitNET neoplasia",
+      "original_asset": "assets/originals/4408454fbd2b2b4b.png",
+      "display_asset": "assets/display/e5-reticulin-ab-df15711931ec6f18.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 37
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-93a877430937f0cc36ff",
+          "asset": "assets/display/e5-reticulin-ab-df15711931ec6f18.webp",
+          "zoom_asset": "assets/zoom/e5-reticulin-ab-df15711931ec6f18.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1504,
+              701
+            ],
+            "output_dimensions": [
+              1504,
+              701
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0aba9d145335dc072d42a92bbb74693a9abeb3f10be5e39f70a6f6e33055120f",
+      "source_id": "s-c384d01f4c7826954e06",
+      "source_group_id": "g-c384d01f4c7826954e06",
+      "lecture_id": "E5",
+      "relative_path": "E5/PitNET MRI Microadenoma Macroadenoma Giant Adenoma - Radiograph.png + PitNET MRI Microadenoma Macroadenoma Giant Adenoma - Radiograph.png",
+      "sha256": "0aba9d145335dc072d42a92bbb74693a9abeb3f10be5e39f70a6f6e33055120f",
+      "dimensions": [
+        1583,
+        800
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Radiologic classification of PitNET microadenoma (<1 cm) vs macroadenoma (≥1 cm)",
+      "original_asset": "assets/originals/0aba9d145335dc07.png",
+      "display_asset": "assets/display/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 40
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-3247ffc1a335066483a1",
+          "asset": "assets/display/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
+          "zoom_asset": "assets/zoom/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1583,
+              800
+            ],
+            "output_dimensions": [
+              1583,
+              800
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7463394509e968b904dbe107ea360199d29489249ec57938f64b564ea207ba70",
+      "source_id": "s-a9a3008418024131d5f1",
+      "source_group_id": "g-a9a3008418024131d5f1",
+      "lecture_id": "E5",
+      "relative_path": "E5/Adamantinomatous Craniopharyngioma Histology - Histology.png + Papillary Craniopharyngioma Histology - Histology.png",
+      "sha256": "7463394509e968b904dbe107ea360199d29489249ec57938f64b564ea207ba70",
+      "dimensions": [
+        1856,
+        800
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Adamantinomatous (CTNNB1, wet keratin) vs papillary (BRAF p.V600E) craniopharyngioma",
+      "original_asset": "assets/originals/7463394509e968b9.png",
+      "display_asset": "assets/display/e5-craniopharyngioma-ab-7463394509e968b9.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 49
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-ae2eecbd3395abebb1de",
+          "asset": "assets/display/e5-craniopharyngioma-ab-7463394509e968b9.webp",
+          "zoom_asset": "assets/zoom/e5-craniopharyngioma-ab-7463394509e968b9.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1856,
+              800
+            ],
+            "output_dimensions": [
+              1856,
+              800
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0bd34d48b8119635f9ab4123368397489a1dff3eb7ab4f3fad2d629a3602344c",
+      "source_id": "s-752afeab02d52c478c00",
+      "source_group_id": "g-752afeab02d52c478c00",
+      "lecture_id": "E5",
+      "relative_path": "E5/Pituitary Apoplexy Mass Effects - Diagram.png",
+      "sha256": "0bd34d48b8119635f9ab4123368397489a1dff3eb7ab4f3fad2d629a3602344c",
+      "dimensions": [
+        1672,
+        1578
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary apoplexy acute hemorrhage, cavernous sinus ophthalmoplegia, and urgent management",
+      "original_asset": "assets/originals/0bd34d48b8119635.png",
+      "display_asset": "assets/display/e5-pituitary-apoplexy-654763d2556e545f.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 32
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-fa79b8039fef27d6f2c5",
+          "asset": "assets/display/e5-pituitary-apoplexy-654763d2556e545f.webp",
+          "zoom_asset": "assets/zoom/e5-pituitary-apoplexy-654763d2556e545f.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1672,
+              1578
+            ],
+            "output_dimensions": [
+              1672,
+              1578
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4412e9e2f501c76e3d07c891e0f0a83273ec9edf042b1a852924a46992fed3eb",
+      "source_id": "s-5792e6d824ae6c312897",
+      "source_group_id": "g-5792e6d824ae6c312897",
+      "lecture_id": "E5",
+      "relative_path": "E5/Rathke Cleft Cyst Histology - Histology.png",
+      "sha256": "4412e9e2f501c76e3d07c891e0f0a83273ec9edf042b1a852924a46992fed3eb",
+      "dimensions": [
+        1626,
+        612
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Rathke cleft cyst ciliated columnar epithelium with mucin-producing goblet cells",
+      "original_asset": "assets/originals/4412e9e2f501c76e.png",
+      "display_asset": "assets/display/e5-rathke-cleft-histology-2231640fd72e2c53.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 27
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2ed5c1d19b76b5500428",
+          "asset": "assets/display/e5-rathke-cleft-histology-2231640fd72e2c53.webp",
+          "zoom_asset": "assets/zoom/e5-rathke-cleft-histology-2231640fd72e2c53.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1626,
+              612
+            ],
+            "output_dimensions": [
+              1626,
+              612
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-911c240c9a8523b07d966ab136acb0055d0f2bcbeaa837d85079d6bd5599bb9d",
+      "source_id": "s-2cc59cebaca558bd901e",
+      "source_group_id": "g-2cc59cebaca558bd901e",
+      "lecture_id": "E5",
+      "relative_path": "E5/Septo Optic Dysplasia MRI - Radiograph.png",
+      "sha256": "911c240c9a8523b07d966ab136acb0055d0f2bcbeaa837d85079d6bd5599bb9d",
+      "dimensions": [
+        1674,
+        772
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Septo-optic dysplasia diagnostic triad and most common hormone deficiency",
+      "original_asset": "assets/originals/911c240c9a8523b0.png",
+      "display_asset": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-7322184bba318d8a9d4f",
+          "asset": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
+          "zoom_asset": "assets/zoom/e5-septo-optic-mri-c83b17d18449d466.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1674,
+              772
+            ],
+            "output_dimensions": [
+              1674,
+              772
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-cea635b7c00d8b96d79d8188c1cdf670324d7e20924ff9b91425af19e0fa4f80",
+      "source_id": "s-2d029499e6ec53e39d20",
+      "source_group_id": "g-2d029499e6ec53e39d20",
+      "lecture_id": "E5",
+      "relative_path": "E5/Alobar Holoprosencephaly MRI and Face - Clinical Photo.png",
+      "sha256": "cea635b7c00d8b96d79d8188c1cdf670324d7e20924ff9b91425af19e0fa4f80",
+      "dimensions": [
+        893,
+        537
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Alobar holoprosencephaly failure of prosencephalon cleavage",
+      "original_asset": "assets/originals/cea635b7c00d8b96.png",
+      "display_asset": "assets/display/e5-alobar-hpe-54c7b6f0dc082670.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 21
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a73f402be529398ee50a",
+          "asset": "assets/display/e5-alobar-hpe-54c7b6f0dc082670.webp",
+          "zoom_asset": "assets/zoom/e5-alobar-hpe-54c7b6f0dc082670.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              893,
+              537
+            ],
+            "output_dimensions": [
+              893,
+              537
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2fdbe1c712026f4d7b34b9460ac1e483db5ccd5248502fdfa8dd1fa308fa42de",
+      "source_id": "s-f2b61d941a5e81195bb9",
+      "source_group_id": "g-f2b61d941a5e81195bb9",
+      "lecture_id": "E5",
+      "relative_path": "E5/Ectopic Posterior Pituitary MRI - Radiograph.png",
+      "sha256": "2fdbe1c712026f4d7b34b9460ac1e483db5ccd5248502fdfa8dd1fa308fa42de",
+      "dimensions": [
+        1855,
+        1986
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary stalk interruption syndrome with ectopic posterior pituitary bright spot",
+      "original_asset": "assets/originals/2fdbe1c712026f4d.png",
+      "display_asset": "assets/display/e5-ectopic-post-pit-mri-e57584ed941fa489.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1671d8d94bca830ecc28",
+          "asset": "assets/display/e5-ectopic-post-pit-mri-e57584ed941fa489.webp",
+          "zoom_asset": "assets/zoom/e5-ectopic-post-pit-mri-e57584ed941fa489.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1855,
+              1986
+            ],
+            "output_dimensions": [
+              1855,
+              1986
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ffaa2ee45603610510606abffbd45593c4999a079298213dfff22faf9bf1448c",
+      "source_id": "s-512ab6b10dc190974c55",
+      "source_group_id": "g-512ab6b10dc190974c55",
+      "lecture_id": "E5",
+      "relative_path": "E5/Lymphocytic Hypophysitis Histology - Histology.png",
+      "sha256": "ffaa2ee45603610510606abffbd45593c4999a079298213dfff22faf9bf1448c",
+      "dimensions": [
+        1380,
+        1104
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Lymphocytic hypophysitis autoimmune infiltrate, pregnancy/CTLA-4 link, and MRI mimic",
+      "original_asset": "assets/originals/ffaa2ee456036105.png",
+      "display_asset": "assets/display/e5-lymphocytic-hypophysitis-hist-4b6186d2fdc2a222.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-77df23d3d97794dddb29",
+          "asset": "assets/display/e5-lymphocytic-hypophysitis-hist-4b6186d2fdc2a222.webp",
+          "zoom_asset": "assets/zoom/e5-lymphocytic-hypophysitis-hist-4b6186d2fdc2a222.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1380,
+              1104
+            ],
+            "output_dimensions": [
+              1380,
+              1104
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-d573dcd422081a32151c3fa1d8fef6692fe0fd94ca8166a29144565512770bb7",
+      "source_id": "s-5fe026a7c6b16e84c611",
+      "source_group_id": "g-5fe026a7c6b16e84c611",
+      "lecture_id": "E5",
+      "relative_path": "E5/Empty Sella MRI - Radiograph.png",
+      "sha256": "d573dcd422081a32151c3fa1d8fef6692fe0fd94ca8166a29144565512770bb7",
+      "dimensions": [
+        1522,
+        1448
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Primary empty sella syndrome CSF herniation and clinical profile",
+      "original_asset": "assets/originals/d573dcd422081a32.png",
+      "display_asset": "assets/display/e5-empty-sella-mri-ee2d2aabab566113.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 33
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-3e1bbd58673df4de9293",
+          "asset": "assets/display/e5-empty-sella-mri-ee2d2aabab566113.webp",
+          "zoom_asset": "assets/zoom/e5-empty-sella-mri-ee2d2aabab566113.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1522,
+              1448
+            ],
+            "output_dimensions": [
+              1522,
+              1448
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3825d355ed880027c0ad59bf2aa2d3b40a951fd193539ac1abbb8ed0bf5b8df4",
+      "source_id": "s-2aea88b508c17280c9cc",
+      "source_group_id": "g-2aea88b508c17280c9cc",
+      "lecture_id": "E5",
+      "relative_path": "E5/GH Excess Photo Two Facial Portraits - Clinical Photo.png",
+      "sha256": "3825d355ed880027c0ad59bf2aa2d3b40a951fd193539ac1abbb8ed0bf5b8df4",
+      "dimensions": [
+        1473,
+        855
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Acromegaly clinical progression, IGF-1 screening, and OGTT confirmation",
+      "original_asset": "assets/originals/3825d355ed880027.png",
+      "display_asset": "assets/display/e5-gh-excess-portraits-ede896a5781368b2.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-6b51d95696f3c1cfeb46",
+          "asset": "assets/display/e5-gh-excess-portraits-ede896a5781368b2.webp",
+          "zoom_asset": "assets/zoom/e5-gh-excess-portraits-ede896a5781368b2.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1473,
+              855
+            ],
+            "output_dimensions": [
+              1473,
+              855
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-e7eaf163a5ea0dab1b49342b0469d1be07e210eee2a5716258a81d4710ae7fbb",
+      "source_id": "s-54d9efcc5016d6c1e97c",
+      "source_group_id": "g-54d9efcc5016d6c1e97c",
+      "lecture_id": "E5",
+      "relative_path": "E5/GH Excess Photo Tall Man With Two Women - Clinical Photo.png",
+      "sha256": "e7eaf163a5ea0dab1b49342b0469d1be07e210eee2a5716258a81d4710ae7fbb",
+      "dimensions": [
+        1239,
+        1728
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pituitary gigantism (GH excess before epiphyseal plate closure)",
+      "original_asset": "assets/originals/e7eaf163a5ea0dab.png",
+      "display_asset": "assets/display/e5-gigantism-photo-8381c50d9f2ab6a1.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2e299ff96c85b6bcee45",
+          "asset": "assets/display/e5-gigantism-photo-8381c50d9f2ab6a1.webp",
+          "zoom_asset": "assets/zoom/e5-gigantism-photo-8381c50d9f2ab6a1.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1239,
+              1728
+            ],
+            "output_dimensions": [
+              1239,
+              1728
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7d031b3a15eb8e0f83cd7c5dd24ab3b56c44e92f799b12a67198eea14a30d4ce",
+      "source_id": "s-ffb467b6b5d51df92ce7",
+      "source_group_id": "g-ffb467b6b5d51df92ce7",
+      "lecture_id": "E5",
+      "relative_path": "E5/Central vs Nephrogenic Diabetes Insipidus Pathogenesis - Diagram.png",
+      "sha256": "7d031b3a15eb8e0f83cd7c5dd24ab3b56c44e92f799b12a67198eea14a30d4ce",
+      "dimensions": [
+        1661,
+        1617
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Central vs nephrogenic diabetes insipidus sites, causes, and desmopressin response",
+      "original_asset": "assets/originals/7d031b3a15eb8e0f.png",
+      "display_asset": "assets/display/e5-di-pathogenesis-b5442c3a18efc219.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 15
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-fdebb13c1fac467996f1",
+          "asset": "assets/display/e5-di-pathogenesis-b5442c3a18efc219.webp",
+          "zoom_asset": "assets/zoom/e5-di-pathogenesis-b5442c3a18efc219.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1661,
+              1617
+            ],
+            "output_dimensions": [
+              1661,
+              1617
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-a21b1f38e7ae3ea64c02eba2dcc36dc745fed4a571cf7b68197a8a1ea4c9e2cd",
+      "source_id": "s-8f4f5ade17d7fbb91d30",
+      "source_group_id": "g-8f4f5ade17d7fbb91d30",
+      "lecture_id": "E5",
+      "relative_path": "E5/Vaptan Mechanism of Action Collecting Duct - Diagram.png",
+      "sha256": "a21b1f38e7ae3ea64c02eba2dcc36dc745fed4a571cf7b68197a8a1ea4c9e2cd",
+      "dimensions": [
+        1592,
+        1231
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "SIAD pathophysiology, V2 receptor aquaporin-2 insertion, and vaptan selective water diuresis",
+      "original_asset": "assets/originals/a21b1f38e7ae3ea6.png",
+      "display_asset": "assets/display/e5-vaptan-mechanism-ac2e732be3195502.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 17
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1d477968900a513cdbab",
+          "asset": "assets/display/e5-vaptan-mechanism-ac2e732be3195502.webp",
+          "zoom_asset": "assets/zoom/e5-vaptan-mechanism-ac2e732be3195502.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1592,
+              1231
+            ],
+            "output_dimensions": [
+              1592,
+              1231
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7c148f3da63f753fbb04b96e6f9dc0a431aa66dcce10375db48414d197b19a71",
+      "source_id": "s-bd12f649f19d437d7ee4",
+      "source_group_id": "g-bd12f649f19d437d7ee4",
+      "lecture_id": "E5",
+      "relative_path": "E5/Sheehan Syndrome Pathogenesis - Diagram.png",
+      "sha256": "7c148f3da63f753fbb04b96e6f9dc0a431aa66dcce10375db48414d197b19a71",
+      "dimensions": [
+        1561,
+        2141
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Sheehan syndrome postpartum anterior pituitary ischemic necrosis sparing posterior lobe",
+      "original_asset": "assets/originals/7c148f3da63f753f.png",
+      "display_asset": "assets/display/e5-sheehan-syndrome-c7473ae2af3c8c43.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 31
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-ca80084cf02c1ee088d6",
+          "asset": "assets/display/e5-sheehan-syndrome-c7473ae2af3c8c43.webp",
+          "zoom_asset": "assets/zoom/e5-sheehan-syndrome-c7473ae2af3c8c43.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1561,
+              2141
+            ],
+            "output_dimensions": [
+              1561,
+              2141
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5f73613999baeb86d03babb59f3e6831c0cbde3f6e5cb92a4a146367de955a4e",
+      "source_id": "s-e5b3838760d754dac0b0",
+      "source_group_id": "g-e5b3838760d754dac0b0",
+      "lecture_id": "E5",
+      "relative_path": "E5/Kallmann Syndrome GnRH Neuron Migration Defect - Diagram.png",
+      "sha256": "5f73613999baeb86d03babb59f3e6831c0cbde3f6e5cb92a4a146367de955a4e",
+      "dimensions": [
+        1283,
+        2218
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Kallmann syndrome failed GnRH neuron migration from olfactory placode",
+      "original_asset": "assets/originals/5f73613999baeb86.png",
+      "display_asset": "assets/display/e5-kallmann-migration-dc503565e95fcc43.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-546eaa69552feb639791",
+          "asset": "assets/display/e5-kallmann-migration-dc503565e95fcc43.webp",
+          "zoom_asset": "assets/zoom/e5-kallmann-migration-dc503565e95fcc43.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1283,
+              2218
+            ],
+            "output_dimensions": [
+              1283,
+              2218
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-19ea7d8149bd1d870b6a24dc3808382f14b3164a68ef3a82aabc5704d74840a9",
+      "source_id": "s-55a9bc92f947f597e2a7",
+      "source_group_id": "g-55a9bc92f947f597e2a7",
+      "lecture_id": "E5",
+      "relative_path": "E5/Hypothalamic Nuclei Anatomy - Diagram.png",
+      "sha256": "19ea7d8149bd1d870b6a24dc3808382f14b3164a68ef3a82aabc5704d74840a9",
+      "dimensions": [
+        1260,
+        1452
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Hypothalamic nucleus lesion syndromes (PVN/SON, VMN, Arcuate)",
+      "original_asset": "assets/originals/19ea7d8149bd1d87.png",
+      "display_asset": "assets/display/e5-hypothalamic-nuclei-65fb4d5e1d5e8091.webp",
+      "source_origin": "lecture",
+      "source_collection": "E5 Lecture RLS",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 53
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-b9deb3424613da45060c",
+          "asset": "assets/display/e5-hypothalamic-nuclei-65fb4d5e1d5e8091.webp",
+          "zoom_asset": "assets/zoom/e5-hypothalamic-nuclei-65fb4d5e1d5e8091.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1260,
+              1452
+            ],
+            "output_dimensions": [
+              1260,
+              1452
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-57f5cccad568308bc2e7abfec5310d489f98cd47f577c21f4ba9c4e5976b1b32",
+      "source_id": "s-3878189091b660bf4db1",
+      "source_group_id": "g-3878189091b660bf4db1",
+      "lecture_id": "E5",
+      "relative_path": "Bootcamp Endocrinology/Craniopharyngioma sagittal imaging - MRI.png",
+      "sha256": "57f5cccad568308bc2e7abfec5310d489f98cd47f577c21f4ba9c4e5976b1b32",
+      "dimensions": [
+        640,
+        641
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Pediatric adamantinomatous craniopharyngioma MRI, calcification, and machinery-oil cyst",
+      "original_asset": "assets/originals/57f5cccad568308b.png",
+      "display_asset": "assets/display/e5-tp-craniopharyngioma-mri-6ebb3adf0b8fafce.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology (3rd Party)",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 49
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1d219ed88e129a566c60",
+          "asset": "assets/display/e5-tp-craniopharyngioma-mri-6ebb3adf0b8fafce.webp",
+          "zoom_asset": "assets/zoom/e5-tp-craniopharyngioma-mri-6ebb3adf0b8fafce.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              640,
+              641
+            ],
+            "output_dimensions": [
+              640,
+              641
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-20416e59f9999fe219ab2fbd498514dda9e76ae1300fe95f88504b2d5459d79a",
+      "source_id": "s-75938ec7f91d1771ab37",
+      "source_group_id": "g-75938ec7f91d1771ab37",
+      "lecture_id": "E5",
+      "relative_path": "Bootcamp Endocrinology/Pituitary adenoma sagittal imaging - MRI.png",
+      "sha256": "20416e59f9999fe219ab2fbd498514dda9e76ae1300fe95f88504b2d5459d79a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Macroprolactinoma (>200 ng/mL) first-line dopamine agonist management",
+      "original_asset": "assets/originals/20416e59f9999fe2.png",
+      "display_asset": "assets/display/e5-tp-pituitary-adenoma-mri-8934c322d0e6692b.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology (3rd Party)",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 40
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-27a74474d0041811c170",
+          "asset": "assets/display/e5-tp-pituitary-adenoma-mri-8934c322d0e6692b.webp",
+          "zoom_asset": "assets/zoom/e5-tp-pituitary-adenoma-mri-8934c322d0e6692b.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              512,
+              512
+            ],
+            "output_dimensions": [
+              512,
+              512
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0c22d98bce047926549e6d373a0831fd2c8892dd53b21a5c6eeadc1ebf3ec28c",
+      "source_id": "s-9c9f2e852f099cca5caf",
+      "source_group_id": "g-9c9f2e852f099cca5caf",
+      "lecture_id": "E5",
+      "relative_path": "Bootcamp Endocrinology/Acromegaly frontal view - Clinical Photo.png",
+      "sha256": "0c22d98bce047926549e6d373a0831fd2c8892dd53b21a5c6eeadc1ebf3ec28c",
+      "dimensions": [
+        318,
+        479
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Acromegaly clinical recognition and first-line transsphenoidal resection",
+      "original_asset": "assets/originals/0c22d98bce047926.png",
+      "display_asset": "assets/display/e5-tp-acromegaly-frontal-9120c28504a9f70e.webp",
+      "source_origin": "third_party",
+      "source_collection": "Bootcamp Endocrinology (3rd Party)",
+      "source_citation": {
+        "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+        "page": 44
+      },
+      "source_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "current_document_sha256": "4f4f65502d4cd4144feccdaa4500300c8995d4a94a0193d7d4f0e60a694f3a6d",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-06ac6a5a83d050cf80a9",
+          "asset": "assets/display/e5-tp-acromegaly-frontal-9120c28504a9f70e.webp",
+          "zoom_asset": "assets/zoom/e5-tp-acromegaly-frontal-9120c28504a9f70e.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              318,
+              479
+            ],
+            "output_dimensions": [
+              318,
+              479
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    }
+  ]
 }

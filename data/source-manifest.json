@@ -1467,7 +1467,7 @@
               2461,
               1343
             ],
-            "reason": "Mask PLC\u03b2 and PKC labels tightly above the Ca\u00b2\u207a binding site while preserving G\u03b1q, PIP\u2082 cleavage, and ER Ca\u00b2\u207a release."
+            "reason": "Mask PLCβ and PKC labels tightly above the Ca²⁺ binding site while preserving Gαq, PIP₂ cleavage, and ER Ca²⁺ release."
           }
         }
       ]
@@ -1806,6 +1806,349 @@
               2770,
               1004
             ]
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-03a89d1b69cb5bd19c9458b3dce0fb40543cf4a95aedfcaad9d9cd332e68136d",
+      "source_id": "s-991de30eb9856e3fef33",
+      "source_group_id": "g-991de30eb9856e3fef33",
+      "lecture_id": "E4",
+      "relative_path": "E4/Posterior Pituitary Hypothalamic Connections - Diagram.png",
+      "sha256": "03a89d1b69cb5bd19c9458b3dce0fb40543cf4a95aedfcaad9d9cd332e68136d",
+      "dimensions": [
+        1373,
+        2112
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Hypothalamic magnocellular synthesis of ADH and oxytocin with neurophysins",
+      "original_asset": "assets/originals/03a89d1b69cb5bd1.png",
+      "display_asset": "assets/display/e4-post-pit-connections-9ed9175e2fbc10ed.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-d84bc9524ddd4f0458fd",
+          "asset": "assets/display/e4-post-pit-connections-9ed9175e2fbc10ed.webp",
+          "zoom_asset": "assets/zoom/e4-post-pit-connections-9ed9175e2fbc10ed.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1373,
+              2112
+            ],
+            "output_dimensions": [
+              1373,
+              2112
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3706e5f9926fe0a8e08a12d176b6117998ac8f6fff0e62548aa5fc681a663200",
+      "source_id": "s-9ba86d82480732e3f5c6",
+      "source_group_id": "g-9ba86d82480732e3f5c6",
+      "lecture_id": "E4",
+      "relative_path": "E4/Anterior Pituitary Portal Circulation - Diagram.png",
+      "sha256": "3706e5f9926fe0a8e08a12d176b6117998ac8f6fff0e62548aa5fc681a663200",
+      "dimensions": [
+        2076,
+        2118
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Hypophyseal portal circulation preserving hypothalamic pulsatility",
+      "original_asset": "assets/originals/3706e5f9926fe0a8.png",
+      "display_asset": "assets/display/e4-portal-circulation-978014a5cf21cb19.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a0df6e21dffe11391aae",
+          "asset": "assets/display/e4-portal-circulation-978014a5cf21cb19.webp",
+          "zoom_asset": "assets/zoom/e4-portal-circulation-978014a5cf21cb19.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2076,
+              2118
+            ],
+            "output_dimensions": [
+              2076,
+              2118
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7d494d313658b4f73e664c74bc357cde0cd0c8c681672341587fd7000bef9df4",
+      "source_id": "s-d4544daef0e478dd4bd9",
+      "source_group_id": "g-d4544daef0e478dd4bd9",
+      "lecture_id": "E4",
+      "relative_path": "E4/Glycoprotein Hormone Subunits and Receptors - Diagram.png",
+      "sha256": "7d494d313658b4f73e664c74bc357cde0cd0c8c681672341587fd7000bef9df4",
+      "dimensions": [
+        2386,
+        1188
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Glycoprotein hormone shared α-subunit, unique β-subunit, and hCG binding LH receptor",
+      "original_asset": "assets/originals/7d494d313658b4f7.png",
+      "display_asset": "assets/display/e4-glycoprotein-subunits-8ad1d1840a4d6527.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-638a228f6888d531991b",
+          "asset": "assets/display/e4-glycoprotein-subunits-8ad1d1840a4d6527.webp",
+          "zoom_asset": "assets/zoom/e4-glycoprotein-subunits-8ad1d1840a4d6527.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2386,
+              1188
+            ],
+            "output_dimensions": [
+              2386,
+              1188
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-620a8792997304b84f2e45eb752d9c87a09806f4058689c0e5b66f3646bf8c54",
+      "source_id": "s-3a5fb1bfc18f09bb2c63",
+      "source_group_id": "g-3a5fb1bfc18f09bb2c63",
+      "lecture_id": "E4",
+      "relative_path": "E4/Hypothalamic Factors Controlling Pituitary - Diagram.png",
+      "sha256": "620a8792997304b84f2e45eb752d9c87a09806f4058689c0e5b66f3646bf8c54",
+      "dimensions": [
+        2498,
+        1656
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Tonic dopamine inhibition of prolactin and pituitary stalk transection effect",
+      "original_asset": "assets/originals/620a8792997304b8.png",
+      "display_asset": "assets/display/e4-hypothalamic-factors-b31c4c7b22bb4ed0.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 13
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-57362bce011e4c6149f2",
+          "asset": "assets/display/e4-hypothalamic-factors-b31c4c7b22bb4ed0.webp",
+          "zoom_asset": "assets/zoom/e4-hypothalamic-factors-b31c4c7b22bb4ed0.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2498,
+              1656
+            ],
+            "output_dimensions": [
+              2498,
+              1656
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-4012c8919a328a27e494d1b9f89487dc73b43d38aab69f0362c38b9a8e1375bd",
+      "source_id": "s-ffea5cd0ab6de3de68f4",
+      "source_group_id": "g-ffea5cd0ab6de3de68f4",
+      "lecture_id": "E4",
+      "relative_path": "E4/Primary Secondary Tertiary Endocrine Disease - Diagram.png",
+      "sha256": "4012c8919a328a27e494d1b9f89487dc73b43d38aab69f0362c38b9a8e1375bd",
+      "dimensions": [
+        2026,
+        1831
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Primary vs secondary vs tertiary endocrine disease localization",
+      "original_asset": "assets/originals/4012c8919a328a27.png",
+      "display_asset": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 10
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-634b67b33ec718179cfe",
+          "asset": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+          "zoom_asset": "assets/zoom/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2026,
+              1831
+            ],
+            "output_dimensions": [
+              2026,
+              1831
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f820a93fa79dd70adbaa6e63c914d9421e0b09ce8e8223384e329baf1efe9c76",
+      "source_id": "s-d77819ac771086ceb107",
+      "source_group_id": "g-d77819ac771086ceb107",
+      "lecture_id": "E4",
+      "relative_path": "E4/Prolactin Regulation by TRH and Dopamine - Diagram.png",
+      "sha256": "f820a93fa79dd70adbaa6e63c914d9421e0b09ce8e8223384e329baf1efe9c76",
+      "dimensions": [
+        2298,
+        1781
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Dual hypothalamic control of prolactin by stimulatory TRH and inhibitory dopamine",
+      "original_asset": "assets/originals/f820a93fa79dd70a.png",
+      "display_asset": "assets/display/e4-prolactin-regulation-0fb8e12448bd8222.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 29
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-6cdbf8f708965d673eb4",
+          "asset": "assets/display/e4-prolactin-regulation-0fb8e12448bd8222.webp",
+          "zoom_asset": "assets/zoom/e4-prolactin-regulation-0fb8e12448bd8222.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2298,
+              1781
+            ],
+            "output_dimensions": [
+              2298,
+              1781
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b39db101690ade4faf6eed31b96708ffa1bb0f907e72bd2eb826672acfff5105",
+      "source_id": "s-587be07166927bce507b",
+      "source_group_id": "g-587be07166927bce507b",
+      "lecture_id": "E4",
+      "relative_path": "E4/Prolactin Physiological Function - Diagram.png",
+      "sha256": "b39db101690ade4faf6eed31b96708ffa1bb0f907e72bd2eb826672acfff5105",
+      "dimensions": [
+        2689,
+        1885
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "tested_concept": "Hyperprolactinemia inhibiting GnRH secretion to cause hypogonadism and infertility",
+      "original_asset": "assets/originals/b39db101690ade4f.png",
+      "display_asset": "assets/display/e4-prolactin-function-f2085b684d7cd081.webp",
+      "source_origin": "lecture",
+      "source_collection": "E4 Lecture RLS",
+      "source_citation": {
+        "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "current_document_sha256": "62a5d34a6f0cad280c9d5189989db84b729e5acb702599dc1e467c398d8810b5",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-38a06d6839411a70b52f",
+          "asset": "assets/display/e4-prolactin-function-f2085b684d7cd081.webp",
+          "zoom_asset": "assets/zoom/e4-prolactin-function-f2085b684d7cd081.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2689,
+              1885
+            ],
+            "output_dimensions": [
+              2689,
+              1885
+            ],
+            "reason": "Individually inspected quiz-safe derivative with answer-bearing labels masked or cropped."
           }
         }
       ]

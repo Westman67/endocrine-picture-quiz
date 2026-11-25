@@ -1,5 +1,23 @@
 {
   "schema_version": 1,
   "section": "pathology",
-  "lectures": []
+  "lectures": {
+    "E5": {
+      "status": "Reviewed active visual and conceptual bank (23 lecture + 3 labeled 3rd-party items; 5 post-answer supplements)",
+      "tested_summary": [
+        "Bitemporal hemianopia from optic chiasm compression",
+        "PitNET gross morphology, monomorphic H&E vs. normal inset, reticulin stain (hyperplasia vs. neoplasia), WHO 2022 IHC transcription factors (PIT1/TPIT/SF1), and micro (<1 cm) vs. macroadenoma (≥1 cm) MRI",
+        "Adamantinomatous (CTNNB1, wet keratin, machinery oil) vs. papillary (BRAF p.V600E) craniopharyngioma A/B histology + pediatric MRI",
+        "Prolactinoma (>200 ng/mL, first-line dopamine agonist), acromegaly (IGF-1/OGTT, transsphenoidal resection), and gigantism",
+        "Pituitary apoplexy mass effects & emergent IV glucocorticoid + decompression",
+        "Congenital anomalies: septo-optic dysplasia MRI, alobar holoprosencephaly, Kallmann syndrome, ectopic posterior pituitary MRI, Rathke cleft cyst histology",
+        "Acquired hypopituitarism: lymphocytic hypophysitis (histology + MRI), Sheehan syndrome, empty sella MRI, >75% loss order & proportionate short stature",
+        "Posterior pituitary & hypothalamus: central vs. nephrogenic DI, water deprivation/desmopressin test, SIAD/vaptan V2 mechanism, hypothalamic nuclei localization"
+      ],
+      "gaps": [
+        "Strictly excluded Not Required topics per lecture emphasis ledger: congenital anomaly gene lists (HESX1/SOX2/ANOS1), GNAS/USP8 PitNET mutations, densely vs. sparsely granulated PitNET subtypes, and giant adenoma (>4 cm) extension staging."
+      ],
+      "basis": "E5 RLS (56p), E5 Transcript (14p), E5 Obsidian Detailed Notes, reviewed E5 PNGs, and strictly in-scope Bootcamp/First Aid pituitary pathology visuals."
+    }
+  }
 }

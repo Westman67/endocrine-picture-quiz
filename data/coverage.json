@@ -43,6 +43,22 @@
         "JAK-STAT drug targets (p.20) reserved for Pharmacology section."
       ],
       "basis": "E3 RLS (20p), E3 LO, E3 Transcript, and reviewed PNGs."
+    },
+    "E4": {
+      "status": "Reviewed active visual and conceptual bank (10 lecture items + 1 post-answer 3rd-party supplement)",
+      "tested_summary": [
+        "Posterior pituitary hypothalamic magnocellular synthesis & neurophysins",
+        "Hypophyseal portal circulation & continuous GnRH gonadotrope desensitization",
+        "Glycoprotein hormone shared α-subunit, unique β-subunit & hCG-LH receptor binding",
+        "Hypothalamic releasing/inhibiting factors & stalk-effect hyperprolactinemia",
+        "Primary vs. secondary vs. tertiary endocrine disease localization",
+        "Dual TRH/dopamine control of prolactin & hyperprolactinemia GnRH suppression",
+        "GH direct fasting catabolic vs. fed IGF-1 anabolic actions, anterior hormone families, clearance & feed-forward control"
+      ],
+      "gaps": [
+        "Full-slide duplicate PNGs and overview banners excluded as redundant."
+      ],
+      "basis": "E4 RLS (32p), E4 Transcript (11p), E4 Obsidian Detailed Notes, and reviewed PNGs."
     }
   }
 }

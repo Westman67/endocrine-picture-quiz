@@ -1,8 +1,1516 @@
 {
   "schema_version": 2,
-  "title": "Endocrine Pathology \u00b7 Picture Quiz",
+  "title": "Endocrine Pathology · Picture Quiz",
   "section": "pathology",
-  "questions": [],
+  "release_status": "ready",
+  "questions": [
+    {
+      "question_id": "q-e5-bitemporal-hemianopia",
+      "source_id": "s-d7e124c7bd9e4c6cb1a2",
+      "source_group_id": "g-d7e124c7bd9e4c6cb1a2",
+      "variant_id": "v-b8919383213c9e5b484e",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Neuroanatomy Visual Pathway",
+      "tested_concept": "Optic chiasm compression causing bitemporal hemianopia",
+      "stem": "A 46-year-old man reports bumping into doorframes on both sides for 6 months. Compression of the decussating fibers by the sellar mass shown produces which visual field defect, and which retinal fibers are injured?",
+      "options": [
+        "Bitemporal hemianopia from crossing nasal retinal fiber compression",
+        "Binasal hemianopia from compression of uncrossed temporal retinal fibers",
+        "Left homonymous hemianopia from injury to the right optic tract",
+        "Right monocular blindness from compression of the right optic nerve"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The diagram shows a suprasellar mass compressing the central optic chiasm, where red dashed fibers from the nasal hemiretinas cross to the contralateral optic tract. Step 2. Because nasal retinal fibers receive light from the temporal visual fields, chiasmal compression produces classic bitemporal hemianopia (shaded outer halves of both visual fields).",
+      "choice_rationales": [
+        "Suprasellar growth compresses crossing nasal retinal fibers at the optic chiasm, eliminating both temporal visual fields (bitemporal hemianopia).",
+        "Uncrossed temporal retinal fibers travel laterally along the chiasm (blue lines) and carry the nasal visual fields; they are spared in central chiasmal compression.",
+        "Homonymous hemianopia results from retrochiasmal lesions (optic tract or optic radiation), not midline chiasmal compression.",
+        "Monocular blindness requires a prechiasmal lesion affecting one optic nerve anterior to the chiasm."
+      ],
+      "visual_clues": [
+        "Lobulated sellar mass impinging directly on the central decussation of the optic chiasm",
+        "Interrupted red dashed fibers originating from both nasal retinas",
+        "Shaded outer (temporal) halves in both upper visual-field circles"
+      ],
+      "visual_target": "Optic chiasm compression and bitemporal visual field loss",
+      "joint_panels": [],
+      "image": "assets/display/e5-bitemporal-hemianopia-0659353b7ea8c3e1.webp",
+      "zoom_image": "assets/zoom/e5-bitemporal-hemianopia-0659353b7ea8c3e1.webp",
+      "original_image": "assets/originals/50981f2713d553e2.png",
+      "original_filename": "Pituitary Mass Bitemporal Hemianopia Visual Pathway - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 4
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Bitemporal Hemianopia (Pituitary Mass Effect)",
+      "condition_overview": "Local mass effects of sellar tumors also include headache from diaphragma sellae stretching, cavernous sinus invasion (CN III, IV, V1/V2, VI palsies), and hypopituitarism from compression of normal residual gland.",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/supp-bc-bitemporal-20a004cf01e4aed0.webp",
+            "caption": "3rd party (Bootcamp): Bitemporal hemianopia visual fields - Diagram",
+            "source": "Bootcamp Endocrinology/Bitemporal hemianopia visual fields - Diagram.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "question_id": "q-e5-pit-adenoma-gross",
+      "source_id": "s-2bcf3bd159e3050fbb53",
+      "source_group_id": "g-2bcf3bd159e3050fbb53",
+      "variant_id": "v-b40271c2c398f7c00b65",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Gross Neuropathology",
+      "tested_concept": "Pituitary neuroendocrine tumor (PitNET) gross morphology and suprasellar compression",
+      "stem": "Coronal autopsy section of the brain shows a large, well-circumscribed, soft tan-pink sellar mass extending superiorly into the suprasellar cistern. Which functioning tumor type is the most common cause of this neoplasm, and which nonfunctioning type is most common overall?",
+      "options": [
+        "Most common functioning: somatotroph; most common nonfunctioning: corticotroph",
+        "Functioning: lactotroph (prolactinoma); nonfunctioning: gonadotroph",
+        "Most common functioning: thyrotroph; most common nonfunctioning: lactotroph",
+        "Most common functioning: corticotroph; most common nonfunctioning: somatotroph"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The coronal brain section demonstrates a classic large, soft, fleshy pituitary neuroendocrine tumor (PitNET/adenoma) expanding upward to compress the optic chiasm and elevate the floor of the third ventricle. Step 2. Lactotroph tumors (prolactinomas) are the most common functioning PitNETs, whereas gonadotroph tumors are the most common nonfunctioning PitNETs.",
+      "choice_rationales": [
+        "Somatotroph tumors are the second most common functioning PitNETs, and silent corticotroph tumors are far less common than gonadotroph tumors among nonfunctioning masses.",
+        "Prolactinomas account for the majority of functioning PitNETs, while clinically nonfunctioning macroadenomas most commonly show gonadotroph (SF1) differentiation.",
+        "Thyrotroph (TSH-secreting) PitNETs are rare (~1%), and lactotroph tumors typically present with hormone excess rather than as nonfunctioning masses.",
+        "Corticotroph tumors cause Cushing disease and are less common than prolactinomas; somatotroph tumors typically cause acromegaly."
+      ],
+      "visual_clues": [
+        "Large well-circumscribed tan-pink fleshy mass occupying the sellar and suprasellar midline",
+        "Upward displacement and compression of the hypothalamus and third-ventricle floor",
+        "Absence of extensive calcification or gross cystic oil-like debris"
+      ],
+      "visual_target": "Large sellar/suprasellar PitNET on coronal gross brain section",
+      "joint_panels": [],
+      "image": "assets/display/e5-pit-adenoma-gross-a7b11b079e3edbf0.webp",
+      "zoom_image": "assets/zoom/e5-pit-adenoma-gross-a7b11b079e3edbf0.webp",
+      "original_image": "assets/originals/d0caa47cae3ba40c.png",
+      "original_filename": "Pituitary Adenoma Gross Brain - Gross.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 36
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 41
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pituitary Neuroendocrine Tumor (PitNET / Adenoma)",
+      "condition_overview": "The WHO 2022 classification renamed pituitary adenoma to pituitary neuroendocrine tumor (PitNET) to reflect neuroendocrine lineage and occasional invasive behavior, though most remain benign and slow-growing."
+    },
+    {
+      "question_id": "q-e5-pitnet-monomorphic-he",
+      "source_id": "s-633eeabebf1fe733de19",
+      "source_group_id": "g-633eeabebf1fe733de19",
+      "variant_id": "v-dbd2afb9a9773de065f8",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Histopathology (H&E)",
+      "tested_concept": "Monomorphic PitNET sheets vs variegated normal anterior pituitary and need for IHC",
+      "stem": "Compared with the variegated normal anterior pituitary inset (top right), the main H&E field shows uniform sheets of monomorphic round cells with bland nuclei. What is required next to determine the specific PitNET subtype?",
+      "options": [
+        "PAS-Alcian blue staining to identify ciliated mucin-producing goblet cells",
+        "High-power mitotic count on H&E alone to assign secretory lineage",
+        "IHC for lineage transcription factors (PIT1, TPIT, SF1) and hormones",
+        "Congo red birefringence to separate lactotroph from somatotroph cells"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Unlike the normal anterior pituitary inset (mixed acidophils, basophils, and chromophobes in small nests), a PitNET forms monotonous sheets of uniform cells with cellular monomorphism. Step 2. Because routine H&E cannot reliably identify which hormone or lineage a PitNET belongs to, immunohistochemistry (IHC) for lineage transcription factors (PIT1, TPIT, SF1) and pituitary hormones is required for subtyping.",
+      "choice_rationales": [
+        "PAS-positive goblet cells and ciliated columnar epithelium characterize a benign Rathke cleft cyst rather than a PitNET.",
+        "H&E morphology and mitotic counts assess atypia or proliferation but cannot distinguish somatotroph, lactotroph, corticotroph, or gonadotroph lineages.",
+        "WHO PitNET classification relies on IHC for transcription factors (PIT1 for GH/PRL/TSH, TPIT for ACTH, SF1 for FSH/LH) plus hormone stains and Ki-67 proliferation index.",
+        "Congo red identifies amyloid deposition rather than pituitary endocrine lineage."
+      ],
+      "visual_clues": [
+        "Main field showing diffuse sheets of uniform, monomorphic cells with round bland nuclei",
+        "Loss of the normal nested acinar architecture seen in the upper-right inset",
+        "Inset demonstrating normal mixed pink acidophils, purple basophils, and pale chromophobes"
+      ],
+      "visual_target": "Monomorphic PitNET histology contrasted with normal variegated anterior pituitary",
+      "joint_panels": [],
+      "image": "assets/display/e5-pitnet-monomorphic-6412d06cb02ded39.webp",
+      "zoom_image": "assets/zoom/e5-pitnet-monomorphic-6412d06cb02ded39.webp",
+      "original_image": "assets/originals/9e9862191c5ec929.png",
+      "original_filename": "Pituitary Adenoma Monomorphic Cells Histology - Histology.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 37
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 38
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "PitNET Histology & IHC Subtyping",
+      "condition_overview": "Normal anterior pituitary histology contains a mosaic of acidophils (GH, PRL), basophils (ACTH, TSH, FSH, LH), and chromophobes arranged in tight acini. Cellular uniformity (monomorphism) is a hallmark of neoplastic PitNET proliferation."
+    },
+    {
+      "question_id": "q-e5-reticulin-hyperplasia-vs-neoplasia",
+      "source_id": "s-620d07a287a92e31d2fe",
+      "source_group_id": "g-620d07a287a92e31d2fe",
+      "variant_id": "v-93a877430937f0cc36ff",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "stain",
+      "question_type": "Special Stain Comparison (A vs B)",
+      "tested_concept": "Reticulin stain distinguishing pituitary hyperplasia from PitNET neoplasia",
+      "stem": "Both biopsy panels are stained with reticulin. Which interpretation accurately distinguishes Panel A from Panel B?",
+      "options": [
+        "Panel A shows normal posterior pituitary Herring bodies; Panel B shows anterior pituitary ischemic necrosis",
+        "Panel A shows disrupted reticulin loss (PitNET); Panel B shows intact acinar architecture (hyperplasia)",
+        "Panel A shows wet keratin nodules (craniopharyngioma); Panel B shows lymphocytic infiltration (hypophysitis)",
+        "Panel A: intact expanded acinar reticulin (hyperplasia); Panel B: lost reticulin (PitNET)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Reticulin stains the dark basement-membrane fiber network surrounding normal anterior pituitary acini. Step 2. Panel A preserves a continuous (though expanded) acinar reticulin meshwork typical of pituitary hyperplasia, whereas Panel B demonstrates breakdown and loss of the reticulin network—the diagnostic hallmark of a pituitary neuroendocrine tumor (neoplasia).",
+      "choice_rationales": [
+        "Herring bodies are neurosecretory axonal dilatations in the posterior pituitary, and ischemic necrosis shows ghost cells rather than intact vs. disrupted acinar reticulin.",
+        "This reverses the two panels: the continuous dark rings outlining nests are in Panel A, while the fragmented, lost meshwork is in Panel B.",
+        "Wet keratin and lymphocytic infiltrates are H&E findings in craniopharyngioma and lymphocytic hypophysitis, not reticulin basement-membrane patterns.",
+        "Intact, widened acinar outlines on reticulin stain identify hyperplasia (Panel A), whereas breakdown and disappearance of the reticulin framework confirm neoplasia/PitNET (Panel B)."
+      ],
+      "visual_clues": [
+        "Panel A: continuous dark reticulin rings outlining expanded, intact cellular acini",
+        "Panel B: fragmented, sparse, and largely absent reticulin fibers across sheets of cells",
+        "Green counterstain highlighting cellular parenchyma between black argyrophilic fibers"
+      ],
+      "visual_target": "Reticulin framework preservation (A) versus disruption (B)",
+      "joint_panels": [],
+      "image": "assets/display/e5-reticulin-ab-df15711931ec6f18.webp",
+      "zoom_image": "assets/zoom/e5-reticulin-ab-df15711931ec6f18.webp",
+      "original_image": "assets/originals/4408454fbd2b2b4b.png",
+      "original_filename": "Reticulin Stain Hyperplasia vs Neoplasia - Histology.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 37
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Reticulin Stain: Hyperplasia vs. PitNET",
+      "condition_overview": "Reticulin staining is one of the highest-yield ancillary stains in pituitary pathology because small biopsies of physiologic hyperplasia (such as lactotroph hyperplasia in pregnancy) can otherwise mimic a PitNET on H&E."
+    },
+    {
+      "question_id": "q-e5-pitnet-micro-vs-macro-mri",
+      "source_id": "s-c384d01f4c7826954e06",
+      "source_group_id": "g-c384d01f4c7826954e06",
+      "variant_id": "v-3247ffc1a335066483a1",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Coronal Brain MRI Comparison (A vs B)",
+      "tested_concept": "Radiologic classification of PitNET microadenoma (<1 cm) vs macroadenoma (≥1 cm)",
+      "stem": "Coronal contrast-enhanced T1-weighted MRIs from two patients with sellar lesions (yellow arrowheads) are shown side by side. What size threshold separates the lesion in Panel A from the lesion in Panel B?",
+      "options": [
+        "Panel A is a microadenoma (<1 cm); Panel B is a macroadenoma (≥1 cm)",
+        "Panel A is a microadenoma (<2 cm); Panel B is a macroadenoma (≥2 cm)",
+        "Panel A is an empty sella (<0.5 cm); Panel B is a Rathke cleft cyst (≥0.5 cm)",
+        "Panel A is a macroadenoma (≥1 cm); Panel B is a microadenoma (<1 cm)"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Panel A shows a small, focal, hypoenhancing intrasellar lesion confined well within the sella turcica, whereas Panel B shows a larger sellar mass expanding laterally toward the cavernous sinus and superiorly toward the suprasellar cistern. Step 2. Radiologically, PitNETs are classified as microadenomas when <1 cm (<10 mm) in diameter (Panel A) and macroadenomas when ≥1 cm (≥10 mm) (Panel B).",
+      "choice_rationales": [
+        "The standard radiologic cutoff separating pituitary microadenomas (<1 cm, Panel A) from macroadenomas (≥1 cm, Panel B) is 1 cm (10 mm).",
+        "The threshold is 1 cm, not 2 cm; lesions between 1 and 2 cm are already classified as macroadenomas and can compress adjacent structures.",
+        "Empty sella shows CSF filling the sella with a flattened gland along the floor rather than a focal enhancing/hypoenhancing sellar mass.",
+        "This reverses the two panels: the smaller intrasellar lesion is in Panel A and the larger expanding mass is in Panel B."
+      ],
+      "visual_clues": [
+        "Panel A: small focal hypoenhancing intrasellar lesion (<1 cm) with an intact midline stalk",
+        "Panel B: larger mass (≥1 cm) expanding the sella and abutting the cavernous internal carotid artery",
+        "Yellow arrowheads marking the pituitary lesions on coronal post-contrast T1 MRI"
+      ],
+      "visual_target": "Microadenoma (<1 cm, Panel A) vs. macroadenoma (≥1 cm, Panel B) on coronal MRI",
+      "joint_panels": [],
+      "image": "assets/display/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
+      "zoom_image": "assets/zoom/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
+      "original_image": "assets/originals/0aba9d145335dc07.png",
+      "original_filename": "PitNET MRI Microadenoma Macroadenoma Giant Adenoma - Radiograph.png + PitNET MRI Microadenoma Macroadenoma Giant Adenoma - Radiograph.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 40
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "PitNET Radiologic Size Classification",
+      "condition_overview": "Microadenomas most often come to attention because of hormone hypersecretion (e.g., hyperprolactinemia or Cushing disease), whereas nonfunctioning PitNETs typically grow silently until they become macroadenomas causing visual field loss or hypopituitarism."
+    },
+    {
+      "question_id": "q-e5-craniopharyngioma-ab-histology",
+      "source_id": "s-a9a3008418024131d5f1",
+      "source_group_id": "g-a9a3008418024131d5f1",
+      "variant_id": "v-ae2eecbd3395abebb1de",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 3,
+      "study_skill": "morphology",
+      "question_type": "Histopathology Comparison (A vs B)",
+      "tested_concept": "Adamantinomatous (CTNNB1, wet keratin) vs papillary (BRAF p.V600E) craniopharyngioma",
+      "stem": "Resection specimens from two suprasellar Rathke pouch–derived tumors are shown side by side. Which pairing of subtype, typical age group, and driver mutation matches Panel A and Panel B?",
+      "options": [
+        "Panel A: papillary (adults, BRAF p.V600E); Panel B: adamantinomatous (children, CTNNB1/β-catenin)",
+        "Panel A: adamantinomatous (children, CTNNB1); Panel B: papillary (adults, BRAF p.V600E)",
+        "Panel A: Rathke cleft cyst (infants, no mutation); Panel B: lactotroph PitNET (adults, PIT1)",
+        "Panel A: adamantinomatous (adults, BRAF p.V600E); Panel B: papillary (children, CTNNB1/β-catenin)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Panel A displays prominent eosinophilic 'wet keratin' nodules, peripheral nuclear palisading, and loose stellate reticulum—classic hallmarks of adamantinomatous craniopharyngioma. Panel B displays solid, well-differentiated non-keratinizing squamous epithelium draping over fibrovascular cores (cauliflower-like papillae) without wet keratin—classic papillary craniopharyngioma. Step 2. Adamantinomatous craniopharyngioma predominantly affects children and carries CTNNB1 (β-catenin) mutations, whereas papillary craniopharyngioma occurs almost exclusively in adults and carries BRAF p.V600E mutations.",
+      "choice_rationales": [
+        "This swaps the two histology panels: eosinophilic wet keratin whorls are in Panel A, whereas papillary fibrovascular cores are in Panel B.",
+        "Panel A shows wet keratin and palisading of pediatric-predominant CTNNB1-mutant adamantinomatous craniopharyngioma, while Panel B shows non-keratinizing squamous papillae of adult BRAF p.V600E papillary craniopharyngioma.",
+        "Rathke cleft cysts are lined by simple ciliated cuboidal/columnar epithelium with goblet cells, and PitNETs show monotonous neuroendocrine sheets rather than squamous papillae.",
+        "This swaps the age groups and driver mutations: CTNNB1 drives adamantinomatous tumors (bimodal, mainly children) and BRAF p.V600E drives adult papillary tumors."
+      ],
+      "visual_clues": [
+        "Panel A: bright pink anucleate 'wet keratin' nodules surrounded by palisading basal epithelium and loose stellate reticulum",
+        "Panel B: papillary projections of mature non-keratinizing stratified squamous epithelium covering fibrovascular cores",
+        "Absence of wet keratin or calcification in Panel B"
+      ],
+      "visual_target": "Adamantinomatous (A) vs. papillary (B) craniopharyngioma histology",
+      "joint_panels": [],
+      "image": "assets/display/e5-craniopharyngioma-ab-7463394509e968b9.webp",
+      "zoom_image": "assets/zoom/e5-craniopharyngioma-ab-7463394509e968b9.webp",
+      "original_image": "assets/originals/7463394509e968b9.png",
+      "original_filename": "Adamantinomatous Craniopharyngioma Histology - Histology.png + Papillary Craniopharyngioma Histology - Histology.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 49
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 50
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Adamantinomatous vs. Papillary Craniopharyngioma",
+      "condition_overview": "Adamantinomatous craniopharyngiomas characteristically form 'machinery-oil' cysts rich in cholesterol crystals with prominent dystrophic calcifications and infiltrative brain margins, causing high recurrence rates. Papillary craniopharyngiomas are typically solid, non-calcified, well-circumscribed, and amenable to BRAF-targeted therapy."
+    },
+    {
+      "question_id": "q-e5-pituitary-apoplexy",
+      "source_id": "s-752afeab02d52c478c00",
+      "source_group_id": "g-752afeab02d52c478c00",
+      "variant_id": "v-fa79b8039fef27d6f2c5",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Pathophysiology Diagram",
+      "tested_concept": "Pituitary apoplexy acute hemorrhage, cavernous sinus ophthalmoplegia, and urgent management",
+      "stem": "A 54-year-old man with a known pituitary macroadenoma develops a sudden thunderclap 'worst headache of his life,' bilateral diplopia (label 3), and acute visual loss (label 2). What acute mechanism is illustrated, and what is the most urgent initial medical and surgical management?",
+      "options": [
+        "Slow CSF herniation through the diaphragma sellae; elective observation with repeat MRI in 1 year",
+        "Autoimmune lymphocytic infiltration of the stalk; outpatient oral levothyroxine monotherapy",
+        "Acute PitNET hemorrhage/infarction; urgent IV glucocorticoids and surgical decompression",
+        "Postpartum ischemic infarction of the anterior lobe; high-dose oral cabergoline therapy"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The diagram depicts acute hemorrhage/infarction within a sellar tumor expanding superiorly into the optic chiasm (2) and third ventricle (1, obstructive hydrocephalus) and laterally into both cavernous sinuses (3, CN III/IV/VI ophthalmoplegia). Step 2. Pituitary apoplexy is a neuroendocrine emergency requiring immediate IV glucocorticoid replacement (to prevent fatal adrenal crisis) and urgent transsphenoidal surgical decompression for neuro-ophthalmic deficits.",
+      "choice_rationales": [
+        "Empty sella is a chronic CSF herniation that rarely causes sudden thunderclap headache or acute bilateral cavernous sinus ophthalmoplegia.",
+        "Lymphocytic hypophysitis presents subacutely (often peripartum or with CTLA-4 inhibitors) and giving levothyroxine alone without cortisol risks precipitating adrenal crisis.",
+        "Sudden thunderclap headache (89%) with ophthalmoplegia (78%) and visual loss (52%) defines pituitary apoplexy, which requires emergent IV hydrocortisone and urgent transsphenoidal decompression.",
+        "Sheehan syndrome occurs after severe postpartum hemorrhage rather than hemorrhage into a preexisting macroadenoma, and cabergoline does not relieve acute apoplexy compression."
+      ],
+      "visual_clues": [
+        "Central hemorrhagic crimson sellar mass expanding acutely in all four directions",
+        "Lateral arrows invading bilateral cavernous sinuses containing cranial nerves (label 3)",
+        "Superior arrows compressing the optic chiasm (label 2) and third ventricle (label 1)"
+      ],
+      "visual_target": "Directional mass effects of acute pituitary apoplexy",
+      "joint_panels": [],
+      "image": "assets/display/e5-pituitary-apoplexy-654763d2556e545f.webp",
+      "zoom_image": "assets/zoom/e5-pituitary-apoplexy-654763d2556e545f.webp",
+      "original_image": "assets/originals/0bd34d48b8119635.png",
+      "original_filename": "Pituitary Apoplexy Mass Effects - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 32
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pituitary Apoplexy",
+      "condition_overview": "Pituitary apoplexy most often occurs inside a previously undiagnosed or known macroadenoma. Acute ACTH deficiency can rapidly cause life-threatening hypotension and shock, making immediate empiric IV corticosteroids mandatory alongside neurosurgical evaluation."
+    },
+    {
+      "question_id": "q-e5-rathke-cleft-cyst",
+      "source_id": "s-5792e6d824ae6c312897",
+      "source_group_id": "g-5792e6d824ae6c312897",
+      "variant_id": "v-2ed5c1d19b76b5500428",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Histopathology (H&E & PAS)",
+      "tested_concept": "Rathke cleft cyst ciliated columnar epithelium with mucin-producing goblet cells",
+      "stem": "A 34-year-old woman undergoes transsphenoidal drainage of a benign, non-calcified, mucoid intrasellar cyst. Histology shows a single layer of ciliated columnar epithelium (panel a) with PAS-positive mucin-producing goblet cells (panel c). What is the diagnosis and embryologic origin?",
+      "options": [
+        "Ectopic posterior pituitary arising from arrested migration of hypothalamic magnocellular axons",
+        "Adamantinomatous craniopharyngioma arising from the neuroectodermal infundibulum",
+        "Pituitary neuroendocrine tumor arising from monomorphic PIT1-positive acidophils",
+        "Rathke cleft cyst arising from an embryologic remnant of Rathke pouch (oral ectoderm)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The biopsy shows benign, single-layered ciliated cuboidal-to-columnar epithelium (a) interspersed with PAS-positive mucin-filled goblet cells (c), with no wet keratin or neoplastic sheets. Step 2. These features are pathognomonic for a Rathke cleft cyst, a benign developmental remnant of the oral ectodermal Rathke pouch.",
+      "choice_rationales": [
+        "Ectopic posterior pituitary appears as a T1-bright neurohypophyseal nodule at the median eminence rather than a mucin-filled epithelial cyst.",
+        "Adamantinomatous craniopharyngioma also arises from Rathke pouch remnants (not neuroectoderm) but features stratified squamous epithelium, peripheral palisading, and wet keratin rather than simple ciliated goblet-cell epithelium.",
+        "PitNETs consist of solid sheets of monomorphic neuroendocrine cells without ciliated epithelium or mucinous goblet cells.",
+        "Simple ciliated columnar/cuboidal epithelium with PAS-positive goblet cells lining a mucoid sellar cyst defines a benign Rathke cleft cyst derived from Rathke pouch."
+      ],
+      "visual_clues": [
+        "Panel (a): thin single layer of simple ciliated columnar epithelium (arrow) over fibrous wall",
+        "Panel (c): plump purple PAS-positive mucin-producing goblet cells (arrow) lining the cyst lumen",
+        "Complete absence of wet keratin, peripheral palisading, or cellular atypia"
+      ],
+      "visual_target": "Ciliated columnar epithelium and PAS-positive goblet cells of a Rathke cleft cyst",
+      "joint_panels": [],
+      "image": "assets/display/e5-rathke-cleft-histology-2231640fd72e2c53.webp",
+      "zoom_image": "assets/zoom/e5-rathke-cleft-histology-2231640fd72e2c53.webp",
+      "original_image": "assets/originals/4412e9e2f501c76e.png",
+      "original_filename": "Rathke Cleft Cyst Histology - Histology.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 27
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Rathke Cleft Cyst",
+      "condition_overview": "Most Rathke cleft cysts are small (<1 cm) and asymptomatic incidentalomas; larger cysts can compress the pituitary or optic chiasm and are treated by simple surgical fenestration/drainage rather than aggressive resection."
+    },
+    {
+      "question_id": "q-e5-septo-optic-dysplasia",
+      "source_id": "s-2cc59cebaca558bd901e",
+      "source_group_id": "g-2cc59cebaca558bd901e",
+      "variant_id": "v-7322184bba318d8a9d4f",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Pediatric Brain MRI",
+      "tested_concept": "Septo-optic dysplasia diagnostic triad and most common hormone deficiency",
+      "stem": "An infant evaluated for nystagmus and poor visual tracking undergoes brain MRI (coronal left, sagittal right), demonstrating fused squared-off frontal horns without a midline septum pellucidum, a hypoplastic optic chiasm (OC), and a small anterior pituitary (AP). What is the diagnosis, and which pituitary hormone is most commonly deficient?",
+      "options": [
+        "Septo-optic dysplasia; growth hormone (GH) deficiency",
+        "Alobar holoprosencephaly; isolated prolactin excess",
+        "Kallmann syndrome; isolated vasopressin (ADH) deficiency",
+        "Empty sella syndrome; isolated ACTH excess"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The MRI demonstrates classic features of septo-optic dysplasia (de Morsier syndrome): absent septum pellucidum (box-like fused lateral ventricles), optic nerve/chiasm hypoplasia, and pituitary hypoplasia. Step 2. Diagnosis requires ≥2 of these three triad features; visual impairment is usually the first sign, and GH deficiency is the most common endocrine deficit.",
+      "choice_rationales": [
+        "Absent septum pellucidum, optic chiasm hypoplasia, and pituitary hypoplasia fulfill the diagnostic triad of septo-optic dysplasia, in which GH is the most frequent hormonal deficiency.",
+        "Alobar holoprosencephaly produces a single monoventricle with complete failure of forebrain cleavage and severe midline facial defects (cyclopia/proboscis), not isolated absence of the septum pellucidum.",
+        "Kallmann syndrome presents with anosmia and hypogonadotropic hypogonadism from failed GnRH neuron migration, without absent septum pellucidum or optic nerve hypoplasia.",
+        "Empty sella syndrome shows CSF filling the sella in adults (commonly obese females) and does not cause congenital absent septum pellucidum or optic chiasm hypoplasia."
+      ],
+      "visual_clues": [
+        "Coronal MRI (left): absent midline septum pellucidum producing a squared-off single anterior ventricular roof",
+        "Sagittal MRI (right): hypoplastic anterior pituitary (AP) and thin optic chiasm (OC)",
+        "Intact corpus callosum (CC) separating septo-optic dysplasia from severe holoprosencephaly"
+      ],
+      "visual_target": "Absent septum pellucidum, optic chiasm hypoplasia, and pituitary hypoplasia on MRI",
+      "joint_panels": [],
+      "image": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
+      "zoom_image": "assets/zoom/e5-septo-optic-mri-c83b17d18449d466.webp",
+      "original_image": "assets/originals/911c240c9a8523b0.png",
+      "original_filename": "Septo Optic Dysplasia MRI - Radiograph.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 22
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Septo-Optic Dysplasia (de Morsier Syndrome)",
+      "condition_overview": "Visual impairment (nystagmus or poor fixation) is typically the earliest presenting feature, followed by growth failure from GH deficiency; additional anterior pituitary axes (TSH, ACTH, gonadotropins) may fail progressively over childhood."
+    },
+    {
+      "question_id": "q-e5-alobar-holoprosencephaly",
+      "source_id": "s-2d029499e6ec53e39d20",
+      "source_group_id": "g-2d029499e6ec53e39d20",
+      "variant_id": "v-a73f402be529398ee50a",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Pediatric MRI & Clinical Photo",
+      "tested_concept": "Alobar holoprosencephaly failure of prosencephalon cleavage",
+      "stem": "A newborn presents with the severe midline craniofacial anomaly (Panel B) and axial brain MRI (Panel A) showing a single horseshoe-shaped monoventricle with fused thalami and no interhemispheric fissure. Failure of cleavage of which embryonic brain vesicle causes this most severe subtype?",
+      "options": [
+        "Rhombencephalon (hindbrain), producing lobar holoprosencephaly",
+        "Prosencephalon (forebrain), producing alobar holoprosencephaly",
+        "Mesencephalon (midbrain), producing septo-optic dysplasia",
+        "Oral ectodermal Rathke pouch, producing pituitary stalk interruption"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Panel A shows complete absence of the interhemispheric fissure with a single monoventricle (red arrow) and fused midline deep gray nuclei (blue arrow), paired in Panel B with cyclopia/synophthalmia and a supraorbital proboscis. Step 2. This is alobar holoprosencephaly, the most severe form of failed midline cleavage of the embryonic prosencephalon (forebrain).",
+      "choice_rationales": [
+        "Holoprosencephaly is a forebrain (prosencephalon) defect rather than a hindbrain defect, and lobar HPE is a milder subtype with mostly separated hemispheres.",
+        "Alobar holoprosencephaly represents complete failure of embryonic prosencephalon cleavage into two cerebral hemispheres, accompanied by the most severe midline facial defects and hypothalamic-pituitary dysfunction.",
+        "Septo-optic dysplasia involves midline optic/septal structures without a single monoventricle or cyclopia, and does not stem from mesencephalic failure.",
+        "Rathke pouch forms the anterior pituitary rather than the cerebral hemispheres and facial midline."
+      ],
+      "visual_clues": [
+        "Panel A (MRI): large single dorsal monoventricle (red arrow) with fused midline thalami (blue arrow) and absent interhemispheric fissure",
+        "Panel B (Clinical photo): single central fused orbit (red arrow) beneath a midline proboscis (blue arrow)",
+        "Classic 'face predicts the brain' severity correlation in alobar holoprosencephaly"
+      ],
+      "visual_target": "Alobar holoprosencephaly monoventricle and midline facial malformation",
+      "joint_panels": [],
+      "image": "assets/display/e5-alobar-hpe-54c7b6f0dc082670.webp",
+      "zoom_image": "assets/zoom/e5-alobar-hpe-54c7b6f0dc082670.webp",
+      "original_image": "assets/originals/cea635b7c00d8b96.png",
+      "original_filename": "Alobar Holoprosencephaly MRI and Face - Clinical Photo.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 21
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 23
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Alobar Holoprosencephaly",
+      "condition_overview": "Holoprosencephaly spans a severity spectrum from alobar (single ventricle, no cleavage) → semilobar → lobar → middle interhemispheric fusion variant, and frequently causes hypothalamic-pituitary dysfunction including central diabetes insipidus."
+    },
+    {
+      "question_id": "q-e5-ectopic-posterior-pituitary",
+      "source_id": "s-f2b61d941a5e81195bb9",
+      "source_group_id": "g-f2b61d941a5e81195bb9",
+      "variant_id": "v-1671d8d94bca830ecc28",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Sagittal T1 Brain MRI",
+      "tested_concept": "Pituitary stalk interruption syndrome with ectopic posterior pituitary bright spot",
+      "stem": "A 7-year-old boy with proportionate short stature undergoes unenhanced sagittal T1-weighted MRI. The normal posterior pituitary bright spot is absent from the sella (red arrow shows a hypoplastic anterior gland), and a high-T1 nodule sits superiorly at the median eminence (blue arrow). What is this finding?",
+      "options": [
+        "Craniopharyngioma with dystrophic suprasellar calcification",
+        "Empty sella syndrome caused by idiopathic intracranial hypertension",
+        "Ectopic posterior pituitary (pituitary stalk interruption syndrome)",
+        "Pituitary macroadenoma with acute intratumoral hemorrhage"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Normally, neurosecretory granules in the posterior pituitary produce a bright T1 hyperintense spot inside the posterior sella turcica. Step 2. Absence of the intrasellar bright spot paired with an ectopic T1-bright nodule at the median eminence/hypothalamus (blue arrow), a thin/absent stalk, and a small anterior pituitary (red arrow) is the classic MRI triad of pituitary stalk interruption syndrome (ectopic posterior pituitary).",
+      "choice_rationales": [
+        "Craniopharyngiomas present as larger cystic-solid suprasellar masses with calcifications rather than a tiny discrete ectopic T1-bright posterior pituitary dot.",
+        "Empty sella shows a CSF-filled sella flattening the pituitary along the floor without an ectopic bright neurohypophyseal nodule at the median eminence.",
+        "The displaced T1-hyperintense neurohypophyseal bright spot at the median eminence with anterior pituitary hypoplasia defines ectopic posterior pituitary / stalk interruption syndrome.",
+        "Pituitary apoplexy produces a large hemorrhagic sellar mass causing acute headache and ophthalmoplegia, not a hypoplastic intrasellar gland."
+      ],
+      "visual_clues": [
+        "Blue arrow: discrete T1-hyperintense bright nodule located superiorly at the median eminence",
+        "Red arrow: markedly hypoplastic anterior pituitary inside a small sella turcica",
+        "Absent normal posterior pituitary bright spot within the sella and attenuated stalk"
+      ],
+      "visual_target": "Ectopic T1-bright posterior pituitary nodule and hypoplastic anterior pituitary",
+      "joint_panels": [],
+      "image": "assets/display/e5-ectopic-post-pit-mri-e57584ed941fa489.webp",
+      "zoom_image": "assets/zoom/e5-ectopic-post-pit-mri-e57584ed941fa489.webp",
+      "original_image": "assets/originals/2fdbe1c712026f4d.png",
+      "original_filename": "Ectopic Posterior Pituitary MRI - Radiograph.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 26
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pituitary Stalk Interruption Syndrome (Ectopic Posterior Pituitary)",
+      "condition_overview": "Congenital hypopituitarism from stalk interruption typically presents first with growth failure (proportionate short stature from GH deficiency) before delayed puberty or other anterior pituitary hormone deficits emerge."
+    },
+    {
+      "question_id": "q-e5-lymphocytic-hypophysitis",
+      "source_id": "s-512ab6b10dc190974c55",
+      "source_group_id": "g-512ab6b10dc190974c55",
+      "variant_id": "v-77df23d3d97794dddb29",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "question_type": "Histopathology (H&E)",
+      "tested_concept": "Lymphocytic hypophysitis autoimmune infiltrate, pregnancy/CTLA-4 link, and MRI mimic",
+      "stem": "A 31-year-old woman in her third trimester develops headache and hypocortisolism with a symmetrically thickened pituitary stalk on MRI mimicking a PitNET. Biopsy shows dense sheets of small mature lymphocytes and plasma cells effacing anterior pituitary acini. Which clinical association is most characteristic of this condition?",
+      "options": [
+        "Rathke cleft cyst rupture provoking a foreign-body keratin granuloma",
+        "Sheehan syndrome triggered by severe obstetric hemorrhage and ischemic coagulative necrosis",
+        "Pituitary neuroendocrine tumor driven by clonal proliferation of monomorphic acidophils",
+        "Autoimmune lymphocytic hypophysitis linked to pregnancy, Hashimoto thyroiditis, or CTLA-4 blockade"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The H&E biopsy shows diffuse, dense lymphoplasmacytic infiltration destroying residual pink anterior pituitary acini—classic autoimmune lymphocytic hypophysitis. Step 2. It predominantly affects women (F:M ~6:1), typically during late pregnancy or postpartum, is strongly associated with other autoimmune endocrinopathies (like Hashimoto thyroiditis) and immune checkpoint inhibitors (especially CTLA-4 blockade), and mimics a PitNET on MRI.",
+      "choice_rationales": [
+        "Rathke cleft cyst histology shows ciliated columnar epithelium and goblet cells rather than autoimmune lymphoplasmacytic effacement.",
+        "Sheehan syndrome causes bland ischemic coagulative necrosis following massive postpartum hemorrhage rather than a dense autoimmune lymphocytic infiltrate.",
+        "PitNETs consist of uniform sheets of neoplastic endocrine cells without dense inflammatory lymphocytic destruction.",
+        "Dense lymphoplasmacytic infiltration in a peripartum woman with stalk thickening defines lymphocytic hypophysitis, which associates with Hashimoto thyroiditis and CTLA-4 inhibitors."
+      ],
+      "visual_clues": [
+        "Dense infiltrate of small dark round lymphocytes and plasma cells filling the anterior pituitary",
+        "Scattered residual islands of bright pink anterior pituitary endocrine cells trapped within inflammation",
+        "Absence of monomorphic adenoma sheets or ischemic coagulative necrosis"
+      ],
+      "visual_target": "Dense lymphoplasmacytic infiltrate destroying anterior pituitary parenchyma",
+      "joint_panels": [],
+      "image": "assets/display/e5-lymphocytic-hypophysitis-hist-4b6186d2fdc2a222.webp",
+      "zoom_image": "assets/zoom/e5-lymphocytic-hypophysitis-hist-4b6186d2fdc2a222.webp",
+      "original_image": "assets/originals/ffaa2ee456036105.png",
+      "original_filename": "Lymphocytic Hypophysitis Histology - Histology.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 30
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Lymphocytic Hypophysitis",
+      "condition_overview": "Unlike most PitNETs, lymphocytic hypophysitis frequently causes early isolated ACTH deficiency (adrenal crisis risk) and symmetric stalk thickening on MRI; recognizing it avoids unnecessary aggressive surgery when corticosteroid therapy and hormone replacement are indicated.",
+      "choice_images": [
+        null,
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/supp-e5-lymph-mri-852396ecfcbe31b4.webp",
+            "caption": "Lecture MRI (E5 p.30): Symmetrically thickened pituitary stalk (5 mm) in lymphocytic hypophysitis",
+            "source": "E5/Lymphocytic Hypophysitis MRI - Radiograph.png"
+          }
+        ]
+      ]
+    },
+    {
+      "question_id": "q-e5-empty-sella-mri",
+      "source_id": "s-5fe026a7c6b16e84c611",
+      "source_group_id": "g-5fe026a7c6b16e84c611",
+      "variant_id": "v-3e1bbd58673df4de9293",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Sagittal T1 Brain MRI",
+      "tested_concept": "Primary empty sella syndrome CSF herniation and clinical profile",
+      "stem": "A 44-year-old woman with obesity, hypertension, and chronic headaches undergoes sagittal T1-weighted MRI. The sella turcica is filled with dark CSF signal, flattening the pituitary gland into a thin rim along the sellar floor (arrow). Which statement best describes this entity?",
+      "options": [
+        "Primary empty sella; female-predominant (4:1), linked to obesity and intracranial hypertension",
+        "Pituitary apoplexy; acute intratumoral hemorrhage requiring emergent transsphenoidal decompression",
+        "Pituitary macroadenoma; solid enhancing mass elevating the optic chiasm",
+        "Ectopic posterior pituitary; congenital stalk interruption with a median eminence bright spot"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Sagittal T1 MRI shows the sella turcica expanded and filled with CSF-intensity fluid, compressing the pituitary into a thin crescent along the bony floor (arrow). Step 2. Primary empty sella syndrome results from herniation of the arachnoid membrane and CSF through an incompetent diaphragma sellae, has a 4:1 female predominance, and is associated with obesity, hypertension, and idiopathic intracranial hypertension.",
+      "choice_rationales": [
+        "CSF herniation flattening the gland against the sellar floor is classic empty sella syndrome, which classically occurs in middle-aged women with obesity, hypertension, or IIH and often leaves pituitary function intact.",
+        "Pituitary apoplexy shows an expanded hemorrhagic mass rather than a CSF-filled sella with a flattened gland.",
+        "A macroadenoma fills and enlarges the sella with solid tissue rather than dark CSF.",
+        "Ectopic posterior pituitary shows a small sella and a bright T1 dot at the median eminence rather than CSF herniation flattening the gland."
+      ],
+      "visual_clues": [
+        "Dark CSF-intensity space occupying almost the entire sella turcica",
+        "Thin flattened crescent of residual pituitary tissue pressed against the sellar floor (red arrow)",
+        "Pituitary stalk extending cleanly down through the CSF space to the floor"
+      ],
+      "visual_target": "CSF-filled sella turcica with flattened pituitary rim along the floor",
+      "joint_panels": [],
+      "image": "assets/display/e5-empty-sella-mri-ee2d2aabab566113.webp",
+      "zoom_image": "assets/zoom/e5-empty-sella-mri-ee2d2aabab566113.webp",
+      "original_image": "assets/originals/d573dcd422081a32.png",
+      "original_filename": "Empty Sella MRI - Radiograph.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 33
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Empty Sella Syndrome",
+      "condition_overview": "Secondary empty sella can also follow pituitary surgery, radiation, or spontaneous infarction (e.g., Sheehan syndrome or apoplexy). Many patients with primary empty sella have normal hormone levels, though mild hyperprolactinemia or partial hypopituitarism can occur.",
+      "choice_images": [
+        [
+          {
+            "image": "assets/display/supp-bc-empty-sella-6e008638f31c2bb4.webp",
+            "caption": "3rd party (Bootcamp): Empty sella sagittal MRI showing CSF-filled sella",
+            "source": "Bootcamp Endocrinology/Empty sella sagittal view - MRI.png"
+          }
+        ],
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "question_id": "q-e5-acromegaly-portraits-workup",
+      "source_id": "s-2aea88b508c17280c9cc",
+      "source_group_id": "g-2aea88b508c17280c9cc",
+      "variant_id": "v-6b51d95696f3c1cfeb46",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "interpretation",
+      "question_type": "Clinical Photographs (Longitudinal)",
+      "tested_concept": "Acromegaly clinical progression, IGF-1 screening, and OGTT confirmation",
+      "stem": "Comparing an earlier portrait (right) with a later portrait (left) of the same adult woman reveals progressive coarsening of facial features, broadened nose, thickened lips, and prominent brow/jaw. Why is a single random GH level unreliable for diagnosis, and what is the correct screening and confirmatory sequence?",
+      "options": [
+        "GH has a 20-hour half-life; screen with random GH, then confirm with an insulin-induced hypoglycemia test",
+        "GH is pulsatile; screen with IGF-1, then confirm with failed GH suppression on OGTT",
+        "GH is tonically inhibited by dopamine; screen with serum prolactin, then confirm with a water deprivation test",
+        "GH rises only during pregnancy; screen with urine free cortisol, then confirm with low-dose dexamethasone"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The longitudinal portraits show classic adult-onset acromegaly (post-epiphyseal fusion), with progressive soft-tissue and craniofacial bone enlargement from chronic GH/IGF-1 excess. Step 2. Because pituitary GH secretion is pulsatile, a single random GH level is uninformative; diagnosis starts with measuring stable serum IGF-1 and is confirmed by failure of GH to suppress during an oral glucose tolerance test (OGTT).",
+      "choice_rationales": [
+        "IGF-1—not GH—has the ~20-hour half-life; insulin-induced hypoglycemia tests for GH or ACTH deficiency rather than GH excess.",
+        "Pulsatile GH fluctuates widely throughout the day, so elevated serum IGF-1 is the best initial screen and non-suppressible GH during an OGTT confirms autonomous somatotroph excess.",
+        "Water deprivation tests evaluate diabetes insipidus, and prolactin screening evaluates lactotroph excess rather than acromegaly.",
+        "Urine free cortisol and dexamethasone suppression evaluate Cushing syndrome (hypercortisolism), not somatotroph GH excess."
+      ],
+      "visual_clues": [
+        "Progressive broadening of the nasal bridge and thickening of the lips in the left (later) portrait",
+        "Coarsening of facial soft tissues and deepening nasolabial folds over years",
+        "Adult onset after epiphyseal plate closure (acral/facial growth without tall stature)"
+      ],
+      "visual_target": "Progressive facial coarsening in adult-onset acromegaly",
+      "joint_panels": [],
+      "image": "assets/display/e5-gh-excess-portraits-ede896a5781368b2.webp",
+      "zoom_image": "assets/zoom/e5-gh-excess-portraits-ede896a5781368b2.webp",
+      "original_image": "assets/originals/3825d355ed880027.png",
+      "original_filename": "GH Excess Photo Two Facial Portraits - Clinical Photo.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 44
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 45
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Acromegaly Diagnosis (IGF-1 & OGTT)",
+      "condition_overview": "First-line therapy for a GH-secreting PitNET is transsphenoidal surgical resection. If surgery is incomplete or contraindicated, medical options include somatostatin analogs (octreotide, lanreotide), dopamine agonists (cabergoline), or the GH receptor antagonist pegvisomant.",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/display/supp-fa-acromegaly-later-83b288eebf25fcbb.webp",
+            "caption": "3rd party (First Aid): Acromegaly later facial appearance - Clinical Photo",
+            "source": "First Aid 2023 Endocrinology/Acromegaly later appearance - Clinical Photo.png"
+          }
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "question_id": "q-e5-gigantism-photo",
+      "source_id": "s-54d9efcc5016d6c1e97c",
+      "source_group_id": "g-54d9efcc5016d6c1e97c",
+      "variant_id": "v-2e299ff96c85b6bcee45",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Photograph",
+      "tested_concept": "Pituitary gigantism (GH excess before epiphyseal plate closure)",
+      "stem": "The extreme symmetric linear tall stature shown in this historical clinical photograph develops when a somatotroph PitNET secretes excess GH during which developmental window?",
+      "options": [
+        "Exclusively in utero due to placental human chorionic somatomammotropin",
+        "After closure of the epiphyseal growth plates in middle-aged adulthood",
+        "Before closure of the long-bone epiphyseal growth plates in childhood or adolescence",
+        "After postpartum pituitary infarction causing compensatory IGF-1 rebound"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Extreme proportional linear height exceeding adult peers by several feet is the hallmark of pituitary gigantism. Step 2. Gigantism occurs specifically when GH/IGF-1 excess begins before fusion of the long-bone epiphyseal growth plates, allowing relentless longitudinal bone elongation in addition to acromegalic soft-tissue enlargement.",
+      "choice_rationales": [
+        "Pituitary gigantism is driven by childhood/adolescent somatotroph PitNET GH excess, not in-utero placental hCS.",
+        "GH excess beginning after epiphyseal closure cannot increase linear height and instead produces acromegaly (enlarged hands, feet, jaw, and coarse facial features).",
+        "Open epiphyseal growth plates permit longitudinal long-bone growth under elevated IGF-1, producing gigantism rather than isolated acromegaly.",
+        "Postpartum pituitary infarction (Sheehan syndrome) causes GH deficiency and hypopituitarism, not GH excess."
+      ],
+      "visual_clues": [
+        "Extreme linear height towering over two normal-stature adults",
+        "Proportionate elongation of long bones in both lower and upper extremities",
+        "Enlarged hands and feet accompanying overall gigantism"
+      ],
+      "visual_target": "Linear overgrowth of pituitary gigantism",
+      "joint_panels": [],
+      "image": "assets/display/e5-gigantism-photo-8381c50d9f2ab6a1.webp",
+      "zoom_image": "assets/zoom/e5-gigantism-photo-8381c50d9f2ab6a1.webp",
+      "original_image": "assets/originals/e7eaf163a5ea0dab.png",
+      "original_filename": "GH Excess Photo Tall Man With Two Women - Clinical Photo.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 45
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Pituitary Gigantism",
+      "condition_overview": "Chronic GH excess in both gigantism and acromegaly carries major systemic morbidity, including insulin resistance/diabetes mellitus, hypertension, cardiomyopathy, sleep apnea, and joint arthropathy.",
+      "choice_images": [
+        null,
+        null,
+        [
+          {
+            "image": "assets/display/supp-bc-gigantism-d3906e146aae8a9a.webp",
+            "caption": "3rd party (Bootcamp): Gigantism historical clinical photograph",
+            "source": "Bootcamp Endocrinology/Gigantism historical photograph - Clinical Photo.png"
+          }
+        ],
+        null
+      ]
+    },
+    {
+      "question_id": "q-e5-central-vs-nephrogenic-di",
+      "source_id": "s-ffb467b6b5d51df92ce7",
+      "source_group_id": "g-ffb467b6b5d51df92ce7",
+      "variant_id": "v-fdebb13c1fac467996f1",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Pathophysiology Diagram",
+      "tested_concept": "Central vs nephrogenic diabetes insipidus sites, causes, and desmopressin response",
+      "stem": "A patient with polyuria (>5 L/day), polydipsia, serum Na⁺ 150 mEq/L, and urine osmolality 120 mOsm/kg undergoes a water deprivation test followed by desmopressin (DDAVP). Urine osmolality remains flat during deprivation but rises by >50% after desmopressin. Which site in the diagram is defective, and what is a classic cause of Site 2?",
+      "options": [
+        "Site 2 (gestational DI: placental vasopressinase); Site 1 (nephrogenic DI) responds to fluid restriction alone",
+        "Site 2 (nephrogenic DI: renal ADH unresponsiveness); Site 1 (central DI) is classically caused by lithium",
+        "Site 1 (SIAD: excess ADH secretion); Site 2 (primary polydipsia) is classically caused by pituitary surgery",
+        "Site 1 (central DI: ADH deficiency); Site 2 (nephrogenic DI) is classically caused by lithium"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Polyuria with hypernatremia and severely dilute urine (<200 mOsm/kg) confirms diabetes insipidus; a >50% jump in urine osmolality after desmopressin localizes the defect to Site 1 (central DI—deficient hypothalamic/posterior pituitary ADH secretion, where kidneys remain responsive to exogenous ADH). Step 2. Site 2 represents nephrogenic DI (ADH-unresponsive renal collecting ducts), classically caused by lithium or intrinsic renal disease.",
+      "choice_rationales": [
+        "Gestational DI results from placental vasopressinase degrading circulating AVP (and responds to vasopressinase-resistant desmopressin), not Site 2 renal resistance.",
+        "Nephrogenic DI (Site 2) fails to concentrate urine after desmopressin because renal V₂ receptors/aquaporins are unresponsive, and lithium causes nephrogenic—not central—DI.",
+        "SIAD produces euvolemic hyponatremia with concentrated urine (>300 mOsm/kg), the exact opposite of hypernatremic dilute polyuria.",
+        "Desmopressin restores collecting-duct water reabsorption in Site 1 (central DI from tumors, trauma, or surgery), whereas Site 2 (nephrogenic DI) is ADH-resistant and classically triggered by lithium."
+      ],
+      "visual_clues": [
+        "Site 1 located at the hypothalamic supraoptic/paraventricular nuclei, stalk, and posterior pituitary",
+        "Site 2 located at the kidney receiving the hormonal arrow from the posterior pituitary",
+        "Downstream outcome showing loss of water leading to polyuria, polydipsia, and dehydration"
+      ],
+      "visual_target": "Anatomic separation of central (Site 1) and nephrogenic (Site 2) diabetes insipidus",
+      "joint_panels": [],
+      "image": "assets/display/e5-di-pathogenesis-b5442c3a18efc219.webp",
+      "zoom_image": "assets/zoom/e5-di-pathogenesis-b5442c3a18efc219.webp",
+      "original_image": "assets/originals/7d031b3a15eb8e0f.png",
+      "original_filename": "Central vs Nephrogenic Diabetes Insipidus Pathogenesis - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 16
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Central vs. Nephrogenic Diabetes Insipidus",
+      "condition_overview": "In gestational diabetes insipidus, placental vasopressinase rapidly degrades endogenous AVP; because desmopressin (DDAVP) resists vasopressinase cleavage, it effectively treats gestational DI as well as central DI."
+    },
+    {
+      "question_id": "q-e5-vaptan-siad-mechanism",
+      "source_id": "s-8f4f5ade17d7fbb91d30",
+      "source_group_id": "g-8f4f5ade17d7fbb91d30",
+      "variant_id": "v-1d477968900a513cdbab",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Cellular Mechanism Diagram",
+      "tested_concept": "SIAD pathophysiology, V2 receptor aquaporin-2 insertion, and vaptan selective water diuresis",
+      "stem": "A 63-year-old man with small-cell lung cancer has euvolemic hyponatremia (Na⁺ 124 mEq/L), plasma osmolality 258 mOsm/kg, and urine osmolality 480 mOsm/kg. In the collecting duct principal cell diagram shown, what receptor does the green drug block, and what channel's apical insertion is prevented?",
+      "options": [
+        "V₂ receptor blockade preventing AQP2 insertion, causing selective free-water diuresis",
+        "V₁a receptor blockade preventing Na⁺/K⁺-ATPase activation, producing natriuresis and hypotension",
+        "Mineralocorticoid receptor blockade preventing ENaC insertion, producing potassium-sparing diuresis",
+        "V₂ receptor agonism accelerating aquaporin-2 (AQP2) insertion, concentrating the urine further"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Euvolemic hyponatremia (<130 mEq/L) with low plasma osmolality (<270 mOsm/kg) and inappropriately concentrated urine (>300 mOsm/kg) defines SIAD (excess ADH action). Step 2. Vaptans (green drug) competitively block basolateral V₂ receptors on collecting duct principal cells, preventing vesicular aquaporin-2 (AQP2) insertion into the apical membrane and inducing selective free-water diuresis (aquaresis) that raises plasma osmolality.",
+      "choice_rationales": [
+        "Vaptans antagonize principal-cell V₂ receptors to block AQP2 trafficking, increasing free-water excretion and normalizing serum Na⁺ in SIAD.",
+        "V₁a receptors mediate vascular smooth muscle vasoconstriction rather than collecting duct AQP2 water channel insertion.",
+        "Mineralocorticoid receptor antagonists (e.g., spironolactone) block aldosterone-driven ENaC Na⁺ reabsorption rather than ADH-driven AQP2 water channels.",
+        "V₂ agonists (like desmopressin) treat central DI and would worsen hyponatremia in SIAD."
+      ],
+      "visual_clues": [
+        "Basolateral receptor on a collecting duct principal cell blocked by the green antagonist (red X)",
+        "Intracellular vesicle holding water channels blocked from fusing with the apical tubular lumen",
+        "Outcome arrows showing increased plasma osmolality and increased dilute urine output"
+      ],
+      "visual_target": "Collecting duct principal cell V2 receptor blockade by vaptans",
+      "joint_panels": [],
+      "image": "assets/display/e5-vaptan-mechanism-ac2e732be3195502.webp",
+      "zoom_image": "assets/zoom/e5-vaptan-mechanism-ac2e732be3195502.webp",
+      "original_image": "assets/originals/a21b1f38e7ae3ea6.png",
+      "original_filename": "Vaptan Mechanism of Action Collecting Duct - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 17
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "SIAD & Vaptan Mechanism of Action",
+      "condition_overview": "First-line management of chronic mild-to-moderate SIAD is fluid restriction; vaptans (V₂ antagonists) induce selective water diuresis, while severe symptomatic hyponatremia (seizures, coma) requires careful hypertonic saline without over-rapid correction."
+    },
+    {
+      "question_id": "q-e5-sheehan-syndrome",
+      "source_id": "s-bd12f649f19d437d7ee4",
+      "source_group_id": "g-bd12f649f19d437d7ee4",
+      "variant_id": "v-ca80084cf02c1ee088d6",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Pathophysiology Flow Diagram",
+      "tested_concept": "Sheehan syndrome postpartum anterior pituitary ischemic necrosis sparing posterior lobe",
+      "stem": "A 32-year-old woman who required emergency transfusion for massive obstetric bleeding cannot breastfeed after delivery and later develops amenorrhea, fatigue, and cold intolerance. Based on the pathogenesis diagram shown, why is posterior pituitary function (ADH) typically spared?",
+      "options": [
+        "The posterior pituitary undergoes lactotroph hyperplasia during pregnancy that protects it from ischemia",
+        "Direct arterial perfusion protects the posterior lobe, while the anterior lobe relies on portal veins",
+        "Oxytocin and ADH are synthesized inside the maternal adrenal cortex and bypass the sella turcica",
+        "Anti-pituitary autoantibodies selectively destroy posterior pituicytes only after 10 years"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. During pregnancy, estrogen-driven lactotroph hyperplasia enlarges the anterior pituitary, increasing its metabolic demand and compressing local vessels; severe postpartum hemorrhage (Trigger) precipitates acute ischemic necrosis of the anterior lobe (Sheehan syndrome), presenting first with failure to lactate (PRL deficiency) and evolving into panhypopituitarism. Step 2. The posterior pituitary is typically spared because it has its own direct arterial supply (inferior hypophyseal artery) rather than relying solely on the low-pressure hypophyseal portal system.",
+      "choice_rationales": [
+        "Lactotroph hyperplasia occurs in the anterior pituitary (making it more—not less—vulnerable to hypotension), not in the posterior pituitary.",
+        "Direct arterial perfusion protects the posterior pituitary during hypovolemic shock, whereas the enlarged, portal-fed anterior pituitary suffers ischemic infarction (Sheehan syndrome).",
+        "ADH and oxytocin are synthesized in hypothalamic magnocellular nuclei, not the adrenal cortex.",
+        "Posterior lobe sparing is an anatomic vascular phenomenon rather than delayed autoimmune targeting."
+      ],
+      "visual_clues": [
+        "Top panels showing marked anterior pituitary enlargement during pregnancy compressing sellar vasculature",
+        "Left trigger box (severe postpartum hemorrhage) precipitating ischemia and anterior lobe necrosis",
+        "Downstream multi-organ deficiencies affecting mammary gland (PRL), thyroid (TSH), adrenal (ACTH), ovary (FSH/LH), and muscle/bone (GH)"
+      ],
+      "visual_target": "Pregnancy pituitary enlargement and postpartum ischemic necrosis cascade",
+      "joint_panels": [],
+      "image": "assets/display/e5-sheehan-syndrome-c7473ae2af3c8c43.webp",
+      "zoom_image": "assets/zoom/e5-sheehan-syndrome-c7473ae2af3c8c43.webp",
+      "original_image": "assets/originals/7c148f3da63f753f.png",
+      "original_filename": "Sheehan Syndrome Pathogenesis - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 31
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Sheehan Syndrome (Postpartum Pituitary Necrosis)",
+      "condition_overview": "Failure to lactate postpartum (absent prolactin surge) and failure to resume menses (gonadotropin deficiency) are classic early clues to Sheehan syndrome, though insidious TSH and ACTH deficiencies can surface months to years later."
+    },
+    {
+      "question_id": "q-e5-kallmann-syndrome",
+      "source_id": "s-e5b3838760d754dac0b0",
+      "source_group_id": "g-e5b3838760d754dac0b0",
+      "variant_id": "v-546eaa69552feb639791",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Developmental Pathophysiology Diagram",
+      "tested_concept": "Kallmann syndrome failed GnRH neuron migration from olfactory placode",
+      "stem": "A 17-year-old boy has delayed puberty, small testes, low testosterone, low LH/FSH, and complete inability to smell coffee or peppermint. In the developmental pathway shown, the upper red X blocks migration of GnRH neurons from which embryonic structure?",
+      "options": [
+        "Posterior neuroectodermal infundibulum, causing congenital central diabetes insipidus",
+        "Oral ectodermal Rathke pouch, causing isolated growth hormone deficiency and short stature",
+        "Olfactory placode, causing hypogonadotropic hypogonadism with anosmia (Kallmann)",
+        "Third-ventricle floor, causing septo-optic dysplasia with absent septum pellucidum"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The diagram shows a developmental block (top red X) preventing immature neurons from migrating into the hypothalamus to become GnRH neurons, cascading into absent portal GnRH, absent pituitary FSHβ/LHβ, and hypogonadism. Step 2. Because GnRH neurons normally migrate along olfactory axons from the embryonic olfactory (nasal) placode, failure of this migration produces Kallmann syndrome: hypogonadotropic hypogonadism plus anosmia/hyposmia.",
+      "choice_rationales": [
+        "Neuroectodermal infundibular defects affect the posterior pituitary stalk and ADH rather than GnRH migration and olfaction.",
+        "Rathke pouch forms the anterior pituitary gland itself rather than the migratory path of hypothalamic GnRH neurons.",
+        "Failed migration of GnRH-producing neurons from the olfactory (nasal) placode into the hypothalamus links absent smell (anosmia) with low GnRH, LH, FSH, and sex steroids in Kallmann syndrome.",
+        "Septo-optic dysplasia causes optic nerve hypoplasia, absent septum pellucidum, and GH deficiency rather than isolated anosmia with hypogonadotropic hypogonadism."
+      ],
+      "visual_clues": [
+        "Top blue box with developing neuron blocked by a bold red X before reaching the hypothalamic GnRH neuron",
+        "Downstream red X symbols interrupting GnRH portal signaling and pituitary FSHβ/LHβ release",
+        "Target male and female gonads deprived of gonadotropin stimulation"
+      ],
+      "visual_target": "Blocked embryonic migration of GnRH neurons from the nasal placode",
+      "joint_panels": [],
+      "image": "assets/display/e5-kallmann-migration-dc503565e95fcc43.webp",
+      "zoom_image": "assets/zoom/e5-kallmann-migration-dc503565e95fcc43.webp",
+      "original_image": "assets/originals/5f73613999baeb86.png",
+      "original_filename": "Kallmann Syndrome GnRH Neuron Migration Defect - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 24
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Kallmann Syndrome",
+      "condition_overview": "Because the pituitary gonadotropes themselves remain intact in Kallmann syndrome, pulsatile GnRH or exogenous gonadotropin therapy can restore gonadal steroid production and fertility."
+    },
+    {
+      "question_id": "q-e5-hypothalamic-nuclei",
+      "source_id": "s-55a9bc92f947f597e2a7",
+      "source_group_id": "g-55a9bc92f947f597e2a7",
+      "variant_id": "v-b9deb3424613da45060c",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Neuroanatomy Localization Diagram",
+      "tested_concept": "Hypothalamic nucleus lesion syndromes (PVN/SON, VMN, Arcuate)",
+      "stem": "A suprasellar craniopharyngioma injures specific hypothalamic nuclei labeled A–D in the diagram. Which lesion-to-syndrome pairing is correct?",
+      "options": [
+        "Lesion at C (ventromedial nucleus) → anorexia/emaciation; lesion at A (paraventricular nucleus) → acromegaly",
+        "Lesion at A (paraventricular nucleus) → hyperphagia; lesion at C (ventromedial nucleus) → diabetes insipidus",
+        "Lesion at B (supraoptic nucleus) → circadian rhythm loss; lesion at D (arcuate nucleus) → poikilothermia",
+        "C (ventromedial) → hyperphagia/obesity; D (arcuate) → hyperprolactinemia"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. On the diagram, A is the paraventricular nucleus and B is the supraoptic nucleus (ADH/oxytocin synthesis → lesions cause central diabetes insipidus); C is the ventromedial nucleus (satiety center) and D is the arcuate nucleus (tuberoinfundibular dopamine + POMC/AgRP neurons). Step 2. Damage to the ventromedial nucleus (C) removes satiety signaling, causing hyperphagia and obesity, while damage to the arcuate nucleus (D) disrupts tonic dopamine inhibition, causing hyperprolactinemia.",
+      "choice_rationales": [
+        "Anorexia/emaciation follows lateral hypothalamic area (hunger center) injury—not ventromedial injury—and acromegaly arises from somatotroph GH excess.",
+        "This swaps the functions: paraventricular/supraoptic lesions (A/B) cause central diabetes insipidus, whereas ventromedial lesions (C) cause hyperphagia.",
+        "Circadian rhythm is controlled by the suprachiasmatic nucleus (just above the optic chiasm), and poikilothermia results from posterior hypothalamic nucleus injury.",
+        "Ventromedial nucleus (C) destruction causes hyperphagia/obesity (satiety loss), and arcuate nucleus (D) destruction eliminates dopamine inhibition of lactotropes, raising prolactin."
+      ],
+      "visual_clues": [
+        "A (paraventricular) and B (supraoptic) nuclei projecting purple axons down the stalk to posterior pituitary ADH/oxytocin",
+        "C (ventromedial nucleus) positioned superior to the arcuate nucleus in the medial hypothalamus",
+        "D (arcuate nucleus) containing POMC, AgRP/NPY, and GHRH/dopaminergic neurons"
+      ],
+      "visual_target": "Hypothalamic nuclei A (PVN), B (SON), C (VMN), and D (Arcuate)",
+      "joint_panels": [],
+      "image": "assets/display/e5-hypothalamic-nuclei-65fb4d5e1d5e8091.webp",
+      "zoom_image": "assets/zoom/e5-hypothalamic-nuclei-65fb4d5e1d5e8091.webp",
+      "original_image": "assets/originals/19ea7d8149bd1d87.png",
+      "original_filename": "Hypothalamic Nuclei Anatomy - Diagram.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 53
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 54
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypothalamic Nucleus Lesion Syndromes",
+      "condition_overview": "Additional high-yield hypothalamic localizations from E5: anterior hypothalamus lesion → hyperthermia (loss of heat dissipation); posterior hypothalamus lesion → poikilothermia (loss of heat conservation); suprachiasmatic nucleus → circadian rhythm disruption; Fröhlich syndrome (adiposogenital dystrophy) → hypothalamic obesity plus hypogonadism."
+    },
+    {
+      "question_id": "q-e5-tp-craniopharyngioma-mri",
+      "source_id": "s-3878189091b660bf4db1",
+      "source_group_id": "g-3878189091b660bf4db1",
+      "variant_id": "v-1d219ed88e129a566c60",
+      "collection": "E5",
+      "source_origin": "third_party",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Sagittal Brain MRI (3rd Party)",
+      "tested_concept": "Pediatric adamantinomatous craniopharyngioma MRI, calcification, and machinery-oil cyst",
+      "stem": "A 10-year-old child presents with growth failure, polyuria, and bitemporal hemianopia. Sagittal MRI reveals a lobulated, mixed cystic-and-solid suprasellar mass (shown), and head CT demonstrates prominent suprasellar calcifications. Which gross and histologic findings are most characteristic of this tumor?",
+      "options": [
+        "'Machinery-oil' cholesterol-rich cyst fluid with wet keratin nodules and CTNNB1 mutation",
+        "Monomorphic sheets of chromophobes with disrupted reticulin and PIT1 positivity",
+        "Simple ciliated columnar epithelium with PAS-positive goblet cells and mucoid fluid",
+        "Dense lymphoplasmacytic infiltrate with symmetrically thickened pituitary stalk"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A mixed cystic-solid, calcified suprasellar mass in a child with growth failure, DI, and chiasmal compression is classic adamantinomatous craniopharyngioma. Step 2. Grossly it contains dark 'machinery-oil' fluid rich in cholesterol crystals, histologically it displays wet keratin nodules and peripheral palisading, and molecularly it harbors CTNNB1 (β-catenin) mutations.",
+      "choice_rationales": [
+        "Pediatric calcified cystic-solid suprasellar masses correspond to adamantinomatous craniopharyngioma, featuring machinery-oil cysts, wet keratin, and CTNNB1 mutations.",
+        "Monomorphic neuroendocrine sheets with reticulin loss define a PitNET, which is rare in young children and lacks calcified machinery-oil cysts.",
+        "Rathke cleft cysts are non-calcified benign mucoid cysts lined by simple ciliated columnar epithelium with goblet cells.",
+        "Lymphocytic hypophysitis occurs predominantly in adult women (pregnancy/postpartum) and produces uniform stalk thickening rather than a calcified cystic suprasellar mass."
+      ],
+      "visual_clues": [
+        "Lobulated suprasellar mass with distinct cystic (dark) and enhancing solid components",
+        "Superior extension indenting the hypothalamic region and third ventricle",
+        "Classic pediatric suprasellar localization above the sella turcica"
+      ],
+      "visual_target": "Mixed cystic-solid suprasellar craniopharyngioma on sagittal MRI",
+      "joint_panels": [],
+      "image": "assets/display/e5-tp-craniopharyngioma-mri-6ebb3adf0b8fafce.webp",
+      "zoom_image": "assets/zoom/e5-tp-craniopharyngioma-mri-6ebb3adf0b8fafce.webp",
+      "original_image": "assets/originals/57f5cccad568308b.png",
+      "original_filename": "Craniopharyngioma sagittal imaging - MRI.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 49
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 50
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Craniopharyngioma (Sagittal MRI)",
+      "condition_overview": "Because adamantinomatous craniopharyngiomas adhere tightly to the hypothalamus and optic chiasm with infiltrative margins, complete surgical resection is difficult and recurrence is common, often leaving permanent panhypopituitarism or diabetes insipidus."
+    },
+    {
+      "question_id": "q-e5-tp-prolactinoma-mri-treatment",
+      "source_id": "s-75938ec7f91d1771ab37",
+      "source_group_id": "g-75938ec7f91d1771ab37",
+      "variant_id": "v-27a74474d0041811c170",
+      "collection": "E5",
+      "source_origin": "third_party",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Sagittal Brain MRI (3rd Party)",
+      "tested_concept": "Macroprolactinoma (>200 ng/mL) first-line dopamine agonist management",
+      "stem": "A 36-year-old woman with amenorrhea, galactorrhea, and mild bitemporal visual blurring has a serum prolactin of 640 ng/mL. Sagittal MRI demonstrates a 2.2 cm well-circumscribed sellar/suprasellar mass. What is the most appropriate first-line treatment?",
+      "options": [
+        "Immediate transsphenoidal surgical resection, as medical therapy is ineffective for macroadenomas",
+        "Oral dopamine agonist (cabergoline or bromocriptine) to suppress prolactin and shrink the tumor",
+        "High-dose somatostatin analog (octreotide) plus pegvisomant",
+        "Observation alone because prolactin >200 ng/mL reflects benign stalk compression"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. A 2.2 cm sellar macroadenoma (>1 cm) paired with a markedly elevated serum prolactin (>200 ng/mL) confirms a macroprolactinoma rather than stalk-effect hyperprolactinemia (which is usually <200 ng/mL). Step 2. Unlike other PitNETs where surgery is first-line, first-line treatment for both micro- and macroprolactinomas is a dopamine agonist (cabergoline or bromocriptine), which lowers prolactin and reliably shrinks tumor volume.",
+      "choice_rationales": [
+        "Transsphenoidal surgery is reserved for prolactinomas that are resistant to or intolerant of dopamine agonists, or for acute apoplexy—not routine first-line therapy.",
+        "Dopamine agonists (cabergoline preferred over bromocriptine) are first-line therapy even for macroprolactinomas, restoring gonadal function and decompressing the optic chiasm medically.",
+        "Octreotide and pegvisomant are medical therapies for somatotroph tumors (acromegaly), not lactotroph prolactinomas.",
+        "Stalk compression typically raises prolactin modestly (<200 ng/mL); a level of 640 ng/mL with a 2.2 cm mass indicates an autonomous macroprolactinoma requiring active therapy."
+      ],
+      "visual_clues": [
+        "Large well-circumscribed round sellar mass (>1 cm) expanding upward into the suprasellar cistern",
+        "Homogeneous solid appearance expanding the bony sella turcica",
+        "Upward elevation toward the optic chiasm consistent with a macroadenoma"
+      ],
+      "visual_target": "Well-circumscribed sellar/suprasellar macroadenoma on sagittal MRI",
+      "joint_panels": [],
+      "image": "assets/display/e5-tp-pituitary-adenoma-mri-8934c322d0e6692b.webp",
+      "zoom_image": "assets/zoom/e5-tp-pituitary-adenoma-mri-8934c322d0e6692b.webp",
+      "original_image": "assets/originals/20416e59f9999fe2.png",
+      "original_filename": "Pituitary adenoma sagittal imaging - MRI.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 40
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 42
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Macroprolactinoma Management",
+      "condition_overview": "During pregnancy, dopamine agonists are typically discontinued in women with microprolactinomas (and carefully monitored in macroprolactinomas unless invasive or causing visual-field compression) because physiologic lactotroph expansion is expected."
+    },
+    {
+      "question_id": "q-e5-tp-acromegaly-frontal-rx",
+      "source_id": "s-9c9f2e852f099cca5caf",
+      "source_group_id": "g-9c9f2e852f099cca5caf",
+      "variant_id": "v-06ac6a5a83d050cf80a9",
+      "collection": "E5",
+      "source_origin": "third_party",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Photograph (3rd Party)",
+      "tested_concept": "Acromegaly clinical recognition and first-line transsphenoidal resection",
+      "stem": "A 48-year-old man presents with enlarging ring and shoe sizes, coarse facial features, frontal bossing, and a broadened nose (shown). Serum IGF-1 is markedly elevated, GH fails to suppress on OGTT, and MRI reveals a 1.6 cm sellar mass. What is the first-line treatment?",
+      "options": [
+        "Fluid restriction and oral tolvaptan to normalize IGF-1",
+        "Oral cabergoline monotherapy as curative first-line therapy",
+        "Transsphenoidal surgical resection of the somatotroph PitNET",
+        "High-dose IV hydrocortisone followed by lifetime fludrocortisone"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Frontal bossing, coarse facial features, broadened nose, elevated IGF-1, and non-suppressible GH on OGTT confirm acromegaly from a somatotroph PitNET. Step 2. Unlike prolactinomas (where dopamine agonists are first-line), the first-line definitive treatment for a GH-secreting PitNET is transsphenoidal surgical resection.",
+      "choice_rationales": [
+        "Fluid restriction and vaptans treat SIAD (euvolemic hyponatremia), not GH excess.",
+        "Cabergoline is first-line for prolactinomas, not acromegaly, where it has only modest adjunctive efficacy.",
+        "Transsphenoidal resection is first-line treatment for somatotroph PitNETs; somatostatin analogs (octreotide/lanreotide), cabergoline, or pegvisomant are used if surgery fails or is contraindicated.",
+        "IV hydrocortisone is used for adrenal crisis or pituitary apoplexy, and fludrocortisone replaces aldosterone in primary adrenal insufficiency."
+      ],
+      "visual_clues": [
+        "Prominent supraorbital ridge (frontal bossing) and elongated facial proportions",
+        "Broadened, fleshy nasal bridge and thickened lips",
+        "Adult-onset acral and craniofacial overgrowth characteristic of acromegaly"
+      ],
+      "visual_target": "Craniofacial features of adult-onset acromegaly",
+      "joint_panels": [],
+      "image": "assets/display/e5-tp-acromegaly-frontal-9120c28504a9f70e.webp",
+      "zoom_image": "assets/zoom/e5-tp-acromegaly-frontal-9120c28504a9f70e.webp",
+      "original_image": "assets/originals/0c22d98bce047926.png",
+      "original_filename": "Acromegaly frontal view - Clinical Photo.png",
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 44
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 45
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Somatotroph PitNET (Acromegaly) Management",
+      "condition_overview": "Somatotroph PitNETs belong to the PIT1 transcription-factor lineage. Medical options for persistent postoperative disease include octreotide/lanreotide (somatostatin receptor ligands), pegvisomant (GH receptor antagonist), and cabergoline."
+    },
+    {
+      "question_id": "q-e5-pitnet-transcription-factors",
+      "source_group_id": "g-7f833c86b08a5ef5297f",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "stain",
+      "question_type": "IHC Lineage Classification",
+      "tested_concept": "WHO 2022 PitNET transcription factors (PIT1, TPIT, SF1)",
+      "stem": "Under the WHO 2022 PitNET classification, immunohistochemical staining for lineage-restricted transcription factors assigns tumors to three major families. Which transcription-factor-to-hormone pairing is completely accurate?",
+      "options": [
+        "PIT1: GH, ACTH | TPIT: FSH, LH | SF1: PRL, TSH",
+        "PIT1: ACTH, MSH | TPIT: TSH, GH | SF1: PRL, oxytocin",
+        "PIT1: FSH, LH | TPIT: GH, PRL | SF1: ACTH, TSH",
+        "PIT1: GH, PRL, TSH | TPIT: ACTH | SF1: FSH, LH"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Modern PitNET pathology classifies anterior pituitary tumors by nuclear transcription factors because H&E cannot distinguish lineages. Step 2. PIT1 governs somatotrophs (GH), lactotrophs (PRL), and thyrotrophs (TSH); TPIT governs corticotrophs (ACTH); and SF1 governs gonadotrophs (FSH/LH).",
+      "choice_rationales": [
+        "ACTH belongs to the TPIT lineage and TSH belongs to the PIT1 lineage, not SF1.",
+        "ACTH is driven by TPIT rather than PIT1, and oxytocin is a posterior pituitary hypothalamic hormone rather than an SF1 anterior pituitary lineage.",
+        "This scrambles all three lineages: SF1—not PIT1—drives gonadotrophs (FSH/LH), and TPIT drives corticotrophs (ACTH).",
+        "PIT1 (GH/PRL/TSH), TPIT (ACTH), and SF1 (FSH/LH) are the exact three canonical WHO anterior pituitary lineage transcription factors."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 38
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "PitNET Lineage Transcription Factors (WHO 2022)",
+      "condition_overview": "Recognizing that PIT1 covers GH, PRL, and TSH explains why plurihormonal tumors co-secreting GH and PRL (mammosomatotroph tumors) arise cleanly within a single transcription-factor lineage."
+    },
+    {
+      "question_id": "q-e5-hypopituitarism-order-two-stmt",
+      "source_group_id": "g-657b43b71cec98624e70",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Hypopituitarism >75% threshold, classic sequence of anterior hormone loss, and proportionate short stature",
+      "stem": "Evaluate the following two statements regarding anterior hypopituitarism:\n\nStatement 1: Clinical anterior hypopituitarism generally requires destruction of >75% of the anterior pituitary parenchyma, with hormones typically lost in the classic sequence GH → FSH/LH → TSH → ACTH → PRL.\nStatement 2: Congenital GH deficiency causes proportionate short stature (preserved trunk-to-limb ratios), distinguishing it from disproportionate skeletal dysplasias such as achondroplasia.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The anterior pituitary has substantial functional reserve, so clinically apparent hypopituitarism usually requires >75% gland loss, and hormone axes typically fail in the sequence GH → FSH/LH → TSH → ACTH → PRL. Step 2. Because GH/IGF-1 stimulates balanced longitudinal growth across the axial and appendicular skeleton, childhood GH deficiency produces proportionate short stature—unlike disproportionate achondroplasia.",
+      "choice_rationales": [
+        "Both statements accurately summarize the >75% reserve threshold, the classic GH → gonadotropin → TSH → ACTH → PRL failure order, and proportionate short stature in GH deficiency.",
+        "Neither statement is false; both reflect core E5 hypopituitarism principles.",
+        "Statement 2 is also true because pituitary dwarfism preserves normal body proportions, whereas achondroplasia causes rhizomelic limb shortening.",
+        "Statement 1 is also true because GH and gonadotropins are the most sensitive anterior axes to progressive compression or destruction."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 29
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypopituitarism Reserve & Sequence of Loss",
+      "condition_overview": "Because GH is lost first, congenital hypopituitarism typically presents with growth failure before delayed puberty (FSH/LH). Prolactin is usually lost last (except in Sheehan syndrome, where failure to lactate is an early presenting sign)."
+    },
+    {
+      "question_id": "q-e5-water-deprivation-incorrect",
+      "source_group_id": "g-bf839ce5917c6f7a04f4",
+      "collection": "E5",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "incorrect_statement",
+      "reasoning_order": 3,
+      "study_skill": "interpretation",
+      "question_type": "Diagnostic Workup (Incorrect Statement)",
+      "tested_concept": "Water deprivation and desmopressin test distinguishing primary polydipsia, central DI, and nephrogenic DI",
+      "stem": "A patient with polyuria (>3 L/day) undergoes a formal water deprivation test followed by desmopressin (DDAVP) administration. Which of the following statements about interpreting this test is INCORRECT?",
+      "options": [
+        "In primary polydipsia, water deprivation alone concentrates the urine normally because endogenous ADH and renal V₂ receptors are intact",
+        "In complete nephrogenic DI, desmopressin raises urine osmolality >50% because it bypasses renal V₂ receptor resistance",
+        "In complete nephrogenic DI, urine remains dilute during water deprivation and fails to concentrate after desmopressin",
+        "In complete central DI, urine remains dilute during water deprivation but concentrates markedly after desmopressin"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Water deprivation tests endogenous ADH secretion and renal responsiveness: primary polydipsia concentrates urine during deprivation alone, whereas both central and nephrogenic DI fail to concentrate. Step 2. Adding desmopressin separates central DI (urine concentrates markedly because kidneys are intact) from nephrogenic DI (urine stays dilute because renal collecting ducts are unresponsive to ADH/desmopressin)—making the claim that desmopressin bypasses renal V₂ resistance incorrect.",
+      "choice_rationales": [
+        "This statement is correct: patients with primary (psychogenic) polydipsia have an intact neurohypophysis and kidney, so water restriction restores normal urine concentration.",
+        "This statement is incorrect: desmopressin is a V₂ receptor agonist and cannot bypass renal V₂ receptor or AQP2 resistance in nephrogenic DI.",
+        "This statement is correct: in nephrogenic DI, collecting-duct principal cells are insensitive to both endogenous AVP and exogenous desmopressin.",
+        "This statement is correct: exogenous desmopressin replaces missing endogenous ADH in central DI, driving a robust rise in urine osmolality."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "E5 Pathology of Hypothalamus and Pituitary RLS.pdf",
+          "page": 16
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Water Deprivation & Desmopressin Test",
+      "condition_overview": "Diabetes insipidus is characterized by polyuria (>3 L/day), dilute urine (<200 mOsm/kg), and hypernatremia (>145 mEq/L) if thirst or water access is impaired. In pregnancy, placental vasopressinase causes gestational DI that responds to vasopressinase-resistant desmopressin."
+    }
+  ],
   "cases": [],
   "retired_questions": []
 }

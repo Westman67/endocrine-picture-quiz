@@ -2462,6 +2462,560 @@
       "case_context": null,
       "condition_name": "Endocrine Specificity & Pleiotropy",
       "condition_overview": "Exam emphasis: Target-tissue specificity requires receptor expression, one hormone can mediate multiple distinct effects (e.g., insulin on glucagon and glucose), and unstored steroids link synthesis rate directly to secretion."
+    },
+    {
+      "question_id": "q-e4-post-pit-synthesis",
+      "source_id": "s-991de30eb9856e3fef33",
+      "source_group_id": "g-991de30eb9856e3fef33",
+      "variant_id": "v-d84bc9524ddd4f0458fd",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Anatomic Pathway Diagram",
+      "tested_concept": "Hypothalamic magnocellular synthesis of ADH and oxytocin with neurophysins",
+      "stem": "In the hypothalamic-pituitary tract diagram shown, where are antidiuretic hormone (ADH) and oxytocin synthesized, and how do they reach the capillary bed at B?",
+      "options": [
+        "Synthesized in posterior pituitary pituicytes and released locally by paracrine diffusion",
+        "Synthesized in hypothalamic magnocellular cell bodies at A and transported down axons",
+        "Synthesized in anterior lobe basophils and delivered via the hypophyseal portal veins",
+        "Synthesized in the optic chiasm glial network and secreted into third-ventricle CSF"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The tract shows neuronal cell bodies in the hypothalamus (A) projecting long unmyelinated axons directly through the pituitary stalk to nerve terminals bordering a capillary bed in the posterior lobe (B). Step 2. ADH and oxytocin are synthesized in those hypothalamic magnocellular cell bodies (supraoptic and paraventricular nuclei), packaged into secretory granules with neurophysins, and transported down the axons for release into systemic capillaries.",
+      "choice_rationales": [
+        "Posterior pituitary pituicytes provide glial support and do not synthesize peptide hormones; ADH and oxytocin originate in hypothalamic nuclei.",
+        "Magnocellular neurons in the supraoptic (mainly ADH) and paraventricular (mainly oxytocin) nuclei synthesize these hormones and ship them down axons to posterior lobe terminals.",
+        "Anterior lobe basophils secrete ACTH, TSH, FSH, and LH into portal-regulated sinusoids rather than supplying the posterior pituitary neural tract.",
+        "The optic chiasm sits anterior to the stalk and carries visual fibers, not neurosecretory hormone synthesis."
+      ],
+      "visual_clues": [
+        "Yellow neuronal cell bodies located superiorly inside the hypothalamus",
+        "Long unmyelinated axonal projections traversing the pituitary stalk",
+        "Dense capillary plexus in the posterior lobe receiving axonal terminals"
+      ],
+      "visual_target": "Hypothalamic magnocellular neurons projecting to posterior pituitary capillaries",
+      "joint_panels": [],
+      "image": "assets/display/e4-post-pit-connections-9ed9175e2fbc10ed.webp",
+      "zoom_image": "assets/zoom/e4-post-pit-connections-9ed9175e2fbc10ed.webp",
+      "original_image": "assets/originals/03a89d1b69cb5bd1.png",
+      "original_filename": "Posterior Pituitary Hypothalamic Connections - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 5
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Posterior Pituitary Neurosecretory Pathway",
+      "condition_overview": "ADH (arginine vasopressin) is packaged with neurophysin II and oxytocin with neurophysin I inside secretory granules. Autosomal dominant mutations in the neurophysin II portion of the AVP gene impair folding and axonal transport, causing central (neurogenic) diabetes insipidus."
+    },
+    {
+      "question_id": "q-e4-portal-circulation-gnrh",
+      "source_id": "s-9ba86d82480732e3f5c6",
+      "source_group_id": "g-9ba86d82480732e3f5c6",
+      "variant_id": "v-a0df6e21dffe11391aae",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Vascular Physiology Diagram",
+      "tested_concept": "Hypophyseal portal circulation preserving hypothalamic pulsatility",
+      "stem": "The low-volume portal circulation shown links two capillary beds in series so hypothalamic factors reach anterior pituitary cells in a single pass without systemic dilution. What occurs when a GnRH analog is instead delivered continuously rather than in physiological pulses?",
+      "options": [
+        "Sustained elevation of pituitary LH and FSH secretion with gonadal hyperstimulation",
+        "Selective stimulation of lactotropes via cross-activation of TRH receptors",
+        "Desensitization and down-regulation of pituitary gonadotropes, suppressing LH and FSH",
+        "Compensatory hypertrophy of posterior pituitary magnocellular axonal terminals"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The hypophyseal portal system delivers minute quantities of hypothalamic releasing hormones directly to the anterior pituitary in a single-pass circuit, preserving sharp pulsatile signals. Step 2. Because gonadotropes require intermittent pulsatile GnRH to maintain receptor responsiveness, continuous non-pulsatile GnRH exposure desensitizes and down-regulates GnRH receptors, suppressing LH and FSH release.",
+      "choice_rationales": [
+        "Sustained LH and FSH elevation requires pulsatile GnRH signaling; continuous exposure initially flares then suppresses the axis.",
+        "Cross-activation of lactotropes is triggered by elevated TRH in primary hypothyroidism rather than continuous GnRH administration.",
+        "Continuous GnRH receptor stimulation induces receptor down-regulation and desensitization in gonadotropes, which is exploited clinically to delay precocious puberty or suppress gonadal steroids.",
+        "Posterior pituitary magnocellular terminals receive direct neural axons rather than hypophyseal portal blood."
+      ],
+      "visual_clues": [
+        "First capillary bed at the median eminence collecting hypothalamic neurosecretory vesicles",
+        "Portal veins descending along the pituitary stalk without an intervening systemic circuit",
+        "Second capillary plexus bathing anterior pituitary endocrine cells"
+      ],
+      "visual_target": "Hypophyseal portal two-capillary-bed vascular circuit",
+      "joint_panels": [],
+      "image": "assets/display/e4-portal-circulation-978014a5cf21cb19.webp",
+      "zoom_image": "assets/zoom/e4-portal-circulation-978014a5cf21cb19.webp",
+      "original_image": "assets/originals/3706e5f9926fe0a8.png",
+      "original_filename": "Anterior Pituitary Portal Circulation - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 14
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypophyseal Portal System & Pulsatile GnRH Signaling",
+      "condition_overview": "Because the portal system bypasses dilution in the systemic circulation, nanomolar hypothalamic pulses remain intact and are rapidly cleared. Continuous GnRH agonists are used clinically to suppress the hypothalamic-pituitary-gonadal axis in central precocious puberty, hormone-sensitive cancers, or contraception regimens."
+    },
+    {
+      "question_id": "q-e4-glycoprotein-subunits",
+      "source_id": "s-d4544daef0e478dd4bd9",
+      "source_group_id": "g-d4544daef0e478dd4bd9",
+      "variant_id": "v-638a228f6888d531991b",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Molecular Pathway Diagram",
+      "tested_concept": "Glycoprotein hormone shared α-subunit, unique β-subunit, and hCG binding LH receptor",
+      "stem": "In this glycoprotein hormone assembly diagram, what shared component occupies the central box, and which target receptor is activated by hCG in the bottom-right box?",
+      "options": [
+        "Shared β-glycoprotein subunit; hCG binds the FSH receptor",
+        "Shared α-glycoprotein subunit; hCG binds the LH receptor",
+        "Shared POMC prohormone core; hCG binds the TSH receptor",
+        "Shared neurophysin II carrier; hCG binds the GnRH receptor"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. TSH, FSH, LH, and placental hCG are heterodimeric glycoproteins assembled from a unique β-subunit (left column) paired with an identical α-glycoprotein subunit (central box). Step 2. Because the β-subunit of hCG closely resembles β-LH, intact hCG binds and activates the LH receptor (bottom-right box) to maintain the corpus luteum.",
+      "choice_rationales": [
+        "The β-subunits are distinct rather than shared, and hCG mimics LH rather than FSH at gonadal receptors.",
+        "All four glycoprotein hormones share an identical α-subunit synthesized in excess, while the unique β-subunit determines receptor specificity and hCG signals through the LH receptor.",
+        "POMC is the precursor for ACTH, β-lipotropin, and MSH (adrenocorticotropin family), not the glycoprotein heterodimers.",
+        "Neurophysin II is the intragranular carrier protein for ADH in the posterior pituitary, unrelated to anterior pituitary glycoproteins."
+      ],
+      "visual_clues": [
+        "Four distinct β-subunits (β-TSH, β-FSH, β-LH, β-hCG) converging on one common central subunit",
+        "Diverging arrows forming four intact heterodimers (TSH, FSH, LH, hCG)",
+        "Specific receptor pairings on the right column with hCG sharing the LH receptor"
+      ],
+      "visual_target": "Glycoprotein α/β heterodimer assembly and receptor pairing",
+      "joint_panels": [],
+      "image": "assets/display/e4-glycoprotein-subunits-8ad1d1840a4d6527.webp",
+      "zoom_image": "assets/zoom/e4-glycoprotein-subunits-8ad1d1840a4d6527.webp",
+      "original_image": "assets/originals/7d494d313658b4f7.png",
+      "original_filename": "Glycoprotein Hormone Subunits and Receptors - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 9
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Glycoprotein Hormone Family (TSH, FSH, LH, hCG)",
+      "condition_overview": "The common α-subunit is produced in excess, so transcription of the unique β-subunit is the rate-limiting step in intact hormone production. At very high concentrations (such as molar pregnancy), hCG can weakly cross-stimulate TSH receptors, illustrating structural kinship across the family."
+    },
+    {
+      "question_id": "q-e4-hypothalamic-factors-stalk",
+      "source_id": "s-3a5fb1bfc18f09bb2c63",
+      "source_group_id": "g-3a5fb1bfc18f09bb2c63",
+      "variant_id": "v-57362bce011e4c6149f2",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Axis Regulation Table-Diagram",
+      "tested_concept": "Tonic dopamine inhibition of prolactin and pituitary stalk transection effect",
+      "stem": "In this hypothalamic-pituitary control map, factor X exerts the prominent red inhibitory arrow on anterior pituitary hormone Y. If a suprasellar mass severs the pituitary stalk, how does hormone Y respond compared with LH, FSH, TSH, ACTH, and GH?",
+      "options": [
+        "Hormone Y (growth hormone) rises due to loss of somatostatin (X), whereas prolactin falls",
+        "Hormone Y (prolactin) falls along with the other five due to loss of hypothalamic TRH",
+        "Hormone Y (prolactin) rises due to loss of tonic dopamine (X), whereas the other five fall",
+        "All six anterior pituitary hormones rise transiently because long-loop negative feedback is lost"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The red inhibitory arrow identifies hypothalamic dopamine (PIH, X) tonically suppressing anterior pituitary prolactin (Y), which drives mammary lactation. Step 2. Because the other five anterior pituitary hormones depend predominantly on hypothalamic releasing factors while prolactin is under tonic inhibition, severing the pituitary stalk decreases LH, FSH, TSH, ACTH, and GH but increases prolactin (stalk effect).",
+      "choice_rationales": [
+        "Somatostatin (SRIF) inhibits GH, but the rightmost column targets Breast (lactation), identifying prolactin rather than GH, and stalk transection lowers GH overall.",
+        "Although TRH can stimulate prolactin clinically, baseline physiological control of lactotropes is tonic inhibition by dopamine rather than stimulation by TRH.",
+        "Loss of portal dopamine delivery disinhibits lactotropes so serum prolactin rises, while loss of GnRH, TRH, CRH, and GHRH lowers all other anterior pituitary hormones.",
+        "Without hypothalamic releasing factors reaching the portal vessels, anterior pituitary trophic hormones decline rather than surge."
+      ],
+      "visual_clues": [
+        "Five orange stimulatory arrows from GnRH, TRH, CRH, and GHRH to anterior pituitary hormones",
+        "Bold red inhibitory arrow with minus sign linking factor X to hormone Y",
+        "End-organ function beneath hormone Y labeled Breast (lactation)"
+      ],
+      "visual_target": "Tonic hypothalamic dopamine inhibition of prolactin",
+      "joint_panels": [],
+      "image": "assets/display/e4-hypothalamic-factors-b31c4c7b22bb4ed0.webp",
+      "zoom_image": "assets/zoom/e4-hypothalamic-factors-b31c4c7b22bb4ed0.webp",
+      "original_image": "assets/originals/620a8792997304b8.png",
+      "original_filename": "Hypothalamic Factors Controlling Pituitary - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 13
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypothalamic Control of Anterior Pituitary & Stalk Effect",
+      "condition_overview": "Somatostatin (SRIF/GHIH) is the second hypothalamic inhibitory factor on this chart, suppressing GH secretion (and clinically TSH). In clinical pathology, stalk compression raises prolactin modestly (typically <200 ng/mL), whereas a true prolactinoma commonly exceeds 200 ng/mL."
+    },
+    {
+      "question_id": "q-e4-primary-secondary-tertiary",
+      "source_id": "s-ffea5cd0ab6de3de68f4",
+      "source_group_id": "g-ffea5cd0ab6de3de68f4",
+      "variant_id": "v-634b67b33ec718179cfe",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "interpretation",
+      "question_type": "Feedback Loop Diagram",
+      "tested_concept": "Primary vs secondary vs tertiary endocrine disease localization",
+      "stem": "Using the three-tier hypothalamic-pituitary-peripheral gland feedback diagram, a patient has an elevated serum free T₄ alongside an elevated (inappropriately non-suppressed) serum TSH. Which disorder level best explains this pattern?",
+      "options": [
+        "Primary endocrine disease at the peripheral thyroid gland",
+        "Exogenous levothyroxine over-replacement suppressing the axis",
+        "Normal long-loop negative feedback response to iodine deficiency",
+        "Secondary endocrine disease at the anterior pituitary gland"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. In an intact negative-feedback loop, high peripheral hormone X (free T₄) inhibits pituitary XTH (TSH) secretion via the long-loop pathway. Step 2. Finding high free T₄ together with elevated TSH means the pituitary is autonomously overproducing XTH (e.g., a TSH-secreting pituitary tumor), localizing the defect to secondary endocrine disease.",
+      "choice_rationales": [
+        "Primary hyperthyroidism (peripheral gland autonomy) produces high free T₄ with a suppressed, low TSH via intact long-loop negative feedback.",
+        "Exogenous levothyroxine excess raises free T₄ and suppresses endogenous pituitary TSH via long-loop negative feedback.",
+        "Iodine deficiency impairs thyroid hormone synthesis, producing low free T₄ with compensatory elevated TSH rather than high free T₄.",
+        "Elevated peripheral hormone paired with an elevated or inappropriately normal pituitary trophic hormone localizes to autonomous pituitary oversecretion (secondary hyperthyroidism)."
+      ],
+      "visual_clues": [
+        "Top tier (Hypothalamus) secreting releasing (XRH) and inhibiting (XIH) factors",
+        "Middle tier (Pituitary) secreting trophic hormone XTH with short-loop feedback to hypothalamus",
+        "Bottom tier (Peripheral gland) secreting hormone X with long-loop negative feedback to both pituitary and hypothalamus"
+      ],
+      "visual_target": "Three-tier hypothalamic-pituitary-peripheral feedback loop",
+      "joint_panels": [],
+      "image": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+      "zoom_image": "assets/zoom/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+      "original_image": "assets/originals/4012c8919a328a27.png",
+      "original_filename": "Primary Secondary Tertiary Endocrine Disease - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 10
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Primary, Secondary, and Tertiary Endocrine Disorders",
+      "condition_overview": "In hypofunction, primary disease shows low peripheral hormone with high pituitary trophic hormone (e.g., low T₄, high TSH in Hashimoto thyroiditis), whereas secondary (pituitary) and tertiary (hypothalamic) disease both show low peripheral hormone with low or inappropriately normal pituitary trophic hormone."
+    },
+    {
+      "question_id": "q-e4-prolactin-trh-dopamine",
+      "source_id": "s-d77819ac771086ceb107",
+      "source_group_id": "g-d77819ac771086ceb107",
+      "variant_id": "v-6cdbf8f708965d673eb4",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Regulatory Pathway Diagram",
+      "tested_concept": "Dual hypothalamic control of prolactin by stimulatory TRH and inhibitory dopamine",
+      "stem": "A woman with untreated primary hypothyroidism develops galactorrhea and mild hyperprolactinemia. Based on the dual-input regulatory diagram shown, which hypothalamic factor is elevated at A to drive this excess prolactin secretion?",
+      "options": [
+        "Dopamine (PIH), which directly stimulates anterior pituitary lactotropes",
+        "Thyrotropin-releasing hormone (TRH), which stimulates both thyrotropes and lactotropes",
+        "Somatostatin (GHIH), which disinhibits prolactin release during hypothyroidism",
+        "Corticotropin-releasing hormone (CRH), which up-regulates mammary prolactin receptors"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The diagram shows two hypothalamic inputs converging on anterior pituitary prolactin: a stimulatory green (+) signal at A (TRH) and an inhibitory red (−) signal at B (dopamine). Step 2. In primary hypothyroidism, low circulating T₃/T₄ reduces negative feedback on the hypothalamus, raising TRH (A), which cross-stimulates pituitary lactotropes and causes hyperprolactinemia.",
+      "choice_rationales": [
+        "Dopamine occupies position B and tonically inhibits rather than stimulates prolactin secretion; blocking dopamine receptors (not raising dopamine) elevates prolactin.",
+        "Reduced thyroid hormone negative feedback increases hypothalamic TRH (A), which stimulates prolactin release in addition to TSH.",
+        "Somatostatin inhibits GH and clinically TSH rather than stimulating lactotropes.",
+        "CRH drives pituitary ACTH secretion and does not mediate hypothyroidism-associated galactorrhea."
+      ],
+      "visual_clues": [
+        "Left hypothalamic oval (A) with a green plus arrow stimulating Prolactin",
+        "Right hypothalamic oval (B) with a red minus arrow inhibiting Prolactin",
+        "Dashed positive reflex arc from Breast (Suckling) directly reinforcing Prolactin"
+      ],
+      "visual_target": "Hypothalamic TRH (+) and dopamine (−) regulation of prolactin",
+      "joint_panels": [],
+      "image": "assets/display/e4-prolactin-regulation-0fb8e12448bd8222.webp",
+      "zoom_image": "assets/zoom/e4-prolactin-regulation-0fb8e12448bd8222.webp",
+      "original_image": "assets/originals/f820a93fa79dd70a.png",
+      "original_filename": "Prolactin Regulation by TRH and Dopamine - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 29
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Prolactin Regulation by TRH and Dopamine",
+      "condition_overview": "Because prolactin lacks a classic peripheral-hormone long-loop negative feedback signal, it operates as a relatively open-loop system dominated by tonic dopamine inhibition, neurogenic suckling reflexes, and TRH stimulation.",
+      "choice_images": [
+        null,
+        [
+          {
+            "image": "assets/display/supp-bc-prolactin-reg-30c5c18cc5df7131.webp",
+            "caption": "3rd party (Bootcamp): Prolactin regulation by TRH and dopamine - Diagram",
+            "source": "Bootcamp Endocrinology/Prolactin regulation - Diagram.png"
+          }
+        ],
+        null,
+        null
+      ]
+    },
+    {
+      "question_id": "q-e4-prolactin-gnrh-suppression",
+      "source_id": "s-587be07166927bce507b",
+      "source_group_id": "g-587be07166927bce507b",
+      "variant_id": "v-38a06d6839411a70b52f",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Pathophysiology Flow Diagram",
+      "tested_concept": "Hyperprolactinemia inhibiting GnRH secretion to cause hypogonadism and infertility",
+      "stem": "A 29-year-old woman taking an antipsychotic medication develops galactorrhea and secondary amenorrhea. In the pathway shown, what physiological target is inhibited by the bold red arrow from prolactin to explain her amenorrhea?",
+      "options": [
+        "Adrenal zona fasciculata cortisol synthesis, triggering salt wasting",
+        "Posterior pituitary oxytocin release, preventing uterine involution",
+        "Pulsatile hypothalamic GnRH secretion, leading to anovulatory infertility",
+        "Thyroid follicular iodide uptake, causing secondary hypothyroidism"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Dopamine receptor antagonists (antipsychotics) block tonic dopamine inhibition of the anterior pituitary, elevating serum prolactin. Step 2. Elevated prolactin directly inhibits the hypothalamic GnRH pulse generator (bold red arrow), suppressing LH/FSH pulses and causing anovulatory infertility and amenorrhea in women (or decreased libido and erectile dysfunction in men).",
+      "choice_rationales": [
+        "Adrenal cortisol synthesis is governed by CRH/ACTH rather than inhibited by prolactin, and salt wasting reflects mineralocorticoid deficiency.",
+        "Oxytocin mediates milk let-down and uterine contraction but does not control menstrual cyclicity via prolactin inhibition.",
+        "High prolactin suppresses hypothalamic GnRH pulsatility, downstream LH/FSH secretion, and ovulation—the same mechanism behind lactational amenorrhea.",
+        "Thyroid follicular iodide uptake is driven by TSH; primary hypothyroidism can raise prolactin via TRH, not the reverse."
+      ],
+      "visual_clues": [
+        "Dopamine antagonists (e.g., antipsychotics) carrying a plus sign to the anterior pituitary",
+        "Prolactin branching rightward (+) to breast maturation and milk production",
+        "Bold red inhibitory arrow (−) from Prolactin pointing leftward to the reproductive axis"
+      ],
+      "visual_target": "Prolactin-mediated inhibition of hypothalamic GnRH secretion",
+      "joint_panels": [],
+      "image": "assets/display/e4-prolactin-function-f2085b684d7cd081.webp",
+      "zoom_image": "assets/zoom/e4-prolactin-function-f2085b684d7cd081.webp",
+      "original_image": "assets/originals/b39db101690ade4f.png",
+      "original_filename": "Prolactin Physiological Function - Diagram.png",
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 30
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hyperprolactinemia & HPG Axis Suppression",
+      "condition_overview": "During pregnancy, prolactin rises markedly to prime mammary tissue, but high placental estrogen blocks milk synthesis until delivery. Postpartum, estrogen drops abruptly so prolactin drives milk production (lactogenesis), while suckling triggers both prolactin and oxytocin-mediated milk ejection (let-down)."
+    },
+    {
+      "question_id": "q-e4-gh-igf1-metabolic-two-stmt",
+      "source_group_id": "g-57a910b979eb25aee9ad",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Growth hormone direct catabolic/diabetogenic vs indirect IGF-1 anabolic actions",
+      "stem": "Evaluate the following two statements regarding growth hormone (GH) physiology:\n\nStatement 1: During fasting, elevated GH paired with low insulin and low hepatic IGF-1 promotes lipolysis and insulin resistance to spare glucose for the brain.\nStatement 2: Thyroid hormone is required permissively for normal pituitary GH synthesis, and hepatic IGF-1 has a much longer circulating half-life (~20 hours) than pulsatile GH.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. GH acts directly on adipose and liver to drive lipolysis, free fatty acid mobilization, and insulin resistance (diabetogenic effect), which dominates during fasting when insulin and IGF-1 are low. Step 2. In the fed state, high insulin permits hepatic IGF-1 generation (~20 h half-life, mediating linear growth), and normal thyroid hormone levels are required for pituitary GH synthesis.",
+      "choice_rationales": [
+        "Both statements accurately reflect GH's direct fasting catabolic/diabetogenic actions, its indirect fed-state anabolic mediation via long-lived IGF-1, and the permissive requirement for thyroid hormone.",
+        "Neither statement is false; GH indeed promotes lipolysis/insulin resistance in fasting and requires thyroid hormone for synthesis.",
+        "Statement 2 is also true because thyroid hormone is necessary for GH gene expression and protein-bound IGF-1 circulates with an ~20-hour half-life.",
+        "Statement 1 is also true because fasting raises GH while lowering hepatic IGF-1, shifting metabolism toward fat mobilization and glucose sparing."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 23
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Growth Hormone Direct vs. IGF-1 Indirect Actions",
+      "condition_overview": "Because GH is secreted in brief nocturnal and stress-induced pulses (short plasma half-life) whereas IGF-1 circulates bound to carrier proteins for ~20 hours, serum IGF-1 serves as the stable integrated marker of chronic GH exposure."
+    },
+    {
+      "question_id": "q-e4-anterior-pit-families-except",
+      "source_group_id": "g-d8ca25652a8cbbf91a15",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Concept Discrimination (EXCEPT)",
+      "tested_concept": "Anterior pituitary hormone families (glycoproteins, somatomammotropins, POMC)",
+      "stem": "All of the following pairings of anterior pituitary hormones with their structural family or physiological property are correct EXCEPT:",
+      "options": [
+        "TSH, FSH, and LH — heterodimeric glycoproteins sharing an identical α-subunit",
+        "GH and prolactin — single-chain somatomammotropins structurally related to placental hCS",
+        "ACTH — derived by proteolytic cleavage of the proopiomelanocortin (POMC) precursor",
+        "Oxytocin and ADH — synthesized by anterior pituitary acidophils and stored in portal veins"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Anterior pituitary hormones fall into three structural families: glycoproteins (TSH, FSH, LH), somatomammotropins (GH, PRL), and adrenocorticotropins (POMC-derived ACTH). Step 2. Oxytocin and ADH are posterior pituitary nonapeptides synthesized in hypothalamic magnocellular neurons—not anterior pituitary acidophils.",
+      "choice_rationales": [
+        "TSH, FSH, and LH (plus placental hCG) are correctly grouped as heterodimeric glycoproteins with a shared α-subunit and unique β-subunit.",
+        "GH and prolactin (plus human chorionic somatomammotropin, hCS) form the somatomammotropin family of homologous single-chain peptides.",
+        "ACTH is cleaved from POMC by pituitary prohormone convertases, making this pairing accurate.",
+        "This pairing is incorrect: oxytocin and ADH are synthesized in hypothalamic supraoptic and paraventricular nuclei and released from posterior pituitary nerve terminals."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 28
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Anterior Pituitary Hormone Families",
+      "condition_overview": "Recognizing structural families explains cross-reactivity and clinical overlap—for example, somatomammotropin homology accounts for why high GH can occasionally exert weak lactogenic activity, and glycoprotein homology explains hCG binding to LH receptors."
+    },
+    {
+      "question_id": "q-e4-clearance-and-feedforward",
+      "source_group_id": "g-5165ef6305558a1b268e",
+      "collection": "E4",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Conceptual Physiology",
+      "tested_concept": "Hormone metabolic clearance in hepatic/renal dysfunction and feed-forward regulation",
+      "stem": "A patient with decompensated cirrhosis and stage 4 chronic kidney disease receives a standard dose of a peptide hormone. Compared with a healthy adult, how is the hormone's circulating half-life altered, and which physiological mechanism is exemplified when heart rate rises at the starting line before a sprint begins?",
+      "options": [
+        "Shortened circulating half-life; long-loop negative feedback regulation",
+        "Prolonged circulating half-life; anticipatory feed-forward regulation",
+        "Unchanged circulating half-life; short-loop pituitary feedback regulation",
+        "Prolonged circulating half-life; open-loop positive feedback regulation"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Most circulating hormones are inactivated and cleared by the liver and kidneys, so hepatic and renal dysfunction slows metabolic clearance and prolongs hormone half-life. Step 2. An anticipatory physiological adjustment occurring before a homeostatic disturbance actually begins (such as heart rate rising at the starting line) is feed-forward regulation.",
+      "choice_rationales": [
+        "Liver and kidney failure decreases rather than accelerates hormone elimination, and negative feedback reacts after a variable has already deviated.",
+        "Impaired hepatic and renal clearance prolongs circulating hormone half-life, and anticipatory heart-rate elevation before exercise starts is the classic example of feed-forward control.",
+        "Severe hepatic and renal disease materially alters hormone clearance, and short-loop feedback refers to pituitary hormones inhibiting the hypothalamus.",
+        "While half-life is indeed prolonged, anticipatory pre-exercise activation is feed-forward regulation rather than open-loop positive feedback (such as the LH surge or oxytocin in labor)."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 12
+        },
+        {
+          "document": "E4 Physiology of the Hypothalamus and Pituitary RLS.pdf",
+          "page": 16
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hormone Clearance & Feed-Forward Control",
+      "condition_overview": "Plasma hormone concentration reflects the balance between secretion rate and metabolic clearance rate. Feed-forward mechanisms minimize homeostatic error in advance, whereas negative feedback corrects deviations after they occur."
     }
   ],
   "cases": [],
