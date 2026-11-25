@@ -116,6 +116,10 @@ function openCase(definition) {
 
 function caseHome() {
     screen='home';
+    if(!cases.length){
+        root.innerHTML=`<section class="summary"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Clinical Cases</h1><div class="card mt"><h2>Coming soon</h2><p class="muted">${esc(CONFIG.description)}</p><p class="mt"><a href="?bank=physiology" class="button primary">Practice Physiology</a> <a href="?bank=pathology" class="button">Practice Pathology</a></p></div></section>`;
+        return;
+    }
     const current=cases.find(c=>c.case_id===p.session?.case_id);
     const matchingCases=settings.skill==='all'?cases:
         cases.filter(c=>c.question_ids.some(id=>byId[id]?.study_skill===settings.skill));
@@ -196,7 +200,7 @@ function withGlobalSeen(progress){
     return {...progress,questions,groups};
 }
 function combinedPool(s,progress=withGlobalSeen(p)){
-    const base=filtered(bank,progress,{origin:s.origin,collection:s.collection});
+    const base=filtered(bank,progress,{origin:s.origin,collection:s.collection,category:s.category||'all'});
     const ok=q=>(s.skill==='all'||q.study_skill===s.skill)&&filtered([q],progress,{filter:effectiveFilters(s,q.studySection)}).length>0;
     const matchingCases=new Set(base.filter(q=>q.case_id&&ok(q)).map(q=>q.case_id));
     return base.filter(q=>q.case_id?matchingCases.has(q.case_id):ok(q));
@@ -205,12 +209,14 @@ function combinedPool(s,progress=withGlobalSeen(p)){
 function combinedHome() {
     screen='home';
     const selected=new Set(settings.sections);
+    const categories=CONTENT_CATEGORIES;
+    const chosenCategories=settings.category==='all'||!settings.category?categories:(Array.isArray(settings.category)?settings.category:[settings.category]);
     const skillPool=combinedPool(settings);
     const total=skillPool.filter(q=>selected.has(q.studySection)).length;
     const sectionPool=selected.size?bank.filter(q=>selected.has(q.studySection)):bank;
     const lectures=sortLectureIds(sectionPool.map(q=>q.collection));
     const chosenLectures=settings.collection==='all'?lectures:settings.collection.filter(id=>lectures.includes(id));
-    const lectureFiltered=settings.origin!=='all'||settings.skill!=='all'||settings.filters.length>0||Object.keys(settings.sectionFilters).length>0;
+    const lectureFiltered=settings.origin!=='all'||settings.skill!=='all'||(settings.category&&settings.category!=='all'&&chosenCategories.length<categories.length)||settings.filters.length>0||Object.keys(settings.sectionFilters).length>0;
     const combinedSkillPool=combinedPool({...settings,skill:'all'}).filter(q=>selected.has(q.studySection));
     const weakest=weakestSkillInfo();
     root.innerHTML=`<section class="summary combined-summary">
@@ -249,6 +255,12 @@ function combinedHome() {
                         </div>`;
                     }).join('')}
                 </details>
+            </fieldset>
+            <fieldset class="box-group category-picker">
+                <legend>Content type</legend>
+                <div class="category-boxes">
+                    ${categories.map(cat=>{const n=combinedPool({...settings,category:[cat]}).filter(q=>selected.has(q.studySection)).length;return `<label class="select-box"><input type="checkbox" name="combined-category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat)}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}
+                </div>
             </fieldset>
             <div class="form-grid">
                 <div><label for="combined-origin">Source type</label>
@@ -292,6 +304,14 @@ function combinedHome() {
             root.querySelector('[name=study-section]').focus({preventScroll:true});
         });
     }
+    root.querySelectorAll('input[name=combined-category]').forEach((input,index)=>input.onchange=()=>{
+        const chosen=new Set(settings.category==='all'||!settings.category?categories:(Array.isArray(settings.category)?settings.category:[settings.category]));
+        input.checked?chosen.add(input.value):chosen.delete(input.value);
+        settings.category=chosen.size===categories.length?'all':[...chosen];
+        saveSettings();
+        combinedHome();
+        root.querySelectorAll('input[name=combined-category]')[index].focus({preventScroll:true});
+    });
     $('#combined-origin').onchange=event=>{
         settings.origin=event.target.value;
         saveSettings();
@@ -376,7 +396,7 @@ function combinedHome() {
     });
 }
 
-function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHome();screen='home';const gp=withGlobalSeen(p),pool=filtered(bank,gp,settings),scopePool=filtered(bank,gp,{...settings,filter:'all'}),seen=scopePool.filter(q=>gp.groups[q.source_group_id]?.times_seen).length,unseen=filtered(bank,gp,{...settings,filter:'unseen'}).length,missed=filtered(bank,gp,{...settings,filter:'incorrect'}).length,lectures=sortLectureIds(bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)),chosenLectures=settings.collection==='all'?lectures:settings.collection,categories=CONTENT_CATEGORIES,chosenCategories=settings.category==='all'?categories:(Array.isArray(settings.category)?settings.category:[settings.category]),lectureFiltered=settings.filter!=='all'||settings.origin!=='all'||(settings.category!=='all'&&chosenCategories.length<categories.length)||settings.skill!=='all',count=sessionSize(pool.length,settings.length),weakest=weakestSkillInfo();
+function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHome();screen='home';if(!bank.length){root.innerHTML=`<section class="summary"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>${esc(CONFIG.title)}</h1><div class="card mt"><h2>Coming soon</h2><p class="muted">${esc(CONFIG.description)}</p><p class="mt"><a href="?bank=physiology" class="button primary">Practice Physiology</a> <a href="?bank=pathology" class="button">Practice Pathology</a></p></div></section>`;return;}const gp=withGlobalSeen(p),pool=filtered(bank,gp,settings),scopePool=filtered(bank,gp,{...settings,filter:'all'}),seen=scopePool.filter(q=>gp.groups[q.source_group_id]?.times_seen).length,unseen=filtered(bank,gp,{...settings,filter:'unseen'}).length,missed=filtered(bank,gp,{...settings,filter:'incorrect'}).length,lectures=sortLectureIds(bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)),chosenLectures=settings.collection==='all'?lectures:settings.collection,categories=CONTENT_CATEGORIES,chosenCategories=settings.category==='all'?categories:(Array.isArray(settings.category)?settings.category:[settings.category]),lectureFiltered=settings.filter!=='all'||settings.origin!=='all'||(settings.category!=='all'&&chosenCategories.length<categories.length)||settings.skill!=='all',count=sessionSize(pool.length,settings.length),weakest=weakestSkillInfo();
  root.innerHTML=`<section class="hero"><div class="intro"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Look closely.<br>Learn what matters.</h1><p class="muted">${esc(CONFIG.description)} Every question starts with the image.</p><div class="stats"><div class="card stat"><strong>${scopePool.length}</strong><span>${scopePool.length===bank.length?'Verified questions':'Selected questions'}</span></div><div class="card stat"><strong>${new Set(scopePool.map(q=>q.source_group_id)).size}</strong><span>Visual groups</span></div><div class="card stat"><strong>${missed}</strong><span>To revisit</span></div></div><span class="tag">${seen} / ${scopePool.length} from seen sources · ${unseen} unseen</span>${weakest?`<p class="mt"><button id="drill-weakest" class="quiet">Drill weakest skill: ${esc(weakest.label)} (${weakest.pct}%)</button></p>`:''}<p class="fine mt">Reviewed images from the selected Endocrine collection. See coverage below for included topics and remaining gaps. Related questions share source history.</p></div><div class="card practice-panel"><p class="eyebrow">Make this session yours</p><h2>Choose your practice</h2><fieldset class="box-group"><legend>Mode</legend><div class="mode-boxes">${[['learn','Learn','Feedback after each answer'],['exam','Exam','Feedback at the end']].map(([value,title,description])=>`<label class="select-box"><input type="radio" name="mode" value="${value}" aria-label="${title}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${description}</small></span></label>`).join('')}</div></fieldset><fieldset class="box-group"><legend>Session length</legend><div class="length-boxes">${[['10','10','10 questions'],['20','20','20 questions'],['40','40','40 questions'],['all','All available','All available'],['endless','Endless','Endless practice']].map(([value,title,label])=>`<label class="select-box ${value==='all'||value==='endless'?'wide':''}"><input type="radio" name="length" value="${value}" aria-label="${label}" ${settings.length===value?'checked':''}><span class="box-face"><strong>${title}</strong></span></label>`).join('')}</div></fieldset><fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${lectures.map(id=>{const tot=bank.filter(q=>q.collection===id).length;const n=lectureFiltered?filtered(bank,gp,{...settings,collection:[id]}).length:tot;return `<label class="select-box"><input type="checkbox" name="lecture" value="${esc(id)}" aria-label="${esc(id)}" ${chosenLectures.includes(id)?'checked':''}><span class="box-face"><strong>${esc(id)}</strong><small>${lectureFiltered?`${n} / ${tot}`:`${tot} ${tot===1?'question':'questions'}`}</small></span></label>`;}).join('')}</div><div class="row mt"><button id="all-lectures" class="quiet" ${settings.collection==='all'||chosenLectures.length===lectures.length?'disabled':''}>Select all lectures</button><button id="clear-lectures" class="quiet" ${!chosenLectures.length?'disabled':''}>Clear selection</button></div></fieldset><fieldset class="box-group category-picker"><legend>Content type</legend><div class="category-boxes">${categories.map(cat=>{const n=filtered(bank,gp,{...settings,category:[cat]}).length;return `<label class="select-box"><input type="checkbox" name="category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat)}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}</div></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.filter(([v])=>v!=='third_party'||bank.some(q=>q.source_origin==='third_party')).map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,origin:v}).length})`,settings.origin)).join('')}</select></div>${skillPicker('skill',filtered(bank,gp,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
  const coveragePanel=$('#lecture-coverage');
  coveragePanel.ontoggle=async ()=>{
@@ -534,10 +554,13 @@ function distractorCompareMarkup(q,it){
     .map((k,pos)=>({k,pos,pics:q.choice_images?.[k]||[]}))
     .filter(entry=>entry.pics.length>0);
  if(!optionsWithImages.length)return '';
+ const hasDistractorImage=optionsWithImages.some(entry=>entry.k!==q.correct_index);
+ const compareOpenLabel=hasDistractorImage?'Compare distractor side-by-side':'Compare with teaching visual';
+ const compareCloseLabel=hasDistractorImage?'Hide side-by-side comparison':'Hide teaching comparison';
  const preferred=optionsWithImages.find(entry=>entry.k===it.draft&&entry.k!==q.correct_index)||optionsWithImages[0];
  const firstPic=preferred.pics[0];
  return `<div class="mt">
-    <button id="toggle-compare" class="quiet" aria-expanded="false">Compare distractor side-by-side</button>
+    <button id="toggle-compare" class="quiet" aria-expanded="false" data-open-label="${esc(compareOpenLabel)}" data-close-label="${esc(compareCloseLabel)}">${esc(compareOpenLabel)}</button>
     <div id="compare-panel" class="compare-panel" hidden>
         <div class="row spread">
             <strong>Side-by-side visual comparison</strong>
@@ -619,7 +642,7 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
  const scenario=caseQuestion?q.scenario:q.case_context;
  const section=combinedMode?(caseQuestion?cases.find(c=>c.case_id===q.case_id)?.title:sectionLabels[q.studySection]):'';
  const isMarked=Boolean(p.questions[q.question_id]?.marked);
- root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?'Clinical Cases':s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="quiet">${s.complete?'Back to results':caseMode?'Finish case':'Finish session'}</button></div><section class="quiz-layout${textQuestion?' text-only':''}">${tableQuestion?tableMarkup(q.context_table,reveal):textQuestion?'':imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?'Visual Question':textQuestion?'Drug practical':'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${it.struck.includes(k)?'struck':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" aria-pressed="${it.draft===k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span>${esc(q.options[k])}</button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="quiet" aria-pressed="${isMarked}">${isMarked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion||textQuestion?'':`<button id="flag" class="quiet">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">1–${it.order.length} choose · Right-click or Shift+1–${it.order.length} strike out · Enter submit/next · ←/→ navigate · M mark${tableQuestion||textQuestion?'':' · F flag · Z zoom'}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after the ${caseMode?'case':combinedMode?'session':'exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
+ root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?'Clinical Cases':s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="quiet">${s.complete?'Back to results':caseMode?'Finish case':'Finish session'}</button></div><section class="quiz-layout${textQuestion?' text-only':''}">${tableQuestion?tableMarkup(q.context_table,reveal):textQuestion?'':imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?'Visual Question':textQuestion?(CONFIG.id==='pharmacology'?'Pharmacology':'Concept question'):'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${it.struck.includes(k)?'struck':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" aria-pressed="${it.draft===k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span>${esc(q.options[k])}</button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="quiet" aria-pressed="${isMarked}">${isMarked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion||textQuestion?'':`<button id="flag" class="quiet">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">1–${it.order.length} choose · Right-click or Shift+1–${it.order.length} strike out · Enter submit/next · ←/→ navigate · M mark${tableQuestion||textQuestion?'':' · F flag · Z zoom'}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after the ${caseMode?'case':combinedMode?'session':'exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
  document.querySelectorAll('[data-choice]').forEach(el=>{
     el.onclick=()=>{
         if(it.locked||s.complete)return;
@@ -659,7 +682,7 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
     const open=panel.hidden;
     panel.hidden=!open;
     btn.setAttribute('aria-expanded',String(open));
-    btn.textContent=open?'Hide side-by-side comparison':'Compare distractor side-by-side';
+    btn.textContent=open?(btn.dataset.closeLabel||'Hide side-by-side comparison'):(btn.dataset.openLabel||'Compare distractor side-by-side');
  });
  const compareSelect=$('#compare-select');
  if(compareSelect){
@@ -961,6 +984,7 @@ function combinedSettings(saved){
         sections:selected?ids.filter(id=>selected.includes(id)):ids,
         origin:sourceTypes.some(([value])=>value===saved?.origin)?saved.origin:
             previous?.length===1&&previous[0]==='supplementary'?'third_party':'all',
+        category:Array.isArray(saved?.category)?(saved.category.filter(c=>CONTENT_CATEGORIES.includes(c)).length===CONTENT_CATEGORIES.length?'all':saved.category.filter(c=>CONTENT_CATEGORIES.includes(c))):'all',
         skill:Object.hasOwn(STUDY_SKILLS,saved?.skill)?saved.skill:'all',
         mode:saved?.mode==='exam'?'exam':'learn',
         length:combinedLengths.includes(saved?.length)?saved.length:'10',

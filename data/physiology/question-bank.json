@@ -370,7 +370,7 @@
       "choice_rationales": [
         "Basophils display purple-blue granular cytoplasm—pointed to by the rightmost pair of arrows—and secrete ACTH, TSH, FSH, or LH.",
         "Pituicytes reside in the posterior pituitary among unmyelinated axons rather than among anterior pituitary secretory cords.",
-        "Chromophobes lack intense cytoplasmic dye affinity, make up ~50% of anterior pituitary cells, and represent degranulated secretory or progenitor cells.",
+        "Intensely pink acidophilic cytoplasm marks growth hormone (somatotrophs) and prolactin (lactotrophs), whereas purple basophils store glycoprotein hormones and ACTH.",
         "Acidophils have deeply pink (eosinophilic) cytoplasm—pointed to by the middle pair of arrows—and secrete GH or prolactin; pointing to the bright pink cells would select acidophil."
       ],
       "visual_clues": [
@@ -879,7 +879,7 @@
         "Pancreatic beta cells are peptide-secreting cells packed with membrane-bound secretory granules where proinsulin is cleaved to insulin and C-peptide.",
         "Adrenal medullary chromaffin cells contain dense secretory granules storing preformed epinephrine (80%) and norepinephrine (20%); dense granules would point to medulla.",
         "Parathyroid chief cells have extensive rough ER (not dominant SER + lipid droplets) and secretory granules for peptide PTH production.",
-        "Steroid-secreting adrenal cortical cells feature abundant SER, lipid droplets (cholesterol esters), and no secretory storage granules."
+        "Abundant smooth ER, lipid droplets for cholesterol ester storage, and tubular-cristae mitochondria are the classic ultrastructural triad of steroid-synthesizing cells."
       ],
       "visual_clues": [
         "Large pale lipid droplets (L), dense meshwork of smooth ER (SER), prominent mitochondria (M), and complete absence of dark secretory granules."
@@ -928,7 +928,7 @@
       "correct_index": 0,
       "explanation": "Step 1. The diagram shows cortical sinusoids draining from the zona fasciculata into the medulla, connected by an oblique arrow to the final methylation step (red-circled CH3 group) converting norepinephrine to epinephrine. Step 2. Cortisol-rich sinusoidal blood induces phenylethanolamine N-methyltransferase (PNMT), enabling chromaffin cells to produce ~80% epinephrine.",
       "choice_rationales": [
-        "Cortisol carried down cortical sinusoids induces PNMT in medullary chromaffin cells, catalyzing N-methylation of norepinephrine to epinephrine.",
+        "High local cortisol carried directly from cortical sinusoids into the medulla induces PNMT, enabling methylation of norepinephrine to epinephrine.",
         "Aldosterone comes from the outer zona glomerulosa and does not induce tyrosine hydroxylase in the catecholamine pathway.",
         "Direct medullary arterioles supply arterial oxygen/nutrients to the medulla rather than driving ACTH-mediated chromaffin mitosis.",
         "Blood flows centripetally from the capsular artery through the cortex into the medulla, not retrogradely from the medulla to suppress cortical cholesterol."
@@ -1087,66 +1087,6 @@
         ],
         null
       ]
-    },
-    {
-      "question_id": "q-e1-3p-bitemporal-hemianopia",
-      "source_id": "s-79918688b8a5fec8506b",
-      "source_group_id": "g-e52ec7fbdfe40038a37e",
-      "variant_id": "v-6230ef79553c3132b110",
-      "collection": "E1",
-      "source_origin": "third_party",
-      "category": "Diagrams/Graphs/Tables",
-      "visual_kind": "image",
-      "format_type": "vignette",
-      "reasoning_order": 2,
-      "study_skill": "interpretation",
-      "question_type": "Visual Field Diagram (3rd Party)",
-      "tested_concept": "Bitemporal hemianopsia from pituitary adenoma",
-      "stem": "A patient with an enlarging sellar mass develops the visual field defect shown. Compression of which anatomic structure directly superior to the pituitary produces this pattern?",
-      "options": [
-        "Unilateral optic nerve carrying all fibers from the ipsilateral eye",
-        "Hypophyseal portal veins coursing down the infundibular stalk",
-        "Supraoptic and paraventricular nuclei within the hypothalamus",
-        "Optic chiasm carrying crossing nasal retinal fibers from both eyes"
-      ],
-      "correct_index": 3,
-      "explanation": "Step 1. The perimetry diagram shows loss of both outer (temporal) visual fields—bitemporal hemianopsia. Step 2. Because the pituitary rests in the sella turcica immediately beneath the optic chiasm, upward expansion of a pituitary adenoma compresses crossing nasal retinal fibers, producing bitemporal hemianopsia.",
-      "choice_rationales": [
-        "Unilateral optic nerve compression causes monocular vision loss in one eye rather than bilateral temporal field cuts.",
-        "Compressing hypophyseal portal veins disrupts anterior pituitary hormone regulation rather than producing a bitemporal visual field defect.",
-        "Supraoptic and paraventricular nuclei synthesize vasopressin and oxytocin rather than relaying temporal visual field fibers.",
-        "Upward expansion of a pituitary adenoma from the sella turcica compresses the overlying optic chiasm, selectively impairing crossing nasal retinal fibers and causing bitemporal hemianopsia."
-      ],
-      "visual_clues": [
-        "Blackened outer (temporal) half of both left and right visual field circles."
-      ],
-      "visual_target": "A patient with an enlarging sellar mass develops the visual field defect shown. Compression of which anatomic structure directly superior to the pituitary produces this pattern?",
-      "joint_panels": false,
-      "image": "assets/display/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
-      "zoom_image": "assets/zoom/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
-      "original_image": "assets/originals/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.png",
-      "original_filename": "Bootcamp Endocrinology/Bitemporal hemianopia visual fields - Diagram.png",
-      "citations": [
-        {
-          "document": "E1 Endocrine Histology RLS.pdf",
-          "page": 7
-        },
-        {
-          "document": "E1 Endocrine Histology RLS.pdf",
-          "page": 5
-        },
-        {
-          "document": "E1 Endocrine Histology RLS.pdf",
-          "page": 6
-        }
-      ],
-      "ground_truth_confidence": "high",
-      "ground_truth_basis": "Verified against supplied Endocrine lecture RLS and transcript.",
-      "accepted_synonyms": [],
-      "review_status": "USABLE",
-      "case_context": null,
-      "condition_name": "Pituitary Adenoma & Optic Chiasm",
-      "condition_overview": "The pituitary sits in the sella turcica directly below the optic chiasm; upward adenoma growth compresses the chiasm to cause bitemporal hemianopsia."
     },
     {
       "question_id": "q-e1-3p-sella-turcica-compression",
@@ -2179,20 +2119,20 @@
       "study_skill": "mechanism",
       "question_type": "Quantitative reasoning",
       "tested_concept": "Receptor binding equilibrium [H] = Kd * (Bound/Free)",
-      "stem": "A target tissue requires 500 bound hormone-receptor complexes ([RH] = 500) to produce a fixed biological response. Normally, total receptors = 1,000, requiring [H] = 1 x Kd. If receptor up-regulation raises total receptors to 2,500 (so 2,000 remain free at 500 bound), what hormone concentration [H] is now needed to achieve the same 500 bound receptors?",
+      "stem": "A target tissue requires 500 bound hormone-receptor complexes ([RH] = 500) to produce a fixed biological response. Normally, total receptors = 1,000, requiring [H] = 1 × Kd. If receptor up-regulation raises total receptors to 2,500 (so 2,000 remain free at 500 bound), what hormone concentration [H] is now needed to achieve the same 500 bound receptors?",
       "options": [
-        "0.25 x Kd (4-fold lower hormone concentration required)",
-        "5.0 x Kd (5-fold higher hormone concentration required)",
-        "1.0 x Kd (unchanged hormone concentration required)",
-        "2.5 x Kd (2.5-fold higher hormone concentration required)"
+        "0.25 × Kd (4-fold lower hormone concentration required)",
+        "5.0 × Kd (5-fold higher hormone concentration required)",
+        "1.0 × Kd (unchanged hormone concentration required)",
+        "2.5 × Kd (2.5-fold higher hormone concentration required)"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. At equilibrium, [H] = Kd x ([RH] / [R_free]) = Kd x (Bound / Free). Step 2. With 500 bound and 2,000 free receptors after up-regulation, [H] = Kd x (500 / 2,000) = 0.25 x Kd, demonstrating increased target-cell sensitivity without changing Kd.",
+      "explanation": "Step 1. At equilibrium, [H] = Kd x ([RH] / [R_free]) = Kd x (Bound / Free). Step 2. With 500 bound and 2,000 free receptors after up-regulation, [H] = Kd x (500 / 2,000) = 0.25 × Kd, demonstrating increased target-cell sensitivity without changing Kd.",
       "choice_rationales": [
-        "Substituting Bound = 500 and Free = 2,000 into [H] = Kd x (Bound/Free) yields [H] = (500/2,000) x Kd = 0.25 x Kd, showing higher sensitivity.",
-        "5.0 x Kd corresponds to receptor down-regulation to 600 total receptors (500 bound / 100 free = 5 x Kd); down-regulation instead of up-regulation would make 5.0 x Kd correct.",
-        "1.0 x Kd applies to the baseline state (500 bound / 500 free) before up-regulation expands the pool of free receptors.",
-        "2.5 x Kd multiplies Kd by the fold increase in total receptors rather than dividing Bound by Free receptors."
+        "Substituting Bound = 500 and Free = 2,000 into [H] = Kd x (Bound/Free) yields [H] = (500/2,000) × Kd = 0.25 × Kd, showing higher sensitivity.",
+        "5.0 × Kd corresponds to receptor down-regulation to 600 total receptors (500 bound / 100 free = 5 × Kd); down-regulation instead of up-regulation would make 5.0 × Kd correct.",
+        "1.0 × Kd applies to the baseline state (500 bound / 500 free) before up-regulation expands the pool of free receptors.",
+        "2.5 × Kd multiplies Kd by the fold increase in total receptors rather than dividing Bound by Free receptors."
       ],
       "visual_clues": [],
       "visual_target": "Equilibrium receptor-binding calculation from E2 p.32-33.",
@@ -2291,7 +2231,9 @@
         "Corticotropes secrete ACTH under positive CRH (+) stimulation rather than growth hormone under inhibitory dopamine."
       ],
       "visual_clues": [
-        "Every visible row shows a stimulatory (+) hypothalamic releasing factor; the single masked row corresponds to prolactin-secreting lactotrophs under inhibitory (−) dopamine control."
+        "Five stimulatory (+) hypothalamic releasing rows pair GnRH, TRH, CRH, and GHRH with their target pituitary cells",
+        "The final row stands apart because lactotropes are under tonic inhibitory (−) hypothalamic control by dopamine",
+        "Lactotrope output targets mammary tissue for lactation rather than a classic feedback endocrine gland"
       ],
       "visual_target": "Masked Lactotrophs / Prolactin / Dopamine (−) row in the E1 p.21 anterior pituitary regulation table.",
       "joint_panels": false,
@@ -2723,8 +2665,8 @@
       ],
       "visual_target": "Three-tier hypothalamic-pituitary-peripheral feedback loop",
       "joint_panels": [],
-      "image": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
-      "zoom_image": "assets/zoom/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+      "image": "assets/display/e4-primary-secondary-tertiary-3277a01f50cbbbb6.webp",
+      "zoom_image": "assets/zoom/e4-primary-secondary-tertiary-3277a01f50cbbbb6.webp",
       "original_image": "assets/originals/4012c8919a328a27.png",
       "original_filename": "Primary Secondary Tertiary Endocrine Disease - Diagram.png",
       "citations": [
@@ -3019,5 +2961,11 @@
     }
   ],
   "cases": [],
-  "retired_questions": []
+  "retired_questions": [
+    {
+      "question_id": "q-e1-3p-bitemporal-hemianopia",
+      "tested_concept": "Bitemporal hemianopsia from pituitary adenoma",
+      "reason": "Retired duplicate; bitemporal hemianopia is now tested in E5 Pathology."
+    }
+  ]
 }

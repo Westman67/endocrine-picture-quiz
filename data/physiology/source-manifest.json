@@ -993,8 +993,8 @@
         1600,
         582
       ],
-      "status": "USABLE",
-      "review_reason": "Individually inspected original and quiz-safe variant.",
+      "status": "REFERENCE",
+      "review_reason": "Retired duplicate from Physiology E1; topic covered in E5 Pathology.",
       "tested_concept": "Bitemporal hemianopsia from pituitary adenoma compression",
       "original_asset": "assets/originals/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.png",
       "display_asset": "assets/display/6230ef79553c3132b110345b7f0d41698cbfe36532759d90d21b1dfbf5ada2b3.webp",
@@ -2021,7 +2021,7 @@
       "review_reason": "Individually inspected original and quiz-safe variant.",
       "tested_concept": "Primary vs secondary vs tertiary endocrine disease localization",
       "original_asset": "assets/originals/4012c8919a328a27.png",
-      "display_asset": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+      "display_asset": "assets/display/e4-primary-secondary-tertiary-3277a01f50cbbbb6.webp",
       "source_origin": "lecture",
       "source_collection": "E4 Lecture RLS",
       "source_citation": {
@@ -2037,8 +2037,8 @@
       "variants": [
         {
           "variant_id": "v-634b67b33ec718179cfe",
-          "asset": "assets/display/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
-          "zoom_asset": "assets/zoom/e4-primary-secondary-tertiary-c50b6f5f264f0fac.webp",
+          "asset": "assets/display/e4-primary-secondary-tertiary-3277a01f50cbbbb6.webp",
+          "zoom_asset": "assets/zoom/e4-primary-secondary-tertiary-3277a01f50cbbbb6.webp",
           "transform": {
             "type": "quiz_safe_derivative",
             "coordinate_basis": "immutable teaching original",

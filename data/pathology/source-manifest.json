@@ -409,7 +409,7 @@
       "review_reason": "Individually inspected original and quiz-safe variant.",
       "tested_concept": "Septo-optic dysplasia diagnostic triad and most common hormone deficiency",
       "original_asset": "assets/originals/911c240c9a8523b0.png",
-      "display_asset": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
+      "display_asset": "assets/display/e5-septo-optic-mri-a0be8d34996658e7.webp",
       "source_origin": "lecture",
       "source_collection": "E5 Lecture RLS",
       "source_citation": {
@@ -425,8 +425,8 @@
       "variants": [
         {
           "variant_id": "v-7322184bba318d8a9d4f",
-          "asset": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
-          "zoom_asset": "assets/zoom/e5-septo-optic-mri-c83b17d18449d466.webp",
+          "asset": "assets/display/e5-septo-optic-mri-a0be8d34996658e7.webp",
+          "zoom_asset": "assets/zoom/e5-septo-optic-mri-a0be8d34996658e7.webp",
           "transform": {
             "type": "quiz_safe_derivative",
             "coordinate_basis": "immutable teaching original",

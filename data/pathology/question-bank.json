@@ -28,7 +28,7 @@
       "correct_index": 0,
       "explanation": "Step 1. The diagram shows a suprasellar mass compressing the central optic chiasm, where red dashed fibers from the nasal hemiretinas cross to the contralateral optic tract. Step 2. Because nasal retinal fibers receive light from the temporal visual fields, chiasmal compression produces classic bitemporal hemianopia (shaded outer halves of both visual fields).",
       "choice_rationales": [
-        "Suprasellar growth compresses crossing nasal retinal fibers at the optic chiasm, eliminating both temporal visual fields (bitemporal hemianopia).",
+        "Decussating nasal hemiretinal fibers carry temporal visual input, so midline chiasmal impingement causes symmetric loss of both outer visual fields.",
         "Uncrossed temporal retinal fibers travel laterally along the chiasm (blue lines) and carry the nasal visual fields; they are spared in central chiasmal compression.",
         "Homonymous hemianopia results from retrochiasmal lesions (optic tract or optic radiation), not midline chiasmal compression.",
         "Monocular blindness requires a prechiasmal lesion affecting one optic nerve anterior to the chiasm."
@@ -56,7 +56,7 @@
       "review_status": "approved",
       "case_context": null,
       "condition_name": "Bitemporal Hemianopia (Pituitary Mass Effect)",
-      "condition_overview": "Local mass effects of sellar tumors also include headache from diaphragma sellae stretching, cavernous sinus invasion (CN III, IV, V1/V2, VI palsies), and hypopituitarism from compression of normal residual gland.",
+      "condition_overview": "Local mass effects of sellar tumors also include headache from diaphragma sellae stretching, cavernous sinus invasion (CN III, IV, V₁/V₂, VI palsies), and hypopituitarism from compression of normal residual gland.",
       "choice_images": [
         [
           {
@@ -221,7 +221,10 @@
         "Green counterstain highlighting cellular parenchyma between black argyrophilic fibers"
       ],
       "visual_target": "Reticulin framework preservation (A) versus disruption (B)",
-      "joint_panels": [],
+      "joint_panels": [
+        "Panel A",
+        "Panel B"
+      ],
       "image": "assets/display/e5-reticulin-ab-df15711931ec6f18.webp",
       "zoom_image": "assets/zoom/e5-reticulin-ab-df15711931ec6f18.webp",
       "original_image": "assets/originals/4408454fbd2b2b4b.png",
@@ -275,7 +278,10 @@
         "Yellow arrowheads marking the pituitary lesions on coronal post-contrast T1 MRI"
       ],
       "visual_target": "Microadenoma (<1 cm, Panel A) vs. macroadenoma (≥1 cm, Panel B) on coronal MRI",
-      "joint_panels": [],
+      "joint_panels": [
+        "Panel A",
+        "Panel B"
+      ],
       "image": "assets/display/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
       "zoom_image": "assets/zoom/e5-pitnet-mri-micro-macro-0aba9d145335dc07.webp",
       "original_image": "assets/originals/0aba9d145335dc07.png",
@@ -329,7 +335,10 @@
         "Absence of wet keratin or calcification in Panel B"
       ],
       "visual_target": "Adamantinomatous (A) vs. papillary (B) craniopharyngioma histology",
-      "joint_panels": [],
+      "joint_panels": [
+        "Panel A",
+        "Panel B"
+      ],
       "image": "assets/display/e5-craniopharyngioma-ab-7463394509e968b9.webp",
       "zoom_image": "assets/zoom/e5-craniopharyngioma-ab-7463394509e968b9.webp",
       "original_image": "assets/originals/7463394509e968b9.png",
@@ -496,8 +505,8 @@
       ],
       "visual_target": "Absent septum pellucidum, optic chiasm hypoplasia, and pituitary hypoplasia on MRI",
       "joint_panels": [],
-      "image": "assets/display/e5-septo-optic-mri-c83b17d18449d466.webp",
-      "zoom_image": "assets/zoom/e5-septo-optic-mri-c83b17d18449d466.webp",
+      "image": "assets/display/e5-septo-optic-mri-a0be8d34996658e7.webp",
+      "zoom_image": "assets/zoom/e5-septo-optic-mri-a0be8d34996658e7.webp",
       "original_image": "assets/originals/911c240c9a8523b0.png",
       "original_filename": "Septo Optic Dysplasia MRI - Radiograph.png",
       "citations": [
@@ -598,7 +607,7 @@
       "choice_rationales": [
         "Craniopharyngiomas present as larger cystic-solid suprasellar masses with calcifications rather than a tiny discrete ectopic T1-bright posterior pituitary dot.",
         "Empty sella shows a CSF-filled sella flattening the pituitary along the floor without an ectopic bright neurohypophyseal nodule at the median eminence.",
-        "The displaced T1-hyperintense neurohypophyseal bright spot at the median eminence with anterior pituitary hypoplasia defines ectopic posterior pituitary / stalk interruption syndrome.",
+        "A displaced T1-bright neurohypophyseal dot at the median eminence paired with a tiny intrasellar anterior gland is pathognomonic for stalk interruption syndrome.",
         "Pituitary apoplexy produces a large hemorrhagic sellar mass causing acute headache and ophthalmoplegia, not a hypoplastic intrasellar gland."
       ],
       "visual_clues": [
@@ -781,7 +790,7 @@
         "GH has a 20-hour half-life; screen with random GH, then confirm with an insulin-induced hypoglycemia test",
         "GH is pulsatile; screen with IGF-1, then confirm with failed GH suppression on OGTT",
         "GH is tonically inhibited by dopamine; screen with serum prolactin, then confirm with a water deprivation test",
-        "GH rises only during pregnancy; screen with urine free cortisol, then confirm with low-dose dexamethasone"
+        "GH rises primarily during pregnancy; screen with urine free cortisol, then confirm with low-dose dexamethasone"
       ],
       "correct_index": 1,
       "explanation": "Step 1. The longitudinal portraits show classic adult-onset acromegaly (post-epiphyseal fusion), with progressive soft-tissue and craniofacial bone enlargement from chronic GH/IGF-1 excess. Step 2. Because pituitary GH secretion is pulsatile, a single random GH level is uninformative; diagnosis starts with measuring stable serum IGF-1 and is confirmed by failure of GH to suppress during an oral glucose tolerance test (OGTT).",
@@ -852,7 +861,7 @@
       "tested_concept": "Pituitary gigantism (GH excess before epiphyseal plate closure)",
       "stem": "The extreme symmetric linear tall stature shown in this historical clinical photograph develops when a somatotroph PitNET secretes excess GH during which developmental window?",
       "options": [
-        "Exclusively in utero due to placental human chorionic somatomammotropin",
+        "In utero due to maternal placental human chorionic somatomammotropin",
         "After closure of the epiphyseal growth plates in middle-aged adulthood",
         "Before closure of the long-bone epiphyseal growth plates in childhood or adolescence",
         "After postpartum pituitary infarction causing compensatory IGF-1 rebound"
@@ -1037,7 +1046,7 @@
         "The posterior pituitary undergoes lactotroph hyperplasia during pregnancy that protects it from ischemia",
         "Direct arterial perfusion protects the posterior lobe, while the anterior lobe relies on portal veins",
         "Oxytocin and ADH are synthesized inside the maternal adrenal cortex and bypass the sella turcica",
-        "Anti-pituitary autoantibodies selectively destroy posterior pituicytes only after 10 years"
+        "Anti-pituitary autoantibodies selectively target posterior pituicytes a decade postpartum"
       ],
       "correct_index": 1,
       "explanation": "Step 1. During pregnancy, estrogen-driven lactotroph hyperplasia enlarges the anterior pituitary, increasing its metabolic demand and compressing local vessels; severe postpartum hemorrhage (Trigger) precipitates acute ischemic necrosis of the anterior lobe (Sheehan syndrome), presenting first with failure to lactate (PRL deficiency) and evolving into panhypopituitarism. Step 2. The posterior pituitary is typically spared because it has its own direct arterial supply (inferior hypophyseal artery) rather than relying solely on the low-pressure hypophyseal portal system.",
