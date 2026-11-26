@@ -13,7 +13,7 @@ export const BANKS = Object.fromEntries(BANK_OPTIONS.map(({ id, label, href }) =
     brand: `${label.toUpperCase()} PICTURE QUIZ`,
     eyebrow: `Endocrine · ${label}`,
     description: id === 'physiology'
-        ? 'Practice E1–E4 and E7 lectures plus EX RxBricks (EX.1–EX.4, EX.7, EX.11) covering histology, hormone physiology, calcium/vitamin D, appetite control, and posterior pituitary water balance.'
+        ? 'Practice E1–E4, E7, and E8 lectures plus EX RxBricks (EX.1–EX.4, EX.7, EX.11) covering histology, hormone physiology, calcium/vitamin D, appetite control, posterior pituitary water balance, and GH/prolactin.'
         : 'Practice E5 pituitary pathology plus EX RxBricks (EX.5, EX.6, EX.8, EX.9, EX.12) covering water balance, thyroid, adrenal/CAH, MEN syndromes, and diabetes.',
     footer: `Endocrine · ${label} · Local picture quiz`,
     homeUrl: href,

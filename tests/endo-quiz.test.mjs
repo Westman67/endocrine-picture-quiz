@@ -72,7 +72,7 @@ function validateBankIntegrity(questions, manifestSources, label) {
 }
 
 test('physiology, pathology, and pharmacology banks pass full lineage, asset, and schema v2 checks', () => {
-    assert.ok(bank.length >= 70, `expected >= 70 physiology questions, got ${bank.length}`);
+    assert.ok(bank.length >= 80, `expected >= 80 physiology questions, got ${bank.length}`);
     assert.ok(pathBank.length >= 35, `expected >= 35 pathology questions, got ${pathBank.length}`);
     assert.ok(pharmBank.length >= 14, `expected >= 14 pharmacology questions, got ${pharmBank.length}`);
     validateBankIntegrity(bank, sources, 'physiology');
@@ -80,9 +80,9 @@ test('physiology, pathology, and pharmacology banks pass full lineage, asset, an
     validateBankIntegrity(pharmBank, pharmSources, 'pharmacology');
 });
 
-test('all E1-E7 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
+test('all E1-E8 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
     const allQs = [...bank, ...pathBank, ...pharmBank];
-    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7']) {
+    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8']) {
         assert.ok(allQs.some(q => q.collection === id), `missing lecture ${id}`);
     }
     for (let i = 1; i <= 12; i++) {
@@ -155,6 +155,7 @@ test('source groups rotate before repeat and filters respect origin and EX colle
     assert.ok(filtered(bank, p, { filter: 'unseen' }).every(x => x.source_group_id !== q.source_group_id));
     assert.ok(filtered(bank, p, { origin: 'third_party' }).every(x => x.source_origin === 'third_party'));
     assert.ok(filtered(bank, p, { collection: ['E7'] }).length === 10);
+    assert.ok(filtered(bank, p, { collection: ['E8'] }).length === 10);
     assert.ok(filtered(bank, p, { collection: ['EX.7'] }).every(x => x.collection === 'EX.7'));
     assert.ok(filtered(pathBank, p, { collection: ['EX.6'] }).every(x => x.collection === 'EX.6'));
     assert.ok(filtered(pharmBank, p, { collection: ['E6'] }).length === 10);

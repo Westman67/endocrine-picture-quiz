@@ -142,6 +142,13 @@
         "Additional overview and full-slide duplicates excluded as redundant."
       ],
       "basis": "E7 RLS (36p), E7 Transcript, E7 Obsidian Detailed Notes, and reviewed PNGs."
+    },
+    "E8": {
+      "status": "Reviewed and integrated",
+      "title": "Physiology of Growth Hormone and Prolactin",
+      "questions": 10,
+      "visual_questions": 8,
+      "text_questions": 2
     }
   }
 }

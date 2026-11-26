@@ -4222,6 +4222,602 @@
       "case_context": null,
       "condition_name": "Copeptin Diagnostics & Familial AVP Deficiency",
       "condition_overview": "Congenital AVP resistance (nephrogenic DI) most commonly results from X-linked V₂ receptor mutations (or autosomal dominant/recessive aquaporin-2 channel mutations), while Wolfram syndrome (DIDMOAD) is an autosomal recessive cause of AVP deficiency."
+    },
+    {
+      "question_id": "q-e8-gh-central-peripheral-feedback",
+      "source_id": "s-48dcd31980ad6671c936",
+      "source_group_id": "g-48dcd31980ad6671c936",
+      "variant_id": "v-619325c5b31fd25c7990",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Axis Feedback Diagram",
+      "tested_concept": "IGF-1 primary peripheral negative feedback (12–15 h half-life) and gastric ghrelin stimulation of GH",
+      "stem": "In this diagram of central and peripheral growth hormone regulation, Signal X is the primary peripheral negative-feedback regulator (half-life ~12–15 h bound to IGFBP-3) and Signal Y is a stomach-derived stimulator that rises before hunger. Which pairing correctly identifies Signal X and Signal Y?",
+      "options": [
+        "Signal X: IGF-1 (somatomedin C) inhibiting GH via ↑ somatostatin and ↓ GHRH; Signal Y: ghrelin",
+        "Signal X: cortisol suppressing pituitary GHRH receptors; Signal Y: cholecystokinin from duodenum",
+        "Signal X: insulin inhibiting hypothalamic somatostatin; Signal Y: leptin secreted by adipocytes",
+        "Signal X: thyroid hormone (T₃) blocking somatotrope transcription; Signal Y: gastric secretin"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. GH stimulates the liver to secrete IGF-1 (somatomedin C), which binds IGFBP-3 for a long 12–15 h half-life (compared with 20–30 min for GH) and integrates successive GH bursts into the primary peripheral negative-feedback signal—acting predominantly at the hypothalamus to raise somatostatin (SST) and lower GHRH. Step 2. Ghrelin is released by the stomach ~30 minutes before hunger and acts on the pituitary (and hypothalamus) to stimulate GH secretion.",
+      "choice_rationales": [
+        "Matches the liver-derived red negative-feedback loop (Signal X = IGF-1 raising SST and lowering GHRH) and the stomach-derived green stimulatory arrow (Signal Y = ghrelin).",
+        "Cortisol is adrenal rather than hepatic, and cholecystokinin is not the gastric GH stimulator shown exiting the stomach.",
+        "Insulin does not originate from the liver as the primary GH negative-feedback mediator, and leptin comes from adipose tissue rather than the stomach.",
+        "Thyroid hormone is required to stimulate (not block) pituitary GH transcription, and secretin is duodenal rather than gastric."
+      ],
+      "visual_clues": [
+        "Red inhibitory arrow originating from the liver to the hypothalamus and pituitary (Signal X = IGF-1)",
+        "Green stimulatory arrow originating from the stomach alongside stress, amino acids, and hypoglycemia (Signal Y = ghrelin)"
+      ],
+      "visual_target": "Hepatic negative-feedback signal (Signal X) and gastric stimulatory signal (Signal Y)",
+      "joint_panels": [],
+      "image": "assets/display/e8-gh-regulation-8aefa89e7d20142f.webp",
+      "zoom_image": "assets/zoom/e8-gh-regulation-8aefa89e7d20142f.webp",
+      "original_image": "assets/originals/8aefa89e7d20142f.png",
+      "original_filename": "GH Secretion Peripheral and Central Regulation - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 5
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH Axis Feedback & Ghrelin",
+      "condition_overview": "Somatotropes make up roughly one third of anterior pituitary cells (~10% of gland dry weight), and ~50% of plasma GH circulates protein-bound, which is unusual for a peptide hormone."
+    },
+    {
+      "question_id": "q-e8-gh-pulsatility-sex-sleep",
+      "source_id": "s-a07c77936ca2df49972e",
+      "source_group_id": "g-a07c77936ca2df49972e",
+      "variant_id": "v-bede87acb1208e89533b",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Secretory Profile Graph",
+      "tested_concept": "Nocturnal deep-sleep GH pulsatility, receptor desensitization prevention, and arginine stimulation testing",
+      "stem": "These 24-hour serum GH profiles in males (top) and females (bottom) show intermittent secretory bursts peaking after midnight. Why is pulsatile GH secretion physiologically important, and how does it affect clinical testing for GH deficiency?",
+      "options": [
+        "Pulsatility speeds renal clearance; a single noon random GH level reliably excludes deficiency",
+        "Prevents receptor desensitization and optimizes IGF-1; arginine stimulation replaces random GH",
+        "Pulsatility eliminates hepatic IGF-1 production; an oral glucose load is used to diagnose GH deficiency",
+        "Pulsatility occurs during waking daytime meals; fasting blood draws suppress GH to undetectable troughs"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The largest GH surge occurs during early deep sleep (with higher nocturnal peaks in males and higher basal levels in females), and intermittent bursts prevent peptide-receptor downregulation/desensitization while optimizing IGF-1 output and allowing rapid metabolic responses. Step 2. Because random blood GH fluctuates widely between troughs and stress-induced spikes, clinical evaluation uses a standardized stimulation test (such as IV arginine) rather than a single random GH measurement.",
+      "choice_rationales": [
+        "Pulsatility preserves receptor responsiveness rather than accelerating renal clearance, and a single random GH sample is uninterpretable due to deep troughs between pulses.",
+        "Intermittent bursts prevent receptor desensitization and optimize IGF-1 synthesis, making standardized stimulation testing (e.g., arginine) necessary to assess secretory reserve.",
+        "Pulsatile GH optimizes (not eliminates) IGF-1 production, and oral glucose suppresses GH (used for acromegaly) rather than testing for deficiency.",
+        "The 24-hour curves show the dominant peak after 2400 h during early deep sleep, and fasting hypoglycemia actually stimulates rather than suppresses GH."
+      ],
+      "visual_clues": [
+        "Pronounced nocturnal GH surge between 2400 and 0400 h (larger peak in males, higher baseline in females)",
+        "Near-zero daytime troughs alternating with transient bursts"
+      ],
+      "visual_target": "24-hour pulsatile GH secretory profiles in males and females",
+      "joint_panels": [],
+      "image": "assets/display/e8-gh-pulsatility-2d425db39e95c02d.webp",
+      "zoom_image": "assets/zoom/e8-gh-pulsatility-2d425db39e95c02d.webp",
+      "original_image": "assets/originals/2d425db39e95c02d.png",
+      "original_filename": "GH Secretion Pulsatility in Males and Females - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 6
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH Pulsatility & Stimulation Testing",
+      "condition_overview": "Even venipuncture stress in a child can trigger a transient GH spike, further illustrating why standardized amino-acid (arginine) provocation is preferred over random sampling."
+    },
+    {
+      "question_id": "q-e8-gh-lifespan-puberty-curve",
+      "source_id": "s-7aaef7edbeffd4f6694b",
+      "source_group_id": "g-7aaef7edbeffd4f6694b",
+      "variant_id": "v-3f039765a5cc845b31bf",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Lifespan Secretion Curve",
+      "tested_concept": "GH lifespan curve: minimal in-utero role, estrogen-driven pubertal peak, and adult metabolic persistence",
+      "stem": "Based on this lifespan curve of GH secretion, which statement accurately connects the Birth, Puberty, and Adult life phases to clinical growth physiology?",
+      "options": [
+        "Fetal linear growth depends heavily on fetal GH; congenital hypopituitarism causes severe birth stunting",
+        "GH secretion stops completely after epiphyseal closure, explaining why adults have no metabolic GH effects",
+        "Fetal growth is GH-independent, estrogen drives the pubertal peak, and adult GH stays metabolically active",
+        "Androgens block the pubertal GH surge in males, explaining why females grow for two extra years after puberty"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Newborns with congenital hypopituitarism or GH-receptor mutations have normal birth length (~22–24 in) because intrauterine growth is driven primarily by maternal nutrition and insulin rather than GH. Step 2. GH rises after birth, peaks sharply at puberty under estrogen stimulation (directly in females and via aromatization in males), and continues at lower-but-active levels in adulthood for metabolic regulation after epiphyseal plates close.",
+      "choice_rationales": [
+        "The curve starts low at birth and GHR-mutation data show intrauterine growth is largely GH-independent (normal birth length).",
+        "The curve remains clearly elevated throughout Adult life before falling in senescence because GH maintains important metabolic roles after bone plates close.",
+        "Matches all three phases on the curve: low/dispensable fetal GH, estrogen-stimulated pubertal peak (via aromatization in males), and continued adult metabolic secretion.",
+        "Estrogen (via aromatization) stimulates the pubertal peak in males as well, and males—not females—gain roughly two extra years of growth."
+      ],
+      "visual_clues": [
+        "Low starting level at Birth rising into Childhood",
+        "Prominent peak at Puberty followed by a sustained plateau through Adult life before declining in Senescence"
+      ],
+      "visual_target": "Growth hormone secretion curve across Birth, Childhood, Puberty, Adult life, and Senescence",
+      "joint_panels": [],
+      "image": "assets/display/e8-gh-lifespan-9c4b6b08f5bb6e45.webp",
+      "zoom_image": "assets/zoom/e8-gh-lifespan-9c4b6b08f5bb6e45.webp",
+      "original_image": "assets/originals/9c4b6b08f5bb6e45.png",
+      "original_filename": "GH Secretion Across the Lifespan - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 7
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH Secretion Across the Lifespan",
+      "condition_overview": "GH facilitates roughly ±30% of genetic height potential; adult GH replacement does not halt senescence."
+    },
+    {
+      "question_id": "q-e8-gh-direct-vs-indirect-actions",
+      "source_id": "s-551f9b57d844bc9ab784",
+      "source_group_id": "g-551f9b57d844bc9ab784",
+      "variant_id": "v-fca18e7e7e9342783f4a",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Pathway Split Diagram",
+      "tested_concept": "Direct GH lipolytic/glucose-sparing diabetogenic actions vs. indirect IGF-1 anabolic growth actions",
+      "stem": "This schematic splits GH actions into Pathway A (via Liver and Mediator X) and Pathway B (acting on adipose tissue and most tissues). Which pairing correctly identifies Pathway A, Mediator X, and the enzymatic mechanism of Pathway B?",
+      "options": [
+        "Pathway A: direct effect via insulin; Pathway B: indirect effect stimulating lipoprotein lipase",
+        "Pathway A: indirect effect via IGF-1; Pathway B: direct effect activating hormone-sensitive lipase and sparing glucose",
+        "Pathway A: indirect effect via glucagon; Pathway B: direct effect increasing peripheral glucose uptake",
+        "Pathway A: direct effect via JAK-STAT in muscle; Pathway B: indirect effect suppressing fatty acid release"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Pathway A is the indirect anabolic arm: GH binds hepatic receptors (JAK2-STAT signaling) to drive transcription and release of IGF-1 (Mediator X), which stimulates cartilage/bone growth and muscle amino-acid uptake/protein synthesis. Step 2. Pathway B is the direct metabolic arm: GH activates hormone-sensitive lipase (while inhibiting lipoprotein lipase) in adipose tissue to release free fatty acids and decreases insulin-stimulated glucose utilization in most tissues—producing a glucose-sparing, diabetogenic effect.",
+      "choice_rationales": [
+        "Pathway A is indirect (via hepatic IGF-1, not insulin), and Pathway B inhibits rather than stimulates lipoprotein lipase.",
+        "Correctly maps Pathway A to indirect hepatic IGF-1 anabolic growth and Pathway B to direct lipolysis (hormone-sensitive lipase) and glucose sparing.",
+        "Hepatic Mediator X is IGF-1 (not glucagon), and Pathway B decreases rather than increases peripheral glucose utilization.",
+        "The liver-mediated branch on the left is the indirect IGF-1 pathway, while the direct adipose branch promotes rather than suppresses fatty acid release."
+      ],
+      "visual_clues": [
+        "Left branch routed through Liver → Mediator X → Cartilage/bone and Muscle growth (Pathway A = Indirect Effect)",
+        "Right branch acting straight on Adipose tissue (lipolysis/FFA release) and Most tissues (decreased glucose utilization) (Pathway B = Direct Effect)"
+      ],
+      "visual_target": "Indirect IGF-1 anabolic branch (Pathway A) versus direct lipolytic/glucose-sparing branch (Pathway B)",
+      "joint_panels": [],
+      "image": "assets/display/e8-gh-actions-3b9a38a6cda23c06.webp",
+      "zoom_image": "assets/zoom/e8-gh-actions-3b9a38a6cda23c06.webp",
+      "original_image": "assets/originals/3b9a38a6cda23c06.png",
+      "original_filename": "Major Actions of GH Direct and Indirect - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 8
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 9
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 10
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 11
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Direct vs. Indirect GH Actions",
+      "condition_overview": "GH increases lean body mass (more muscle, less fat) via combined indirect IGF-1 anabolism and direct lipolysis, but its anti-insulin glucose-sparing effect makes GH diabetogenic."
+    },
+    {
+      "question_id": "q-e8-dual-effector-liver-igf1-ko",
+      "source_id": "s-6e787718cd6956c85218",
+      "source_group_id": "g-6e787718cd6956c85218",
+      "variant_id": "v-010abb4de5584b47fade",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Knockout Model Diagram",
+      "tested_concept": "Dual effector theory of longitudinal bone growth and liver igf1-/- knockout preservation of growth",
+      "stem": "In this liver-specific igf1-/- knockout model, circulating plasma IGF-1 drops by ~75%, yet the animal still grows near-normally because GH acts directly on bone to induce Local X. What does this experiment demonstrate under the dual effector theory?",
+      "options": [
+        "GH recruits prechondrocytes directly and induces local bone IGF-1 (Local X); neither alone suffices",
+        "Circulating hepatic IGF-1 is unnecessary for bone growth because pituitary GH binds insulin receptors on osteoclasts",
+        "Exogenous IGF-1 injections fully restore normal adult height in Laron syndrome without needing GH-receptor signaling",
+        "Liver igf1-/- knockout animals grow normally because thyroid hormone directly replaces epiphyseal IGF-1 transcription"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Under the dual effector model, GH acts directly on epiphyseal growth-plate progenitor cells to differentiate prechondrocytes and stimulate local autocrine/paracrine IGF-1 (Local X), which then drives clonal expansion. Step 2. This explains both why liver igf1-/- mice still grow despite ~75% lower serum IGF-1 and why giving IGF-1 to patients with Laron syndrome (GH-receptor defect) only partially restores growth without GH's direct chondrocyte recruitment.",
+      "choice_rationales": [
+        "Accurately captures the dual effector mechanism shown by the direct pituitary GH arrow to bone plus the dashed local IGF-1 autocrine/paracrine loop.",
+        "GH acts through its own JAK-STAT receptor on growth-plate chondrocytes to drive local IGF-1 rather than binding osteoclast insulin receptors.",
+        "Because IGF-1 cannot replace GH's direct recruitment of prechondrocytes, exogenous IGF-1 only partially restores growth in Laron syndrome.",
+        "Thyroid hormone is required for pituitary GH synthesis, but it does not substitute for local epiphyseal IGF-1 in liver igf1-/- mice."
+      ],
+      "visual_clues": [
+        "Blackened liver labeled 'LIVER igf1-/-' eliminating hepatic circulating IGF-1",
+        "Direct pituitary GH arrow to bone paired with a dashed autocrine/paracrine loop labeled Local X (IGF-1)"
+      ],
+      "visual_target": "Direct GH arrow and local autocrine/paracrine IGF-1 loop (Local X) in liver igf1-/- bone growth",
+      "joint_panels": [],
+      "image": "assets/display/e8-gh-bone-igf1-3f8fe24351c1d215.webp",
+      "zoom_image": "assets/zoom/e8-gh-bone-igf1-3f8fe24351c1d215.webp",
+      "original_image": "assets/originals/3f8fe24351c1d215.png",
+      "original_filename": "GH and IGF-1 Effects on Bone Growth - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 12
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 13
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Dual Effector Theory & Laron Syndrome",
+      "condition_overview": "In Laron syndrome, defective GH receptors produce high serum GH with low IGF-1 and severe short stature."
+    },
+    {
+      "question_id": "q-e8-mammary-alveolus-cell-targets",
+      "source_id": "s-3486684e94bc0274b549",
+      "source_group_id": "g-3486684e94bc0274b549",
+      "variant_id": "v-64bd94420f18983b1986",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 1,
+      "study_skill": "morphology",
+      "question_type": "Alveolar Cell Anatomy",
+      "tested_concept": "Mammary alveolus secretory epithelial cells (prolactin target) vs. contractile myoepithelial cells (oxytocin target)",
+      "stem": "This cross-section of a mammary alveolus highlights inner lumen-lining cells (Cell A) and outer surrounding cells (Cell B). Which pairing correctly matches each cell type to its primary hormone target and physiological function?",
+      "options": [
+        "Cell A: myoepithelial cells (oxytocin target, milk ejection); Cell B: secretory epithelial cells (prolactin target, milk synthesis)",
+        "Cell A: secretory epithelial cells (oxytocin target, milk synthesis); Cell B: myoepithelial cells (prolactin target, milk ejection)",
+        "Cell A: ductal fibroblasts (estrogen target, tight-junction closure); Cell B: adipocytes (progesterone target, colostrum storage)",
+        "Cell A: secretory epithelial cells (prolactin target, milk synthesis); Cell B: myoepithelial cells (oxytocin target, milk ejection)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The cuboidal/columnar secretory epithelial cells lining the alveolar lumen (Cell A) are the target of prolactin, which drives synthesis and secretion of milk into the lumen between feedings. Step 2. The flattened myoepithelial cells wrapping the outside of the alveolus (Cell B) form a contractile unit targeted by oxytocin, raising intra-alveolar pressure to eject milk into the lactiferous sinuses.",
+      "choice_rationales": [
+        "Reverses the inner and outer layers: the lumen-facing cells are secretory epithelial (not myoepithelial) cells.",
+        "Swaps the two hormones: prolactin drives milk synthesis in secretory epithelial cells, whereas oxytocin drives myoepithelial contraction.",
+        "Estrogen drives duct proliferation and progesterone drives alveolar proliferation, but neither names these two functional alveolar effector cell layers.",
+        "Matches the inner lumen-lining secretory epithelial cells (prolactin → milk synthesis) and outer contractile myoepithelial cells (oxytocin → milk ejection)."
+      ],
+      "visual_clues": [
+        "Pointer for Cell A terminating on the inner stippled cuboidal cells bordering the central Lumen",
+        "Pointer for Cell B terminating on the outer flattened contractile ring encircling the alveolus"
+      ],
+      "visual_target": "Inner secretory epithelial cells (Cell A) and outer myoepithelial cells (Cell B) of the mammary alveolus",
+      "joint_panels": [],
+      "image": "assets/display/e8-mammary-alveolus-068e397c1d6a59f9.webp",
+      "zoom_image": "assets/zoom/e8-mammary-alveolus-068e397c1d6a59f9.webp",
+      "original_image": "assets/originals/068e397c1d6a59f9.png",
+      "original_filename": "Mammary Alveolus Cell Types - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 23
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 24
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Mammary Alveolus Functional Anatomy",
+      "condition_overview": "In short: prolactin makes milk (secretory epithelial cells) and oxytocin ejects it (myoepithelial cells); incomplete tight junctions at delivery allow maternal immunoglobulins into early colostrum."
+    },
+    {
+      "question_id": "q-e8-prolactin-nursing-postpartum-curve",
+      "source_id": "s-0e1c6d11a43efcb49740",
+      "source_group_id": "g-0e1c6d11a43efcb49740",
+      "variant_id": "v-900c764f9088b910d240",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Postpartum Hormone Graph",
+      "tested_concept": "Lactation initiation (high basal + large nursing prolactin surge, sex-steroid withdrawal) vs. maintenance (smaller surges)",
+      "stem": "This graph plots serum prolactin responses to nursing at two postpartum intervals (Curve A vs. Curve B) alongside flat hGH. Which statement correctly identifies Curve A and Curve B and explains the endocrine switch that initiates copious milk secretion?",
+      "options": [
+        "Curve A: 63–194 days postpartum; Curve B: 8–41 days postpartum; rising placental estrogen initiates copious milk secretion",
+        "Curve A: 8–41 days postpartum; Curve B: 63–194 days postpartum; high basal prolactin must remain above 200 ng/mL to maintain lactation at 6 months",
+        "Curve A: third-trimester pregnancy; Curve B: 8–41 days postpartum; rising progesterone activates alveolar prolactin receptors",
+        "Curve A: 8–41 days postpartum; Curve B: 63–194 days postpartum; placental delivery withdraws inhibitory sex steroids while early nursing sustains high prolactin"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Curve A represents early postpartum initiation (8–41 days), characterized by elevated baseline prolactin and a large nursing-induced surge (~250 ng/mL); Curve B represents established maintenance (63–194 days), where milk production persists despite lower basal levels and much smaller pulsatile surges. Step 2. During pregnancy, placental estrogen and progesterone drive ductal/alveolar maturation but block prolactin's metabolic milk-synthesis action; placental delivery rapidly withdraws sex steroids, allowing copious lactation once immediate nursing maintains high prolactin.",
+      "choice_rationales": [
+        "Reverses early vs. late postpartum curves, and high estrogen inhibits rather than initiates milk synthesis.",
+        "Curve B shows that established maintenance (63–194 days) requires only modest pulsatile prolactin surges, not persistently high basal levels.",
+        "Both curves are postpartum nursing responses (not pregnancy), and progesterone inhibits rather than activates milk secretion.",
+        "Correctly assigns Curve A to early initiation (8–41 days), Curve B to maintenance (63–194 days), and links lactogenesis to placental sex-steroid withdrawal plus immediate nursing."
+      ],
+      "visual_clues": [
+        "Higher baseline and tall green surge peaking ~250 ng/mL after nursing (Curve A = 8–41 days postpartum)",
+        "Lower baseline and blunted blue surge peaking ~75 ng/mL (Curve B = 63–194 days postpartum) with flat HGH line at zero"
+      ],
+      "visual_target": "Early (Curve A) versus late (Curve B) postpartum prolactin responses to nursing",
+      "joint_panels": [],
+      "image": "assets/display/e8-prl-nursing-b13b039c533add99.webp",
+      "zoom_image": "assets/zoom/e8-prl-nursing-b13b039c533add99.webp",
+      "original_image": "assets/originals/b13b039c533add99.png",
+      "original_filename": "Prolactin Release in Response to Nursing - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 26
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 27
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 30
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Lactation Initiation vs. Maintenance",
+      "condition_overview": "Breast maturation uses estrogen (ducts), progesterone (alveoli), and placental hCS (hPL)/hGHv with permissive insulin, cortisol, and thyroid hormone; milk progresses from colostrum (days 1–5) to transition (days 5–10) to mature milk (by day 14)."
+    },
+    {
+      "question_id": "q-e8-suckling-reflex-dopamine-stalk",
+      "source_id": "s-0a3f3dd8f6f6a087341b",
+      "source_group_id": "g-0a3f3dd8f6f6a087341b",
+      "variant_id": "v-fe9f6490e597d954023d",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Neuroendocrine Reflex Diagram",
+      "tested_concept": "Tonic hypothalamic dopamine inhibition of prolactin, open-loop suckling double-negative reflex, and pituitary stalk transection",
+      "stem": "In this neuroendocrine suckling reflex, nipple stimulation ascends via the spinal cord to the hypothalamus, altering Factor X so the anterior pituitary releases Hormone Y for the next feeding. What are Factor X and Hormone Y, and what happens if the pituitary stalk is transected?",
+      "options": [
+        "Factor X: ↑ TRH; Hormone Y: oxytocin — stalk transection lowers both prolactin and GH",
+        "Factor X: ↓ somatostatin; Hormone Y: GH — stalk transection raises GH and lowers prolactin",
+        "Factor X: ↓ dopamine (PIH); Hormone Y: prolactin — stalk cut raises prolactin and lowers GH",
+        "Factor X: ↑ GnRH; Hormone Y: prolactin — stalk transection abolishes prolactin and stimulates LH surges"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Prolactin is the one anterior pituitary hormone under predominant tonic hypothalamic inhibition by dopamine (PIH/PIF). Suckling triggers an open-loop double-negative reflex: afferent signals reduce hypothalamic dopamine (Factor X ↓), lifting inhibition so lactotropes secrete prolactin (Hormone Y ↑) to synthesize milk for the next feeding. Step 2. Consequently, compromising the pituitary stalk removes tonic dopamine inhibition—raising prolactin—while removing stimulatory hypothalamic releasing factors (like GHRH), which lowers GH and all other anterior pituitary hormones.",
+      "choice_rationales": [
+        "While TRH can stimulate prolactin pharmacologically, the physiological suckling reflex acts primarily by suppressing dopamine, and stalk transection raises (not lowers) prolactin.",
+        "Somatostatin regulates GH rather than milk synthesis, and stalk transection lowers GH because tonic GHRH stimulation is lost.",
+        "Matches the open-loop double-negative suckling reflex (↓ dopamine → ↑ prolactin) and the high-yield stalk-effect dissociation (↑ prolactin, ↓ GH and other anterior pituitary hormones).",
+        "GnRH does not drive prolactin secretion; in fact, elevated prolactin inhibits hypothalamic GnRH pulses."
+      ],
+      "visual_clues": [
+        "Afferent pathway from nipple stimulation through spinal cord to hypothalamus altering Factor X (↓ Dopamine / PIF)",
+        "Anterior pituitary secreting Hormone Y (↑ Prolactin) into blood to stimulate breast milk synthesis"
+      ],
+      "visual_target": "Hypothalamic inhibitory mediator (Factor X) and anterior pituitary lactogenic hormone (Hormone Y)",
+      "joint_panels": [],
+      "image": "assets/display/e8-prl-suckling-reflex-1edd3cc1a471ca7a.webp",
+      "zoom_image": "assets/zoom/e8-prl-suckling-reflex-1edd3cc1a471ca7a.webp",
+      "original_image": "assets/originals/1edd3cc1a471ca7a.png",
+      "original_filename": "Control of Prolactin Secretion and Milk Letdown - Diagram.png",
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 29
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Prolactin Tonic Inhibition & Stalk Effect",
+      "condition_overview": "Because prolactin has no peripheral target-gland negative feedback, suckling acts as an open-loop stimulus that terminates when the infant stops nursing; dopamine antagonists (antipsychotics) raise prolactin while dopamine agonists (bromocriptine/cabergoline) suppress it."
+    },
+    {
+      "question_id": "q-e8-gh-deficiency-vs-cretinism-nutrition",
+      "source_group_id": "g-b9d196be1540300d048d",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Disorder Comparison",
+      "tested_concept": "Isolated GH deficiency (proportionate short stature) vs. cretinism (thyroid lack) vs. Laron syndrome and nutrition requirement",
+      "stem": "A pediatric endocrine clinic evaluates three children with severe short stature: Child 1 has isolated childhood GH deficiency, Child 2 has untreated congenital hypothyroidism (cretinism), and Child 3 has severe protein-calorie malnutrition despite high-dose GH therapy. Which comparison best distinguishes these presentations?",
+      "options": [
+        "Child 1 has disproportionate limbs and intellectual disability; Child 2 has normal body proportions and high IGF-1",
+        "Child 1: proportionate stature/typical intellect; Child 2: atypical proportions/ID; Child 3: nutrition required",
+        "Child 1 and Child 2 both present with elevated serum GH and low IGF-1; Child 3 achieves normal height if recombinant GH is doubled",
+        "Child 1 has preserved GH transcription without thyroid hormone; Child 2 has normal linear growth because fetal GH compensates for low T₄"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Isolated childhood GH deficiency produces proportionate short stature (3–4 ft untreated) with normal body proportions, normal intellect, and intact reproductive potential, whereas congenital hypothyroidism (cretinism) causes short stature (partly via secondary GH deficiency since thyroid hormone drives GH gene transcription) PLUS atypical body proportions and CNS intellectual disability. Step 2. GH and IGF-1 cannot drive normal growth in isolation—adequate nutrition and permissive hormones are required.",
+      "choice_rationales": [
+        "Swaps the two phenotypes: congenital hypothyroidism (not isolated GH deficiency) causes atypical proportions and CNS intellectual disability.",
+        "Accurately contrasts proportionate isolated GH deficiency, disproportionate/neurodevelopmental cretinism, and the absolute requirement for adequate nutrition alongside GH/IGF-1.",
+        "High GH with low IGF-1 describes Laron syndrome (GH-receptor defect), and extra GH cannot overcome poor nutrition.",
+        "Thyroid hormone acting through nuclear receptors is required for normal GH transcription, so thyroid deficiency impairs GH synthesis and linear growth."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 12
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 13
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH Deficiency vs. Cretinism & Nutrition",
+      "condition_overview": "In contrast to childhood GH excess (gigantism, open epiphyseal plates, up to ~8 ft), adult GH excess after plate closure causes acromegaly (thickened facial bones and soft tissues without long-bone lengthening)."
+    },
+    {
+      "question_id": "q-e8-fed-vs-fasting-gh-igf1-survival",
+      "source_group_id": "g-d9aaf1ab6ae0cb79642b",
+      "collection": "E8",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Fed vs. fasting GH/IGF-1 dissociation (survival over growth) and prolactin inhibition of GnRH pulse generator",
+      "stem": "Evaluate the following two statements regarding GH metabolic integration and prolactin reproductive effects:\n\nStatement 1: During fasting (low insulin and nutrient scarcity), GH rises to mobilize free fatty acids and spare glucose while hepatic IGF-1 falls—prioritizing survival over growth—whereas protein intake elevates GH, IGF-1, and insulin together.\nStatement 2: Elevated prolactin (from nursing or a prolactinoma) inhibits the hypothalamic GnRH pulse generator, blunting LH surges and causing anovulatory infertility/amenorrhea in women and erectile dysfunction/gynecomastia in men.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. GH and IGF-1 do not always move in parallel: in fasting, insulin and IGF-1 fall while GH rises to drive lipolysis and glucose sparing ('survival over growth'), whereas protein-rich fed states raise GH, IGF-1, and insulin to promote protein synthesis and growth. Step 2. Hyperprolactinemia (physiologic during breastfeeding or pathologic from a prolactinoma, the most prevalent pituitary adenoma) slows hypothalamic GnRH pulses, suppressing LH/anovulation in women and causing hypogonadism/erectile dysfunction and gynecomastia in men.",
+      "choice_rationales": [
+        "Both statements accurately capture E8's fed-vs-fasting GH/IGF-1 dissociation ('survival over growth') and prolactin-mediated GnRH suppression.",
+        "Neither statement is false; both are core E8 physiological and clinical mechanisms.",
+        "Statement 2 is also true: prolactin inhibits hypothalamic GnRH pulses, explaining lactational amenorrhea and prolactinoma-associated infertility in both sexes.",
+        "Statement 1 is also true: fasting dissociates high GH (lipolytic/glucose-sparing) from low IGF-1 (postponed growth)."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 15
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 16
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 31
+        },
+        {
+          "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+          "page": 32
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Fed vs. Fasting GH/IGF-1 & Prolactin-GnRH Axis",
+      "condition_overview": "High carbohydrate intake alone raises insulin and lowers GH while leaving IGF-1 roughly unchanged (favoring calorie storage rather than added linear growth)."
     }
   ],
   "cases": [],

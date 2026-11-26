@@ -3132,6 +3132,398 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "a-8aefa89e7d20142f0c0800922b587c64fdc21cb187c6fbffbc1e39a455af7fba",
+      "source_id": "s-48dcd31980ad6671c936",
+      "source_group_id": "g-48dcd31980ad6671c936",
+      "lecture_id": "E8",
+      "relative_path": "E8/GH Secretion Peripheral and Central Regulation - Diagram.png",
+      "sha256": "8aefa89e7d20142f0c0800922b587c64fdc21cb187c6fbffbc1e39a455af7fba",
+      "dimensions": [
+        2588,
+        2424
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "IGF-1 primary peripheral negative feedback (12–15 h half-life) and gastric ghrelin stimulation of GH",
+      "original_asset": "assets/originals/8aefa89e7d20142f.png",
+      "display_asset": "assets/display/e8-gh-regulation-8aefa89e7d20142f.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 5
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-619325c5b31fd25c7990",
+          "asset": "assets/display/e8-gh-regulation-8aefa89e7d20142f.webp",
+          "zoom_asset": "assets/zoom/e8-gh-regulation-8aefa89e7d20142f.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2588,
+              2424
+            ],
+            "output_dimensions": [
+              2588,
+              2424
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-2d425db39e95c02d363717996597b37f1250cb4d7ea32298890eabc9a3e7c486",
+      "source_id": "s-a07c77936ca2df49972e",
+      "source_group_id": "g-a07c77936ca2df49972e",
+      "lecture_id": "E8",
+      "relative_path": "E8/GH Secretion Pulsatility in Males and Females - Diagram.png",
+      "sha256": "2d425db39e95c02d363717996597b37f1250cb4d7ea32298890eabc9a3e7c486",
+      "dimensions": [
+        1492,
+        2105
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Nocturnal deep-sleep GH pulsatility, receptor desensitization prevention, and arginine stimulation testing",
+      "original_asset": "assets/originals/2d425db39e95c02d.png",
+      "display_asset": "assets/display/e8-gh-pulsatility-2d425db39e95c02d.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-bede87acb1208e89533b",
+          "asset": "assets/display/e8-gh-pulsatility-2d425db39e95c02d.webp",
+          "zoom_asset": "assets/zoom/e8-gh-pulsatility-2d425db39e95c02d.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1492,
+              2105
+            ],
+            "output_dimensions": [
+              1492,
+              2105
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9c4b6b08f5bb6e4509a7bce2d7eafc108c6ca7b3bc3df9701b92bf96a55326d9",
+      "source_id": "s-7aaef7edbeffd4f6694b",
+      "source_group_id": "g-7aaef7edbeffd4f6694b",
+      "lecture_id": "E8",
+      "relative_path": "E8/GH Secretion Across the Lifespan - Diagram.png",
+      "sha256": "9c4b6b08f5bb6e4509a7bce2d7eafc108c6ca7b3bc3df9701b92bf96a55326d9",
+      "dimensions": [
+        2706,
+        1522
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "GH lifespan curve: minimal in-utero role, estrogen-driven pubertal peak, and adult metabolic persistence",
+      "original_asset": "assets/originals/9c4b6b08f5bb6e45.png",
+      "display_asset": "assets/display/e8-gh-lifespan-9c4b6b08f5bb6e45.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 7
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-3f039765a5cc845b31bf",
+          "asset": "assets/display/e8-gh-lifespan-9c4b6b08f5bb6e45.webp",
+          "zoom_asset": "assets/zoom/e8-gh-lifespan-9c4b6b08f5bb6e45.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2706,
+              1522
+            ],
+            "output_dimensions": [
+              2706,
+              1522
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3b9a38a6cda23c0654e17bc890af2a7cb9d8f82de86b9b649288e41cff2e7db0",
+      "source_id": "s-551f9b57d844bc9ab784",
+      "source_group_id": "g-551f9b57d844bc9ab784",
+      "lecture_id": "E8",
+      "relative_path": "E8/Major Actions of GH Direct and Indirect - Diagram.png",
+      "sha256": "3b9a38a6cda23c0654e17bc890af2a7cb9d8f82de86b9b649288e41cff2e7db0",
+      "dimensions": [
+        3494,
+        1792
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Direct GH lipolytic/glucose-sparing diabetogenic actions vs. indirect IGF-1 anabolic growth actions",
+      "original_asset": "assets/originals/3b9a38a6cda23c06.png",
+      "display_asset": "assets/display/e8-gh-actions-3b9a38a6cda23c06.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-fca18e7e7e9342783f4a",
+          "asset": "assets/display/e8-gh-actions-3b9a38a6cda23c06.webp",
+          "zoom_asset": "assets/zoom/e8-gh-actions-3b9a38a6cda23c06.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              3494,
+              1792
+            ],
+            "output_dimensions": [
+              3494,
+              1792
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-3f8fe24351c1d215f4757c126c772e4804fab1465feeed4bb6f47cf2e6916b4d",
+      "source_id": "s-6e787718cd6956c85218",
+      "source_group_id": "g-6e787718cd6956c85218",
+      "lecture_id": "E8",
+      "relative_path": "E8/GH and IGF-1 Effects on Bone Growth - Diagram.png",
+      "sha256": "3f8fe24351c1d215f4757c126c772e4804fab1465feeed4bb6f47cf2e6916b4d",
+      "dimensions": [
+        847,
+        1623
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Dual effector theory of longitudinal bone growth and liver igf1-/- knockout preservation of growth",
+      "original_asset": "assets/originals/3f8fe24351c1d215.png",
+      "display_asset": "assets/display/e8-gh-bone-igf1-3f8fe24351c1d215.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 12
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-010abb4de5584b47fade",
+          "asset": "assets/display/e8-gh-bone-igf1-3f8fe24351c1d215.webp",
+          "zoom_asset": "assets/zoom/e8-gh-bone-igf1-3f8fe24351c1d215.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              847,
+              1623
+            ],
+            "output_dimensions": [
+              847,
+              1623
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-068e397c1d6a59f91503fa15533537b6c76b1d9dc3c54ce2d04afd49b458395b",
+      "source_id": "s-3486684e94bc0274b549",
+      "source_group_id": "g-3486684e94bc0274b549",
+      "lecture_id": "E8",
+      "relative_path": "E8/Mammary Alveolus Cell Types - Diagram.png",
+      "sha256": "068e397c1d6a59f91503fa15533537b6c76b1d9dc3c54ce2d04afd49b458395b",
+      "dimensions": [
+        2193,
+        1972
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Mammary alveolus secretory epithelial cells (prolactin target) vs. contractile myoepithelial cells (oxytocin target)",
+      "original_asset": "assets/originals/068e397c1d6a59f9.png",
+      "display_asset": "assets/display/e8-mammary-alveolus-068e397c1d6a59f9.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-64bd94420f18983b1986",
+          "asset": "assets/display/e8-mammary-alveolus-068e397c1d6a59f9.webp",
+          "zoom_asset": "assets/zoom/e8-mammary-alveolus-068e397c1d6a59f9.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2193,
+              1972
+            ],
+            "output_dimensions": [
+              2193,
+              1972
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-b13b039c533add99236e2d144150de9e48d40c5abfaf6ba90365ac7f056f42d8",
+      "source_id": "s-0e1c6d11a43efcb49740",
+      "source_group_id": "g-0e1c6d11a43efcb49740",
+      "lecture_id": "E8",
+      "relative_path": "E8/Prolactin Release in Response to Nursing - Diagram.png",
+      "sha256": "b13b039c533add99236e2d144150de9e48d40c5abfaf6ba90365ac7f056f42d8",
+      "dimensions": [
+        1598,
+        1111
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Lactation initiation (high basal + large nursing prolactin surge, sex-steroid withdrawal) vs. maintenance (smaller surges)",
+      "original_asset": "assets/originals/b13b039c533add99.png",
+      "display_asset": "assets/display/e8-prl-nursing-b13b039c533add99.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 26
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-900c764f9088b910d240",
+          "asset": "assets/display/e8-prl-nursing-b13b039c533add99.webp",
+          "zoom_asset": "assets/zoom/e8-prl-nursing-b13b039c533add99.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1598,
+              1111
+            ],
+            "output_dimensions": [
+              1598,
+              1111
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-1edd3cc1a471ca7af5f531c1d156f02270aec24336c8c1741d9b99de5ee09367",
+      "source_id": "s-0a3f3dd8f6f6a087341b",
+      "source_group_id": "g-0a3f3dd8f6f6a087341b",
+      "lecture_id": "E8",
+      "relative_path": "E8/Control of Prolactin Secretion and Milk Letdown - Diagram.png",
+      "sha256": "1edd3cc1a471ca7af5f531c1d156f02270aec24336c8c1741d9b99de5ee09367",
+      "dimensions": [
+        1331,
+        1887
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Tonic hypothalamic dopamine inhibition of prolactin, open-loop suckling double-negative reflex, and pituitary stalk transection",
+      "original_asset": "assets/originals/1edd3cc1a471ca7a.png",
+      "display_asset": "assets/display/e8-prl-suckling-reflex-1edd3cc1a471ca7a.webp",
+      "source_origin": "lecture",
+      "source_collection": "E8 Lecture RLS",
+      "source_citation": {
+        "document": "E8 Physiology of Growth Hormone and Prolactin RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "current_document_sha256": "9e66cff6571469cb3aca534521bdd6d483d50b7f780e31baaee5d85104ac3de2",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-fe9f6490e597d954023d",
+          "asset": "assets/display/e8-prl-suckling-reflex-1edd3cc1a471ca7a.webp",
+          "zoom_asset": "assets/zoom/e8-prl-suckling-reflex-1edd3cc1a471ca7a.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1331,
+              1887
+            ],
+            "output_dimensions": [
+              1331,
+              1887
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
     }
   ]
 }
