@@ -18,7 +18,7 @@
       "tested_concept": "High-dose biotin (vitamin B7) interference with streptavidin-biotin thyroid assays",
       "stem": "A clinically euthyroid 35-year-old woman taking an over-the-counter high-dose hair-and-nail supplement has routine labs showing markedly suppressed TSH and markedly elevated free T₄, mimicking Graves disease. Her heart rate, weight, and thyroid exam are completely normal. Which supplement and mechanism best explain these discordant labs?",
       "options": [
-        "High-dose biotin interfering with streptavidin-biotin immunoassays (false-low TSH, false-high free T₄)",
+        "High-dose biotin interfering with streptavidin-biotin assays (false-low TSH, false-high free T₄)",
         "Dietary seaweed iodine triggering the Wolff-Chaikoff effect (false-high TSH, false-low free T₄)",
         "Over-the-counter calcium carbonate blocking levothyroxine absorption in the jejunum",
         "St. John's wort inducing hepatic CYP3A4 clearance of endogenous pituitary TSH"
@@ -67,7 +67,7 @@
       "stem": "A 64-year-old man started on amiodarone for atrial fibrillation develops thyroid dysfunction, while a 41-year-old woman on chronic lithium develops goiter and hypothyroidism. Which mechanistic pairing accurately describes how lithium and amiodarone disrupt thyroid physiology?",
       "options": [
         "Lithium directly stimulates TSH receptors causing Graves disease; amiodarone selectively destroys parathyroid chief cells",
-        "Lithium inhibits thyroid hormone synthesis/release (iodine uptake & thyroglobulin processing); amiodarone causes iodine-induced dysfunction and blocks 5'-deiodinase",
+        "Lithium inhibits thyroid hormone synthesis/release; amiodarone causes iodine excess and blocks 5'-deiodinase",
         "Lithium blocks hepatic TBG synthesis causing low total T₄; amiodarone triggers biotin-like immunoassay interference",
         "Lithium stimulates renal aquaporin-2 insertion causing SIADH; amiodarone accelerates peripheral T₄-to-T₃ conversion"
       ],
@@ -116,7 +116,7 @@
       "options": [
         "Megestrol acetate blocked peripheral glucocorticoid receptors, triggering compensatory ACTH elevation and hyperpigmentation",
         "Inhaled corticosteroids directly destroyed the adrenal zona glomerulosa, causing primary Addison disease with high ACTH",
-        "Exogenous glucocorticoid activity (even inhaled steroids and megestrol) suppressed hypothalamic-pituitary-adrenal negative feedback, causing secondary adrenal insufficiency",
+        "Exogenous glucocorticoid activity suppressed HPA negative feedback, causing secondary adrenal insufficiency",
         "Abrupt cessation triggered acute pituitary apoplexy with cavernous sinus ophthalmoplegia"
       ],
       "correct_index": 2,
@@ -195,6 +195,550 @@
       "case_context": null,
       "condition_name": "Transport Protein Interference & Checkpoint Endocrinopathies",
       "condition_overview": "Because women taking oral estrogens or during pregnancy have higher TBG, patients with preexisting hypothyroidism who cannot up-regulate endogenous T₄ often require an upward adjustment of their levothyroxine dose."
+    },
+    {
+      "question_id": "q-e6-degarelix-vs-leuprolide",
+      "source_id": "s-0819b338aa4c9cd0bc0a",
+      "source_group_id": "g-0819b338aa4c9cd0bc0a",
+      "variant_id": "v-15a878f3efceacaf8caa",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Pharmacodynamic Response Graph",
+      "tested_concept": "GnRH antagonist (degarelix) vs GnRH superagonist (leuprolide) testosterone flare",
+      "stem": "This 28-day trial compares two GnRH analogs for chemical castration in advanced prostate cancer. Drug A (red) drops serum testosterone by 96% by day 3, whereas Drug B (gray) causes a 65% testosterone surge before suppressing it by day 28. Which drug classes correspond to Drug A and Drug B?",
+      "options": [
+        "Drug A: dopamine D₂ agonist (cabergoline); Drug B: GH receptor antagonist (pegvisomant)",
+        "Drug A: GnRH superagonist (leuprolide); Drug B: GnRH antagonist (degarelix)",
+        "Drug A: 17α-hydroxylase inhibitor (abiraterone); Drug B: somatostatin analog (octreotide)",
+        "Drug A: GnRH antagonist (degarelix); Drug B: GnRH superagonist (leuprolide)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Drug A (red) blocks pituitary GnRH receptors immediately without initial stimulation, crashing testosterone by 96% by day 3 with zero flare. Step 2. Drug B (gray) initially stimulates LH/FSH release (producing a 65% testosterone surge that can flare prostate cancer symptoms) before continuous receptor desensitization and down-regulation suppress testosterone to castrate levels.",
+      "choice_rationales": [
+        "Cabergoline suppresses prolactin and pegvisomant blocks peripheral GH receptors; neither drives chemical castration curves.",
+        "This swaps the two curves: the 65% early testosterone surge is the hallmark of a GnRH superagonist (leuprolide), not an antagonist.",
+        "Abiraterone blocks adrenal CYP17A1 in castration-resistant prostate cancer and octreotide inhibits GH/serotonin/VIP rather than pituitary GnRH receptors.",
+        "GnRH antagonists (-relix, such as degarelix) block GnRH receptors immediately without a flare (Drug A), whereas superagonists (leuprolide) trigger an early surge before receptor down-regulation (Drug B)."
+      ],
+      "visual_clues": [
+        "Red curve (Drug A) plunging −96% by day 3 with no initial rise above baseline",
+        "Gray curve (Drug B) showing shaded +65% testosterone surge peaking around day 3 before dropping to −100% by day 28"
+      ],
+      "visual_target": "Testosterone suppression curves of a GnRH antagonist (A) vs. superagonist (B)",
+      "joint_panels": [],
+      "image": "assets/display/e6-degarelix-vs-leuprolide-44517f8f273c5b91.webp",
+      "zoom_image": "assets/zoom/e6-degarelix-vs-leuprolide-44517f8f273c5b91.webp",
+      "original_image": "assets/originals/628a67e76aa62afe.png",
+      "original_filename": "Degarelix vs Leuprolide Testosterone Response - Diagram.png",
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 22
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 23
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GnRH Superagonists vs. GnRH Antagonists",
+      "condition_overview": "GnRH antagonist names end in -relix (degarelix, ganirelix, cetrorelix), whereas superagonists generally end in -relin (nafarelin, goserelin, histrelin, triptorelin—with leuprolide as the notable exception). Short-term androgen receptor blockade can mitigate the leuprolide flare in advanced prostate cancer."
+    },
+    {
+      "question_id": "q-e6-cabergoline-prolactinoma-bbb",
+      "source_id": "s-d06eebdbae62ddbf30c7",
+      "source_group_id": "g-d06eebdbae62ddbf30c7",
+      "variant_id": "v-1e0fddc5e61694e655d6",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Trial Response Graph",
+      "tested_concept": "Cabergoline D2 agonist efficacy, twice-weekly dosing, and lower dose outside BBB",
+      "stem": "A clinical trial of a long-acting oral ergot-derivative D₂ agonist in women with hyperprolactinemia and anovulation lowers prolactin below normal by week 4 (Panel A) and restores reproductive function in ~75% (Panel B). Why is the required dose for prolactinoma far lower than the dose used for Parkinson disease?",
+      "options": [
+        "Cabergoline is metabolized into active dopamine specifically by mammary myoepithelial cells",
+        "The anterior pituitary lies outside the blood-brain barrier, permitting D₂ binding without CNS entry",
+        "Lactotropes express V₂ vasopressin receptors with 1,000-fold higher affinity than striatal D₂ receptors",
+        "Prolactinomas trap oral cabergoline via active sodium-iodide symporters"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The trial shows rapid normalization of serum prolactin (<20 mcg/L by week 4) and ~75% restoration of ovulatory cycles/pregnancy with cabergoline (14-day duration, oral twice weekly). Step 2. Because the anterior pituitary sits outside the conventional blood-brain barrier, cabergoline reaches lactotrope D₂ receptors at much lower doses than needed to cross the BBB into the striatum for Parkinson disease, lowering CNS adverse effects.",
+      "choice_rationales": [
+        "Cabergoline acts directly as a D₂ agonist on anterior pituitary lactotropes rather than being activated in mammary tissue.",
+        "Pituitary lactotropes sit outside the blood-brain barrier, so cabergoline suppresses prolactin and shrinks ~85% of prolactinomas at doses far below Parkinson disease therapy.",
+        "Cabergoline targets lactotrope D₂ receptors, not renal V₂ vasopressin receptors.",
+        "Sodium-iodide symporters (NIS) belong to thyroid follicular cells, not pituitary prolactinomas."
+      ],
+      "visual_clues": [
+        "Panel A: steep drop in serum prolactin from ~105 mcg/L to below the 20 mcg/L upper normal dashed line by week 4",
+        "Panel B: ~75% complete restoration of ovulatory function/pregnancy with small partial-success and failure bars"
+      ],
+      "visual_target": "Rapid prolactin suppression and ovulatory restoration with cabergoline",
+      "joint_panels": [],
+      "image": "assets/display/e6-cabergoline-trial-a6469a9ba2bfc8b3.webp",
+      "zoom_image": "assets/zoom/e6-cabergoline-trial-a6469a9ba2bfc8b3.webp",
+      "original_image": "assets/originals/9ff5436d8b566ae0.png",
+      "original_filename": "Cabergoline Trial Prolactin and Ovulation Response - Diagram.png",
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 29
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Cabergoline for Prolactinomas",
+      "condition_overview": "Cabergoline (14-day duration, twice weekly, less nausea/vomiting) has largely replaced bromocriptine (~8-hour duration, 2–3× daily). In acromegaly, cabergoline only helps tumors that co-secrete prolactin and GH—not GH-only tumors."
+    },
+    {
+      "question_id": "q-e6-ivf-follicles-hcg-ohss",
+      "source_id": "s-595b3134b5d32af64291",
+      "source_group_id": "g-595b3134b5d32af64291",
+      "variant_id": "v-cd582b75d44e172dfff4",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Imaging",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Transvaginal Pelvic Ultrasound",
+      "tested_concept": "FSH follicular stimulation, hCG (LH-like) trigger shot, and ovarian hyperstimulation syndrome",
+      "stem": "Transvaginal ultrasound during controlled ovarian stimulation shows multiple large dark fluid-filled ovarian follicles (dominant follicle 18.7 mm). Which agent is injected to trigger final oocyte ripening (mimicking the LH surge), and what serious complication can arise from capillary leak out of these hyperstimulated follicles?",
+      "options": [
+        "Octreotide; severe dilutional hyponatremia from free-water retention",
+        "Progesterone; acute pituitary apoplexy with bitemporal hemianopia",
+        "hCG (LH mimic); ovarian hyperstimulation syndrome with ascites",
+        "Leuprolide; uterine rupture and cervical laceration during labor"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Ultrasound demonstrates multiple mature fluid-filled follicles (16–18+ mm) produced by exogenous FSH stimulation. Step 2. A single injection of hCG (whose biological activity is identical to LH) serves as the trigger shot to complete oocyte maturation ~36 hours before retrieval; major risks of hyperstimulating many follicles include multiple births (~20%) and ovarian hyperstimulation syndrome (0.5–4%, ovarian enlargement and ascites from capillary leak).",
+      "choice_rationales": [
+        "Octreotide treats acromegaly/carcinoid/sulfonylurea overdose, and dilutional hyponatremia is the toxicity of vasopressin/desmopressin.",
+        "Progesterone is given after oocyte retrieval to prime the secretory endometrium for embryo transfer, not to trigger ovulation.",
+        "hCG mimics the midcycle LH surge to ripen mature follicles, and excessive follicular stimulation can trigger ovarian hyperstimulation syndrome (capillary leak, ascites, hemoconcentration).",
+        "Uterine rupture and cervical laceration are toxicities of oxytocin during labor, not hCG during IVF."
+      ],
+      "visual_clues": [
+        "Multiple large anechoic (dark) fluid-filled ovarian follicles expanding the ovary",
+        "Electronic caliper measurement showing a mature follicle at 18.71 mm (within the 16–18+ mm trigger window)"
+      ],
+      "visual_target": "Multiple mature stimulated ovarian follicles on transvaginal ultrasound",
+      "joint_panels": [],
+      "image": "assets/display/e6-ovarian-follicles-us-0304bf350615c202.webp",
+      "zoom_image": "assets/zoom/e6-ovarian-follicles-us-0304bf350615c202.webp",
+      "original_image": "assets/originals/5c4794894f8d1745.png",
+      "original_filename": "Ovarian Follicles Transvaginal Ultrasound - Echo.png",
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 18
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 26
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Gonadotropins & Ovarian Hyperstimulation",
+      "condition_overview": "In IVF, a GnRH agonist or antagonist first suppresses endogenous LH/FSH to prevent a premature LH surge, an FSH analog grows multiple follicles, hCG triggers final maturation, and progesterone primes the endometrium for implantation."
+    },
+    {
+      "question_id": "q-e6-gh-direct-vs-igf1-drugs",
+      "source_id": "s-c34f42e96d94aa04ff8f",
+      "source_group_id": "g-c34f42e96d94aa04ff8f",
+      "variant_id": "v-5a810db7662cdd4f6b60",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Hormone Action Diagram",
+      "tested_concept": "GH direct diabetogenic vs IGF-1 anabolic effects, mecasermin, and pegvisomant",
+      "stem": "In this growth hormone action diagram, GH acts directly on adipose tissue (lipolysis) and liver (gluconeogenesis), while longitudinal bone growth requires hepatic Mediator X. Which drug replaces Mediator X in Laron syndrome, and which drug blocks the GH receptor in somatostatin-resistant acromegaly?",
+      "options": [
+        "Cabergoline for Laron syndrome; desmopressin for acromegaly",
+        "Pegvisomant for Laron syndrome; somatropin (recombinant GH) for acromegaly",
+        "Octreotide for Laron syndrome; cosyntropin (ACTH 1–24) for acromegaly",
+        "Mecasermin (IGF-1) for Laron syndrome; pegvisomant for acromegaly"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Mediator X is hepatic IGF-1 (somatomedin), which mediates GH's anabolic/somatotropic bone-growth effects (only while epiphyseal growth plates remain open), whereas GH's lipolytic and diabetogenic effects are IGF-1 independent. Step 2. Mecasermin provides recombinant IGF-1 for Laron syndrome (GH receptor defect unresponsive to GH), while pegvisomant is a pegylated GH receptor antagonist that lowers IGF-1 in acromegaly resistant to somatostatin analogs.",
+      "choice_rationales": [
+        "Cabergoline inhibits prolactin (and GH/PRL co-secreting tumors), and desmopressin treats central DI.",
+        "This reverses the two drugs: pegvisomant blocks GH receptors (for acromegaly) and somatropin is recombinant GH (ineffective in Laron GH-receptor resistance).",
+        "Octreotide inhibits GH release (useful in acromegaly, not Laron syndrome), and cosyntropin tests adrenal cortisol reserve.",
+        "Mecasermin bypasses the defective GH receptor in Laron syndrome by supplying IGF-1 (Mediator X), and pegvisomant blocks peripheral GH receptors to lower IGF-1 in refractory acromegaly."
+      ],
+      "visual_clues": [
+        "Direct green arrow from Growth Hormone to Fat (lipolysis) and Liver (gluconeogenesis)",
+        "Indirect green arrow from Liver through Mediator X (IGF-1) to longitudinal bone elongation"
+      ],
+      "visual_target": "Direct lipolytic vs. indirect hepatic IGF-1 bone-growth pathway",
+      "joint_panels": [],
+      "image": "assets/display/e6-gh-structure-actions-0b366a225f06fff0.webp",
+      "zoom_image": "assets/zoom/e6-gh-structure-actions-0b366a225f06fff0.webp",
+      "original_image": "assets/originals/0c9c04d0abd1cf1d.png",
+      "original_filename": "Human Growth Hormone Structure and Actions - Diagram.png",
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 11
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 12
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH, Mecasermin & Pegvisomant Pharmacology",
+      "condition_overview": "Recombinant GH (somatropin/somatrem) works for linear growth only before epiphyseal fusion; its IGF-1-independent lipolytic and gluconeogenic actions raise insulin resistance and can unmask diabetes."
+    },
+    {
+      "question_id": "q-e6-haloperidol-prolactin-trigger",
+      "source_group_id": "g-817de5394b633a9bcd6e",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Drug-Axis Mechanism",
+      "tested_concept": "Typical antipsychotic (haloperidol) D2 blockade causing hyperprolactinemia and amenorrhea",
+      "stem": "A 27-year-old woman treated chronically with haloperidol for schizophrenia develops secondary amenorrhea and infertility. What is the direct initial pituitary mechanism triggered by haloperidol?",
+      "options": [
+        "Anterior pituitary D₂ blockade raises prolactin, which then suppresses GnRH, LH, and FSH",
+        "Direct blockade of pituitary GnRH receptors lowers LH and FSH independently of prolactin",
+        "Stimulation of hypothalamic TRH neurons lowers TSH and induces myxedema",
+        "Activation of anterior pituitary somatostatin receptors suppresses ACTH and cortisol"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Prolactin has high basal secretion that is tonically inhibited by hypothalamic dopamine acting on lactotrope D₂ receptors. Step 2. Haloperidol (a high-affinity D₂ antagonist) removes tonic dopamine inhibition, directly triggering hyperprolactinemia—which secondarily suppresses GnRH, LH, and FSH to cause amenorrhea and infertility.",
+      "choice_rationales": [
+        "D₂ receptor blockade directly elevates prolactin (the initial trigger), and elevated prolactin subsequently suppresses GnRH/LH/FSH to cause amenorrhea and infertility.",
+        "Decreased LH and FSH is a downstream consequence of hyperprolactinemia rather than direct GnRH receptor blockade by haloperidol.",
+        "Haloperidol blocks D₂ receptors rather than stimulating TRH or causing myxedema.",
+        "Haloperidol does not act as a somatostatin agonist or suppress ACTH."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 3
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 4
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Antipsychotic-Induced Hyperprolactinemia",
+      "condition_overview": "Unlike fluoxetine, alprazolam, or phenytoin, high-affinity D₂-blocking antipsychotics (such as haloperidol) reliably disinhibit pituitary lactotropes."
+    },
+    {
+      "question_id": "q-e6-octreotide-clinical-uses",
+      "source_group_id": "g-fc751dc41ddc40732f2d",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Indication Discrimination (EXCEPT)",
+      "tested_concept": "Octreotide uses: acromegaly, carcinoid, WDHA, and sulfonylurea overdose",
+      "stem": "Octreotide is a long-acting somatostatin analog containing D-amino acids that resist peptidase degradation. All of the following are established therapeutic uses of octreotide taught in E6 EXCEPT:",
+      "options": [
+        "Acromegaly when surgery is incomplete or impractical, lowering GH and IGF-1",
+        "Induction of labor and prevention of postpartum uterine hemorrhage",
+        "Severe refractory hypoglycemia caused by sulfonylurea overdose",
+        "Palliative control of carcinoid syndrome (flushing, diarrhea, bronchoconstriction)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Octreotide suppresses GH, insulin, serotonin, and VIP secretion—making it valuable for acromegaly, carcinoid syndrome, WDHA syndrome (VIPoma), and sulfonylurea-overdose hypoglycemia. Step 2. Labor induction and postpartum hemorrhage control are classic indications for intravenous oxytocin, not octreotide.",
+      "choice_rationales": [
+        "Correct indication: octreotide/lanreotide inhibit residual somatotroph GH release in acromegaly.",
+        "Incorrect pairing: intravenous oxytocin (not octreotide) induces uterine contractions for labor and postpartum hemorrhage.",
+        "Correct indication: octreotide suppresses massive endogenous insulin secretion driven by sulfonylurea overdose.",
+        "Correct indication: octreotide palliates carcinoid syndrome by blocking release of serotonin, histamine, and vasoactive peptides."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 13
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Somatostatin Analogs (Octreotide & Lanreotide)",
+      "condition_overview": "Octreotide inhibits GH release more potently than insulin release at therapeutic doses, though it still suppresses insulin strongly enough to reverse refractory sulfonylurea-induced hypoglycemia."
+    },
+    {
+      "question_id": "q-e6-posterior-pit-drugs-toxicity",
+      "source_group_id": "g-dfc0ce737d3d2731cca8",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Drug Comparison & Toxicity",
+      "tested_concept": "Vasopressin, desmopressin, oxytocin, and vaptan clinical uses and toxicities",
+      "stem": "A child with central diabetes insipidus is prescribed intranasal desmopressin (DDAVP) rather than native vasopressin, while a postpartum patient receives IV oxytocin for uterine atony. What shared life-threatening electrolyte toxicity can occur with vasopressin or desmopressin, and what major obstetric toxicity limits oxytocin?",
+      "options": [
+        "Refractory hypernatremia from osmotic diuresis; severe osteoporosis and hot flashes",
+        "Severe hyperkalemia from aldosterone blockade; ovarian hyperstimulation syndrome",
+        "Fatal dilutional hyponatremia from free-water retention; uterine rupture or cervical laceration",
+        "Lactic acidosis from hepatic glycogenolysis; persistent hyperprolactinemia"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Desmopressin selectively activates V₂ receptors (>10× antidiuretic potency of vasopressin with minimal V₁ vasoconstriction), making it ideal for central DI and enuresis, but excess free-water retention dilutes serum Na⁺ and can cause fatal hyponatremia. Step 2. Oxytocin induces uterine contractions for labor and postpartum hemorrhage, carrying a risk of uterine rupture, cervical laceration, or fetal distress if overstimulated.",
+      "choice_rationales": [
+        "Vasopressin/desmopressin lower (not raise) serum Na⁺, and osteoporosis is a chronic adverse effect of GnRH analogs.",
+        "Neither drug blocks aldosterone, and ovarian hyperstimulation syndrome is a complication of gonadotropins (FSH/hCG).",
+        "Both vasopressin and desmopressin can cause fatal dilutional hyponatremia via excessive free-water retention, whereas oxytocin toxicity includes uterine rupture, cervical laceration, and neonatal trauma.",
+        "Lactic acidosis and hyperprolactinemia are not the primary toxicities of desmopressin or oxytocin."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 8
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 9
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Vasopressin, Desmopressin, Oxytocin & Vaptans",
+      "condition_overview": "For severe hyponatremia or refractory heart-failure water retention, V₂ antagonists reverse excess antidiuresis: conivaptan (IV, nonselective V₁/V₂) and tolvaptan (oral, selective V₂)."
+    },
+    {
+      "question_id": "q-e6-gonadotropin-indications-hcg",
+      "source_group_id": "g-34dcbf9f27f56736d9f2",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Indication Matching",
+      "tested_concept": "Gonadotropin agent selection for hypogonadotropic infertility, IVF, and cryptorchidism",
+      "stem": "In matching pituitary/placental gonadotropin preparations to clinical indications, which regimen-to-indication pairing is completely accurate?",
+      "options": [
+        "Cryptorchidism: IV octreotide infusion; IVF endometrial priming: high-dose recombinant GH",
+        "Hypogonadotropic female infertility: hCG alone for 12 days; cryptorchidism: chronic daily leuprolide depot",
+        "Hypogonadotropic male infertility: oral progesterone monotherapy; IVF oocyte maturation: oral cabergoline",
+        "Hypogonadotropic female infertility: FSH analog for 7–12 days followed by hCG; cryptorchidism: 3 hCG injections over 5 days"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. FSH matures ovarian follicles and induces granulosa-cell aromatase (estradiol), whereas hCG provides pure LH-like activity to trigger ovulation in females and stimulate Leydig-cell testosterone for testicular descent in cryptorchidism (~25% descent with 3 injections over 5 days). Step 2. Hypogonadotropic men receive testosterone (adding FSH if spermatogenesis remains insufficient), while IVF uses FSH for follicle growth, hCG for triggering, and progesterone to prime the endometrium.",
+      "choice_rationales": [
+        "Neither octreotide nor recombinant GH is used for cryptorchidism or IVF endometrial priming.",
+        "hCG cannot mature follicles without prior FSH, and chronic leuprolide causes chemical castration rather than testicular descent.",
+        "Progesterone does not stimulate spermatogenesis, and cabergoline does not mature IVF follicles.",
+        "FSH followed by an hCG trigger induces ovulation in ~90% of hypogonadotropic women, and short-course hCG achieves testicular descent in ~25% of cryptorchidism cases."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 7
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 17
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 18
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Clinical Uses of Gonadotropins (FSH, LH, hCG)",
+      "condition_overview": "Remember the emphasized rule from E6: placental hCG has biological activity identical to pituitary LH and a prolonged ~8-hour half-life due to heavy glycosylation."
+    },
+    {
+      "question_id": "q-e6-crpc-abiraterone-mechanism",
+      "source_group_id": "g-0263bab5f8461aa21061",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "question_type": "Oncologic Endocrine Pharmacology",
+      "tested_concept": "Abiraterone (CYP17A1 inhibition) and androgen receptor antagonists in castration-resistant prostate cancer",
+      "stem": "A 71-year-old man with metastatic prostate cancer shows rising PSA despite serum testosterone <20 ng/dL on depot leuprolide (castration-resistant prostate cancer). Why is abiraterone added alongside replacement glucocorticoid and an androgen receptor blocker (e.g., enzalutamide)?",
+      "options": [
+        "Abiraterone inhibits adrenal CYP17A1 (17α-hydroxylase/17,20-lyase) to block adrenal androgens",
+        "Abiraterone directly blocks pituitary GnRH receptors to prevent a secondary testosterone flare",
+        "Abiraterone inhibits thyroid peroxidase to slow prostate cancer metabolic rate",
+        "Abiraterone stimulates hepatic SHBG degradation to lower free testosterone"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Even after testicular androgen production is abolished by leuprolide or orchiectomy, the adrenal cortex continues secreting weak androgens (DHEA and androstenedione) that drive castration-resistant prostate cancer. Step 2. Abiraterone inhibits CYP17A1 (17α-hydroxylase and 17,20-lyase), eliminating adrenal androgen synthesis (and blocking cortisol synthesis, which is why replacement glucocorticoid is co-administered).",
+      "choice_rationales": [
+        "Blocking CYP17A1 with abiraterone shuts down residual adrenal DHEA/androstenedione production, while glucocorticoid replacement compensates for concurrent cortisol blockade.",
+        "Pituitary GnRH receptors are already down-regulated by leuprolide (and antagonists like degarelix block GnRH receptors, not abiraterone).",
+        "Thyroid peroxidase is targeted by thionamides (methimazole/PTU), not abiraterone.",
+        "Abiraterone acts on adrenal/tumor steroidogenesis (CYP17A1), not hepatic SHBG degradation."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 24
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Castration-Resistant Prostate Cancer (Abiraterone)",
+      "condition_overview": "Combining abiraterone (blocking adrenal androgen synthesis) with potent androgen receptor antagonists (bicalutamide, nilutamide, enzalutamide) provides dual blockade of residual androgen signaling."
+    },
+    {
+      "question_id": "q-e6-peptide-chemistry-receptors",
+      "source_group_id": "g-ec310a2a5ca5104b524e",
+      "collection": "E6",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Peptide half-life modifications vs GH/PRL JAK2-STAT cytokine receptors",
+      "stem": "Evaluate the following two statements regarding pituitary hormone pharmacology:\n\nStatement 1: Natural short peptides (ACTH, vasopressin, oxytocin, releasing factors) signal through GPCRs with half-lives under 7 minutes; C-terminal amidation, N-terminal pyroglutamate, and synthetic D-amino acids slow peptidase degradation.\nStatement 2: Growth hormone and prolactin signal through dimerized class 1 cytokine receptors coupled to cytoplasmic JAK2-STAT tyrosine kinases rather than GPCRs.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Short random-coil peptide hormones are rapidly cleaved by peptidases (<7 min half-life) and act via GPCRs; chemical modifications (amidation, pyroglutamate, D-amino acids as in DDAVP, octreotide, and leuprolide) resist proteolysis and extend duration of action. Step 2. Larger 4-helix polypeptides (GH, 191 aa; PRL, 198 aa) signal through type 1 cytokine receptor dimers activating JAK2-STAT transcription.",
+      "choice_rationales": [
+        "Both statements accurately summarize peptide stability chemistry, GPCR signaling, and GH/prolactin JAK2-STAT cytokine receptor signaling.",
+        "Neither statement is false; both reflect core E6 hormone chemistry and receptor classes.",
+        "Statement 2 is also true because GH and PRL resemble class 1 cytokines (like IL-2) and signal via JAK2-STAT rather than GPCRs.",
+        "Statement 1 is also true because peptide half-lives are <7 minutes and amidation/pyroglutamate/D-amino acids resist peptidases."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 5
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+          "page": 7
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hormone Chemistry, Stability & Receptor Classes",
+      "condition_overview": "By contrast, the heavily glycosylated heterodimers (LH, FSH, TSH, hCG) act via large-ectodomain GPCRs and have half-lives >1 hour (hCG ~8 hours) because glycosylation slows proteolysis."
     }
   ],
   "cases": [],

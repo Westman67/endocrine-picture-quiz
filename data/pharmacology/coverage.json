@@ -14,6 +14,20 @@
         "Dedicated endocrine pharmacology lectures will append here as they arrive."
       ],
       "basis": "EX.10 Unintended Effects of Medications & Supplements on Endocrine Function (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "E6": {
+      "status": "Reviewed active visual & conceptual pharmacology bank (10 lecture items)",
+      "tested_summary": [
+        "Degarelix (GnRH antagonist, no flare) vs. leuprolide (GnRH superagonist, 65% testosterone flare)",
+        "Cabergoline D₂ agonist prolactinoma shrinkage (~85%) at low doses outside BBB",
+        "Gonadotropins (FSH follicle maturation, hCG identical to LH, cryptorchidism, OHSS & multiple births)",
+        "GH direct diabetogenic vs. indirect IGF-1 effects, mecasermin (Laron), pegvisomant (GH-R antagonist)",
+        "Haloperidol D₂ blockade hyperprolactinemia, octreotide uses (acromegaly/carcinoid/WDHA/sulfonylurea overdose), desmopressin/oxytocin toxicities, abiraterone in CRPC, peptide chemistry & JAK2-STAT receptors"
+      ],
+      "gaps": [
+        "Strictly excluded Not Required topics: ACTH vial cost, recombinant vs. urinary gonadotropin origin, and granular IVF day-by-day protocols."
+      ],
+      "basis": "E6 RLS (33p), E6 Transcripts 1–2, E6 Obsidian Detailed Notes, and reviewed PNGs."
     }
   }
 }

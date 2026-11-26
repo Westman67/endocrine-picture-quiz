@@ -2740,6 +2740,398 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "a-788285b4ded5a2c36b045f31747635f4dcf6b08ac716df906ec1d44f530ba52e",
+      "source_id": "s-6f4d7b8ef84e12b74617",
+      "source_group_id": "g-6f4d7b8ef84e12b74617",
+      "lecture_id": "E7",
+      "relative_path": "E7/AVP Secretion Osmolar vs Hemodynamic Stimuli - Diagram.png",
+      "sha256": "788285b4ded5a2c36b045f31747635f4dcf6b08ac716df906ec1d44f530ba52e",
+      "dimensions": [
+        1950,
+        1749
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Osmoreceptor sensitivity (1–2%) vs hemodynamic potency (~10% drop driving >20 pg/mL AVP)",
+      "original_asset": "assets/originals/788285b4ded5a2c3.png",
+      "display_asset": "assets/display/e7-osmolar-vs-hemodynamic-55ae583c4222f69b.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-36e857dcbada7521c606",
+          "asset": "assets/display/e7-osmolar-vs-hemodynamic-55ae583c4222f69b.webp",
+          "zoom_asset": "assets/zoom/e7-osmolar-vs-hemodynamic-55ae583c4222f69b.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1950,
+              1749
+            ],
+            "output_dimensions": [
+              1950,
+              1749
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-297fb45976984f332c02ff0c9c9ada8e7d674de60f6358417ee6f45fd3af57df",
+      "source_id": "s-a5f4cc59fb4a6db4710e",
+      "source_group_id": "g-a5f4cc59fb4a6db4710e",
+      "lecture_id": "E7",
+      "relative_path": "E7/AVP Secretion and Thirst Thresholds - Diagram.png",
+      "sha256": "297fb45976984f332c02ff0c9c9ada8e7d674de60f6358417ee6f45fd3af57df",
+      "dimensions": [
+        2131,
+        1983
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "AVP osmotic threshold (~280 mOsm/kg) vs thirst threshold (~288–294 mOsm/kg) and maximal urine concentration",
+      "original_asset": "assets/originals/297fb45976984f33.png",
+      "display_asset": "assets/display/e7-avp-thirst-thresholds-b5f5af8a775071d9.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 6
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-72bc913a5b404de8f837",
+          "asset": "assets/display/e7-avp-thirst-thresholds-b5f5af8a775071d9.webp",
+          "zoom_asset": "assets/zoom/e7-avp-thirst-thresholds-b5f5af8a775071d9.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2131,
+              1983
+            ],
+            "output_dimensions": [
+              2131,
+              1983
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-be6f29683c93d73e6a693aed274adfbfe8d8b23aa558d262012aa0a607917d02",
+      "source_id": "s-37c5df9721bf2c7be385",
+      "source_group_id": "g-37c5df9721bf2c7be385",
+      "lecture_id": "E7",
+      "relative_path": "E7/Inputs to Vasopressin Secretion - Diagram.png",
+      "sha256": "be6f29683c93d73e6a693aed274adfbfe8d8b23aa558d262012aa0a607917d02",
+      "dimensions": [
+        2561,
+        1797
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Non-osmotic AVP stimuli (pain, nausea, vomiting, stress) vs inhibitors (alcohol, baroreceptors)",
+      "original_asset": "assets/originals/be6f29683c93d73e.png",
+      "display_asset": "assets/display/e7-inputs-vasopressin-2dd9c1c2b2b19e5c.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 9
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-0431049fa4d8e9ec1436",
+          "asset": "assets/display/e7-inputs-vasopressin-2dd9c1c2b2b19e5c.webp",
+          "zoom_asset": "assets/zoom/e7-inputs-vasopressin-2dd9c1c2b2b19e5c.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2561,
+              1797
+            ],
+            "output_dimensions": [
+              2561,
+              1797
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-7d04a5db6e8d02eca7bb6c5a0c959bf1a9cee0ac3562081a7a36304f3f63ee18",
+      "source_id": "s-cc6478b083839d04cb72",
+      "source_group_id": "g-cc6478b083839d04cb72",
+      "lecture_id": "E7",
+      "relative_path": "E7/Vasopressin Receptors Table - Diagram.png",
+      "sha256": "7d04a5db6e8d02eca7bb6c5a0c959bf1a9cee0ac3562081a7a36304f3f63ee18",
+      "dimensions": [
+        2634,
+        1592
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Vasopressin receptor subtypes V1, V2, and V3 (V1b) target tissues and physiological functions",
+      "original_asset": "assets/originals/7d04a5db6e8d02ec.png",
+      "display_asset": "assets/display/e7-vasopressin-receptors-table-4eb5b4691a6f512e.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 4
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-2b968eb082be353193c4",
+          "asset": "assets/display/e7-vasopressin-receptors-table-4eb5b4691a6f512e.webp",
+          "zoom_asset": "assets/zoom/e7-vasopressin-receptors-table-4eb5b4691a6f512e.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2634,
+              1592
+            ],
+            "output_dimensions": [
+              2634,
+              1592
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-98824854816e77c84a3984dd5c464172fd2e3553e87337da174720c4ab36d55c",
+      "source_id": "s-bf1a8bd5cd3643f4fd37",
+      "source_group_id": "g-bf1a8bd5cd3643f4fd37",
+      "lecture_id": "E7",
+      "relative_path": "E7/Triple Phase Response After Neurosurgery - Diagram.png",
+      "sha256": "98824854816e77c84a3984dd5c464172fd2e3553e87337da174720c4ab36d55c",
+      "dimensions": [
+        2796,
+        1737
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Postoperative triphasic response (DI → SIADH → permanent DI) and avoiding early long-acting DDAVP",
+      "original_asset": "assets/originals/98824854816e77c8.png",
+      "display_asset": "assets/display/e7-triple-phase-response-50622359f4d0c53a.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 25
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-49e3f2f997576ba6826a",
+          "asset": "assets/display/e7-triple-phase-response-50622359f4d0c53a.webp",
+          "zoom_asset": "assets/zoom/e7-triple-phase-response-50622359f4d0c53a.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2796,
+              1737
+            ],
+            "output_dimensions": [
+              2796,
+              1737
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-f5efd716d6243b5b71d7f815c40b08e69761f808f88e76a47f223ac4af136ea2",
+      "source_id": "s-f0daf88fc8780c1280cb",
+      "source_group_id": "g-f0daf88fc8780c1280cb",
+      "lecture_id": "E7",
+      "relative_path": "E7/Urine Osmolality vs Serum Osmolality in AVP Deficiency - Diagram.png",
+      "sha256": "f5efd716d6243b5b71d7f815c40b08e69761f808f88e76a47f223ac4af136ea2",
+      "dimensions": [
+        2683,
+        1991
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Water deprivation test curves: Normal vs primary polydipsia washout vs DI + aqueous vasopressin",
+      "original_asset": "assets/originals/f5efd716d6243b5b.png",
+      "display_asset": "assets/display/e7-urine-vs-serum-osm-6f42bd2c85cad8ec.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 24
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-4cfc4eef708295631ee4",
+          "asset": "assets/display/e7-urine-vs-serum-osm-6f42bd2c85cad8ec.webp",
+          "zoom_asset": "assets/zoom/e7-urine-vs-serum-osm-6f42bd2c85cad8ec.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2683,
+              1991
+            ],
+            "output_dimensions": [
+              2683,
+              1991
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-ee9986607e4e63947fcc597c60a36210205e70661ed15a2f42d7bdfb141f2d53",
+      "source_id": "s-76c42aaf5244ec37f412",
+      "source_group_id": "g-76c42aaf5244ec37f412",
+      "lecture_id": "E7",
+      "relative_path": "E7/Acute vs Chronic Hypernatremia Therapy - Diagram.png",
+      "sha256": "ee9986607e4e63947fcc597c60a36210205e70661ed15a2f42d7bdfb141f2d53",
+      "dimensions": [
+        2941,
+        1830
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Chronic hypernatremia idiogenic osmoles, cerebral edema risk, and <0.5 mEq/L/h correction cap",
+      "original_asset": "assets/originals/ee9986607e4e6394.png",
+      "display_asset": "assets/display/e7-acute-vs-chronic-hypernatremia-bdaf976d8d49a74c.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 30
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-c7fbab91e41ec974dbd1",
+          "asset": "assets/display/e7-acute-vs-chronic-hypernatremia-bdaf976d8d49a74c.webp",
+          "zoom_asset": "assets/zoom/e7-acute-vs-chronic-hypernatremia-bdaf976d8d49a74c.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2941,
+              1830
+            ],
+            "output_dimensions": [
+              2941,
+              1830
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-406ada9ab892abe1e9875e704f051f82679afbd6916204f802c5b82b8c29d2b7",
+      "source_id": "s-3cb4f60904a417b08292",
+      "source_group_id": "g-3cb4f60904a417b08292",
+      "lecture_id": "E7",
+      "relative_path": "E7/Vasopressin and Desmopressin Structure - Diagram.png",
+      "sha256": "406ada9ab892abe1e9875e704f051f82679afbd6916204f802c5b82b8c29d2b7",
+      "dimensions": [
+        2520,
+        1258
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Desmopressin (DDAVP) deamination (half-life 5 min → 12 h), D-Arg8 V2 selectivity, and mandatory fluid restriction",
+      "original_asset": "assets/originals/406ada9ab892abe1.png",
+      "display_asset": "assets/display/e7-ddavp-structure-c8612aa2ae420aca.webp",
+      "source_origin": "lecture",
+      "source_collection": "E7 Lecture RLS",
+      "source_citation": {
+        "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+        "page": 32
+      },
+      "source_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "current_document_sha256": "7207e7640f25ec139310cf03d0514a88ba43aca95157137996a3736821ba1ffe",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-17288ab30faa666a6a5d",
+          "asset": "assets/display/e7-ddavp-structure-c8612aa2ae420aca.webp",
+          "zoom_asset": "assets/zoom/e7-ddavp-structure-c8612aa2ae420aca.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              2520,
+              1258
+            ],
+            "output_dimensions": [
+              2520,
+              1258
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
     }
   ]
 }

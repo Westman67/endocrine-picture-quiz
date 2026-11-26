@@ -1,5 +1,202 @@
 {
   "schema_version": 1,
   "section": "pharmacology",
-  "sources": []
+  "sources": [
+    {
+      "asset_id": "a-628a67e76aa62afe5c2f33624c5b0a7cc208b533d582c31b4ef2460620ef62fc",
+      "source_id": "s-0819b338aa4c9cd0bc0a",
+      "source_group_id": "g-0819b338aa4c9cd0bc0a",
+      "lecture_id": "E6",
+      "relative_path": "E6/Degarelix vs Leuprolide Testosterone Response - Diagram.png",
+      "sha256": "628a67e76aa62afe5c2f33624c5b0a7cc208b533d582c31b4ef2460620ef62fc",
+      "dimensions": [
+        1870,
+        1279
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "GnRH antagonist (degarelix) vs GnRH superagonist (leuprolide) testosterone flare",
+      "original_asset": "assets/originals/628a67e76aa62afe.png",
+      "display_asset": "assets/display/e6-degarelix-vs-leuprolide-44517f8f273c5b91.webp",
+      "source_origin": "lecture",
+      "source_collection": "E6 Lecture RLS",
+      "source_citation": {
+        "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+        "page": 22
+      },
+      "source_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "current_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-15a878f3efceacaf8caa",
+          "asset": "assets/display/e6-degarelix-vs-leuprolide-44517f8f273c5b91.webp",
+          "zoom_asset": "assets/zoom/e6-degarelix-vs-leuprolide-44517f8f273c5b91.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1870,
+              1279
+            ],
+            "output_dimensions": [
+              1870,
+              1279
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-9ff5436d8b566ae0d5fee38a28f6829f10aaafc69e8bf72a53f3d1ee4fff286c",
+      "source_id": "s-d06eebdbae62ddbf30c7",
+      "source_group_id": "g-d06eebdbae62ddbf30c7",
+      "lecture_id": "E6",
+      "relative_path": "E6/Cabergoline Trial Prolactin and Ovulation Response - Diagram.png",
+      "sha256": "9ff5436d8b566ae0d5fee38a28f6829f10aaafc69e8bf72a53f3d1ee4fff286c",
+      "dimensions": [
+        1942,
+        2553
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Cabergoline D2 agonist efficacy, twice-weekly dosing, and lower dose outside BBB",
+      "original_asset": "assets/originals/9ff5436d8b566ae0.png",
+      "display_asset": "assets/display/e6-cabergoline-trial-a6469a9ba2bfc8b3.webp",
+      "source_origin": "lecture",
+      "source_collection": "E6 Lecture RLS",
+      "source_citation": {
+        "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+        "page": 28
+      },
+      "source_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "current_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-1e0fddc5e61694e655d6",
+          "asset": "assets/display/e6-cabergoline-trial-a6469a9ba2bfc8b3.webp",
+          "zoom_asset": "assets/zoom/e6-cabergoline-trial-a6469a9ba2bfc8b3.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1942,
+              2553
+            ],
+            "output_dimensions": [
+              1942,
+              2553
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-5c4794894f8d17451c7f0193ce81002145216c216f4f548fb7dbd7c017436fbf",
+      "source_id": "s-595b3134b5d32af64291",
+      "source_group_id": "g-595b3134b5d32af64291",
+      "lecture_id": "E6",
+      "relative_path": "E6/Ovarian Follicles Transvaginal Ultrasound - Echo.png",
+      "sha256": "5c4794894f8d17451c7f0193ce81002145216c216f4f548fb7dbd7c017436fbf",
+      "dimensions": [
+        1348,
+        876
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "FSH follicular stimulation, hCG (LH-like) trigger shot, and ovarian hyperstimulation syndrome",
+      "original_asset": "assets/originals/5c4794894f8d1745.png",
+      "display_asset": "assets/display/e6-ovarian-follicles-us-0304bf350615c202.webp",
+      "source_origin": "lecture",
+      "source_collection": "E6 Lecture RLS",
+      "source_citation": {
+        "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+        "page": 18
+      },
+      "source_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "current_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-cd582b75d44e172dfff4",
+          "asset": "assets/display/e6-ovarian-follicles-us-0304bf350615c202.webp",
+          "zoom_asset": "assets/zoom/e6-ovarian-follicles-us-0304bf350615c202.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1348,
+              876
+            ],
+            "output_dimensions": [
+              1348,
+              876
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-0c9c04d0abd1cf1d85957b71ee198e865254e085a9898101a08ce456ddb0806a",
+      "source_id": "s-c34f42e96d94aa04ff8f",
+      "source_group_id": "g-c34f42e96d94aa04ff8f",
+      "lecture_id": "E6",
+      "relative_path": "E6/Human Growth Hormone Structure and Actions - Diagram.png",
+      "sha256": "0c9c04d0abd1cf1d85957b71ee198e865254e085a9898101a08ce456ddb0806a",
+      "dimensions": [
+        1164,
+        1112
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "GH direct diabetogenic vs IGF-1 anabolic effects, mecasermin, and pegvisomant",
+      "original_asset": "assets/originals/0c9c04d0abd1cf1d.png",
+      "display_asset": "assets/display/e6-gh-structure-actions-0b366a225f06fff0.webp",
+      "source_origin": "lecture",
+      "source_collection": "E6 Lecture RLS",
+      "source_citation": {
+        "document": "E6 Medical Treatment of Pituitary Disorders RLS.pdf",
+        "page": 11
+      },
+      "source_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "current_document_sha256": "778916b2abdc1e421a952efa9552651303b4684cb02702f541d9c97263dbcc01",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-5a810db7662cdd4f6b60",
+          "asset": "assets/display/e6-gh-structure-actions-0b366a225f06fff0.webp",
+          "zoom_asset": "assets/zoom/e6-gh-structure-actions-0b366a225f06fff0.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              1164,
+              1112
+            ],
+            "output_dimensions": [
+              1164,
+              1112
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    }
+  ]
 }

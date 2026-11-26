@@ -126,6 +126,22 @@
         "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
       ],
       "basis": "EX.11 Energy Homeostasis, Endocrine Pancreas & Appetite Regulation (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "E7": {
+      "status": "Reviewed active visual & quantitative physiology bank (10 lecture items)",
+      "tested_summary": [
+        "Osmoreceptor sensitivity (1–2%) vs. hemodynamic AVP potency (~10% drop driving >20 pg/mL)",
+        "AVP osmotic threshold (~280 mOsm/kg) vs. thirst threshold (~288–294 mOsm/kg)",
+        "Non-osmotic AVP stimuli (pain, nausea, vomiting, stress) vs. alcohol/baroreceptor inhibition",
+        "Vasopressin receptor subtypes V₁, V₂, and V₃ (V₁b) target tissues & functions",
+        "Postoperative triphasic response (DI → SIADH → permanent DI) & avoiding early long-acting DDAVP",
+        "Water deprivation curve (normal vs. primary polydipsia vs. DI + aqueous vasopressin) & copeptin cutoffs",
+        "Chronic hypernatremia idiogenic osmoles (<0.5 mmol/L/h cap), free-water deficit calculation, desmopressin structure & mandatory fluid restriction, familial AD preprovasopressin misfolding"
+      ],
+      "gaps": [
+        "Additional overview and full-slide duplicates excluded as redundant."
+      ],
+      "basis": "E7 RLS (36p), E7 Transcript, E7 Obsidian Detailed Notes, and reviewed PNGs."
     }
   }
 }

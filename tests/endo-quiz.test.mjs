@@ -72,17 +72,17 @@ function validateBankIntegrity(questions, manifestSources, label) {
 }
 
 test('physiology, pathology, and pharmacology banks pass full lineage, asset, and schema v2 checks', () => {
-    assert.ok(bank.length >= 60, `expected >= 60 physiology questions, got ${bank.length}`);
+    assert.ok(bank.length >= 70, `expected >= 70 physiology questions, got ${bank.length}`);
     assert.ok(pathBank.length >= 35, `expected >= 35 pathology questions, got ${pathBank.length}`);
-    assert.ok(pharmBank.length >= 4, `expected >= 4 pharmacology questions, got ${pharmBank.length}`);
+    assert.ok(pharmBank.length >= 14, `expected >= 14 pharmacology questions, got ${pharmBank.length}`);
     validateBankIntegrity(bank, sources, 'physiology');
     validateBankIntegrity(pathBank, pathSources, 'pathology');
     validateBankIntegrity(pharmBank, pharmSources, 'pharmacology');
 });
 
-test('all E1-E5 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
+test('all E1-E7 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
     const allQs = [...bank, ...pathBank, ...pharmBank];
-    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5']) {
+    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7']) {
         assert.ok(allQs.some(q => q.collection === id), `missing lecture ${id}`);
     }
     for (let i = 1; i <= 12; i++) {
@@ -93,8 +93,8 @@ test('all E1-E5 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party
     assert.ok(pathBank.some(q => q.source_origin === 'third_party'), 'missing pathology third_party items');
 });
 
-test('option length parity stays within protocol ceilings across physiology and pathology', () => {
-    for (const [label, qs] of [['physiology', bank], ['pathology', pathBank]]) {
+test('option length parity stays within protocol ceilings across physiology, pathology, and pharmacology', () => {
+    for (const [label, qs] of [['physiology', bank], ['pathology', pathBank], ['pharmacology', pharmBank]]) {
         const lectureQs = qs.filter(q => q.source_origin !== 'third_party');
         let longest = 0;
         const flagged = [];
@@ -154,8 +154,10 @@ test('source groups rotate before repeat and filters respect origin and EX colle
     see(p, q, session([q]).items[0]);
     assert.ok(filtered(bank, p, { filter: 'unseen' }).every(x => x.source_group_id !== q.source_group_id));
     assert.ok(filtered(bank, p, { origin: 'third_party' }).every(x => x.source_origin === 'third_party'));
+    assert.ok(filtered(bank, p, { collection: ['E7'] }).length === 10);
     assert.ok(filtered(bank, p, { collection: ['EX.7'] }).every(x => x.collection === 'EX.7'));
     assert.ok(filtered(pathBank, p, { collection: ['EX.6'] }).every(x => x.collection === 'EX.6'));
+    assert.ok(filtered(pharmBank, p, { collection: ['E6'] }).length === 10);
     assert.ok(filtered(pharmBank, p, { collection: ['EX.10'] }).every(x => x.collection === 'EX.10'));
     const pool = [
         { question_id: 'a', source_group_id: '1' },
@@ -169,7 +171,7 @@ test('source groups rotate before repeat and filters respect origin and EX colle
 
 test('canonical 3-bucket content categories support multi-select filtering across sections', () => {
     const p = empty();
-    for (const qs of [bank, pathBank]) {
+    for (const qs of [bank, pathBank, pharmBank]) {
         const imgOnly = filtered(qs, p, { category: ['Imaging'] });
         const dgtOnly = filtered(qs, p, { category: ['Diagrams/Graphs/Tables'] });
         const qOnly = filtered(qs, p, { category: ['Questions'] });

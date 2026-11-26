@@ -3651,6 +3651,577 @@
       "case_context": null,
       "condition_name": "Gut-Brain Appetite Hormones & GLP-1 Agonists",
       "condition_overview": "Because GLP-1 stimulates insulin secretion in a glucose-dependent manner, GLP-1 receptor agonists carry a low intrinsic risk of hypoglycemia when used alone, unlike sulfonylureas or exogenous insulin."
+    },
+    {
+      "question_id": "q-e7-osmolar-vs-hemodynamic-avp",
+      "source_id": "s-6f4d7b8ef84e12b74617",
+      "source_group_id": "g-6f4d7b8ef84e12b74617",
+      "variant_id": "v-36e857dcbada7521c606",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Stimulus-Response Graph",
+      "tested_concept": "Osmoreceptor sensitivity (1–2%) vs hemodynamic potency (~10% drop driving >20 pg/mL AVP)",
+      "stem": "This graph compares plasma AVP responses to percent increases in osmolality (Curve A, blue) versus percent decreases in blood volume (Curve B, green) or arterial pressure (Curve C, red). Which physiological principle does this comparison illustrate?",
+      "options": [
+        "Osmolality and hypotension produce identical linear AVP curves that plateau at 5 pg/mL",
+        "Baroreceptors respond first at a 1% drop in pressure, whereas osmoreceptors require a >15% rise in osmolality",
+        "Osmoreceptors are more sensitive (1–2% threshold), but hemodynamic drops (~10%+) drive a steeper, much higher AVP surge",
+        "Hypovolemia inhibits AVP release whenever plasma osmolality rises above 285 mOsm/kg"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Curve A (osmolality) rises immediately from 0% change—demonstrating exquisite sensitivity to a 1–2% osmotic shift—and plateaus around 20 pg/mL. Step 2. Curves B and C (volume and pressure) stay flat until a ~10% hemodynamic drop occurs, after which they surge exponentially past 20 pg/mL to add V₁-mediated vasoconstriction on top of water conservation.",
+      "choice_rationales": [
+        "Volume/pressure curves are exponential (not linear) and climb well above 20 pg/mL (far past 5 pg/mL).",
+        "This reverses sensitivity: osmoreceptors—not baroreceptors—trigger at 1–2%, while hemodynamic stimuli wait until ~10%.",
+        "Osmoreceptors detect tiny 1–2% shifts immediately (Curve A), whereas volume/pressure depletion requires a ~10% threshold (Curves B/C) before unleashing massive vasoconstrictive AVP levels.",
+        "Hypovolemia powerfully stimulates (and can even override hypo-osmolality to drive) AVP release."
+      ],
+      "visual_clues": [
+        "Blue linear Curve A rising immediately from 0% change in osmolality",
+        "Green (Curve B) and red (Curve C) curves remaining flat through −5% to −10% before rising steeply above 20 pg/mL"
+      ],
+      "visual_target": "Osmolar sensitivity vs. hemodynamic potency for AVP secretion",
+      "joint_panels": [],
+      "image": "assets/display/e7-osmolar-vs-hemodynamic-55ae583c4222f69b.webp",
+      "zoom_image": "assets/zoom/e7-osmolar-vs-hemodynamic-55ae583c4222f69b.webp",
+      "original_image": "assets/originals/788285b4ded5a2c3.png",
+      "original_filename": "AVP Secretion Osmolar vs Hemodynamic Stimuli - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 8
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Osmotic vs. Hemodynamic Control of AVP",
+      "condition_overview": "Because hemodynamic stimuli can drive AVP past 20 pg/mL (activating vascular V₁ vasoconstriction), vasopressin can maintain blood pressure during hemorrhage even at the expense of dilutional hyponatremia."
+    },
+    {
+      "question_id": "q-e7-avp-vs-thirst-thresholds",
+      "source_id": "s-a5f4cc59fb4a6db4710e",
+      "source_group_id": "g-a5f4cc59fb4a6db4710e",
+      "variant_id": "v-72bc913a5b404de8f837",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Threshold & Urine Osmolality Graph",
+      "tested_concept": "AVP osmotic threshold (~280 mOsm/kg) vs thirst threshold (~288–294 mOsm/kg) and maximal urine concentration",
+      "stem": "On this integrated osmolality-AVP-urine graph, Threshold A (~280 mOsm/kg) triggers before Threshold B (~288–294 mOsm/kg), and urine osmolality approaches its maximum (~1,000–1,200 mOsm/kg) at plasma AVP ~5–6 pg/mL. What are Thresholds A and B, and why is their order physiologically adaptive?",
+      "options": [
+        "A: osmotic diuresis threshold; B: renal failure threshold — diluting urine above 290 mOsm/kg",
+        "A: thirst threshold; B: AVP osmotic threshold — forcing drinking before the kidney concentrates urine",
+        "A: atrial natriuretic peptide threshold; B: aldosterone threshold — excreting sodium before conserving water",
+        "A: AVP osmotic threshold; B: thirst threshold — conserving renal water first before compelling drinking"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Plasma AVP begins rising at ~280 mOsm/kg (Threshold A), steadily concentrating urine from 24 L/d down to ~1 L/d, whereas conscious thirst kicks in higher at ~288–294 mOsm/kg (Threshold B). Step 2. Conserving water via AVP first prevents further free-water loss before thirst drives water intake—critical when drinking water is not immediately available.",
+      "choice_rationales": [
+        "Rising plasma osmolality concentrates (not dilutes) urine as AVP climbs toward 5–6 pg/mL.",
+        "This reverses the two thresholds: AVP turns on before thirst, not after.",
+        "ANP and aldosterone regulate sodium/volume balance rather than the 280 vs. 288–294 mOsm/kg tonicity thresholds shown.",
+        "AVP release starts first (~280 mOsm/kg, A) to halt renal free-water loss, and thirst engages higher (~288–294 mOsm/kg, B) to replace lost water."
+      ],
+      "visual_clues": [
+        "Lower Threshold A aligned with 280 mOsm/kg and 0→0.5 pg/mL plasma AVP",
+        "Higher bracketed Threshold B spanning 288–294 mOsm/kg where urine is already concentrated near 800–1,200 mOsm/kg",
+        "Hyperbolic red curve showing urine volume plummeting as urine osmolality climbs"
+      ],
+      "visual_target": "AVP osmotic threshold (A) vs. thirst threshold (B)",
+      "joint_panels": [],
+      "image": "assets/display/e7-avp-thirst-thresholds-b5f5af8a775071d9.webp",
+      "zoom_image": "assets/zoom/e7-avp-thirst-thresholds-b5f5af8a775071d9.webp",
+      "original_image": "assets/originals/297fb45976984f33.png",
+      "original_filename": "AVP Secretion and Thirst Thresholds - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 6
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 7
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Osmotic Thresholds for AVP & Thirst",
+      "condition_overview": "Near-maximal urine concentration is already achieved by ~5 pg/mL plasma AVP (~290 mOsm/kg); an ICU AVP infusion of 1.5 mU/kg/h reaches ~10 pg/mL, double the level needed for maximal antidiuresis."
+    },
+    {
+      "question_id": "q-e7-nonosmotic-avp-stimuli",
+      "source_id": "s-37c5df9721bf2c7be385",
+      "source_group_id": "g-37c5df9721bf2c7be385",
+      "variant_id": "v-0431049fa4d8e9ec1436",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "question_type": "Neural Inputs Diagram",
+      "tested_concept": "Non-osmotic AVP stimuli (pain, nausea, vomiting, stress) vs inhibitors (alcohol, baroreceptors)",
+      "stem": "A hospitalized child with postoperative pain and severe nausea receives hypotonic IV fluids and develops hyponatremia despite normal intravascular volume. Based on this PVN/SON input map, which non-osmotic inputs occupy Stimuli X (green) and Inhibitor Y (red)?",
+      "options": [
+        "Stimuli X: alcohol and corticosteroids; Inhibitor Y: pain, nausea, and stress",
+        "Stimuli X: pain, nausea, and stress; Inhibitor Y: alcohol and baroreceptor firing",
+        "Stimuli X: hypervolemia and hypertension; Inhibitor Y: plasma hypertonicity",
+        "Stimuli X: low potassium and high calcium; Inhibitor Y: atrial natriuretic peptide"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Green arrows show excitatory inputs to PVN/SON neurons (plasma tonicity, medications, and non-osmotic Stimuli X: pain, severe nausea, vomiting, and stress), whereas red T-bars show inhibitory inputs (Inhibitor Y: alcohol, plus stretched carotid/aortic/atrial baroreceptors and corticosteroids). Step 2. Pain, nausea, and stress can trigger substantial AVP release even without dehydration—causing iatrogenic hyponatremia if hypotonic fluids are given to sick children.",
+      "choice_rationales": [
+        "This swaps the stimulators and inhibitors: alcohol inhibits AVP (causing diuresis), whereas pain/nausea/stress stimulate AVP.",
+        "Pain, severe nausea, vomiting, and stress (Stimuli X) potently release AVP without dehydration, while alcohol (Inhibitor Y) and stretched baroreceptors suppress AVP.",
+        "Hypervolemia and hypertension stretch baroreceptors to inhibit AVP, while plasma hypertonicity stimulates it.",
+        "Hypercalcemia and hypokalemia cause renal AVP resistance rather than serving as central hypothalamic stimuli here."
+      ],
+      "visual_clues": [
+        "Left green stimulatory boxes feeding PVN/SON (Stimuli X, Medications, Plasma tonicity)",
+        "Top and right red inhibitory boxes (Inhibitor Y, Carotid/Aortic baroreceptors, Atrial stretch receptor)"
+      ],
+      "visual_target": "Excitatory vs. inhibitory inputs to PVN/SON AVP neurons",
+      "joint_panels": [],
+      "image": "assets/display/e7-inputs-vasopressin-2dd9c1c2b2b19e5c.webp",
+      "zoom_image": "assets/zoom/e7-inputs-vasopressin-2dd9c1c2b2b19e5c.webp",
+      "original_image": "assets/originals/be6f29683c93d73e.png",
+      "original_filename": "Inputs to Vasopressin Secretion - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 9
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Non-Osmotic AVP Release in Hospitalized Patients",
+      "condition_overview": "Recognizing that pain, nausea, and postoperative stress elevate AVP without dehydration is why isotonic (rather than hypotonic) maintenance IV fluids are favored in acutely ill or postoperative children."
+    },
+    {
+      "question_id": "q-e7-vasopressin-receptors-v1-v2-v3",
+      "source_id": "s-cc6478b083839d04cb72",
+      "source_group_id": "g-cc6478b083839d04cb72",
+      "variant_id": "v-2b968eb082be353193c4",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Receptor Summary Table",
+      "tested_concept": "Vasopressin receptor subtypes V1, V2, and V3 (V1b) target tissues and physiological functions",
+      "stem": "In this vasopressin receptor summary table, which set of physiological functions correctly fills Function 1 (V₁), Function 2 (V₂), and Function 3 (V₃ / V₁b)?",
+      "options": [
+        "1: milk ejection and uterine contraction | 2: hepatic IGF-1 synthesis | 3: aldosterone secretion",
+        "1: AQP2 water reabsorption | 2: anterior pituitary ACTH release | 3: vascular smooth muscle vasoconstriction",
+        "1: vasoconstriction, hemostasis, glycogenolysis | 2: AQP2 water reabsorption | 3: anterior pituitary ACTH release",
+        "1: renal phosphate excretion | 2: thyroid iodide trapping | 3: prolactin inhibition"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Vasopressin acts on three GPCR subtypes distributed across distinct target tissues. Step 2. V₁ receptors (vascular smooth muscle, platelets, hepatocytes) mediate vasoconstriction, platelet aggregation/hemostasis, and glycogenolysis; V₂ receptors (distal tubule/collecting duct) mediate AQP2 water reabsorption; and V₃ (V₁b) receptors on anterior pituitary corticotrophs mediate ACTH release (driven by parvocellular hypothalamic AVP acting with CRH).",
+      "choice_rationales": [
+        "Milk ejection and uterine contraction are oxytocin receptor functions, not V₁/V₂/V₃.",
+        "This scrambles all three rows: V₂—not V₁—mediates renal AQP2 water reabsorption, and V₃ mediates ACTH release.",
+        "V₁ drives vasoconstriction/hemostasis/glycogenolysis, V₂ drives renal AQP2 water reabsorption, and V₃ (V₁b) drives corticotroph ACTH release.",
+        "Phosphate excretion (PTH), iodide trapping (TSH), and prolactin inhibition (D₂) belong to other endocrine axes."
+      ],
+      "visual_clues": [
+        "Row 1 (V1): Vascular smooth muscle, platelets, and hepatocyte",
+        "Row 2 (V2): Distal tubule and collecting duct of the kidney",
+        "Row 3 (V3 / V1b): Anterior pituitary corticotrophs"
+      ],
+      "visual_target": "V1, V2, and V3 (V1b) vasopressin receptor functions",
+      "joint_panels": [],
+      "image": "assets/display/e7-vasopressin-receptors-table-4eb5b4691a6f512e.webp",
+      "zoom_image": "assets/zoom/e7-vasopressin-receptors-table-4eb5b4691a6f512e.webp",
+      "original_image": "assets/originals/7d04a5db6e8d02ec.png",
+      "original_filename": "Vasopressin Receptors Table - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 4
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 12
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Vasopressin Receptor Subtypes",
+      "condition_overview": "Notice the dual hypothalamic AVP populations in E7: magnocellular neurons project to the posterior pituitary for systemic V₁/V₂ actions, while parvocellular neurons release AVP into the portal system to synergize with CRH at corticotroph V₃ (V₁b) receptors."
+    },
+    {
+      "question_id": "q-e7-postop-triphasic-response",
+      "source_id": "s-bf1a8bd5cd3643f4fd37",
+      "source_group_id": "g-bf1a8bd5cd3643f4fd37",
+      "variant_id": "v-49e3f2f997576ba6826a",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Postoperative Pathophysiology Diagram",
+      "tested_concept": "Postoperative triphasic response (DI → SIADH → permanent DI) and avoiding early long-acting DDAVP",
+      "stem": "Two days after craniopharyngioma resection injuring the pituitary stalk, a child who initially had polyuria and hypernatremia (Phase 1, 0.5–2 d) suddenly develops low urine output and falling serum Na⁺ (Phase 2, 1–10 d), before progressing to permanent polyuria (Phase 3). What sequence of conditions and causes occurs across Phases 1 → 2 → 3, and why must long-acting desmopressin be avoided early?",
+      "options": [
+        "Hyperaldosteronism → DI (edema) → adrenal crisis; early DDAVP triggers thyroid storm",
+        "SIADH (edema) → DI (necrosis) → permanent SIADH (neuron regeneration); early DDAVP causes hyperkalemia",
+        "DI (permanent neuron loss) → normal balance → SIADH (edema); early DDAVP blocks wound healing",
+        "DI (edema) → SIADH (necrosis/AVP leak) → permanent DI (neuron loss); early DDAVP worsens hyponatremia"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Surgical trauma to the pituitary stalk (where AVP axons converge) produces a classic triphasic response: Phase 1 DI (0.5–2 d, axonal shock/edema impairing release), Phase 2 SIADH (1–10 d, degenerating/necrotic neurons dumping stored AVP uncontrollably → dilutional hyponatremia), and Phase 3 permanent DI (loss of ~80–90% of AVP neurons). Step 2. Long-acting desmopressin is avoided in the first 48–72 hours because an unpredictable shift into Phase 2 SIADH combined with lingering DDAVP can cause severe, dangerous hyponatremia.",
+      "choice_rationales": [
+        "The triphasic response reflects sequential posterior pituitary AVP arrest, release, and depletion—not aldosterone or thyroid storm.",
+        "This reverses Phases 1 and 2: polyuric DI comes first and hyponatremic SIADH comes second.",
+        "Phase 3 is permanent DI (not SIADH), and permanent cell loss occurs in Phase 3 rather than Phase 1.",
+        "Phase 1 DI (edema) transitions to Phase 2 SIADH (uncontrolled AVP release from dying axons) and then Phase 3 permanent DI; avoiding long-acting DDAVP early prevents severe hyponatremia during Phase 2."
+      ],
+      "visual_clues": [
+        "Dashed transection lines crossing the narrowed pituitary stalk where AVP axons converge",
+        "Bottom-right table timeline showing 1st (0.5–2 d), 2nd (1–10 d), and 3rd (Permanent) phases"
+      ],
+      "visual_target": "Postoperative triphasic DI → SIADH → permanent DI sequence",
+      "joint_panels": [],
+      "image": "assets/display/e7-triple-phase-response-50622359f4d0c53a.webp",
+      "zoom_image": "assets/zoom/e7-triple-phase-response-50622359f4d0c53a.webp",
+      "original_image": "assets/originals/98824854816e77c8.png",
+      "original_filename": "Triple Phase Response After Neurosurgery - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 25
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 36
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Postoperative Triphasic AVP Response",
+      "condition_overview": "A prolonged Phase 2 (SIADH) warns of extensive neuronal necrosis and a higher likelihood of permanent Phase 3 DI; discharging a patient during Phase 2 risks sudden hypernatremic decompensation at home when Phase 3 begins."
+    },
+    {
+      "question_id": "q-e7-urine-vs-serum-osm-curve",
+      "source_id": "s-f0daf88fc8780c1280cb",
+      "source_group_id": "g-f0daf88fc8780c1280cb",
+      "variant_id": "v-4cfc4eef708295631ee4",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "interpretation",
+      "question_type": "Diagnostic Concentration Curve",
+      "tested_concept": "Water deprivation test curves: Normal vs primary polydipsia washout vs DI + aqueous vasopressin",
+      "stem": "During a controlled water deprivation test, urine osmolality is plotted against rising serum osmolality. Curve B (dotted) shows an intermediate blunted concentrating rise, while Curve C (dashed) remains flat below 300 mOsm/kg even at serum osmolality >300 mOsm/kg (yellow arrow = aqueous vasopressin 1 U/m²). What do Curves B and C represent, and what happens after aqueous vasopressin in AVP deficiency?",
+      "options": [
+        "Curve B: primary polydipsia (medullary washout); Curve C: diabetes insipidus — urine osmolality roughly doubles in AVP deficiency",
+        "Curve B: complete AVP resistance; Curve C: primary polydipsia — urine osmolality stays flat in AVP deficiency",
+        "Curve B: SIADH; Curve C: normal renal response — urine osmolality drops by half after aqueous vasopressin",
+        "Curve B: osmotic diuresis from hyperglycemia; Curve C: normal response — aqueous vasopressin has no effect"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Normal kidneys concentrate steeply above 280 mOsm/kg (solid white curve), whereas habitual excessive drinking washes out the renal medullary gradient, producing an intermediate blunted curve in primary polydipsia (Curve B, dotted). Step 2. Diabetes insipidus stays flat below 300 mOsm/kg despite serum osmolality >300 mOsm/kg (Curve C, dashed); administering aqueous vasopressin at the yellow arrow roughly doubles urine osmolality within 1 hour in AVP deficiency (central DI) but produces little/no rise in AVP resistance (nephrogenic DI).",
+      "choice_rationales": [
+        "Curve B reflects reversible medullary washout in primary polydipsia (or partial AVP-D), and Curve C represents DI, where aqueous vasopressin ~2× concentrates urine in AVP deficiency.",
+        "Complete AVP resistance stays flat (Curve C) and fails to respond to vasopressin, whereas AVP deficiency does respond (~2× rise).",
+        "SIADH concentrates urine maximally even at low serum osmolality (<270 mOsm/kg), and Curve C is flat/dilute rather than normal.",
+        "Curve C represents severe concentrating failure (DI), not a normal response."
+      ],
+      "visual_clues": [
+        "Solid steep white Normal curve rising sharply above VP release threshold (280 mOsm/kg)",
+        "Dotted intermediate Curve B plateauing around 600–700 mOsm/kg",
+        "Flat dashed Curve C remaining <200–300 mOsm/kg past serum osmolality 300 with yellow aqueous vasopressin arrow"
+      ],
+      "visual_target": "Urine vs. serum osmolality curves during water deprivation",
+      "joint_panels": [],
+      "image": "assets/display/e7-urine-vs-serum-osm-6f42bd2c85cad8ec.webp",
+      "zoom_image": "assets/zoom/e7-urine-vs-serum-osm-6f42bd2c85cad8ec.webp",
+      "original_image": "assets/originals/f5efd716d6243b5b.png",
+      "original_filename": "Urine Osmolality vs Serum Osmolality in AVP Deficiency - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 24
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 27
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Water Deprivation Test Interpretation",
+      "condition_overview": "Office shortcut from E7: simultaneous serum osmolality >300 with urine <300 confirms a vasopressin defect, whereas urine >600 or serum <270 rules out DI. Always exclude hyperglycemia, hypercalcemia, and hypokalemia first."
+    },
+    {
+      "question_id": "q-e7-chronic-hypernatremia-idiogenic",
+      "source_id": "s-76c42aaf5244ec37f412",
+      "source_group_id": "g-76c42aaf5244ec37f412",
+      "variant_id": "v-c7fbab91e41ec974dbd1",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Cellular Osmolality Diagram",
+      "tested_concept": "Chronic hypernatremia idiogenic osmoles, cerebral edema risk, and <0.5 mEq/L/h correction cap",
+      "stem": "In chronic hypernatremia (bottom row), brain cells generate green intracellular solutes to restore normal cell volume, so rapid water therapy causes severe cellular swelling (bottom right). What are these intracellular solutes called, and what is the maximum safe rate for lowering serum Na⁺ in chronic hypernatremia?",
+      "options": [
+        "Copeptin granules; lower serum Na⁺ by 2–3 mEq/L per hour to prevent osmotic demyelination",
+        "Idiogenic osmoles; lower Na⁺ ≤ 0.5 mEq/L/hr (≤ 10–12 mEq/L/day) to prevent cerebral edema",
+        "Aquaporin-2 tetramers; normalize serum Na⁺ within 4 hours using rapid hypotonic D5W boluses",
+        "Urea crystals; lower serum Na⁺ by 20 mEq/L per day to prevent acute tubular necrosis"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. In acute hypernatremia (middle row), cells shrink and water therapy restores normal volume; in chronic hypernatremia (bottom row), brain cells accumulate intracellular idiogenic osmoles (green dots) to defend cell volume. Step 2. Because idiogenic osmoles cannot be cleared rapidly, lowering extracellular Na⁺ faster than 0.5 mmol/L per hour (10–12 mmol/L per day) drives water osmotically into brain cells, causing potentially fatal cerebral edema.",
+      "choice_rationales": [
+        "Copeptin is a circulating AVP precursor tail, and osmotic demyelination results from overly rapid correction of chronic hyponatremia (not hypernatremia).",
+        "Brain cells generate idiogenic osmoles in chronic hypernatremia; correcting Na⁺ faster than 0.5 mEq/L per hour pulls water into brain cells and causes cerebral edema.",
+        "Rapidly normalizing chronic hypernatremia within 4 hours precipitates severe cerebral edema and herniation.",
+        "The safe cap is ≤0.5 mEq/L per hour (≤10–12 mEq/L per day), not 20 mEq/L per day."
+      ],
+      "visual_clues": [
+        "Middle row (Acute): shrunken cell returning cleanly to normal rectangular volume after Water Rx",
+        "Bottom row (Chronic): intracellular green dots restoring cell size, followed by ballooning cell swelling with blue water-influx arrows after Water Rx"
+      ],
+      "visual_target": "Idiogenic osmoles and cerebral edema risk during chronic hypernatremia therapy",
+      "joint_panels": [],
+      "image": "assets/display/e7-acute-vs-chronic-hypernatremia-bdaf976d8d49a74c.webp",
+      "zoom_image": "assets/zoom/e7-acute-vs-chronic-hypernatremia-bdaf976d8d49a74c.webp",
+      "original_image": "assets/originals/ee9986607e4e6394.png",
+      "original_filename": "Acute vs Chronic Hypernatremia Therapy - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 30
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 31
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Chronic Hypernatremia & Idiogenic Osmoles",
+      "condition_overview": "When the duration of hypernatremia is unknown, assume it is chronic and correct slowly (≤0.5 mmol/L/h) with 0.45% or 0.225% saline after any acute hypovolemic shock is first stabilized with isotonic fluid."
+    },
+    {
+      "question_id": "q-e7-ddavp-structure-and-fluid-limit",
+      "source_id": "s-3cb4f60904a417b08292",
+      "source_group_id": "g-3cb4f60904a417b08292",
+      "variant_id": "v-17288ab30faa666a6a5d",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Peptide Modification Diagram",
+      "tested_concept": "Desmopressin (DDAVP) deamination (half-life 5 min → 12 h), D-Arg8 V2 selectivity, and mandatory fluid restriction",
+      "stem": "Two structural edits convert native vasopressin into desmopressin (DDAVP): removing the N-terminal amino group on Cys¹ (Effect 1) and substituting D-arginine at position 8 (Effect 2). What do Effects 1 and 2 achieve, and what critical patient-safety rule applies once desmopressin is given?",
+      "options": [
+        "Effect 1: blocks hepatic clearance of cortisol; Effect 2: activates V₃ ACTH release — avoid all dietary sodium",
+        "Effect 1: selective V₁ pressor agonist; Effect 2: shortens half-life to 2 minutes — encourage unlimited free water intake",
+        "Effect 1: half-life 5 min → 12 h; Effect 2: selective V₂ agonist — must restrict fluid (~1 L/m²/d) with daily urine breakthrough",
+        "Effect 1: enables oral absorption only; Effect 2: blocks collecting-duct AQP2 — treat with hypertonic saline"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Deaminating Cys¹ blocks aminopeptidase cleavage, extending half-life from ~5 minutes to ~12 hours (Effect 1), while substituting D-Arg⁸ confers selective V₂ antidiuretic agonism with minimal V₁ vasoconstriction (Effect 2). Step 2. Because desmopressin locks the kidneys into maximal urine concentration, fluid intake MUST be restricted (~1 L/m²/day) and doses timed to allow daily dilute urine breakthrough—otherwise water retention causes severe hyponatremia.",
+      "choice_rationales": [
+        "DDAVP does not alter cortisol clearance or target V₃ receptors.",
+        "Desmopressin is a long-acting V₂ (not short-acting V₁) agonist, and unlimited free water intake on DDAVP causes severe dilutional hyponatremia.",
+        "N-terminal deamination extends half-life from 5 min to 12 h, D-Arg⁸ provides V₂ selectivity, and fluid restriction with daily urine breakthrough prevents life-threatening hyponatremia.",
+        "DDAVP activates (not blocks) V₂/AQP2, and can be given orally, intranasally, or subcutaneously."
+      ],
+      "visual_clues": [
+        "Red slash removing N-terminal NH₂ on Cys¹ (des-Amino → Effect 1)",
+        "Purple arrow substituting L-Arg⁸ with D-Arg⁸ (D-Arginine → Effect 2)"
+      ],
+      "visual_target": "Desmopressin structural modifications and fluid-restriction safety rule",
+      "joint_panels": [],
+      "image": "assets/display/e7-ddavp-structure-c8612aa2ae420aca.webp",
+      "zoom_image": "assets/zoom/e7-ddavp-structure-c8612aa2ae420aca.webp",
+      "original_image": "assets/originals/406ada9ab892abe1.png",
+      "original_filename": "Vasopressin and Desmopressin Structure - Diagram.png",
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 32
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 33
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 34
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Desmopressin (DDAVP) Pharmacology & Safety",
+      "condition_overview": "In neonates (who depend on liquid milk for calories), continuous full-dose DDAVP cannot be combined with fluid restriction without starving the infant; options include low-solute formula with chlorothiazide or low-dose intermittent DDAVP."
+    },
+    {
+      "question_id": "q-e7-free-water-deficit-calc",
+      "source_group_id": "g-bd16e79f6eb0df8789ca",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "interpretation",
+      "question_type": "Quantitative Reasoning",
+      "tested_concept": "Free-water deficit calculation: 0.6 × lean body weight × (Na − 140) / 140",
+      "stem": "A 50-kg adolescent (lean body weight 50 kg) with chronic hypernatremia has a measured serum Na⁺ of 154 mmol/L. Using the E7 free-water deficit formula [0.6 × lean body weight × (Na_measured − 140) / 140], what is the estimated free-water deficit, and over what minimum time should Na⁺ be lowered from 154 to 140 mmol/L?",
+      "options": [
+        "3.0 L free-water deficit; lower over 4 hours using rapid D5W boluses",
+        "1.5 L free-water deficit; lower over 6 hours (2.3 mmol/L per hour)",
+        "6.0 L free-water deficit; lower over 14 hours (1.0 mmol/L per hour)",
+        "3.0 L free-water deficit; lower over at least 28 hours (≤0.5 mmol/L per hour)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Free-water deficit = 0.6 × 50 kg × (154 − 140) / 140 = 30 × (14 / 140) = 30 × 0.10 = 3.0 L (using 0.6 × weight for total body water). Step 2. Because the hypernatremia is chronic, lowering Na⁺ by 14 mmol/L at a maximum safe rate of 0.5 mmol/L per hour requires at least 28 hours to avoid cerebral edema.",
+      "choice_rationales": [
+        "Although 3.0 L is right, correcting chronic hypernatremia in 4 hours risks fatal cerebral edema from retained idiogenic osmoles.",
+        "This underestimates total body water by half and corrects Na⁺ nearly 5× faster than the 0.5 mmol/L/h safety ceiling.",
+        "This doubles the water deficit (6.0 L) and still exceeds the 0.5 mmol/L/h chronic correction limit.",
+        "0.6 × 50 × (14/140) yields a 3.0 L free-water deficit, and a 14 mmol/L reduction at ≤0.5 mmol/L/h requires at least 28 hours."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 30
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 31
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Free-Water Deficit Calculation",
+      "condition_overview": "Remember that 0.6 × lean body weight estimates total body water (not just extracellular volume), and severe hypovolemia or shock is always resuscitated with isotonic fluid first before replacing the free-water deficit."
+    },
+    {
+      "question_id": "q-e7-copeptin-and-familial-avp",
+      "source_group_id": "g-dcbfe1462cbba756cb7a",
+      "collection": "E7",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "two_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Two-Statement Reasoning",
+      "tested_concept": "Copeptin diagnostic cutoffs and autosomal dominant familial AVP deficiency apoptosis",
+      "stem": "Evaluate the following two statements regarding posterior pituitary diagnostics and genetics:\n\nStatement 1: Copeptin (the stable C-terminal glycopeptide released equimolarly with AVP) can diagnose AVP resistance directly at baseline (>21.4 pmol/L) and separate AVP deficiency (<4.9 pmol/L) from primary polydipsia (>4.9 pmol/L) after hypertonic saline.\nStatement 2: Autosomal dominant familial AVP deficiency results from misfolded preprovasopressin accumulating in the ER and causing progressive AVP neuron apoptosis, so infants are typically asymptomatic in the first year before presenting at ages 2–5 years.",
+      "options": [
+        "Both statements are true",
+        "Both statements are false",
+        "Statement 1 is true; Statement 2 is false",
+        "Statement 1 is false; Statement 2 is true"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Copeptin is cleaved from provasopressin in equimolar amounts with AVP and is far more stable in blood: very high baseline copeptin (>21.4 pmol/L) confirms AVP resistance without water deprivation, and stimulated copeptin <4.9 pmol/L after 3% saline separates AVP deficiency from primary polydipsia with >95% accuracy. Step 2. Autosomal dominant familial AVP deficiency causes ER retention of misfolded precursor and delayed apoptotic loss of magnocellular neurons, explaining normal infancy with clinical onset at 2–5 years.",
+      "choice_rationales": [
+        "Both statements accurately reflect E7 copeptin diagnostic thresholds and the delayed-onset ER-misfolding apoptosis mechanism of autosomal dominant familial AVP deficiency.",
+        "Neither statement is false; both are core E7 diagnostic and genetic principles.",
+        "Statement 2 is also true because neuronal apoptosis unfolds gradually after birth, delaying DI symptoms until ages 2–5 years.",
+        "Statement 1 is also true because copeptin serves as a stable equimolar surrogate for AVP."
+      ],
+      "visual_clues": [],
+      "visual_target": "Text-only conceptual reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 17
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 19
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 20
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 28
+        },
+        {
+          "document": "E7 Posterior Pituitary Hormones RLS.pdf",
+          "page": 29
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Copeptin Diagnostics & Familial AVP Deficiency",
+      "condition_overview": "Congenital AVP resistance (nephrogenic DI) most commonly results from X-linked V₂ receptor mutations (or autosomal dominant/recessive aquaporin-2 channel mutations), while Wolfram syndrome (DIDMOAD) is an autosomal recessive cause of AVP deficiency."
     }
   ],
   "cases": [],
