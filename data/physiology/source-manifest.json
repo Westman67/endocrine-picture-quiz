@@ -3524,6 +3524,37 @@
           }
         }
       ]
+    },
+    {
+      "asset_id": "asset-ecf86885a8c5bbc7",
+      "source_group_id": "grp-ex3-hormone-potency-curve",
+      "source_id": "src-ex3-potency-curve-ecf86885",
+      "lecture_id": "EX.3",
+      "source_origin": "lecture",
+      "relative_path": "EX/EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf#p1-q11",
+      "original_filename": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+      "status": "USABLE",
+      "modality": "graph",
+      "tested_concept": "Hormone dose-response potency (EC₅₀) and efficacy (Eₘₐₓ) comparison",
+      "ground_truth_basis": "Explicit EX.3 Scholar Rx Brick Q11 dose-response graph and keyed explanation",
+      "display_asset": "assets/display/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+      "original_asset": "assets/originals/ecf86885a8c5bbc7.png",
+      "zoom_asset": "assets/zoom/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+      "source_citation": {
+        "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+        "page": 1
+      },
+      "variants": [
+        {
+          "variant_id": "var-ex3-potency-curve-ecf86885",
+          "display_asset": "assets/display/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+          "zoom_asset": "assets/zoom/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+          "transform": {
+            "type": "crop",
+            "reason": "Isolate clean Hormone A–D log dose-response graph from EX.3 Q11 without answer text"
+          }
+        }
+      ]
     }
   ]
 }

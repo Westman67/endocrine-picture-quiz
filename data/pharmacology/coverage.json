@@ -28,6 +28,23 @@
         "Strictly excluded Not Required topics: ACTH vial cost, recombinant vs. urinary gonadotropin origin, and granular IVF day-by-day protocols."
       ],
       "basis": "E6 RLS (33p), E6 Transcripts 1–2, E6 Obsidian Detailed Notes, and reviewed PNGs."
+    },
+    "EX.4": {
+      "status": "Reviewed and integrated (pharmacology RxBrick practice questions)",
+      "tested_summary": [
+        "Octreotide somatostatin-analog suppression of GH in acromegaly",
+        "Continuous leuprolide pituitary GnRH receptor desensitization in central precocious puberty"
+      ],
+      "gaps": [],
+      "basis": "Derived from EX.4 Hypothalamic-Pituitary Axis.pdf pharmacology practice questions."
+    },
+    "EX.5": {
+      "status": "Reviewed and integrated (pharmacology RxBrick practice question)",
+      "tested_summary": [
+        "Desmopressin (DDAVP) V₂ selectivity (central DI, enuresis, higher-dose factor VIII/vWF in hemophilia A & vWD without vasoconstriction)"
+      ],
+      "gaps": [],
+      "basis": "Derived from EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf pharmacology practice question."
     }
   }
 }

@@ -13,8 +13,8 @@ export const BANKS = Object.fromEntries(BANK_OPTIONS.map(({ id, label, href }) =
     brand: `${label.toUpperCase()} PICTURE QUIZ`,
     eyebrow: `Endocrine · ${label}`,
     description: id === 'physiology'
-        ? 'Practice E1–E4, E7, and E8 lectures plus EX RxBricks (EX.1–EX.4, EX.7, EX.11) covering histology, hormone physiology, calcium/vitamin D, appetite control, posterior pituitary water balance, and GH/prolactin.'
-        : 'Practice E5 pituitary pathology plus EX RxBricks (EX.5, EX.6, EX.8, EX.9, EX.12) covering water balance, thyroid, adrenal/CAH, MEN syndromes, and diabetes.',
+        ? 'Practice E1–E4, E7, and E8 lectures plus EX RxBricks (EX.1–EX.5, EX.7, EX.11) covering embryology, histology, hormone physiology, receptor signaling, hypothalamic-pituitary axes, posterior pituitary water balance, calcium/vitamin D, appetite control, and GH/prolactin.'
+        : 'Practice E5 pituitary pathology plus EX RxBricks (EX.4–EX.6, EX.8, EX.9, EX.12) covering pituitary syndromes, water balance/SIADH, thyroid, adrenal/CAH, MEN syndromes, and diabetes.',
     footer: `Endocrine · ${label} · Local picture quiz`,
     homeUrl: href,
 }]));
@@ -42,7 +42,7 @@ export const PHARMACOLOGY = {
     title: 'Endocrine · Pharmacology Quiz',
     brand: 'PHARMACOLOGY QUIZ',
     eyebrow: 'Endocrine · Pharmacology',
-    description: 'Practice E6 pituitary pharmacology plus EX.10 medication & supplement effects on endocrine axes and lab assays (dopamine agonists, GnRH analogs, octreotide, pegvisomant, abiraterone, biotin, amiodarone, lithium, steroids, checkpoint inhibitors).',
+    description: 'Practice E6 pituitary pharmacology plus EX RxBricks (EX.4, EX.5, EX.10) covering dopamine agonists, GnRH analogs, octreotide, pegvisomant, desmopressin, abiraterone, biotin, amiodarone, lithium, steroids, and checkpoint inhibitors.',
     footer: 'Endocrine · Pharmacology · Local quiz',
     homeUrl: '?bank=pharmacology',
 };

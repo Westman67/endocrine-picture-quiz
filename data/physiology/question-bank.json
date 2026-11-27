@@ -4818,6 +4818,1386 @@
       "case_context": null,
       "condition_name": "Fed vs. Fasting GH/IGF-1 & Prolactin-GnRH Axis",
       "condition_overview": "High carbohydrate intake alone raises insulin and lowers GH while leaving IGF-1 roughly unchanged (favoring calorie storage rather than added linear growth)."
+    },
+    {
+      "question_id": "q-ex1-rq-embryonic-origins-match",
+      "source_group_id": "grp-q-ex1-rq-embryonic-origins-match",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "matching",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Embryonic germ-layer origins of posterior pituitary, thyroid follicular cells, and adrenal medulla",
+      "stem": "Which pairing correctly matches the posterior pituitary, thyroid follicular cells, and adrenal medulla with their respective embryonic origins?",
+      "options": [
+        "Posterior pituitary: surface ectoderm | Thyroid follicular cells: mesoderm | Adrenal medulla: endoderm",
+        "Posterior pituitary: neuroectoderm | Thyroid follicular cells: endoderm | Adrenal medulla: neural crest",
+        "Posterior pituitary: endoderm | Thyroid follicular cells: surface ectoderm | Adrenal medulla: mesoderm",
+        "Posterior pituitary: neural crest | Thyroid follicular cells: mesoderm | Adrenal medulla: surface ectoderm"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. The posterior pituitary (neurohypophysis) develops as a downward outgrowth of diencephalic neuroectoderm, whereas the anterior pituitary derives from oral surface ectoderm (Rathke pouch). Step 2. Thyroid follicular cells arise from foregut pharyngeal endoderm, while adrenal medullary chromaffin cells differentiate from migrating neural crest cells.",
+      "choice_rationales": [
+        "Surface ectoderm forms the anterior pituitary (Rathke pouch) rather than the posterior pituitary, and neither thyroid follicular cells nor adrenal medulla derive from mesoderm or endoderm.",
+        "Accurately links diencephalic neuroectoderm to the posterior pituitary, pharyngeal endoderm to thyroid follicular cells, and neural crest cells to the adrenal medulla.",
+        "Endoderm forms thyroid follicular cells rather than the posterior pituitary, and mesoderm forms the adrenal cortex rather than the adrenal medulla.",
+        "Neural crest cells give rise to the adrenal medulla rather than the posterior pituitary, and mesoderm does not form thyroid follicular epithelium."
+      ],
+      "condition_name": "Endocrine Germ-Layer Origins",
+      "condition_overview": "Endocrine glands derive from all three germ layers plus neural crest: neuroectoderm (posterior pituitary), surface ectoderm (anterior pituitary), endoderm (thyroid follicles, parathyroids, islets), mesoderm (adrenal cortex, gonads), and neural crest (adrenal medulla).",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-posterior-pituitary-origin",
+      "source_group_id": "grp-q-ex1-rq-posterior-pituitary-origin",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Diencephalic neuroectoderm origin and storage role of the posterior pituitary",
+      "stem": "Unlike the glandular anterior pituitary, the posterior pituitary consists of unmyelinated hypothalamic axons that store and release vasopressin and oxytocin. From which embryonic structure does the posterior pituitary develop?",
+      "options": [
+        "Rathke pouch arising from oral surface ectoderm",
+        "Migrating neural crest cells of the trunk",
+        "Neuroectoderm from the floor of the diencephalon",
+        "Endodermal diverticulum of the third pharyngeal pouch"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The posterior pituitary (infundibular stalk and pars nervosa) grows downward from the neuroectodermal floor of the developing diencephalon. Step 2. Because it remains neural tissue directly connected to hypothalamic magnocellular neurons, it stores and secretes—rather than synthesizes—vasopressin and oxytocin.",
+      "choice_rationales": [
+        "Rathke pouch (oral surface ectoderm) gives rise to the glandular anterior pituitary (adenohypophysis), not the neural posterior pituitary.",
+        "Neural crest cells migrate to form adrenal medullary chromaffin cells and autonomic ganglia rather than the neurohypophysis.",
+        "The diencephalic neuroectoderm forms the infundibulum and pars nervosa, explaining why the posterior pituitary is neural tissue continuous with the hypothalamus.",
+        "The third pharyngeal pouch endoderm gives rise to the thymus and inferior parathyroid glands rather than the pituitary."
+      ],
+      "condition_name": "Posterior Pituitary Embryology",
+      "condition_overview": "The neurohypophysis develops as a downward neuroectodermal extension of the diencephalon, preserving direct axonal continuity with supraoptic and paraventricular hypothalamic nuclei.",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-endodermal-hormone-glp1",
+      "source_group_id": "grp-q-ex1-rq-endodermal-hormone-glp1",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Endodermal origin of intestinal enteroendocrine L cells secreting GLP-1",
+      "stem": "Which of the following hormones is secreted by specialized cells derived from the embryonic endoderm?",
+      "options": [
+        "Epinephrine from adrenal medullary chromaffin cells",
+        "Cortisol from adrenal zona fasciculata cells",
+        "Growth hormone from anterior pituitary somatotrophs",
+        "GLP-1 from intestinal enteroendocrine L cells"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The gastrointestinal epithelium—including intestinal enteroendocrine L cells and pancreatic islets—develops from embryonic endoderm. Step 2. Consequently, GLP-1 is secreted by endoderm-derived enteroendocrine cells, whereas epinephrine (neural crest), cortisol (mesoderm), and growth hormone (surface ectoderm) arise from non-endodermal lineages.",
+      "choice_rationales": [
+        "Epinephrine is secreted by adrenal medullary chromaffin cells, which arise from ectodermal neural crest cells rather than endoderm.",
+        "Cortisol is synthesized by the adrenal cortex (zona fasciculata), which derives from intermediate mesoderm rather than endoderm.",
+        "Growth hormone is secreted by anterior pituitary somatotrophs derived from Rathke pouch (oral surface ectoderm), not endoderm.",
+        "Intestinal enteroendocrine L cells differentiate from gut endoderm and secrete the incretin hormone GLP-1 in response to luminal nutrients."
+      ],
+      "condition_name": "Endodermal Enteroendocrine Lineage",
+      "condition_overview": "Foregut and midgut endoderm give rise to pancreatic islet cells and gastrointestinal enteroendocrine cells (such as GLP-1–secreting L cells and GIP-secreting K cells).",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-dorsal-pancreatic-bud-agenesis",
+      "source_group_id": "grp-q-ex1-rq-dorsal-pancreatic-bud-agenesis",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "tested_concept": "Agenesis of the dorsal pancreatic bud causing congenital islet/insulin deficiency",
+      "stem": "A 6-year-old boy with polyuria, polydipsia, and weight loss is diagnosed with diabetes mellitus. Abdominal imaging reveals congenital agenesis of the dorsal pancreatic bud with absence of the pancreatic body and tail. Which embryologic relationship best explains his insulin deficiency?",
+      "options": [
+        "The dorsal pancreatic bud gives rise to the majority of the islets of Langerhans",
+        "The ventral pancreatic bud forms the pancreatic tail and most insulin-secreting cells",
+        "The dorsal pancreatic bud forms the uncinate process and regulates main duct outflow",
+        "The ventral pancreatic bud produces the accessory duct that controls endocrine β-cell release"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The pancreas arises from dorsal and ventral foregut endodermal buds; the dorsal bud forms the upper head, body, and tail, whereas the ventral bud forms the uncinate process and lower head. Step 2. Because the body and tail contain the dense majority of the islets of Langerhans, dorsal bud agenesis severely reduces β-cell mass and causes early-onset insulin-deficient diabetes.",
+      "choice_rationales": [
+        "The dorsal bud generates the pancreatic body and tail, where most insulin-producing islets of Langerhans reside, so its agenesis causes insulin deficiency.",
+        "The ventral pancreatic bud forms the uncinate process and inferior head rather than the tail, contributing a smaller share of endocrine islet tissue.",
+        "The uncinate process and main pancreatic duct arise primarily from the ventral bud, not the dorsal bud, and duct anatomy does not explain β-cell absence.",
+        "The accessory duct derives from the dorsal bud rather than the ventral bud, and pancreatic ducts convey exocrine enzymes rather than endocrine insulin."
+      ],
+      "condition_name": "Dorsal Pancreatic Bud Agenesis",
+      "condition_overview": "Agenesis of the dorsal pancreatic bud eliminates the pancreatic body and tail, depleting most islets of Langerhans and predisposing to early-onset insulin-dependent diabetes.",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-lingual-ectopic-thyroid",
+      "source_group_id": "grp-q-ex1-rq-lingual-ectopic-thyroid",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Lingual ectopic thyroid caused by arrested descent from the foramen cecum",
+      "stem": "A 25-year-old woman presents with progressive dysphagia and a painless mass at the base of her tongue. Neck imaging shows ectopic thyroid tissue at the tongue base and absence of thyroid tissue in the normal pretracheal cervical position. Which embryologic mechanism explains this finding?",
+      "options": [
+        "Failure of fusion between the third and fourth pharyngeal pouches",
+        "Persistence of the lateral cervical sinus along the sternocleidomastoid",
+        "Arrested embryonic migration of thyroid tissue from the foramen cecum",
+        "Incomplete regression of the neural crest–derived ultimobranchial body"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The thyroid primordium originates as an endodermal diverticulum at the foramen cecum of the tongue base and descends down the midline thyroglossal duct to the anterior neck. Step 2. Arrest of migration leaves ectopic thyroid tissue along the tract—most commonly at the tongue base (lingual thyroid)—distinct from a thyroglossal duct cyst caused by incomplete duct obliteration.",
+      "choice_rationales": [
+        "Defective development of the third and fourth pharyngeal pouches causes thymic and parathyroid hypoplasia (DiGeorge syndrome), not a lingual thyroid.",
+        "Persistence of the cervical sinus produces a lateral branchial cleft cyst along the anterior border of the sternocleidomastoid rather than a midline tongue-base thyroid.",
+        "Failed caudal descent of the thyroid diverticulum from the foramen cecum traps functional or hypofunctional thyroid tissue at the base of the tongue.",
+        "The ultimobranchial body contributes parafollicular C cells rather than accounting for the midline descent of the entire thyroid gland from the tongue base."
+      ],
+      "condition_name": "Lingual Ectopic Thyroid",
+      "condition_overview": "Failure of thyroid migration from the foramen cecum down the thyroglossal duct results in ectopic thyroid tissue, most frequently at the tongue base (lingual thyroid).",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-not-endoderm-somatotrophs",
+      "source_group_id": "grp-q-ex1-rq-not-endoderm-somatotrophs",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "except",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Anterior pituitary somatotrophs derive from surface ectoderm, not endoderm",
+      "stem": "During embryonic differentiation, the endoderm forms the epithelial lining of the gastrointestinal tract and several associated endocrine populations. All of the following cell types derive from endoderm EXCEPT:",
+      "options": [
+        "Hepatocytes of the developing liver",
+        "Intestinal GLP-1–secreting L cells",
+        "Duodenal GIP-secreting enteroendocrine cells",
+        "Anterior pituitary GH-secreting somatotrophs"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Foregut and midgut endoderm give rise to hepatocytes and intestinal enteroendocrine cells, including GLP-1–secreting L cells and GIP-secreting K cells. Step 2. Anterior pituitary somatotrophs (growth hormone–secreting cells) derive from Rathke pouch, an invagination of oral surface ectoderm rather than endoderm.",
+      "choice_rationales": [
+        "Hepatocytes differentiate from the foregut endodermal hepatic diverticulum, making them true endodermal derivatives.",
+        "GLP-1–secreting L cells reside in the intestinal mucosa and differentiate from gut endoderm.",
+        "GIP-secreting K cells are gut enteroendocrine cells derived from foregut/midgut endoderm.",
+        "Somatotrophs belong to the adenohypophysis, which arises from oral surface ectoderm (Rathke pouch) rather than endoderm."
+      ],
+      "condition_name": "Anterior Pituitary Surface Ectoderm Origin",
+      "condition_overview": "Rathke pouch (oral surface ectoderm) gives rise to all anterior pituitary secretory cell types (somatotrophs, lactotrophs, corticotrophs, thyrotrophs, gonadotrophs).",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-not-mesoderm-chromaffin",
+      "source_group_id": "grp-q-ex1-rq-not-mesoderm-chromaffin",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "except",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Adrenal chromaffin cells derive from neural crest rather than mesoderm",
+      "stem": "A 16-year-old girl with a 46,XX karyotype and primary amenorrhea has normal ovaries but congenital absence of the uterus and upper vagina due to paramesonephric (Müllerian) duct agenesis—a mesodermal defect. All of the following endocrine-related structures derive from mesoderm EXCEPT:",
+      "options": [
+        "Adrenal medullary chromaffin cells",
+        "Steroidogenic adrenal cortical zones",
+        "Testicular Leydig and gonadal stromal cells",
+        "Smooth muscle layers of the uterine wall"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Intermediate and lateral plate mesoderm generate the adrenal cortex, gonadal stroma, Leydig cells, Müllerian ducts, and uterine smooth muscle. Step 2. Adrenal medullary chromaffin cells originate from ectodermal neural crest cells that migrate into the developing cortex and secrete catecholamines in response to preganglionic sympathetic acetylcholine.",
+      "choice_rationales": [
+        "Chromaffin cells of the adrenal medulla differentiate from migrating neural crest cells (ectoderm), not mesoderm, and act as modified postganglionic sympathetic neurons.",
+        "All three zones of the adrenal cortex develop from intermediate mesoderm surrounding the incoming neural crest cells.",
+        "Gonadal stroma and androgen-producing Leydig cells derive from the mesodermal urogenital ridge.",
+        "Uterine smooth muscle (myometrium) develops from mesoderm surrounding the paramesonephric ducts."
+      ],
+      "condition_name": "Adrenal Medulla Neural Crest Origin",
+      "condition_overview": "Chromaffin cells derive from ectodermal neural crest cells and release epinephrine and norepinephrine upon preganglionic sympathetic cholinergic stimulation.",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex1-rq-digeorge-third-pouch",
+      "source_group_id": "grp-q-ex1-rq-digeorge-third-pouch",
+      "source_origin": "lecture",
+      "collection": "EX.1",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "DiGeorge syndrome (22q11.2 deletion) impairing third and fourth pharyngeal pouches",
+      "stem": "A 2-week-old infant presents with recurrent infections, tetanic muscle twitching, low-set ears, and micrognathia. Labs show hypocalcemia, low T-cell count, and normal B-cell count; chest radiograph shows an absent thymic shadow, and genetics confirms a 22q11.2 deletion. Failure of which endodermal structure best explains the thymic and parathyroid findings?",
+      "options": [
+        "Oral surface ectodermal Rathke pouch",
+        "First pharyngeal arch mesenchyme",
+        "Third and fourth pharyngeal pouches",
+        "Ventral foregut thyroid diverticulum"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The thymus develops from the ventral wing of the third pharyngeal pouch, while the inferior and superior parathyroid glands develop from the dorsal wings of the third and fourth pharyngeal pouches, respectively. Step 2. In 22q11.2 deletion (DiGeorge syndrome), defective third/fourth pouch development causes thymic aplasia (T-cell immunodeficiency) and parathyroid hypoplasia (hypocalcemic tetany).",
+      "choice_rationales": [
+        "Rathke pouch forms the anterior pituitary from surface ectoderm and does not produce the thymus or parathyroid glands.",
+        "The first pharyngeal arch forms the mandible and muscles of mastication rather than the thymus or parathyroid glands.",
+        "Endoderm of the third and fourth pharyngeal pouches forms the thymus and parathyroids, explaining combined T-cell deficiency and hypocalcemia in DiGeorge syndrome.",
+        "The thyroid diverticulum descends from the foramen cecum to form thyroid follicles rather than thymic or parathyroid tissue."
+      ],
+      "condition_name": "DiGeorge Syndrome (22q11.2 Deletion)",
+      "condition_overview": "Maldevelopment of the third and fourth pharyngeal pouches causes thymic aplasia/hypoplasia (T-cell deficiency) and parathyroid aplasia (hypocalcemia).",
+      "citations": [
+        {
+          "document": "EX.1 Development of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.1 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex2-rq-acidophils-gh-prl",
+      "source_group_id": "grp-q-ex2-rq-acidophils-gh-prl",
+      "source_origin": "lecture",
+      "collection": "EX.2",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "stain",
+      "tested_concept": "Anterior pituitary acidophils (eosinophilic) secrete growth hormone and prolactin",
+      "stem": "On routine H&E histology of the anterior pituitary (pars distalis), which cell population stains bright pink with eosin and secretes growth hormone and prolactin?",
+      "options": [
+        "Basophil cells staining bluish-purple",
+        "Acidophil cells staining pink with eosin",
+        "Chromophobe cells with pale clear cytoplasm",
+        "Oxyphil cells clustered in parathyroid stroma"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Anterior pituitary secretory cells divide histologically by H&E staining into acidophils (eosinophilic, pink), basophils (hematoxylin-stained, bluish-purple), and chromophobes (pale/non-staining). Step 2. Acidophils comprise somatotrophs (growth hormone) and lactotrophs (prolactin), remembered as GPA (GH, Prolactin = Acidophils).",
+      "choice_rationales": [
+        "Basophils stain bluish-purple with hematoxylin and secrete B-FLAT hormones (FSH, LH, ACTH, and TSH) rather than GH and prolactin.",
+        "Acidophils take up eosin to stain pink and include somatotrophs (growth hormone) and lactotrophs (prolactin).",
+        "Chromophobes stain poorly with H&E and represent degranulated secretory cells or undifferentiated stem cells rather than active GH/prolactin cells.",
+        "Oxyphil cells are large eosinophilic cells of unknown function found in the parathyroid gland, not the anterior pituitary."
+      ],
+      "condition_name": "Anterior Pituitary Acidophils",
+      "condition_overview": "Eosinophilic acidophils in the pars distalis consist of somatotrophs (GH) and lactotrophs (prolactin), distinguishing them from basophils (FSH, LH, ACTH, TSH).",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.2 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex2-rq-zona-reticularis-androgens",
+      "source_group_id": "grp-q-ex2-rq-zona-reticularis-androgens",
+      "source_origin": "lecture",
+      "collection": "EX.2",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "tested_concept": "Adrenal zona reticularis produces sex steroid precursors (DHEA/androgens)",
+      "stem": "A 14-year-old girl is evaluated for delayed adrenarche and lack of pubertal sex-steroid–supported growth progression. Which layer of the adrenal gland is the primary adrenal source of sex steroids such as DHEA?",
+      "options": [
+        "Zona glomerulosa immediately beneath the capsule",
+        "Zona fasciculata with lipid-rich clear spongiocytes",
+        "Zona reticularis forming the innermost cortical layer",
+        "Adrenal medulla composed of chromaffin cell clusters"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Moving inward from the capsule, the adrenal cortex comprises zona glomerulosa (mineralocorticoids/aldosterone), zona fasciculata (glucocorticoids/cortisol), and zona reticularis (adrenal androgens/DHEA). Step 2. The innermost cortical layer—zona reticularis—synthesizes adrenal sex steroid precursors that support pubertal development and peripheral estrogen/testosterone conversion.",
+      "choice_rationales": [
+        "The outermost zona glomerulosa synthesizes aldosterone for sodium and blood-pressure balance rather than sex steroids.",
+        "The middle zona fasciculata synthesizes cortisol for stress, glucose, and immune regulation rather than adrenal androgens.",
+        "The innermost cortical zona reticularis secretes weak androgens such as DHEA that contribute to adrenarche and peripheral sex-steroid synthesis.",
+        "The central adrenal medulla consists of chromaffin cells that secrete catecholamines (epinephrine and norepinephrine), not steroid hormones."
+      ],
+      "condition_name": "Adrenal Zona Reticularis",
+      "condition_overview": "The innermost cortical zone (zona reticularis) produces adrenal androgens (DHEA, androstenedione), complementing gonadal sex-steroid production.",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.2 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex2-rq-hashimoto-basophils-tsh",
+      "source_group_id": "grp-q-ex2-rq-hashimoto-basophils-tsh",
+      "source_origin": "lecture",
+      "collection": "EX.2",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "stain",
+      "tested_concept": "Anterior pituitary basophils (B-FLAT) secrete elevated TSH in primary hypothyroidism",
+      "stem": "A 42-year-old woman presents with fatigue, weight gain, cold intolerance, constipation, dry skin, and periorbital puffiness. Labs show markedly elevated TSH consistent with Hashimoto thyroiditis. Which anterior pituitary cell type is responsible for this compensatory TSH hypersecretion?",
+      "options": [
+        "Anterior pituitary acidophils",
+        "Anterior pituitary basophils",
+        "Anterior pituitary chromophobes",
+        "Thyroid parafollicular C cells"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. In primary hypothyroidism (Hashimoto thyroiditis), loss of T₃/T₄ negative feedback drives compensatory hyperplasia and hypersecretion of pituitary thyrotrophs. Step 2. Thyrotrophs belong to the anterior pituitary basophil lineage (B-FLAT: Basophils secrete FSH, LH, ACTH, and TSH).",
+      "choice_rationales": [
+        "Acidophils consist of somatotrophs (GH) and lactotrophs (prolactin) rather than TSH-secreting thyrotrophs.",
+        "Basophils (B-FLAT) include thyrotrophs that secrete TSH, which rises markedly when thyroid hormone negative feedback falls in Hashimoto thyroiditis.",
+        "Chromophobes are pale degranulated or reserve stem cells that do not directly synthesize and secrete TSH.",
+        "Parafollicular C cells reside in the thyroid gland and secrete calcitonin rather than pituitary TSH."
+      ],
+      "condition_name": "Anterior Pituitary Basophils (Thyrotrophs)",
+      "condition_overview": "Basophilic anterior pituitary cells secrete the B-FLAT tropic hormones (FSH, LH, ACTH, TSH); primary thyroid failure removes negative feedback and drives basophilic thyrotroph hypersecretion.",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.2 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex2-rq-pituitary-staining-chromophobes",
+      "source_group_id": "grp-q-ex2-rq-pituitary-staining-chromophobes",
+      "source_origin": "lecture",
+      "collection": "EX.2",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "matching",
+      "format_type": "matching",
+      "reasoning_order": 2,
+      "study_skill": "stain",
+      "tested_concept": "H&E staining and hormone matching across anterior pituitary cell types",
+      "stem": "Which row correctly matches an anterior pituitary cell population with its classic H&E staining appearance and secretory profile?",
+      "options": [
+        "Acidophils — bluish-purple — ACTH secretion",
+        "Basophils — bright pink — prolactin secretion",
+        "Acidophils — bluish-purple — growth hormone secretion",
+        "Chromophobes — pale/no staining — depleted or stem cells"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. On H&E staining, acidophils stain eosinophilic pink (secreting GH and prolactin) whereas basophils stain hematoxylin bluish-purple (secreting FSH, LH, ACTH, and TSH). Step 2. Chromophobes take up minimal dye, appearing pale because they represent degranulated secretory cells or undifferentiated pituitary reserve cells.",
+      "choice_rationales": [
+        "Acidophils stain pink (not bluish-purple) and secrete GH and prolactin rather than ACTH (which comes from basophilic corticotrophs).",
+        "Basophils stain bluish-purple (not pink) and secrete FSH, LH, ACTH, and TSH rather than prolactin.",
+        "Although acidophils do secrete growth hormone, they stain pink with eosin rather than bluish-purple with hematoxylin.",
+        "Chromophobes lack prominent staining granules on H&E and are thought to represent degranulated endocrine cells or pituitary stem cells."
+      ],
+      "condition_name": "Anterior Pituitary Chromophobes",
+      "condition_overview": "Chromophobes are pale, poorly staining pars distalis cells representing degranulated secretory cells or reserve stem populations.",
+      "citations": [
+        {
+          "document": "EX.2 Histology of the Endocrine System.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.2 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-endocrine-bloodstream-signaling",
+      "source_group_id": "grp-q-ex3-rq-endocrine-bloodstream-signaling",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 1,
+      "study_skill": "mechanism",
+      "tested_concept": "Endocrine vs paracrine, autocrine, and direct gap-junction signaling",
+      "stem": "Which intercellular signaling mode is defined by hormones secreted into the systemic bloodstream to act on distant target tissues bearing specific receptors?",
+      "options": [
+        "Autocrine self-signaling",
+        "Direct gap-junction transfer",
+        "Endocrine bloodstream signaling",
+        "Paracrine interstitial diffusion"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Endocrine signaling releases hormones directly into the bloodstream so they can travel to distant target organs (e.g., cortisol, ACTH, thyroid hormones). Step 2. By contrast, paracrine signals diffuse locally to neighboring cells, autocrine signals act on the secreting cell itself, and direct signaling passes ions through gap junctions.",
+      "choice_rationales": [
+        "Autocrine signaling occurs when a secreted signal binds receptors on the very same cell that released it without bloodstream transport.",
+        "Direct signaling moves small ions or second messengers (such as Ca²⁺) through gap junctions between physically coupled cells rather than via bloodborne hormones.",
+        "Endocrine signaling uses systemic circulation to deliver hormones from endocrine glands to distant receptor-expressing target cells.",
+        "Paracrine signaling diffuses locally through extracellular fluid to adjacent cells without entering the systemic bloodstream."
+      ],
+      "condition_name": "Endocrine Signaling Mode",
+      "condition_overview": "Classic endocrine signaling relies on bloodstream transport of hormones to distant cells expressing cognate receptors, distinct from local paracrine or autocrine signaling.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-liver-transport-proteins-aldosterone",
+      "source_group_id": "grp-q-ex3-rq-liver-transport-proteins-aldosterone",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Hydrophobic steroid hormones require hepatic plasma transport proteins",
+      "stem": "A patient with advanced cirrhosis has severely impaired hepatic synthesis of plasma hormone-binding transport proteins. Circulating transport of which hormone is most directly affected by this carrier-protein deficiency?",
+      "options": [
+        "Antidiuretic hormone (vasopressin)",
+        "Aldosterone (mineralocorticoid)",
+        "Epinephrine (catecholamine)",
+        "Growth hormone (somatotropin)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Lipophilic (hydrophobic) steroid hormones and thyroid hormones have low aqueous solubility and require hepatic plasma transport proteins (e.g., albumin, CBG, TBG, SHBG) to circulate in blood. Step 2. Aldosterone is a cholesterol-derived steroid hormone, whereas vasopressin, epinephrine, and growth hormone are water-soluble and circulate largely unbound (or without obligate hydrophobic transport).",
+      "choice_rationales": [
+        "Antidiuretic hormone (vasopressin) is a small water-soluble peptide that circulates unbound in plasma.",
+        "Aldosterone is a lipid-soluble steroid hormone whose plasma transport depends on hepatic carrier proteins such as albumin and corticosteroid-binding globulin.",
+        "Epinephrine is a hydrophilic catecholamine amine that dissolves freely in plasma without requiring lipophilic carrier proteins.",
+        "Growth hormone is a water-soluble polypeptide hormone rather than a hydrophobic steroid requiring lipid transport proteins."
+      ],
+      "condition_name": "Plasma Hormone Transport Proteins",
+      "condition_overview": "Lipophilic hormones (steroids and thyroid hormones) rely on hepatic transport proteins to dissolve in plasma and buffer free hormone concentrations.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-plc-inhibitor-trh",
+      "source_group_id": "grp-q-ex3-rq-plc-inhibitor-trh",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "TRH signals via Gq/phospholipase C (IP₃/DAG) rather than cAMP",
+      "stem": "An investigational compound selectively inhibits phospholipase C (PLC) from cleaving PIP₂ into IP₃ and DAG. Intracellular signaling by which hormone would be most directly impaired by this drug?",
+      "options": [
+        "Adrenocorticotropic hormone (ACTH)",
+        "Dopamine acting on D₂ receptors",
+        "Follicle-stimulating hormone (FSH)",
+        "Thyrotropin-releasing hormone (TRH)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Gq-coupled receptors activate phospholipase C to hydrolyze PIP₂ into IP₃ (mobilizing intracellular Ca²⁺) and DAG (activating PKC). Step 2. Among these hormones, TRH signals via the Gq–PLC–IP₃/DAG pathway, whereas ACTH and FSH activate Gs–cAMP and dopamine inhibits cAMP via Gi.",
+      "choice_rationales": [
+        "ACTH activates Gs-coupled melanocortin-2 receptors to stimulate adenylate cyclase and cAMP rather than phospholipase C.",
+        "Dopamine binds Gi-coupled D₂ receptors on lactotrophs to lower cAMP rather than cleaving PIP₂ via phospholipase C.",
+        "FSH signals through Gs-coupled receptors that raise intracellular cAMP rather than relying on the IP₃/DAG cascade.",
+        "TRH binds Gq-coupled receptors on anterior pituitary thyrotrophs and lactotrophs, directly requiring PLC-mediated PIP₂ cleavage into IP₃ and DAG."
+      ],
+      "condition_name": "Gq / Phospholipase C (IP₃/DAG) Signaling",
+      "condition_overview": "Hypothalamic TRH (along with GnRH, oxytocin, and V₁a vasopressin) uses Gq-activated phospholipase C to generate IP₃ and DAG second messengers.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-obesity-leptin-downregulation",
+      "source_group_id": "grp-q-ex3-rq-obesity-leptin-downregulation",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Chronic hormone excess induces target receptor downregulation (desensitization)",
+      "stem": "A patient with obesity struggling to lose weight is found to have markedly elevated circulating leptin levels yet minimal hypothalamic satiety response. Which receptor-level phenomenon best explains this reduced responsiveness despite excess hormone?",
+      "options": [
+        "Receptor downregulation (desensitization)",
+        "Hormonal antagonism by a competing ligand",
+        "Permissive enhancement by a second hormone",
+        "Receptor upregulation increasing sensitivity"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Prolonged exposure to excessive circulating hormone causes target cells to internalize or reduce surface receptor density, blunting downstream signaling—termed receptor downregulation (desensitization). Step 2. In obesity, chronically high leptin induces hypothalamic leptin resistance via receptor/post-receptor downregulation rather than upregulation or synergy.",
+      "choice_rationales": [
+        "Downregulation occurs when chronic hormone excess reduces receptor number or responsiveness, producing desensitization (as in obesity-related leptin resistance).",
+        "Antagonism describes two distinct hormones exerting opposing physiological actions (such as insulin and glucagon) rather than excess of one hormone blunting its own target.",
+        "Permissiveness occurs when one hormone (e.g., thyroid hormone or cortisol) is required for a second hormone to exert its full effect, not self-induced desensitization.",
+        "Upregulation occurs in response to chronically low hormone levels to increase target sensitivity—the opposite of blunted response during hormone excess."
+      ],
+      "condition_name": "Receptor Downregulation & Desensitization",
+      "condition_overview": "Chronic hormone excess triggers receptor downregulation, reducing target-cell sensitivity; conversely, chronic hormone deficiency triggers upregulation.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-insulin-rtk-pathway",
+      "source_group_id": "grp-q-ex3-rq-insulin-rtk-pathway",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Insulin signals via intrinsic receptor tyrosine kinase (RTK) phosphorylation",
+      "stem": "A 25-year-old man presents with symptomatic fasting hypoglycemia and markedly elevated endogenous insulin levels. Which intracellular signaling receptor class is directly activated by insulin on target tissues?",
+      "options": [
+        "Gs-coupled cAMP/PKA pathway",
+        "Gq-coupled IP₃/DAG cascade",
+        "Receptor tyrosine kinase (RTK)",
+        "Cytokine JAK/STAT pathway"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The insulin receptor is a transmembrane tetramer with intrinsic tyrosine kinase activity that autophosphorylates upon insulin binding and phosphorylates insulin receptor substrates (IRS). Step 2. This distinguishes insulin from GPCR hormones (glucagon, epinephrine → cAMP), cytokine-receptor hormones (GH, prolactin → JAK/STAT), and lipophilic steroids (nuclear receptors).",
+      "choice_rationales": [
+        "Glucagon and β-adrenergic epinephrine activate Gs-coupled cAMP/PKA signaling, whereas insulin opposes cAMP effects via a receptor tyrosine kinase.",
+        "IP₃/DAG signaling mediates Gq-coupled hormones such as TRH and GnRH rather than insulin.",
+        "Insulin binds an intrinsic receptor tyrosine kinase (RTK) that phosphorylates IRS proteins to drive GLUT4 translocation and anabolic gene expression.",
+        "JAK/STAT signaling is used by growth hormone and prolactin receptors, which lack intrinsic kinase activity and recruit cytoplasmic JAK2."
+      ],
+      "condition_name": "Insulin Receptor Tyrosine Kinase",
+      "condition_overview": "Insulin (and IGF-1) activates intrinsic receptor tyrosine kinases, triggering IRS phosphorylation and downstream PI3K/AKT and MAPK cascades.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-gh-jak-stat-hepatocytes",
+      "source_group_id": "grp-q-ex3-rq-gh-jak-stat-hepatocytes",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Growth hormone activates cytoplasmic JAK2/STAT signaling in hepatocytes",
+      "stem": "A researcher stimulates cultured human hepatocytes with growth hormone (GH) to induce IGF-1 transcription. Because the GH receptor lacks intrinsic kinase activity, which signaling cascade does it recruit?",
+      "options": [
+        "Adenylate cyclase and cAMP/PKA",
+        "Phospholipase C and IP₃/DAG",
+        "Intrinsic receptor tyrosine kinase",
+        "Cytoplasmic JAK2 and STAT signaling"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The growth hormone receptor is a cytokine-family receptor lacking intrinsic tyrosine kinase activity; dimerization recruits and activates cytoplasmic Janus kinase 2 (JAK2). Step 2. JAK2 phosphorylates STAT proteins, which dimerize and translocate to the hepatocyte nucleus to drive IGF-1 gene transcription (impaired in Laron syndrome).",
+      "choice_rationales": [
+        "cAMP/PKA is driven by Gs-coupled GPCRs (such as TSH, ACTH, FSH, LH), not the cytokine-family GH receptor.",
+        "IP₃/DAG is generated by Gq-coupled GPCR activation of phospholipase C rather than GH receptor dimerization.",
+        "Intrinsic receptor tyrosine kinase activity characterizes insulin and IGF-1 receptors, whereas the GH receptor has no intrinsic kinase domain.",
+        "GH binding recruits non-receptor tyrosine kinase JAK2, phosphorylating STAT transcription factors that induce hepatic IGF-1 production."
+      ],
+      "condition_name": "GH Receptor JAK2/STAT Pathway",
+      "condition_overview": "Growth hormone (and prolactin) receptors lack intrinsic kinase domains and signal by recruiting cytoplasmic JAK2 to phosphorylate nuclear-translocating STAT proteins.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-ne-beta1-camp",
+      "source_group_id": "grp-q-ex3-rq-ne-beta1-camp",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Norepinephrine β₁-adrenergic cardiac stimulation via Gs / adenylate cyclase / cAMP",
+      "stem": "A 25-year-old hypotensive, tachycardic trauma patient receives intravenous norepinephrine, which binds β₁-adrenergic receptors on cardiac myocytes to raise heart rate and contractility. Which intracellular mechanism mediates this β₁ response?",
+      "options": [
+        "Activation of phospholipase C increasing intracellular Ca²⁺",
+        "Activation of adenylate cyclase increasing cyclic AMP",
+        "Activation of guanylate cyclase increasing cyclic GMP",
+        "Inhibition of adenylate cyclase decreasing cyclic AMP"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Cardiac β₁-adrenergic receptors are Gs protein–coupled receptors. Step 2. Norepinephrine binding activates Gsα, stimulating adenylate cyclase to elevate intracellular cAMP and activate PKA, which phosphorylates cardiac Ca²⁺ channels and contractile proteins to boost chronotropy and inotropy.",
+      "choice_rationales": [
+        "Phospholipase C and IP₃-mediated Ca²⁺ release mediate α₁-adrenergic vascular smooth muscle contraction rather than cardiac β₁ signaling.",
+        "β₁-adrenergic receptors couple to Gs to stimulate adenylate cyclase, elevating cAMP and PKA activity to increase heart rate and myocardial contractility.",
+        "Guanylate cyclase and cGMP mediate nitric oxide and atrial natriuretic peptide vasodilation rather than β₁-adrenergic stimulation.",
+        "Inhibition of adenylate cyclase (lowering cAMP) is mediated by Gi-coupled α₂-adrenergic receptors, not stimulatory β₁ receptors."
+      ],
+      "condition_name": "β₁-Adrenergic Gs/cAMP Signaling",
+      "condition_overview": "Cardiac β₁-adrenergic receptors couple to Gsα → adenylate cyclase → ↑cAMP → PKA activation, increasing heart rate and contractility.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-insulin-paracrine-glucagon",
+      "source_group_id": "grp-q-ex3-rq-insulin-paracrine-glucagon",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Islet β-cell insulin inhibits neighboring α-cell glucagon via paracrine signaling",
+      "stem": "Within the pancreatic islets of Langerhans, insulin secreted by β-cells diffuses across the local extracellular space to suppress glucagon release from adjacent α-cells. Which signaling mechanism does this intra-islet regulation represent?",
+      "options": [
+        "Endocrine systemic signaling",
+        "Paracrine local signaling",
+        "Autocrine self-inhibition",
+        "Exocrine ductal secretion"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Paracrine signaling occurs when a chemical messenger diffuses through local interstitial fluid to regulate neighboring cells of a different type without relying on systemic blood transport. Step 2. Within the islet, β-cell insulin acts locally in a paracrine fashion to inhibit glucagon secretion from adjacent α-cells.",
+      "choice_rationales": [
+        "Although insulin acts as an endocrine hormone on distant muscle, liver, and fat, its direct intra-islet suppression of neighboring α-cells is local paracrine signaling.",
+        "Insulin diffuses through local islet interstitial fluid from β-cells to adjacent α-cells to inhibit glucagon release—the classic definition of paracrine signaling.",
+        "Autocrine signaling acts back on the same cell type that released the signal (β-cell acting on β-cell) rather than neighboring α-cells.",
+        "Exocrine secretion releases digestive enzymes through pancreatic ducts into the duodenum, not local hormonal inhibition between islet cells."
+      ],
+      "condition_name": "Intra-Islet Paracrine Signaling",
+      "condition_overview": "β-cell insulin inhibits adjacent α-cell glucagon release via local paracrine diffusion across islet extracellular fluid.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-resistance-except-t1dm",
+      "source_group_id": "grp-q-ex3-rq-resistance-except-t1dm",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "except",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Distinguishing hormone deficiency (T1DM) from hormone receptor resistance syndromes",
+      "stem": "Endocrine disorders can stem from hormone deficiency, hormone excess, or target-tissue receptor resistance. All of the following conditions result from hormone receptor resistance EXCEPT:",
+      "options": [
+        "Albright hereditary osteodystrophy (PTH resistance)",
+        "Androgen insensitivity syndrome (androgen receptor defect)",
+        "Laron syndrome (growth hormone receptor defect)",
+        "Type 1 diabetes mellitus (autoimmune β-cell loss)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Hormone-resistance syndromes involve defective receptors or post-receptor G-protein signaling despite normal or elevated circulating hormone (Albright hereditary osteodystrophy/GNAS, androgen insensitivity, Refetoff thyroid hormone resistance, and Laron GH resistance). Step 2. Type 1 diabetes mellitus is caused by autoimmune destruction of pancreatic β-cells producing absolute insulin deficiency rather than receptor resistance.",
+      "choice_rationales": [
+        "Albright hereditary osteodystrophy (pseudohypoparathyroidism) reflects Gsα resistance to PTH despite elevated PTH levels.",
+        "Androgen insensitivity syndrome results from X-linked loss-of-function mutations in the intracellular androgen receptor despite high testosterone.",
+        "Laron syndrome is classic GH resistance caused by defective GH receptors, yielding high GH with low IGF-1.",
+        "Type 1 diabetes mellitus results from autoimmune destruction of β-cells causing absolute insulin deficiency rather than receptor resistance."
+      ],
+      "condition_name": "Hormone Deficiency vs. Resistance",
+      "condition_overview": "Receptor/signaling resistance produces high hormone with blunted target response (Laron, AIS, AHO, Refetoff), whereas T1DM reflects absolute hormone deficiency from β-cell destruction.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-low-shbg-testosterone-nuclear",
+      "source_group_id": "grp-q-ex3-rq-low-shbg-testosterone-nuclear",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Low SHBG raises bioactive free testosterone acting on intracellular nuclear receptors",
+      "stem": "A 35-year-old woman presents with hirsutism and acne. Labs show normal total testosterone, elevated free testosterone, and decreased sex hormone–binding globulin (SHBG). Which signaling mechanism is used by the elevated bioactive free testosterone in her target tissues?",
+      "options": [
+        "Activation of cell-surface GPCRs and cAMP production",
+        "Binding to intracellular receptors modulating gene transcription",
+        "Activation of membrane receptor tyrosine kinases and IRS",
+        "Binding to cytokine receptors activating JAK/STAT signaling"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Decreased SHBG lowers bound hormone fraction and raises bioactive free testosterone even when total testosterone appears normal. Step 2. Because testosterone is a lipophilic steroid hormone, free testosterone diffuses across the plasma membrane to bind intracellular nuclear androgen receptors that act as DNA-binding transcription factors.",
+      "choice_rationales": [
+        "GPCR/cAMP signaling is used by water-soluble peptide and catecholamine hormones rather than lipophilic steroid hormones like testosterone.",
+        "Free testosterone crosses the lipid bilayer to bind intracellular androgen receptors, forming hormone–receptor complexes that directly regulate target gene transcription.",
+        "Receptor tyrosine kinases mediate hydrophilic peptide hormones such as insulin and IGF-1 rather than steroids.",
+        "Cell-surface JAK/STAT signaling mediates growth hormone and prolactin rather than lipophilic sex steroids."
+      ],
+      "condition_name": "SHBG & Steroid Nuclear Receptor Action",
+      "condition_overview": "Only unbound (free) steroid hormones cross cell membranes to bind intracellular nuclear receptors; reduced SHBG increases free testosterone bioavailability and clinical hyperandrogenism.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-hormone-potency-curve",
+      "source_group_id": "grp-ex3-hormone-potency-curve",
+      "source_id": "src-ex3-potency-curve-ecf86885",
+      "asset_id": "asset-ecf86885a8c5bbc7",
+      "variant_id": "var-ex3-potency-curve-ecf86885",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "visual_target": "Log dose-response curves comparing potency (EC₅₀) and maximal efficacy (Eₘₐₓ) of Hormone A vs. Hormone D",
+      "question_type": "interpretation",
+      "format_type": "comparison",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "tested_concept": "Interpreting hormone dose-response potency (EC₅₀) and efficacy (Eₘₐₓ) curves",
+      "stem": "Hormone A and Hormone D in this graded dose-response plot are two synthetic thyroid hormone analogs. Based on their curves, which analog requires a lower concentration to reach half-maximal response, and how does its maximal efficacy compare?",
+      "options": [
+        "Hormone A requires a lower concentration (higher potency) and achieves greater maximal efficacy",
+        "Hormone D requires a lower concentration (higher potency) and achieves greater maximal efficacy",
+        "Hormone A and Hormone D require identical concentrations to reach half-maximal response",
+        "Hormone D requires a lower concentration (higher potency) while matching Hormone A efficacy"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Potency is reflected by horizontal position (EC₅₀): Hormone A lies farthest left (EC₅₀ ≈ 10⁻⁷), requiring roughly 500-fold less concentration than Hormone D (EC₅₀ ≈ 5×10⁻⁵) to reach half-maximal effect. Step 2. Maximal efficacy (Eₘₐₓ) is shown by plateau height: Hormone A reaches 1.00 (full agonist), whereas Hormone D plateaus below 1.00 (lower efficacy / partial agonist).",
+      "choice_rationales": [
+        "Curve A is shifted far left (lower EC₅₀ = higher potency, needing a smaller dose) and reaches a full plateau of 1.00 compared with Curve D's submaximal plateau.",
+        "Curve D is shifted farthest right (highest EC₅₀ = lowest potency) and plateaus below 1.00, making it both less potent and less efficacious than Curve A.",
+        "Their half-maximal drop lines fall orders of magnitude apart on the log [Hormone] axis (10⁻⁷ vs. ~5×10⁻⁵), so their required doses differ markedly.",
+        "Curve D is rightward-shifted (lower potency) and reaches a lower plateau (~0.80 vs. 1.00), so it neither matches Hormone A's potency nor its efficacy."
+      ],
+      "visual_clues": [
+        "Curve A sits farthest left on the logarithmic [Hormone] axis with EC₅₀ at 10⁻⁷",
+        "Curves A, B, and C plateau at Response 1.00, whereas Curve D plateaus below 1.00 (~0.80) and is shifted farthest right"
+      ],
+      "image": "assets/display/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+      "zoom_image": "assets/zoom/ex3-hormone-potency-curve-ecf86885a8c5bbc7.webp",
+      "original_image": "assets/originals/ecf86885a8c5bbc7.png",
+      "original_filename": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+      "condition_name": "Hormone Potency (EC₅₀) vs. Efficacy (Eₘₐₓ)",
+      "condition_overview": "On a log dose-response curve, leftward shift indicates greater potency (lower EC₅₀ / smaller dose needed), while plateau height indicates maximal efficacy (Eₘₐₓ).",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick Q11 graded dose-response plot and keyed explanation"
+    },
+    {
+      "question_id": "q-ex3-rq-tbg-deficiency-xlinked",
+      "source_group_id": "grp-q-ex3-rq-tbg-deficiency-xlinked",
+      "source_origin": "lecture",
+      "collection": "EX.3",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "incorrect_statement",
+      "format_type": "incorrect_statement",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "X-linked inheritance and euthyroid lab profile of TBG deficiency",
+      "stem": "Which of the following statements regarding plasma hormone-binding proteins is INCORRECT?",
+      "options": [
+        "Thyroxine-binding globulin (TBG) deficiency is inherited in an autosomal dominant pattern",
+        "Thyroid hormones bound to circulating TBG are biologically inactive until unbound",
+        "Androgen-binding carrier proteins help lipophilic sex steroids dissolve in plasma",
+        "Levels of both total serum cortisol and CBG rise physiologically during pregnancy"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Congenital TBG deficiency is inherited in an X-linked pattern (therefore presenting predominantly in males) and is clinically benign because free T₄ and TSH remain normal despite low total T₄. Step 2. Bound hormone serves as an inactive plasma reservoir, binding proteins solubilize hydrophobic steroids, and pregnancy estrogen raises CBG (and TBG) along with total hormone levels.",
+      "choice_rationales": [
+        "TBG deficiency is X-linked—not autosomal dominant—so males are predominantly affected, showing low total T₄ with normal free T₄ and normal TSH.",
+        "Over 99% of circulating T₃ and T₄ is protein-bound and biologically inactive, acting as a circulating buffer while unbound hormone enters cells.",
+        "Hydrophobic sex steroids require carrier proteins such as SHBG and albumin to circulate stably in aqueous plasma.",
+        "Elevated estrogen during pregnancy stimulates hepatic CBG synthesis, raising total cortisol alongside CBG while keeping free cortisol regulated."
+      ],
+      "condition_name": "X-Linked TBG Deficiency",
+      "condition_overview": "X-linked TBG deficiency lowers total T₄ without causing clinical hypothyroidism because free T₄ and TSH remain normal—a classic newborn-screening lab pitfall.",
+      "citations": [
+        {
+          "document": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.3 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-weaning-dopamine-prolactin",
+      "source_group_id": "grp-q-ex4-rq-weaning-dopamine-prolactin",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Hypothalamic dopamine tonically inhibits anterior pituitary prolactin secretion",
+      "stem": "A breastfeeding mother gradually transitions her infant from breastmilk to formula, and her prolactin secretion falls. Which hypothalamic factor inhibits anterior pituitary prolactin release?",
+      "options": [
+        "Dopamine from tuberoinfundibular neurons",
+        "Oxytocin from paraventricular axons",
+        "Thyrotropin-releasing hormone (TRH)",
+        "Arginine vasopressin (ADH)"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Unlike other anterior pituitary hormones that rely primarily on hypothalamic releasing hormones, prolactin is under tonic hypothalamic inhibition by dopamine via D₂ receptors on lactotrophs. Step 2. As suckling declines during weaning, hypothalamic dopamine inhibition resumes, lowering prolactin secretion—the same pathway harnessed by dopamine agonists (cabergoline/bromocriptine) for prolactinomas.",
+      "choice_rationales": [
+        "Hypothalamic dopamine delivered via the portal system tonically suppresses lactotroph prolactin release; reduced suckling restores dopamine tone.",
+        "Oxytocin is released by the posterior pituitary to trigger myoepithelial milk ejection rather than inhibiting anterior pituitary prolactin secretion.",
+        "TRH from the hypothalamus stimulates both TSH and prolactin release rather than inhibiting prolactin.",
+        "Vasopressin is a posterior pituitary hormone regulating renal water reabsorption and vascular tone rather than inhibiting prolactin."
+      ],
+      "condition_name": "Dopaminergic Prolactin Inhibition",
+      "condition_overview": "Tuberoinfundibular dopamine provides tonic inhibition of lactotroph prolactin secretion; loss of dopamine (stalk compression or D₂ antagonists) causes hyperprolactinemia.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-crh-stimulates-acth-pomc",
+      "source_group_id": "grp-q-ex4-rq-crh-stimulates-acth-pomc",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Hypothalamic CRH stimulates anterior pituitary POMC cleavage and ACTH release",
+      "stem": "Which hypothalamic releasing hormone activates anterior pituitary corticotrophs to cleave pro-opiomelanocortin (POMC) and secrete ACTH?",
+      "options": [
+        "Tuberoinfundibular dopamine",
+        "Corticotropin-releasing hormone (CRH)",
+        "Growth hormone–releasing hormone (GHRH)",
+        "Hypothalamic somatostatin (SST)"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Hypothalamic corticotropin-releasing hormone (CRH) activates anterior pituitary corticotrophs via the portal circulation to release ACTH (alongside POMC co-products MSH and β-endorphin). Step 2. Chronic exogenous glucocorticoids suppress CRH and ACTH via negative feedback, leading to adrenal cortical atrophy and requiring gradual steroid tapering.",
+      "choice_rationales": [
+        "Dopamine tonically inhibits lactotroph prolactin release rather than stimulating corticotroph ACTH secretion.",
+        "CRH drives the HPA axis by stimulating corticotroph POMC processing and ACTH release, which in turn promotes adrenal cortisol synthesis.",
+        "GHRH stimulates somatotrophs to synthesize and secrete growth hormone rather than ACTH.",
+        "Somatostatin inhibits GH and TSH secretion from the anterior pituitary rather than stimulating ACTH."
+      ],
+      "condition_name": "Hypothalamic CRH & HPA Axis",
+      "condition_overview": "CRH stimulates corticotroph release of POMC-derived ACTH, MSH, and β-endorphin; chronic cortisol excess suppresses CRH/ACTH via negative feedback.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-t3-t4-negative-feedback",
+      "source_group_id": "grp-q-ex4-rq-t3-t4-negative-feedback",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Circulating T₃ and T₄ suppress hypothalamic TRH and pituitary TSH via negative feedback",
+      "stem": "When circulating free T₃ and T₄ concentrations rise above the homeostatic set point, how do they regulate upstream hypothalamic TRH and anterior pituitary TSH secretion?",
+      "options": [
+        "T₃ and T₄ suppress hypothalamic TRH while stimulating pituitary TSH",
+        "T₃ and T₄ act by local paracrine diffusion on TRH and TSH neurons",
+        "T₃ and T₄ suppress hypothalamic TRH and pituitary TSH via negative feedback",
+        "T₃ and T₄ amplify hypothalamic TRH and pituitary TSH via positive feedback"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. The hypothalamic–pituitary–thyroid (HPT) axis operates as a classic endocrine negative feedback loop: TRH stimulates TSH, and TSH stimulates thyroid T₃/T₄ release. Step 2. Rising circulating T₃ and T₄ act via the bloodstream on both the hypothalamus and anterior pituitary thyrotrophs to inhibit TRH and TSH release, preventing excessive thyroid hormone production.",
+      "choice_rationales": [
+        "Elevated T₃ and T₄ inhibit—rather than stimulate—anterior pituitary TSH release alongside hypothalamic TRH.",
+        "T₃ and T₄ reach the hypothalamus and pituitary through systemic endocrine circulation rather than local paracrine diffusion.",
+        "High circulating T₃ and T₄ exert negative feedback on both hypothalamus (↓TRH) and anterior pituitary (↓TSH) to maintain euthyroid homeostasis.",
+        "Positive feedback would cause runaway hyperthyroidism; the HPT axis is regulated strictly by negative feedback."
+      ],
+      "condition_name": "HPT Axis Negative Feedback",
+      "condition_overview": "Circulating T₃ and T₄ inhibit both hypothalamic TRH and anterior pituitary TSH release, making serum TSH the most sensitive indicator of thyroid axis status.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-pomc-msh-pigmentation",
+      "source_group_id": "grp-q-ex4-rq-pomc-msh-pigmentation",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "POMC-derived MSH binds melanocortin receptors to increase skin pigmentation",
+      "stem": "Which peptide cleaved from the anterior pituitary precursor pro-opiomelanocortin (POMC) binds melanocortin receptors on cutaneous melanocytes to stimulate melanin synthesis and skin pigmentation?",
+      "options": [
+        "Growth hormone (GH)",
+        "Prolactin (PRL)",
+        "Thyroid-stimulating hormone (TSH)",
+        "Melanocyte-stimulating hormone (MSH)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Pro-opiomelanocortin (POMC) in pituitary corticotrophs is cleaved into ACTH, melanocyte-stimulating hormone (MSH), and β-endorphin. Step 2. MSH directly activates melanocortin receptors on melanocytes to boost melanin synthesis; excess POMC/ACTH production (as in primary adrenal insufficiency/Addison disease) therefore produces mucocutaneous hyperpigmentation.",
+      "choice_rationales": [
+        "Growth hormone is secreted by somatotrophs from its own gene rather than POMC and does not drive melanocyte melanin synthesis.",
+        "Prolactin is secreted by lactotrophs independently of POMC cleavage and regulates lactation rather than skin pigmentation.",
+        "TSH is a glycoprotein heterodimer secreted by thyrotrophs rather than a POMC cleavage product.",
+        "MSH is co-derived with ACTH from POMC and stimulates melanocortin receptors on melanocytes to increase melanin pigmentation."
+      ],
+      "condition_name": "POMC & MSH Hyperpigmentation",
+      "condition_overview": "Because MSH and ACTH share the common precursor POMC, states of high CRH/POMC drive (such as Addison disease) produce characteristic hyperpigmentation.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-gh-dual-hypothalamic-control",
+      "source_group_id": "grp-q-ex4-rq-gh-dual-hypothalamic-control",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Growth hormone is under dual hypothalamic control by stimulatory GHRH and inhibitory somatostatin",
+      "stem": "Which anterior pituitary hormone is classically regulated by dual opposing hypothalamic hormones—one dedicated stimulatory releasing hormone and one dedicated inhibitory hormone?",
+      "options": [
+        "Growth hormone (GH)",
+        "Adrenocorticotropic hormone (ACTH)",
+        "Luteinizing hormone (LH)",
+        "Follicle-stimulating hormone (FSH)"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Anterior pituitary somatotrophs receive opposing hypothalamic inputs: growth hormone–releasing hormone (GHRH) stimulates GH synthesis and pulsatile release, whereas somatostatin (SST) inhibits GH secretion. Step 2. This dual control underpins therapeutic analogs—GHRH analogs (tesamorelin) raise GH/IGF-1 to reduce visceral fat, whereas somatostatin analogs (octreotide) suppress GH in acromegaly.",
+      "choice_rationales": [
+        "GH secretion is tightly shaped by opposing hypothalamic GHRH (stimulatory) and somatostatin (inhibitory) pulses.",
+        "ACTH is stimulated by hypothalamic CRH (and AVP) and suppressed by peripheral cortisol negative feedback rather than a dedicated hypothalamic inhibiting hormone.",
+        "LH is stimulated by pulsatile hypothalamic GnRH and inhibited by gonadal sex steroids rather than a separate hypothalamic inhibitory hormone.",
+        "FSH is driven by pulsatile GnRH and inhibited by gonadal inhibin and sex steroids rather than dual opposing hypothalamic hormones."
+      ],
+      "condition_name": "Dual Hypothalamic Control of GH",
+      "condition_overview": "GHRH stimulates and somatostatin inhibits somatotroph GH release, producing the characteristic pulsatile GH secretion pattern.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-gh-functions-except",
+      "source_group_id": "grp-q-ex4-rq-gh-functions-except",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "except",
+      "format_type": "except",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Metabolic and linear growth actions of GH vs. TSH-regulated thyroid secretion",
+      "stem": "Growth hormone (GH) coordinates direct anti-insulin metabolic effects with IGF-1–mediated anabolic growth. All of the following are physiological actions of growth hormone EXCEPT:",
+      "options": [
+        "Stimulating amino acid uptake and protein synthesis for muscle growth",
+        "Promoting adipose lipolysis and mobilizing free fatty acids",
+        "Increasing hepatic glucose output and reducing cellular glucose uptake",
+        "Directly stimulating thyroid follicular hormone secretion"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Directly, GH raises blood glucose (hepatic gluconeogenesis and decreased peripheral glucose uptake) and promotes lipolysis; via hepatic IGF-1, it stimulates amino acid uptake, protein synthesis, chondroitin sulfate/collagen production, and linear bone growth. Step 2. GH does not directly stimulate thyroid hormone secretion—that action belongs specifically to anterior pituitary TSH.",
+      "choice_rationales": [
+        "GH (largely via IGF-1) increases amino acid transport and protein synthesis to drive lean tissue and skeletal muscle anabolism.",
+        "GH directly stimulates adipocyte lipolysis to release free fatty acids as an alternative fuel during fasting.",
+        "GH exerts direct diabetogenic/anti-insulin actions by increasing hepatic glucose output and decreasing peripheral glucose uptake.",
+        "Thyroid hormone synthesis and secretion are regulated by anterior pituitary TSH, not directly by growth hormone."
+      ],
+      "condition_name": "Growth Hormone Metabolic & Growth Actions",
+      "condition_overview": "GH combines direct diabetogenic/lipolytic actions with IGF-1–mediated anabolic effects on protein synthesis, cartilage, and linear bone growth.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-vasopressin-v1a-arteriolar",
+      "source_group_id": "grp-q-ex5-rq-vasopressin-v1a-arteriolar",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Vasopressin raises blood pressure via V₁a receptors on arteriolar smooth muscle",
+      "stem": "A 42-year-old man on postoperative day 2 after gastric bypass develops hypotension and tachycardia in the ICU and is started on intravenous vasopressin. By which direct vascular mechanism does vasopressin raise systemic blood pressure?",
+      "options": [
+        "Stimulating hypothalamic centers to increase sympathetic outflow",
+        "Binding V₁a receptors on arteriolar endothelial cells",
+        "Binding V₁a receptors on arteriolar smooth muscle cells",
+        "Binding V₁a receptors on venous endothelial cells"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Vasopressin acts through three GPCR subtypes: V₁a on vascular smooth muscle (vasoconstriction), V₂ on renal collecting duct principal cells (AQP2 water reabsorption), and V₁b/V₃ on pituitary corticotrophs (ACTH release). Step 2. In vasodilatory shock, exogenous vasopressin binds V₁a receptors on arteriolar smooth muscle cells to trigger contraction, raise systemic vascular resistance, and elevate blood pressure.",
+      "choice_rationales": [
+        "Vasopressin raises blood pressure directly at peripheral arteriolar smooth muscle rather than via central hypothalamic sympathetic activation.",
+        "Endothelial V₁a/V₂ activation mediates von Willebrand factor release rather than direct arteriolar muscular constriction.",
+        "Binding V₁a receptors on arteriolar smooth muscle triggers Gq/Ca²⁺-mediated vasoconstriction, elevating total peripheral resistance and blood pressure.",
+        "Arteriolar smooth muscle—not venous endothelium—is the primary resistance vessel target through which vasopressin increases arterial pressure."
+      ],
+      "condition_name": "Vasopressin V₁a Vasoconstriction",
+      "condition_overview": "Exogenous vasopressin binds V₁a receptors on arteriolar smooth muscle cells to increase systemic vascular resistance in ICU hypotension and variceal bleeding.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-ultramarathon-adh-aqp2",
+      "source_group_id": "grp-q-ex5-rq-ultramarathon-adh-aqp2",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "ADH-driven phosphorylation and luminal insertion of collecting duct AQP2",
+      "stem": "A 25-year-old medical student runs a 50-mile ultramarathon on a hot day, sweats heavily, does not urinate for over 8 hours, and afterward passes small volumes of dark, concentrated urine. Which renal mechanism concentrated her urine?",
+      "options": [
+        "ADH triggers aquaporin dephosphorylation for basolateral membrane insertion",
+        "ADH triggers aquaporin phosphorylation for luminal principal-cell insertion",
+        "Hypothalamic osmoreceptors sense low volume to insert basolateral aquaporins",
+        "Hypothalamic osmoreceptors sense low volume to insert luminal aquaporins"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Sweat-induced dehydration raises serum osmolality (sensed by hypothalamic osmoreceptors) and lowers effective circulating volume (sensed by stretch/baroreceptors), strongly stimulating posterior pituitary ADH release. Step 2. ADH binds collecting duct principal-cell V₂ receptors, triggering phosphorylation and translocation of aquaporin-2 (AQP2) water channels into the luminal (apical) membrane so water flows down the medullary osmotic gradient into blood.",
+      "choice_rationales": [
+        "ADH stimulates phosphorylation—not dephosphorylation—of AQP2 vesicles, targeting them to the luminal rather than basolateral membrane.",
+        "V₂-mediated PKA phosphorylation translocates aquaporin-2 into the luminal membrane of collecting duct principal cells, permitting free-water reabsorption.",
+        "Low intravascular volume is sensed by baroreceptors/stretch receptors rather than osmoreceptors, and regulated AQP2 inserts at the luminal membrane.",
+        "Osmoreceptors detect plasma osmolality rather than blood volume, and ADH acts on V₂ receptors to drive AQP2 luminal insertion."
+      ],
+      "condition_name": "ADH & Aquaporin-2 Trafficking",
+      "condition_overview": "ADH binds V₂ receptors on collecting duct principal cells, activating PKA-mediated AQP2 phosphorylation and luminal membrane insertion to concentrate urine up to ~1200 mOsm/kg.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-water-contest-low-adh",
+      "source_group_id": "grp-q-ex5-rq-water-contest-low-adh",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Acute free-water load suppresses serum osmolality, Na⁺, and ADH secretion",
+      "stem": "A 16-year-old girl enters a water-drinking contest and consumes 8 bottles of plain water over 2 hours. Which acute serum profile is expected in response to this free-water load?",
+      "options": [
+        "Decreased serum osmolality, decreased serum Na⁺, and decreased ADH",
+        "Decreased serum osmolality, increased serum Na⁺, and decreased ADH",
+        "Decreased serum osmolality, decreased serum Na⁺, and increased ADH",
+        "Increased serum osmolality, increased serum Na⁺, and decreased ADH"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Rapid intake of large volumes of free water dilutes extracellular fluid, lowering both serum osmolality and serum Na⁺ concentration. Step 2. Reduced plasma osmolality inhibits hypothalamic osmoreceptors, suppressing posterior pituitary ADH release so the collecting ducts stay water-impermeable and excrete maximally dilute urine.",
+      "choice_rationales": [
+        "Excess free water dilutes plasma (↓osmolality and ↓Na⁺), turning off hypothalamic osmoreceptors and suppressing ADH so free water can be excreted.",
+        "Free-water ingestion dilutes serum sodium downward rather than raising it.",
+        "Low serum osmolality suppresses physiological ADH release; persistently elevated ADH despite hypo-osmolality would signify SIADH rather than normal physiology.",
+        "Ingesting plain water lowers—rather than raises—plasma osmolality and sodium concentration."
+      ],
+      "condition_name": "Physiologic Suppression of ADH",
+      "condition_overview": "Hypo-osmolality from free-water intake inhibits hypothalamic osmoreceptors, suppressing ADH so collecting ducts remain impermeable and excrete dilute urine (down to ~50 mOsm/kg).",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-dehydration-adh-thirst",
+      "source_group_id": "grp-q-ex5-rq-dehydration-adh-thirst",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Combined hyperosmolality and hypotension synergistically trigger ADH and thirst",
+      "stem": "A patient with severe dehydration presents with elevated plasma osmolality and systemic hypotension. Which integrated neuroendocrine response occurs to restore water balance?",
+      "options": [
+        "Increased ADH secretion and increased thirst",
+        "Decreased ADH secretion and decreased thirst",
+        "Increased aldosterone with decreased ADH secretion",
+        "Increased atrial natriuretic peptide (ANP) secretion"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Elevated plasma osmolality is the primary physiological stimulus to hypothalamic osmoreceptors, while hypotension activates arterial baroreceptors and raises angiotensin II. Step 2. Together, these inputs potently stimulate both posterior pituitary ADH release (renal water conservation) and hypothalamic thirst (oral free-water intake).",
+      "choice_rationales": [
+        "High plasma osmolality and hypovolemia jointly stimulate posterior pituitary ADH release and hypothalamic thirst to conserve and replenish free water.",
+        "ADH and thirst are suppressed by hypo-osmolality and volume expansion, not severe hyperosmolar dehydration.",
+        "Although RAAS/aldosterone rises in hypovolemia, angiotensin II and hyperosmolality simultaneously increase—never decrease—ADH secretion.",
+        "Atrial natriuretic peptide is released by atrial stretch during volume overload (and antagonizes ADH), not during volume-depleted hypotension."
+      ],
+      "condition_name": "Integrated Osmotic & Baroreceptor ADH Drive",
+      "condition_overview": "Hyperosmolality, reduced effective circulating volume, and angiotensin II synergistically stimulate ADH secretion and thirst; cortisol and ANP oppose ADH.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-oxytocin-pvn-nucleus",
+      "source_group_id": "grp-q-ex5-rq-oxytocin-pvn-nucleus",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "morphology",
+      "tested_concept": "Hypothalamic paraventricular nucleus (PVN) is the predominant site of oxytocin synthesis",
+      "stem": "An 11-year-old boy participates in a neuroendocrine study showing reduced circulating oxytocin levels. Which hypothalamic nucleus is the primary site of oxytocin synthesis (~80%) prior to posterior pituitary storage?",
+      "options": [
+        "Anterior hypothalamic nucleus",
+        "Paraventricular nucleus (PVN)",
+        "Posterior hypothalamic nucleus",
+        "Subthalamic motor nucleus"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Posterior pituitary hormones are synthesized in hypothalamic magnocellular neurons and transported axonally down the infundibulum for storage in the neurohypophysis. Step 2. Oxytocin is produced predominantly (~80%) in the paraventricular nucleus (PVN), alongside vasopressin synthesized in both the supraoptic nucleus (SON) and PVN.",
+      "choice_rationales": [
+        "The anterior hypothalamic nucleus regulates heat dissipation (cooling) rather than synthesizing oxytocin.",
+        "The paraventricular nucleus (PVN) synthesizes the vast majority (~80%) of hypothalamic oxytocin for axonal transport to the posterior pituitary.",
+        "The posterior hypothalamic nucleus regulates heat conservation (shivering/vasoconstriction) rather than oxytocin synthesis.",
+        "The subthalamic nucleus is a basal ganglia motor structure unrelated to neurohypophyseal hormone synthesis."
+      ],
+      "condition_name": "Paraventricular Nucleus (Oxytocin)",
+      "condition_overview": "Magnocellular neurons of the paraventricular nucleus synthesize ~80% of oxytocin (and contribute to vasopressin alongside the supraoptic nucleus).",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-hiker-dehydration-posterior-pituitary",
+      "source_group_id": "grp-q-ex5-rq-hiker-dehydration-posterior-pituitary",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Dehydration stimulates vasopressin release specifically from the posterior pituitary",
+      "stem": "A 35-year-old hiker rescued after several days with minimal drinking water is clinically dehydrated and hyperosmolar. Which pituitary response is physiologically expected?",
+      "options": [
+        "Inhibition of vasopressin release from the anterior pituitary",
+        "Inhibition of vasopressin release from the posterior pituitary",
+        "Stimulation of vasopressin release from the anterior pituitary",
+        "Stimulation of vasopressin release from the posterior pituitary"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Dehydration produces plasma hyperosmolality and volume contraction, stimulating hypothalamic magnocellular neurons to fire action potentials down the infundibulum. Step 2. Depolarization triggers exocytosis of stored vasopressin specifically from the posterior pituitary (neurohypophysis) into systemic capillaries to concentrate urine.",
+      "choice_rationales": [
+        "Vasopressin is neither stored in nor released from the anterior pituitary, and dehydration stimulates rather than inhibits its release.",
+        "Dehydration raises plasma osmolality, which strongly stimulates—rather than inhibits—posterior pituitary vasopressin secretion.",
+        "The anterior pituitary secretes tropic hormones (GH, PRL, TSH, ACTH, FSH, LH), not vasopressin.",
+        "Hyperosmolar dehydration triggers exocytic release of stored vasopressin from the posterior pituitary to drive renal water conservation."
+      ],
+      "condition_name": "Posterior Pituitary Vasopressin Release",
+      "condition_overview": "Hypothalamic action potentials trigger calcium-dependent exocytosis of vasopressin from axon terminals in the posterior pituitary during hyperosmolar dehydration.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
     }
   ],
   "cases": [],

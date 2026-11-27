@@ -61,47 +61,47 @@
       "basis": "E4 RLS (32p), E4 Transcript (11p), E4 Obsidian Detailed Notes, and reviewed PNGs."
     },
     "EX.1": {
-      "status": "Reviewed Scholar Rx Brick EX module",
+      "status": "Reviewed and integrated (visuals + full RxBrick practice questions)",
       "tested_summary": [
-        "Adrenal cortex (mesoderm) vs. medulla (neural crest) development",
-        "Ventral/dorsal pancreatic bud rotation (annular pancreas vs. pancreas divisum)",
-        "Midline thyroglossal duct cyst clinical recognition"
+        "Adrenal dual embryology (cortex mesoderm, medulla neural crest) & chromaffin cells",
+        "Posterior pituitary diencephalic neuroectoderm vs anterior pituitary Rathke pouch",
+        "Pancreatic dorsal/ventral bud rotation & dorsal bud agenesis",
+        "Thyroglossal duct cyst & lingual ectopic thyroid from foramen cecum",
+        "DiGeorge 22q11.2 3rd/4th pharyngeal pouch & endodermal enteroendocrine GLP-1/GIP"
       ],
-      "gaps": [
-        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
-      ],
-      "basis": "EX.1 Development of the Endocrine System (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+      "gaps": [],
+      "basis": "Derived from EX.1 Development of the Endocrine System.pdf visuals and embedded practice questions."
     },
     "EX.2": {
-      "status": "Reviewed Scholar Rx Brick EX module",
+      "status": "Reviewed and integrated (visuals + full RxBrick practice questions)",
       "tested_summary": [
-        "Parathyroid chief cells, oxyphil cells & stromal adipocytes",
-        "Thyroid follicular cells, colloid & neural crest parafollicular C cells"
+        "Parathyroid chief cells, oxyphil cells, and stromal adipocytes",
+        "Thyroid follicular vs parafollicular C cells",
+        "Anterior pituitary H&E staining: acidophils (GH/PRL), basophils (B-FLAT/TSH), chromophobes",
+        "Adrenal zona reticularis sex-steroid (DHEA) production"
       ],
-      "gaps": [
-        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
-      ],
-      "basis": "EX.2 Histology of the Endocrine System (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+      "gaps": [],
+      "basis": "Derived from EX.2 Histology of the Endocrine System.pdf visuals and embedded practice questions."
     },
     "EX.3": {
-      "status": "Reviewed Scholar Rx Brick EX module",
+      "status": "Reviewed and integrated (visuals + all 12 RxBrick practice questions)",
       "tested_summary": [
-        "Laron syndrome GH receptor insensitivity (high GH, low IGF-1)"
+        "Endocrine vs paracrine (intra-islet insulin→glucagon) & hormone transport proteins (aldosterone, X-linked TBG deficiency, low SHBG)",
+        "Receptor pathways: Gq/PLC (TRH), Gs/cAMP (β₁ NE), RTK (insulin), JAK2/STAT (GH, Laron syndrome), nuclear receptors (free testosterone)",
+        "Receptor downregulation (obesity leptin resistance), hormone resistance vs T1DM deficiency, and log dose-response potency/efficacy graph"
       ],
-      "gaps": [
-        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
-      ],
-      "basis": "EX.3 General Principles of Endocrinology, Receptors & Hormone Action (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+      "gaps": [],
+      "basis": "Derived from EX.3 General Principles of Endocrinology, Receptors & Hormone Action.pdf visuals and all 12 practice questions."
     },
     "EX.4": {
-      "status": "Reviewed Scholar Rx Brick EX module",
+      "status": "Reviewed and integrated (visuals + E1–E9 RxBrick practice questions)",
       "tested_summary": [
-        "Normal sagittal T1 pituitary MRI landmarks (optic chiasm, bright spot, anterior lobe)"
+        "Normal pituitary sagittal MRI landmarks",
+        "Tonic dopamine inhibition of prolactin & CRH/POMC/MSH axis",
+        "HPT axis T₃/T₄ negative feedback & dual hypothalamic control of GH (GHRH/somatostatin) and GH metabolic/growth actions"
       ],
-      "gaps": [
-        "Additional overlapping diagrams omitted to avoid duplicating E1–E4."
-      ],
-      "basis": "EX.4 Hypothalamic-Pituitary Axis (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+      "gaps": [],
+      "basis": "Derived from EX.4 Hypothalamic-Pituitary Axis.pdf visuals and practice questions (excluding E9 Not Required MC4R/setmelanotide)."
     },
     "EX.7": {
       "status": "Reviewed Scholar Rx Brick EX module",
@@ -149,6 +149,16 @@
       "questions": 10,
       "visual_questions": 8,
       "text_questions": 2
+    },
+    "EX.5": {
+      "status": "Reviewed and integrated (all physiology RxBrick practice questions)",
+      "tested_summary": [
+        "Vasopressin V₁a arteriolar smooth muscle vasoconstriction",
+        "ADH V₂-mediated AQP2 phosphorylation and luminal membrane insertion",
+        "Osmoregulation (water load ↓ADH, dehydration ↑ADH/thirst) & paraventricular nucleus oxytocin synthesis"
+      ],
+      "gaps": [],
+      "basis": "Derived from EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf practice questions."
     }
   }
 }

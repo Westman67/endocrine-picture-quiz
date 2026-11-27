@@ -4,11 +4,11 @@
 
 | Section | Lectures & EX RxBricks | Total Items | Core Lectures | EX RxBricks | 3rd Party |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Physiology** | E1–E4, E7, E8 + EX.1, EX.2, EX.3, EX.4, EX.7, EX.11 | 83 | 68 | 13 | 2 |
-| **Pathology** | E5 + EX.5, EX.6, EX.8, EX.9, EX.12 | 40 | 23 | 14 | 3 |
-| **Pharmacology** | E6 + EX.10 | 14 | 10 | 4 | 0 |
+| **Physiology** | E1–E4, E7, E8 + EX.1–EX.5, EX.7, EX.11 | 119 | 68 | 49 | 2 |
+| **Pathology** | E5 + EX.4–EX.6, EX.8, EX.9, EX.12 | 44 | 23 | 18 | 3 |
+| **Pharmacology** | E6 + EX.4, EX.5, EX.10 | 17 | 10 | 7 | 0 |
 | **Clinical Cases** | E9 (9 two-question integrated cases) | 18 | 18 | 0 | 0 |
-| **Combined** | E1–E9 + EX.1–EX.12 | 155 | 119 | 31 | 5 |
+| **Combined** | E1–E9 + EX.1–EX.12 | 198 | 119 | 74 | 5 |
 
 ## Verification Gate Results
 - `npm test`: **9/9 passing** across all 4 populated sections (`Physiology`, `Pathology`, `Pharmacology`, `Clinical Cases`), covering `E1–E9` + `EX.1–EX.12`, lineage, assets, schema v2, 3 canonical categories, option-length parity (0 length-flagged across all 155 items), Keanne Button, Learn/Exam timing, Clinical Cases Learn/Exam + Practice All Cases, and rotation/filtering.

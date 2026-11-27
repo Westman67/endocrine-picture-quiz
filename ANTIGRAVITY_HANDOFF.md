@@ -16,11 +16,11 @@ All lectures through **E9** plus all **12 Scholar Rx Bricks (`EX.1–EX.12`)** a
 
 | Section | URL Param | Data Directory | Lectures & EX RxBricks | Total | Core | EX | 3rd Party | Visual / Table / Text |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Physiology** | `?bank=physiology` (default) | `data/physiology/` *(mirrored in root `data/`)* | E1–E4, E7, E8 + EX.1–4, EX.7, EX.11 | **83** | 68 | 13 | 2 | 69 img / 2 table / 12 text |
-| **Pathology** | `?bank=pathology` | `data/pathology/` | E5 + EX.5–6, EX.8–9, EX.12 | **40** | 23 | 14 | 3 | 30 img / 0 table / 10 text |
-| **Pharmacology** | `?bank=pharmacology` | `data/pharmacology/` | E6 + EX.10 | **14** | 10 | 4 | 0 | 4 img / 0 table / 10 text |
+| **Physiology** | `?bank=physiology` (default) | `data/physiology/` *(mirrored in root `data/`)* | E1–E4, E7, E8 + EX.1–5, EX.7, EX.11 | **119** | 68 | 49 | 2 | 70 img / 2 table / 47 text |
+| **Pathology** | `?bank=pathology` | `data/pathology/` | E5 + EX.4–6, EX.8–9, EX.12 | **44** | 23 | 18 | 3 | 30 img / 0 table / 14 text |
+| **Pharmacology** | `?bank=pharmacology` | `data/pharmacology/` | E6 + EX.4, EX.5, EX.10 | **17** | 10 | 7 | 0 | 4 img / 0 table / 13 text |
 | **Clinical Cases** | `?bank=clinical-cases` | `data/clinical-cases/` | E9 (9 two-question linked cases) | **18** | 18 | 0 | 0 | 2 img / 0 table / 16 text |
-| **Combined** | `?bank=combined` | Loads all 4 sections | **E1–E9 + EX.1–EX.12** | **155** | 119 | 31 | 5 | 105 img / 2 table / 48 text |
+| **Combined** | `?bank=combined` | Loads all 4 sections | **E1–E9 + EX.1–EX.12** | **198** | 119 | 74 | 5 | 106 img / 2 table / 90 text |
 
 - **Retired questions:** `1` in `data/physiology/` (duplicate E1 item retired cleanly; preserved in `retired_questions` so existing learner `localStorage` imports never break).
 - **Content categories (strictly 3 canonical buckets across all sections):**

@@ -77,9 +77,9 @@ function validateBankIntegrity(questions, manifestSources, label) {
 }
 
 test('all four endocrine banks pass full lineage, asset, and schema v2 checks', () => {
-    assert.ok(bank.length >= 80, `expected >= 80 physiology questions, got ${bank.length}`);
-    assert.ok(pathBank.length >= 35, `expected >= 35 pathology questions, got ${pathBank.length}`);
-    assert.ok(pharmBank.length >= 14, `expected >= 14 pharmacology questions, got ${pharmBank.length}`);
+    assert.ok(bank.length >= 115, `expected >= 115 physiology questions, got ${bank.length}`);
+    assert.ok(pathBank.length >= 44, `expected >= 44 pathology questions, got ${pathBank.length}`);
+    assert.ok(pharmBank.length >= 17, `expected >= 17 pharmacology questions, got ${pharmBank.length}`);
     assert.ok(casesBank.length >= 18, `expected >= 18 clinical-cases questions, got ${casesBank.length}`);
     assert.equal(casesList.length, 9, `expected 9 E9 clinical cases, got ${casesList.length}`);
     validateBankIntegrity(bank, sources, 'physiology');

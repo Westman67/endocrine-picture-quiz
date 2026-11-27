@@ -20,14 +20,13 @@
       "basis": "E5 RLS (56p), E5 Transcript (14p), E5 Obsidian Detailed Notes, reviewed E5 PNGs, and strictly in-scope Bootcamp/First Aid pituitary pathology visuals."
     },
     "EX.5": {
-      "status": "Reviewed Scholar Rx Brick EX module",
+      "status": "Reviewed and integrated (visual + pathology RxBrick practice questions)",
       "tested_summary": [
-        "Nephron diluting segment vs. ADH-sensitive collecting duct water reabsorption"
+        "Nephron diluting segment vs ADH-sensitive collecting duct water reabsorption",
+        "SIADH hyponatremic encephalopathy (persistent ADH despite hypo-osmolality) & SCLC ectopic ADH V₂ activation"
       ],
-      "gaps": [
-        "Expanded dedicated pathology lectures will build further depth as they arrive."
-      ],
-      "basis": "EX.5 Posterior Pituitary Hormones, Water Balance, AVP Deficiency & SIADH (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+      "gaps": [],
+      "basis": "Derived from EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf visual and pathology practice questions."
     },
     "EX.6": {
       "status": "Reviewed Scholar Rx Brick EX module",
@@ -77,6 +76,15 @@
         "Expanded dedicated pathology lectures will build further depth as they arrive."
       ],
       "basis": "EX.12 Diabetes Mellitus Pathophysiology, Diagnosis, Management & Complications (Scholar Rx Brick) and reconciled Obsidian Detailed Notes."
+    },
+    "EX.4": {
+      "status": "Reviewed and integrated (pathology RxBrick practice questions)",
+      "tested_summary": [
+        "Sheehan syndrome anterior pituitary infarction (prolactin & GH deficiency sparing hypothalamus/posterior pituitary)",
+        "TSH-secreting pituitary adenoma (↑T₃/T₄ with suppressed hypothalamic TRH)"
+      ],
+      "gaps": [],
+      "basis": "Derived from EX.4 Hypothalamic-Pituitary Axis.pdf pathology practice questions."
     }
   }
 }

@@ -2239,6 +2239,158 @@
       "case_context": null,
       "condition_name": "DKA vs. HHS & Diabetes Diagnostic Cutoffs",
       "condition_overview": "Both DKA and HHS require aggressive isotonic IV fluid resuscitation, IV insulin, and close potassium monitoring (as insulin drives K⁺ intracellularly even when initial serum K⁺ looks normal or elevated)."
+    },
+    {
+      "question_id": "q-ex4-rq-sheehan-anterior-pituitary-gh",
+      "source_group_id": "grp-q-ex4-rq-sheehan-anterior-pituitary-gh",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Sheehan syndrome anterior pituitary infarction impairs prolactin and GH while sparing hypothalamic/posterior hormones",
+      "stem": "A 32-year-old woman suffers severe postpartum hemorrhage resulting in ischemic infarction of her anterior pituitary gland (Sheehan syndrome) and inability to lactate from prolactin loss. Which additional hormone is also directly deficient from anterior pituitary necrosis?",
+      "options": [
+        "Corticotropin-releasing hormone (CRH)",
+        "Growth hormone (GH)",
+        "Thyrotropin-releasing hormone (TRH)",
+        "Posterior pituitary oxytocin"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Postpartum ischemic infarction in Sheehan syndrome selectively destroys the hypertrophied anterior pituitary (adenohypophysis), causing loss of anterior pituitary hormones (prolactin, GH, LH/FSH, TSH, ACTH). Step 2. Hypothalamic releasing hormones (CRH, TRH, GHRH) remain intact (and rise from lost negative feedback), and the posterior pituitary (oxytocin, ADH) is typically spared due to its separate arterial supply.",
+      "choice_rationales": [
+        "CRH is synthesized in the hypothalamus rather than the anterior pituitary and remains present (often elevated) after pituitary infarction.",
+        "Growth hormone is synthesized by anterior pituitary somatotrophs and is commonly lost alongside prolactin in Sheehan syndrome.",
+        "TRH is secreted by the hypothalamus rather than the infarcted anterior pituitary.",
+        "Oxytocin is synthesized in the hypothalamus and released by the posterior pituitary, which has an independent blood supply and is typically spared."
+      ],
+      "condition_name": "Sheehan Syndrome (Postpartum Pituitary Infarction)",
+      "condition_overview": "Severe obstetric hemorrhage causes ischemic necrosis of the enlarged anterior pituitary, leading to agalactia (↓prolactin) and panhypopituitarism (↓GH, ↓TSH, ↓ACTH, ↓LH/FSH).",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-tshoma-axis-profile",
+      "source_group_id": "grp-q-ex4-rq-tshoma-axis-profile",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "interpretation",
+      "tested_concept": "TSH-secreting pituitary adenoma produces high T₃/T₄ with suppressed hypothalamic TRH",
+      "stem": "A 42-year-old patient is diagnosed with a TSH-secreting anterior pituitary adenoma (central hyperthyroidism). Which upstream TRH and peripheral thyroid hormone profile is expected?",
+      "options": [
+        "TRH decreased and T₃/T₄ decreased",
+        "TRH decreased and T₃/T₄ increased",
+        "TRH increased and T₃/T₄ decreased",
+        "TRH increased and T₃/T₄ increased"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Autonomous TSH secretion from the pituitary tumor continuously stimulates the thyroid gland, elevating circulating T₃ and T₄. Step 2. Elevated T₃ and T₄ exert negative feedback on the intact hypothalamus to suppress TRH secretion (even though the autonomous pituitary tumor ignores feedback).",
+      "choice_rationales": [
+        "Autonomous TSH excess drives thyroid overproduction, raising circulating T₃/T₄ rather than leaving T₃/T₄ decreased.",
+        "Excess pituitary TSH drives high T₃ and T₄, which feed back negatively on the hypothalamus to suppress TRH.",
+        "Elevated TRH with low T₃/T₄ reflects primary hypothyroidism rather than a TSH-secreting pituitary adenoma.",
+        "High T₃/T₄ suppresses hypothalamic TRH via negative feedback; elevated TRH with high T₃/T₄ would imply a hypothalamic TRH-secreting lesion."
+      ],
+      "condition_name": "TSH-Secreting PitNET (Central Hyperthyroidism)",
+      "condition_overview": "A TSH-secreting pituitary adenoma raises TSH and free T₃/T₄ simultaneously while suppressing hypothalamic TRH through negative feedback.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-siadh-seizures-mechanism",
+      "source_group_id": "grp-q-ex5-rq-siadh-seizures-mechanism",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "SIADH causes hyponatremic seizures via persistent ADH secretion despite hypo-osmolality",
+      "stem": "A 45-year-old man presents with acute confusion and generalized seizures. Laboratory evaluation shows serum Na⁺ 118 mEq/L and low plasma osmolality. Which mechanism best explains this hyponatremia?",
+      "options": [
+        "Excessive adrenal aldosterone secretion",
+        "Persistent ADH secretion despite low osmolality",
+        "Suppressed ADH secretion from low osmolality",
+        "Accelerated renal free-water excretion"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Normally, hypo-osmolality completely suppresses ADH secretion so the kidneys excrete excess free water. Step 2. In SIADH (triggered by CNS disease, pulmonary infections, SSRIs/carbamazepine/cyclophosphamide, or malignancy), ADH stays inappropriately elevated despite low plasma osmolality, causing free-water retention, dilutional hyponatremia, cerebral edema, and seizures.",
+      "choice_rationales": [
+        "Excess aldosterone causes Na⁺ retention, hypertension, and hypokalemia—not hypo-osmolar dilutional hyponatremia.",
+        "Inappropriate ADH secretion despite low plasma osmolality drives collecting-duct water retention, lowering serum Na⁺ and provoking hyponatremic encephalopathy.",
+        "Physiologic suppression of ADH during low osmolality prevents hyponatremia by promoting dilute urine output.",
+        "Increased renal free-water excretion raises serum Na⁺ and causes hypernatremia (as in diabetes insipidus), not severe hyponatremia."
+      ],
+      "condition_name": "SIADH Pathophysiology",
+      "condition_overview": "Autonomous or non-osmotic ADH release despite plasma hypo-osmolality leads to free-water retention, dilutional hyponatremia, and neurologic toxicity.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-sclc-siadh-v2-reabsorption",
+      "source_group_id": "grp-q-ex5-rq-sclc-siadh-v2-reabsorption",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "mechanism",
+      "tested_concept": "Ectopic ADH in small-cell lung carcinoma activates renal V₂ receptors causing euvolemic hyponatremia",
+      "stem": "A 75-year-old man with recently diagnosed small-cell lung carcinoma presents with nausea, confusion, and no peripheral edema. Labs show serum Na⁺ 112 mEq/L, serum osmolality 240 mOsm/kg, urine osmolality 660 mOsm/kg, and urine Na⁺ 55 mEq/L. Which mechanism drives these findings?",
+      "options": [
+        "Increased renal water reabsorption via V₂ receptor activation",
+        "Increased aldosterone secretion driving distal sodium retention",
+        "Decreased ADH secretion from hypothalamic suppression",
+        "Osmotic diuresis from impaired collecting-duct ADH action"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Ectopic ADH from small-cell lung carcinoma produces classic euvolemic hyponatremia: low serum Na⁺ and osmolality with inappropriately concentrated urine (660 mOsm/kg) and natriuresis (urine Na⁺ >40 mEq/L, preventing edema). Step 2. Excess ADH binds collecting-duct V₂ receptors to insert AQP2 channels and retain free water; management uses fluid restriction, slow hypertonic saline for severe symptoms, or vaptans while avoiding osmotic demyelination.",
+      "choice_rationales": [
+        "Ectopic ADH activates collecting-duct V₂ receptors to drive AQP2-mediated free-water retention, yielding concentrated urine, natriuresis, and euvolemic hyponatremia.",
+        "Increased aldosterone secretion drives distal sodium retention (lowering urine Na⁺) and causes hypertension/hypokalemia rather than hyponatremia with urine Na⁺ 55 mEq/L.",
+        "Decreased ADH would yield maximally dilute urine (<100 mOsm/kg) and hypernatremia, opposite this patient's 660 mOsm/kg urine.",
+        "Impaired ADH action produces polyuria and hypernatremia (diabetes insipidus) rather than severe hypo-osmolar hyponatremia."
+      ],
+      "condition_name": "Paraneoplastic SIADH (Small-Cell Lung Cancer)",
+      "condition_overview": "Ectopic ADH activates V₂ receptors to produce ↓serum Na⁺, ↓serum Osm, ↑urine Osm, and ↑urine Na⁺ without edema; correct Na⁺ slowly to avoid osmotic demyelination.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
     }
   ],
   "cases": [],

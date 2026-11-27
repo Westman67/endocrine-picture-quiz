@@ -739,6 +739,120 @@
       "case_context": null,
       "condition_name": "Hormone Chemistry, Stability & Receptor Classes",
       "condition_overview": "By contrast, the heavily glycosylated heterodimers (LH, FSH, TSH, hCG) act via large-ectodomain GPCRs and have half-lives >1 hour (hCG ~8 hours) because glycosylation slows proteolysis."
+    },
+    {
+      "question_id": "q-ex4-rq-octreotide-acromegaly-moa",
+      "source_group_id": "grp-q-ex4-rq-octreotide-acromegaly-moa",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "tested_concept": "Octreotide suppresses GH secretion in acromegaly as a somatostatin analog",
+      "stem": "A patient with persistent acromegaly after transsphenoidal resection of a GH-secreting pituitary adenoma is initiated on octreotide. Which pharmacologic mechanism explains its therapeutic effect?",
+      "options": [
+        "Dopamine D₂ receptor agonist inhibiting lactotrophs",
+        "Somatostatin analog directly inhibiting pituitary GH secretion",
+        "Peripheral GH receptor antagonist blocking hepatic IGF-1",
+        "GHRH receptor agonist stimulating pulsatile GH release"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. When transsphenoidal surgery is not curative for acromegaly, first-line medical therapy uses long-acting somatostatin analogs (octreotide, lanreotide). Step 2. Octreotide mimics endogenous hypothalamic somatostatin, binding somatotroph SSTRs to inhibit GH secretion and lower hepatic IGF-1 levels (distinct from pegvisomant, which blocks peripheral GH receptors).",
+      "choice_rationales": [
+        "Dopamine agonists (cabergoline) are first-line for prolactinomas and have much weaker efficacy in acromegaly than somatostatin analogs.",
+        "Octreotide is a synthetic somatostatin analog that suppresses anterior pituitary GH secretion and normalizes IGF-1 in acromegaly.",
+        "Pegvisomant—not octreotide—blocks peripheral GH receptors to lower IGF-1 without inhibiting pituitary GH secretion.",
+        "GHRH analogs (such as tesamorelin) stimulate GH release and would worsen acromegaly."
+      ],
+      "condition_name": "Octreotide in Acromegaly",
+      "condition_overview": "Somatostatin analogs (octreotide, lanreotide) inhibit somatotroph GH secretion and serve as mainstay medical therapy when surgery does not cure acromegaly.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex4-rq-leuprolide-precocious-puberty",
+      "source_group_id": "grp-q-ex4-rq-leuprolide-precocious-puberty",
+      "source_origin": "lecture",
+      "collection": "EX.4",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "tested_concept": "Continuous leuprolide desensitizes pituitary GnRH receptors in central precocious puberty",
+      "stem": "Continuous depot leuprolide (a synthetic GnRH analog) is prescribed to halt pubertal progression in a child with central precocious puberty. Why does continuous administration suppress—rather than stimulate—gonadotropins?",
+      "options": [
+        "Continuous leuprolide mimics physiologic GnRH pulses to accelerate LH/FSH",
+        "Continuous leuprolide upregulates GnRH receptors to sustain LH/FSH surges",
+        "Continuous leuprolide blocks peripheral estrogen receptors without altering LH/FSH",
+        "Continuous leuprolide desensitizes pituitary GnRH receptors to lower LH/FSH"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Physiologic hypothalamic GnRH is secreted in discrete pulses that sustain anterior pituitary LH and FSH secretion; pulsatile GnRH analogs stimulate the HPG axis. Step 2. Continuous non-pulsatile leuprolide exposure causes downregulation and desensitization of pituitary GnRH receptors, suppressing LH, FSH, and gonadal sex steroids in central precocious puberty, endometriosis, and prostate cancer.",
+      "choice_rationales": [
+        "Pulsatile—not continuous—GnRH administration mimics physiologic secretion to stimulate LH and FSH release.",
+        "After an initial transient flare, continuous leuprolide downregulates rather than sensitizes pituitary GnRH receptors.",
+        "Leuprolide acts centrally at pituitary GnRH receptors to suppress LH/FSH rather than directly blocking peripheral estrogen receptors.",
+        "Continuous GnRH receptor occupancy induces receptor downregulation and desensitization, suppressing LH/FSH and sex-steroid production."
+      ],
+      "condition_name": "Continuous Leuprolide & GnRH Desensitization",
+      "condition_overview": "Whereas pulsatile GnRH stimulates gonadotrophs, continuous leuprolide downregulates pituitary GnRH receptors to suppress LH, FSH, and gonadal steroids.",
+      "citations": [
+        {
+          "document": "EX.4 Hypothalamic-Pituitary Axis.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.4 Scholar Rx Brick practice question and keyed explanation"
+    },
+    {
+      "question_id": "q-ex5-rq-ddavp-indications-v2",
+      "source_group_id": "grp-q-ex5-rq-ddavp-indications-v2",
+      "source_origin": "lecture",
+      "collection": "EX.5",
+      "category": "Questions",
+      "visual_kind": "text",
+      "question_type": "vignette",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "tested_concept": "Desmopressin (DDAVP) V₂ selectivity treats central DI, enuresis, hemophilia A, and vWD without vasoconstriction",
+      "stem": "Desmopressin (DDAVP) is a synthetic vasopressin analog widely used for central diabetes insipidus (AVP deficiency) and nocturnal enuresis. Which pharmacologic profile and hematologic indication also characterize DDAVP?",
+      "options": [
+        "Potent V₁a vasoconstriction used to treat variceal bleeding and septic shock",
+        "Minimal vasoconstriction with higher-dose release of factor VIII and vWF in hemophilia A and vWD",
+        "Selective V₂ receptor antagonism promoting free-water clearance in chronic SIADH",
+        "Direct mineralocorticoid agonism enhancing collecting-duct Na⁺ retention in Addison disease"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Unlike native arginine vasopressin, desmopressin (DDAVP) is structurally modified to selectively activate V₂ receptors with negligible V₁a vasoconstrictor activity. Step 2. In addition to concentrating urine in central DI and bedwetting, higher-dose DDAVP stimulates endothelial release of factor VIII and von Willebrand factor, making it useful in mild hemophilia A and von Willebrand disease.",
+      "choice_rationales": [
+        "Native vasopressin (not DDAVP) provides V₁a-mediated splanchnic and arteriolar vasoconstriction for variceal hemorrhage and vasodilatory shock.",
+        "DDAVP lacks clinically significant vasoconstriction while stimulating renal V₂ water reabsorption and endothelial factor VIII/vWF release for hemophilia A and vWD.",
+        "V₂ receptor antagonists (vaptans such as tolvaptan)—not the V₂ agonist DDAVP—treat SIADH by promoting aquaresis.",
+        "Fludrocortisone is the mineralocorticoid agonist used in primary adrenal insufficiency, whereas DDAVP acts on V₂ receptors."
+      ],
+      "condition_name": "Desmopressin (DDAVP) Pharmacology",
+      "condition_overview": "DDAVP is a V₂-selective vasopressin analog without pressor effects, indicated for central DI, enuresis, and (at higher doses) mild hemophilia A and von Willebrand disease.",
+      "citations": [
+        {
+          "document": "EX.5 Posterior Pituitary hormones, Water Balance, AVP deficiency, SIADH.pdf",
+          "page": 1
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Course-adapted EX.5 Scholar Rx Brick practice question and keyed explanation"
     }
   ],
   "cases": [],
