@@ -429,8 +429,8 @@
       "stem": "Why is this primary rather than secondary hyperparathyroidism, and how does PTH act on bone and the nephron?",
       "options": [
         "PTH is appropriately high for Ca²⁺ 14.2; PTH directly binds osteoclasts and blocks distal tubular Ca²⁺ reabsorption",
-        "Low phosphorus proves secondary renal hyperparathyroidism; PTH activates 24-hydroxylase to raise calcitonin release",
-        "High PTH despite hypercalcemia proves autonomous gland; blocks proximal PO₄³⁻, boosts distal Ca²⁺, indirect RANKL",
+        "Low phosphorus indicates secondary renal hyperparathyroidism; PTH activates 24-hydroxylase to raise calcitonin release",
+        "High PTH despite hypercalcemia confirms autonomous gland; blocks proximal PO₄³⁻, boosts distal Ca²⁺, indirect RANKL",
         "High PTH with hypercalcemia reflects calcitonin deficiency; PTH acts directly on loop of Henle to excrete Ca²⁺"
       ],
       "correct_index": 2,
@@ -699,7 +699,7 @@
       "explanation": "Step 1. Cortisol stimulates proteolysis in skeletal muscle, releasing amino acids (Substrate A), and lipolysis in adipose tissue, releasing glycerol (Substrate B). Step 2. Both substrates travel to the liver, where cortisol upregulates gluconeogenesis to export glucose (Product C)—explaining hyperglycemia, muscle wasting, and thin skin/striae in chronic hypercortisolism.",
       "choice_rationales": [
         "Muscle exports amino acids (not ketones), adipose stores triglycerides (not glycogen), and the liver exports glucose (not insulin).",
-        "The primary gluconeogenic muscle catabolite shown is amino acids, and the adipose backbone feeding hepatic gluconeogenesis is glycerol.",
+        "Muscle exports amino acids (not primarily lactate here), adipose exports glycerol (not cholesterol), and the liver exports gluconeogenic glucose (not urea).",
         "Correctly maps muscle-derived amino acids (Substrate A) and adipose-derived glycerol (Substrate B) to hepatic gluconeogenic glucose output (Product C).",
         "Swaps muscle and adipose substrates and misses hepatic glucose export driving Cushing hyperglycemia."
       ],

@@ -1,5 +1,5 @@
 import {LEGACY_KEY,SUPPLEMENTARY_KEY,splitLegacyProgress,mergeSupplementaryProgress} from './progress-migration.js';
-import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,combinedSession,CONTENT_CATEGORIES,STUDY_SKILLS,FILTER_KINDS,normalizeFilterList,effectiveFilters,studySkillStats,distinctClues} from './engine.js';
+import {empty,filtered,session,item,ordered,see,answer,override,totals,canReveal,validateImport,reconcileFlags,defaultSettings,normalizeSettings,sessionSize,sortLectureIds,caseSession,allCasesSession,combinedSession,CONTENT_CATEGORIES,STUDY_SKILLS,FILTER_KINDS,normalizeFilterList,effectiveFilters,studySkillStats,distinctClues} from './engine.js';
 import {BANKS,PHARMACOLOGY,STUDY_SECTIONS,CLINICAL_CASES,COMBINED,resolveBankConfig} from './bank-config.js';
 const query=new URLSearchParams(window.location.search);
 const CONFIG=resolveBankConfig(window.location.search);
@@ -89,7 +89,7 @@ function lectureReport(){
             <th scope="row">${esc(id)}</th>
             <td>${seen} / ${qs.length}</td>
             <td>${correct} / ${answered} (${pct})</td>
-            <td><button class="quiet" data-drill-lecture="${esc(id)}">Practice</button></td>
+            <td><button class="pill-btn" data-drill-lecture="${esc(id)}">Practice</button></td>
         </tr>`;
     }).join('');
     return `<section class="skill-report mt"><h3>Performance by lecture</h3>
@@ -105,10 +105,19 @@ function visualFeedback(q){
         ${markers}</div><figcaption><ol>${q.feedback_focus.map(({label})=>`<li>${esc(label)}</li>`).join('')}</ol></figcaption></figure>`;
 }
 function resetZoom(){zoom=1;original=false;imageTone='normal';}
-function coverageMarkup(){const lectures=sortLectureIds([...manifest.sources.filter(s=>s.source_origin==='lecture').map(s=>s.lecture_id),...bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)]);return `<section class="coverage-section"><div class="row spread"><div><p class="eyebrow">Know what is covered</p><h2>Lecture coverage</h2></div><span class="fine">Coverage is not a mastery score</span></div><div class="grid">${lectures.map(id=>{const qs=bank.filter(q=>q.collection===id),info=coverage.lectures?.[id],sources=manifest.sources.filter(s=>s.lecture_id===id),gaps=Array.isArray(info?.gaps)?info.gaps:[];return `<article class="card coverage-card"><div class="row spread"><h3>${esc(id)}</h3><span class="tag">${esc(info?.status||'Reviewed and integrated')}</span></div><p class="fine">${qs.length} ${qs.length===1?'question':'questions'} · ${new Set(qs.map(q=>q.source_group_id)).size} scored ${new Set(qs.map(q=>q.source_group_id)).size===1?'source':'sources'} · ${sources.filter(s=>s.status!=='USABLE').length} unscored captures</p><details><summary>Tested topics and remaining gaps</summary><h4>Tested in this bank</h4><ul>${(info?.tested_summary||[...new Set(qs.map(q=>q.tested_concept))]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h4>Still missing or incomplete</h4>${gaps.length?`<ul>${gaps.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'<p class="fine">No open high-yield gaps recorded for this lecture.</p>'}${info?.next_capture?`<p class="fine">${esc(info.next_capture)}</p>`:''}<p class="fine">${esc(info?.basis||'Tested concepts are derived from the current scored question bank.')}</p></details></article>`;}).join('')}</div></section>`;}
+function coverageMarkup(){const lectures=sortLectureIds([...manifest.sources.filter(s=>s.source_origin==='lecture').map(s=>s.lecture_id),...bank.filter(q=>q.source_origin==='lecture').map(q=>q.collection)]);return `<section class="coverage-section"><div class="row spread"><div><p class="eyebrow">Know what is covered</p><h2>Lecture coverage</h2></div><span class="fine">Coverage is not a mastery score</span></div><div class="grid">${lectures.map(id=>{const qs=bank.filter(q=>q.collection===id),info=coverage.lectures?.[id],sources=manifest.sources.filter(s=>s.lecture_id===id),gaps=Array.isArray(info?.gaps)?info.gaps:[],unscored=sources.filter(s=>s.status!=='USABLE').length;return `<article class="card coverage-card"><div class="row spread"><h3>${esc(id)}</h3><span class="tag">${esc(info?.status||'Reviewed and integrated')}</span></div><p class="fine">${qs.length} ${qs.length===1?'question':'questions'} · ${new Set(qs.map(q=>q.source_group_id)).size} scored ${new Set(qs.map(q=>q.source_group_id)).size===1?'source':'sources'} · ${unscored} unscored ${unscored===1?'capture':'captures'}</p><details><summary>Tested topics and remaining gaps</summary><h4>Tested in this bank</h4><ul>${(info?.tested_summary||[...new Set(qs.map(q=>q.tested_concept))]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h4>Still missing or incomplete</h4>${gaps.length?`<ul>${gaps.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'<p class="fine">No open high-yield gaps recorded for this lecture.</p>'}${info?.next_capture?`<p class="fine">${esc(info.next_capture)}</p>`:''}<p class="fine">${esc(info?.basis||'Tested concepts are derived from the current scored question bank.')}</p></details></article>`;}).join('')}</div></section>`;}
 function openCase(definition) {
     if(p.session&&!p.session.complete&&!confirm('Start a different case? This replaces the unfinished case.'))return;
-    p.session=caseSession(definition,byId);
+    p.session=caseSession(definition,byId,settings.mode);
+    save();
+    resetZoom();
+    quiz();
+    window.scrollTo(0,0);
+}
+function openAllCases(caseList) {
+    if(!caseList.length)return;
+    if(p.session&&!p.session.complete&&!confirm('Start a new session with all matching cases? This replaces the unfinished session.'))return;
+    p.session=allCasesSession(caseList,byId,settings.mode);
     save();
     resetZoom();
     quiz();
@@ -121,29 +130,52 @@ function caseHome() {
         root.innerHTML=`<section class="summary"><p class="eyebrow">${esc(CONFIG.eyebrow)}</p><h1>Clinical Cases</h1><div class="card mt"><h2>Coming soon</h2><p class="muted">${esc(CONFIG.description)}</p><p class="mt"><a href="?bank=physiology" class="button primary">Practice Physiology</a> <a href="?bank=pathology" class="button">Practice Pathology</a></p></div></section>`;
         return;
     }
-    const current=cases.find(c=>c.case_id===p.session?.case_id);
+    const gp=withGlobalSeen(p);
+    const current=p.session?(p.session.case_id==='all'?{title:'All clinical cases'}:cases.find(c=>c.case_id===p.session.case_id)):null;
     const matchingCases=settings.skill==='all'?cases:
         cases.filter(c=>c.question_ids.some(id=>byId[id]?.study_skill===settings.skill));
+    const totalMatchingQs=matchingCases.reduce((sum,c)=>sum+c.question_ids.length,0);
+    const caseStatus=c=>{
+        const answered=c.question_ids.filter(id=>gp.questions[id]?.times_answered>0);
+        if(!answered.length)return '<span class="tag">Unseen</span>';
+        const correct=c.question_ids.filter(id=>gp.questions[id]?.last_result==='correct').length;
+        if(answered.length<c.question_ids.length)return `<span class="tag">${answered.length}/${c.question_ids.length} tried</span>`;
+        return `<span class="tag ${correct===c.question_ids.length?'tag-done':''}">${correct}/${c.question_ids.length} correct</span>`;
+    };
     root.innerHTML=`<section class="summary">
-        <p class="eyebrow">Endocrine</p>
+        <p class="eyebrow">${esc(CONFIG.eyebrow)}</p>
         <h1>Clinical Cases</h1>
-        <p class="muted">Work through each clinical case vignette and any companion diagrams. Explanations appear after you finish the case.</p>
-        ${current?`<p><button class="primary" id="resume">${p.session.complete?'Review':'Resume'} ${esc(current.title)}</button></p>`:''}
-        <div class="card mt">${skillPicker('case-skill')}</div>
-        ${matchingCases.length?'':'<p class="muted">No cases cover this study skill.</p>'}
+        <p class="muted">Work through each clinical case vignette and any companion diagrams. Choose Learn mode for immediate per-question feedback or Exam mode to review after finishing.</p>
+        <div class="card mt">
+            <fieldset class="box-group">
+                <legend>Feedback mode</legend>
+                <div class="mode-boxes">${[['learn','Learn','Feedback after each question'],['exam','Exam','Feedback after finishing the case']].map(([value,title,desc])=>`<label class="select-box"><input type="radio" name="case-mode" value="${value}" ${settings.mode===value?'checked':''}><span class="box-face"><strong>${title}</strong><small>${desc}</small></span></label>`).join('')}</div>
+            </fieldset>
+            ${skillPicker('case-skill')}
+            <div class="row mt">
+                <button id="practice-all-cases" class="primary" ${!matchingCases.length?'disabled':''}>Practice all ${matchingCases.length===cases.length?'cases':`${matchingCases.length} matching cases`} (${totalMatchingQs} questions)</button>
+                ${current?`<button id="resume">${p.session.complete?'Review':'Resume'} ${esc(current.title)}</button>`:''}
+            </div>
+        </div>
+        ${matchingCases.length?'':'<p class="muted mt">No cases cover this study skill.</p>'}
         <div class="grid case-grid mt">
             ${matchingCases.map(c=>{const vis=c.question_ids.filter(id=>byId[id]?.visual_kind==='image').length;return `<article class="card">
-                <p class="eyebrow">${esc(c.lecture)}</p>
+                <div class="case-card-head"><p class="eyebrow">${esc(c.lecture)}</p>${caseStatus(c)}</div>
                 <h2>${esc(c.title)}</h2>
                 <p class="fine">${c.question_ids.length} ${c.question_ids.length===1?'question':'questions'}${vis?` · ${vis} ${vis===1?'visual':'visuals'}`:''}</p>
                 <button data-case="${esc(c.case_id)}">Start case<span class="sr-only">: ${esc(c.title)}</span></button>
             </article>`;}).join('')}
         </div>
     </section>`;
+    bind('practice-all-cases',()=>openAllCases(matchingCases));
     bind('resume',()=>{
         resetZoom();
         if(p.session.complete)results();else quiz();
         window.scrollTo(0,0);
+    });
+    root.querySelectorAll('input[name="case-mode"]').forEach(el=>el.onchange=()=>{
+        settings.mode=el.value;
+        saveSettings();
     });
     $('#case-skill').onchange=event=>{
         settings.skill=event.target.value;
@@ -172,12 +204,13 @@ function withGlobalSeen(progress){
                 }else{
                     const curDate=Date.parse(cur.last_date)||0;
                     const newDate=Date.parse(qstat.last_date)||0;
+                    const best=(qstat.times_answered||0)>(cur.times_answered||0)||((qstat.times_answered||0)===(cur.times_answered||0)&&newDate>curDate)?qstat:cur;
                     questions[qid]={
                         ...cur,
                         times_seen:Math.max(cur.times_seen||0,qstat.times_seen||0),
-                        times_answered:Math.max(cur.times_answered||0,qstat.times_answered||0),
-                        correct_count:Math.max(cur.correct_count||0,qstat.correct_count||0),
-                        incorrect_count:Math.max(cur.incorrect_count||0,qstat.incorrect_count||0),
+                        times_answered:best.times_answered||0,
+                        correct_count:best.correct_count||0,
+                        incorrect_count:best.incorrect_count||0,
                         last_result:newDate>curDate?(qstat.last_result??cur.last_result):(cur.last_result??qstat.last_result),
                         last_date:newDate>curDate?qstat.last_date:cur.last_date,
                         marked:Boolean(cur.marked||qstat.marked),
@@ -260,7 +293,7 @@ function combinedHome() {
             <fieldset class="box-group category-picker">
                 <legend>Content type</legend>
                 <div class="category-boxes">
-                    ${categories.map(cat=>{const n=combinedPool({...settings,category:[cat]}).filter(q=>selected.has(q.studySection)).length;return `<label class="select-box"><input type="checkbox" name="combined-category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat)}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}
+                    ${categories.map(cat=>{const n=combinedPool({...settings,category:[cat]}).filter(q=>selected.has(q.studySection)).length;return `<label class="select-box"><input type="checkbox" name="combined-category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat).replaceAll('/','/<wbr>')}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}
                 </div>
             </fieldset>
             <div class="form-grid">
@@ -390,7 +423,7 @@ function combinedHome() {
             if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;
             const weakMatchingCases=new Set(bank.filter(q=>q.case_id&&q.study_skill===weakest.key).map(q=>q.case_id));
             const pools=STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&(q.case_id?weakMatchingCases.has(q.case_id):q.study_skill===weakest.key)));
-            p.session=combinedSession(pools,'learn','10',Math.random,{progress:p});
+            p.session=combinedSession(pools,'learn','10',Math.random,{progress:withGlobalSeen(p)});
             save();resetZoom();quiz();window.scrollTo(0,0);
         });
     }
@@ -411,7 +444,7 @@ function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHom
     const coreHtml=coreLectures.length?`<fieldset class="box-group lecture-picker"><legend>Lectures</legend><div class="lecture-boxes">${coreLectures.map(renderBox).join('')}</div><div class="row mt"><button id="all-core-lectures" class="quiet" ${chosenCore.length===coreLectures.length?'disabled':''}>Select all lectures</button><button id="clear-core-lectures" class="quiet" ${!chosenCore.length?'disabled':''}>Clear lectures</button></div></fieldset>`:'';
     const exHtml=exLectures.length?`<details class="lecture-picker ex-picker mt" id="ex-lectures" ${exLecturesOpen?'open':''}><summary>EX RxBricks · ${chosenEx.length} of ${exLectures.length} selected</summary><div class="lecture-boxes mt">${exLectures.map(renderBox).join('')}</div><div class="row mt"><button id="all-ex-lectures" class="quiet" ${chosenEx.length===exLectures.length?'disabled':''}>Select all EX</button><button id="clear-ex-lectures" class="quiet" ${!chosenEx.length?'disabled':''}>Clear EX</button></div></details>`:'';
     return coreHtml+exHtml;
-})()}<fieldset class="box-group category-picker"><legend>Content type</legend><div class="category-boxes">${categories.map(cat=>{const n=filtered(bank,gp,{...settings,category:[cat]}).length;return `<label class="select-box"><input type="checkbox" name="category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat)}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}</div></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.filter(([v])=>v!=='third_party'||bank.some(q=>q.source_origin==='third_party')).map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,origin:v}).length})`,settings.origin)).join('')}</select></div>${skillPicker('skill',filtered(bank,gp,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
+})()}<fieldset class="box-group category-picker"><legend>Content type</legend><div class="category-boxes">${categories.map(cat=>{const n=filtered(bank,gp,{...settings,category:[cat]}).length;return `<label class="select-box"><input type="checkbox" name="category" value="${esc(cat)}" aria-label="${esc(cat)}" ${chosenCategories.includes(cat)?'checked':''}><span class="box-face"><strong>${esc(cat).replaceAll('/','/<wbr>')}</strong><small>${n} ${n===1?'item':'items'}</small></span></label>`;}).join('')}</div></fieldset><div class="form-grid"><div><label for="origin">Source type</label><select id="origin">${sourceTypes.filter(([v])=>v!=='third_party'||bank.some(q=>q.source_origin==='third_party')).map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,origin:v}).length})`,settings.origin)).join('')}</select></div>${skillPicker('skill',filtered(bank,gp,{...settings,skill:'all'}))}<div><label for="filter">Question selection</label><select id="filter">${[['all','Mixed practice'],['unseen','Unseen sources'],['incorrect','Previously incorrect'],['marked','Marked for review']].map(([v,t])=>option(v,`${t} (${filtered(bank,gp,{...settings,filter:v}).length})`,settings.filter)).join('')}</select></div></div><label class="check-row mt"><input type="checkbox" id="resurface" ${settings.resurface?'checked':''}>Favor recently missed and marked questions in shorter sessions</label><p class="fine mt session-availability">${pool.length?`${pool.length} available · ${settings.length==='endless'?'Repeats the selected pool':`${count} in this session`}`:'No questions match. Select a lecture or change your filters.'}</p><button id="start" class="primary full" ${!pool.length?'disabled':''}>${settings.length==='endless'?`Start endless · ${count} questions`:`Start ${count} ${count===1?'question':'questions'}`}</button>${p.session&&!p.session.complete?'<button id="resume" class="full mt">Resume saved session</button>':''}${p.parkedSession?`<button id="resume-parked" class="full mt">${p.parkedSession.items.every(entry=>byId[entry.id].source_origin==='third_party')?'Resume saved 3rd Party session':'Resume other saved session'}</button>`:''}<p class="fine mt no-margin">Progress stays in this browser. No account or network connection is needed for local use.</p></div></section><details class="mt" id="lecture-coverage"><summary>Lecture coverage</summary><div id="coverage-content"></div></details>`;
  const coveragePanel=$('#lecture-coverage');
  coveragePanel.ontoggle=async ()=>{
     const content=coveragePanel.querySelector('#coverage-content');
@@ -426,7 +459,7 @@ function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHom
  if(weakest){
     bind('drill-weakest',()=>{
         if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;
-        p.session=session(weakest.pool,'learn','10',Math.random,{progress:p});
+        p.session=session(weakest.pool,'learn','10',Math.random,{progress:withGlobalSeen(p)});
         save();resetZoom();quiz();window.scrollTo(0,0);
     });
  }
@@ -442,7 +475,7 @@ function home(){if(caseMode)return caseHome();if(combinedMode)return combinedHom
  bind('clear-core-lectures',()=>{setGroup(coreIds,false);$('#clear-core-lectures')?.focus({preventScroll:true});});
  bind('all-ex-lectures',()=>{exLecturesOpen=true;setGroup(exIds,true);$('#all-ex-lectures')?.focus({preventScroll:true});});
  bind('clear-ex-lectures',()=>{exLecturesOpen=true;setGroup(exIds,false);$('#clear-ex-lectures')?.focus({preventScroll:true});});
- bind('start',()=>{if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;p.session=session(pool,settings.mode,settings.length,Math.random,settings.resurface?{progress:p}:{});save();resetZoom();quiz();window.scrollTo(0,0);});bind('resume',()=>{resetZoom();quiz();window.scrollTo(0,0);});
+ bind('start',()=>{if(p.session&&!p.session.complete&&!confirm('Start a new session? Your scored progress is kept, but the unfinished session will be replaced.'))return;p.session=session(pool,settings.mode,settings.length,Math.random,settings.resurface?{progress:withGlobalSeen(p)}:{});save();resetZoom();quiz();window.scrollTo(0,0);});bind('resume',()=>{resetZoom();quiz();window.scrollTo(0,0);});
  bind('resume-parked',()=>{
     const active=p.session&&!p.session.complete?p.session:null;
     p.session=p.parkedSession;
@@ -463,8 +496,9 @@ function tableMarkup(table,reveal){
         }).join('')}</tr>`).join('')}</tbody>
     </table></div>`;
 }
-function imagePanel(id,imgId,description){
-    return `<div class="image-view"><div class="image-frame" id="${id}"><img id="${imgId}" alt="${description}" decoding="async"></div>
+function imagePanel(id,imgId,description,priority=''){
+    const fp=priority?` fetchpriority="${priority}"`:'';
+    return `<div class="image-view"><div class="image-frame" id="${id}"><img id="${imgId}" alt="${description}" decoding="async"${fp}></div>
         <div class="image-message" role="status" hidden><span></span> <button class="quiet image-retry" hidden>Retry image</button></div></div>`;
 }
 function loadImage(frame,source){
@@ -474,19 +508,20 @@ function loadImage(frame,source){
     const retry=message.querySelector('button');
     if(img.getAttribute('src')===source)return;
     const ready=()=>{message.hidden=true;frame.setAttribute('aria-busy','false');};
-    message.hidden=false;
-    text.textContent='Loading image…';
-    retry.hidden=true;
-    frame.setAttribute('aria-busy','true');
     img.onload=ready;
     img.onerror=()=>{
+        message.hidden=false;
         text.textContent='Image could not load.';
         frame.setAttribute('aria-busy','false');
         retry.hidden=false;
         retry.onclick=()=>{img.removeAttribute('src');loadImage(frame,source);};
     };
     img.src=source;
-    if(img.complete&&img.naturalWidth)ready();
+    if(img.complete&&img.naturalWidth){ready();return;}
+    message.hidden=false;
+    text.textContent='Loading image…';
+    retry.hidden=true;
+    frame.setAttribute('aria-busy','true');
 }
 function applyTone(frame){
     if(!frame)return;
@@ -495,7 +530,7 @@ function applyTone(frame){
 }
 function imageMarkup(q,reveal){
     const toneLabel=IMAGE_TONES.find(([id])=>id===imageTone)?.[1]||'Tone: Normal';
-    return `<div class="visual${q.case_id&&q.joint_panels?' case-paired':''}">${imagePanel('frame','quiz-image','Quiz source image')}<div class="image-toolbar"><div class="row"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit">Fit image</button></div><span class="fine" id="zoom-label">100%</span></div><div class="image-toolbar">${reveal?`<button id="original" class="${q.image!==q.original_image?'original-hint':''}">Show teaching original</button>`:'<span class="fine">Quiz image only</span>'}<div class="row"><button id="image-tone" class="quiet">${toneLabel}</button><button id="fullscreen">Full image</button></div></div></div>`;
+    return `<div class="visual${q.case_id&&q.joint_panels?' case-paired':''}">${imagePanel('frame','quiz-image','Quiz source image','high')}<div class="image-toolbar"><div class="row"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="fit">Fit image</button></div><span class="fine" id="zoom-label">100%</span></div><div class="image-toolbar">${reveal?`<button id="original" class="${q.image!==q.original_image?'original-hint':''}">Show teaching original</button>`:'<span class="fine">Quiz image only</span>'}<div class="row"><button id="image-tone" class="pill-btn">${toneLabel}</button><button id="fullscreen">Full image</button></div></div></div>`;
 }
 function setZoom(frame,scale){
     frame.classList.toggle('zoomed',scale>1);
@@ -544,7 +579,9 @@ function wireImage(q,reveal){
         const dialog=document.createElement('dialog');
         const showOriginal=reveal&&original;
         dialog.className='full-image-viewer';
-        dialog.innerHTML=`<div class="row spread"><h3 class="no-margin">Full image</h3><button id="close-dialog">Close</button></div><div class="row full-image-tools"><button id="full-out" aria-label="Zoom full image out">−</button><button id="full-in" aria-label="Zoom full image in">+</button><button id="full-fit">Fit image</button><span class="fine" id="full-scale">100%</span></div>${imagePanel('full-frame','full-image',showOriginal?'Teaching original':'Quiz source image')}`;
+        dialog.setAttribute('aria-labelledby','full-img-title');
+        dialog.setAttribute('closedby','any');
+        dialog.innerHTML=`<div class="row spread"><h1 id="full-img-title" class="no-margin">Full image</h1><button id="close-dialog" autofocus>Close</button></div><div class="row full-image-tools"><button id="full-out" aria-label="Zoom full image out">−</button><button id="full-in" aria-label="Zoom full image in">+</button><button id="full-fit">Fit image</button><span class="fine" id="full-scale">100%</span></div>${imagePanel('full-frame','full-image',showOriginal?'Teaching original':'Quiz source image')}`;
         document.body.append(dialog);
         dialog.showModal();
         let scale=1;
@@ -580,7 +617,7 @@ function distractorCompareMarkup(q,it){
  const preferred=optionsWithImages.find(entry=>entry.k===it.draft&&entry.k!==q.correct_index)||optionsWithImages[0];
  const firstPic=preferred.pics[0];
  return `<div class="mt">
-    <button id="toggle-compare" class="quiet" aria-expanded="false" data-open-label="${esc(compareOpenLabel)}" data-close-label="${esc(compareCloseLabel)}">${esc(compareOpenLabel)}</button>
+    <button id="toggle-compare" class="pill-btn" aria-expanded="false" data-open-label="${esc(compareOpenLabel)}" data-close-label="${esc(compareCloseLabel)}">${esc(compareOpenLabel)}</button>
     <div id="compare-panel" class="compare-panel" hidden>
         <div class="row spread">
             <strong>Side-by-side visual comparison</strong>
@@ -588,11 +625,11 @@ function distractorCompareMarkup(q,it){
         </div>
         <div class="compare-grid">
             <figure class="compare-pane">
-                <img src="${esc(q.image)}" alt="Current question image">
+                <img src="${esc(q.image)}" alt="Current question image" fetchpriority="low" loading="lazy">
                 <figcaption><strong>Question image</strong> · ${esc(q.options[q.correct_index])}</figcaption>
             </figure>
             <figure class="compare-pane" id="compare-target">
-                <img src="${esc(firstPic.image)}" alt="${esc(firstPic.caption||q.options[preferred.k])}">
+                <img src="${esc(firstPic.image)}" alt="${esc(firstPic.caption||q.options[preferred.k])}" fetchpriority="low" loading="lazy">
                 <figcaption><strong>${esc(q.options[preferred.k])}</strong>${firstPic.caption?` · ${esc(firstPic.caption)}`:''}</figcaption>
             </figure>
         </div>
@@ -611,13 +648,15 @@ function feedback(q,it){const clues=distinctClues(q),result=!it.locked?'Unanswer
 const mobileLayout=window.matchMedia('(max-width:850px)');
 function positionQuestion(){const heading=$('#question-heading');if(!heading)return;if(mobileLayout.matches)document.querySelector('.quiz-layout').prepend(heading);else document.querySelector('.question').prepend(heading);}
 mobileLayout.addEventListener('change',positionQuestion);
-function flagCaseImage(q) {
+function openFlagDialog(q) {
     const dialog=document.createElement('dialog');
     dialog.className='case-flag-dialog';
+    dialog.setAttribute('aria-labelledby','flag-dialog-title');
+    dialog.setAttribute('closedby','any');
     dialog.innerHTML=`<form>
-        <h2>Flag image</h2>
+        <h1 id="flag-dialog-title">Flag image</h1>
         <label for="flag-note">What needs attention in this image?</label>
-        <textarea id="flag-note" name="note" required rows="4"></textarea>
+        <textarea id="flag-note" name="note" required rows="4" autofocus></textarea>
         <div class="row"><button type="button" id="cancel-flag">Cancel</button><button class="primary">Save flag</button></div>
     </form>`;
     const form=dialog.querySelector('form');
@@ -633,8 +672,8 @@ function flagCaseImage(q) {
         p.flags[q.question_id]={question_id:q.question_id,source_id:q.source_id,variant_id:q.variant_id,status:'open',note:note.value.trim(),date:new Date().toISOString()};
         save();
         dialog.close();
-        quiz();
-        $('#flag').focus();
+        const flagBtn=$('#flag');
+        if(flagBtn)flagBtn.textContent='Image flagged';
         toast('Image flagged for review.');
     };
     note.oninput=()=>note.setCustomValidity('');
@@ -642,7 +681,6 @@ function flagCaseImage(q) {
     dialog.addEventListener('close',()=>dialog.remove());
     document.body.append(dialog);
     dialog.showModal();
-    note.focus();
 }
 
 function toggleChoiceStrike(it, choiceIndex){
@@ -658,11 +696,14 @@ function toggleChoiceStrike(it, choiceIndex){
 }
 
 function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home();const it=s.items[s.index],q=byId[it.id];if(!q)return home();it.struck??=[];see(p,q,it);save();const caseQuestion=Boolean(q.case_id),tableQuestion=q.visual_kind==='table',textQuestion=q.visual_kind==='text';
- const reveal=canReveal(s,it)&&(!caseQuestion||s.complete);
+ const caseGroupLocked=!caseQuestion||s.items.filter(entry=>byId[entry.id]?.case_id===q.case_id).every(entry=>entry.locked);
+ const reveal=canReveal(s,it)&&(!caseQuestion||s.complete||(caseMode&&s.mode==='learn')||(combinedMode&&s.mode==='learn'&&caseGroupLocked));
  const scenario=caseQuestion?q.scenario:q.case_context;
- const section=combinedMode?(caseQuestion?cases.find(c=>c.case_id===q.case_id)?.title:sectionLabels[q.studySection]):'';
+ const section=combinedMode?(caseQuestion?cases.find(c=>c.case_id===q.case_id)?.title:sectionLabels[q.studySection]):(caseMode&&s.case_id==='all'?cases.find(c=>c.case_id===q.case_id)?.title:'');
  const isMarked=Boolean(p.questions[q.question_id]?.marked);
- root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?'Clinical Cases':s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="quiet">${s.complete?'Back to results':caseMode?'Finish case':'Finish session'}</button></div><section class="quiz-layout${textQuestion?' text-only':''}">${tableQuestion?tableMarkup(q.context_table,reveal):textQuestion?'':imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?(textQuestion?'Clinical Case':'Clinical Case · Visual'):textQuestion?(CONFIG.id==='pharmacology'?'Pharmacology':'Concept question'):'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${it.struck.includes(k)?'struck':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" aria-pressed="${it.draft===k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span>${esc(q.options[k])}</button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="quiet" aria-pressed="${isMarked}">${isMarked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion||textQuestion?'':`<button id="flag" class="quiet">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">1–${it.order.length} choose · Right-click or Shift+1–${it.order.length} strike out · Enter submit/next · ←/→ navigate · M mark${tableQuestion||textQuestion?'':' · F flag · Z zoom'}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after the ${caseMode?'case':combinedMode?'session':'exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
+ const keyRange=caseQuestion?`A–${'ABCDE'[it.order.length-1]}`:`1–${it.order.length}`;
+ const prevScroll=window.scrollY;
+ root.innerHTML=`<div class="quiz-meta"><span>${s.complete?'Session review':caseMode?`Clinical Cases · ${s.mode==='learn'?'Learn':'Exam'}`:s.mode==='learn'?'Learn mode':'Exam mode'} · ${section?esc(section)+' · ':''}${esc(q.collection)}</span><span>${s.index+1} / ${s.items.length} ${s.endless?'· Endless':''}</span><progress max="${s.items.length}" value="${s.index+1}"></progress><button id="finish" class="pill-btn">${s.complete?'Back to results':caseMode&&s.case_id!=='all'?'Finish case':'Finish session'}</button></div><section class="quiz-layout${textQuestion?' text-only':''}">${tableQuestion?tableMarkup(q.context_table,reveal):textQuestion?'':imageMarkup(q,reveal)}<div class="card question"><div class="question-heading" id="question-heading"><p class="eyebrow">${esc(q.category)} · ${caseQuestion?(textQuestion?'Clinical Case':'Clinical Case · Visual'):textQuestion?(CONFIG.id==='pharmacology'?'Pharmacology':'Concept question'):'Visual practical'}</p>${scenario?`<p class="case-scenario">${esc(scenario)}</p>`:''}<h2>${esc(caseQuestion?q.lead_in:q.stem)}</h2></div><div class="choices">${it.order.map((k,pos)=>`<button class="choice ${it.draft===k?'selected':''} ${it.struck.includes(k)?'struck':''} ${reveal&&k===q.correct_index?'correct':''} ${reveal&&it.draft===k&&!it.correct?'wrong':''} ${reveal&&it.draft===k&&it.overridden?'overridden':''}" data-choice="${k}" aria-pressed="${it.draft===k}" ${it.locked||s.complete?'disabled':''}><span class="letter">${caseQuestion?'ABCDE'[pos]:pos+1}</span><span class="choice-text">${esc(q.options[k])}</span></button>`).join('')}</div><div class="controls"><button id="back" ${s.index===0?'disabled':''} aria-keyshortcuts="ArrowLeft">← Back</button><button id="submit" class="primary" ${it.draft===null||it.locked||s.complete?'disabled':''}>${it.locked?'Answer locked':'Submit answer'}</button><button id="next" aria-keyshortcuts="ArrowRight">${s.index===s.items.length-1&&!s.endless?'Finish':'Next'} →</button></div><div class="row mt"><button id="mark" class="pill-btn" aria-pressed="${isMarked}">${isMarked?'★ Marked':'☆ Mark for review'}</button>${tableQuestion||textQuestion?'':`<button id="flag" class="pill-btn">${p.flags[q.question_id]?.status==='open'?'Image flagged':'Flag image'}</button>`}</div><p class="fine">${keyRange} choose · Right-click or Shift+${keyRange} strike out · Enter submit/next · ←/→ navigate · M mark${tableQuestion||textQuestion?'':' · F flag · Z zoom'}${reveal&&!tableQuestion&&!textQuestion?' · O original':''}<br>You can skip and return without losing a draft.</p>${!reveal&&it.locked?`<p class="notice">Answer saved. Feedback appears after ${combinedMode&&caseQuestion&&s.mode==='learn'?'both questions of this case are answered':caseMode&&s.case_id!=='all'?'the case':combinedMode?'the session':'the exam'}.</p>`:''}${reveal?feedback(q,it):''}</div></section>`;
  document.querySelectorAll('[data-choice]').forEach(el=>{
     el.onclick=()=>{
         if(it.locked||s.complete)return;
@@ -682,7 +723,7 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
         toggleChoiceStrike(it,Number(el.dataset.choice));
     };
  });
- bind('submit',()=>{if(answer(p,q,it)){save();quiz();}});bind('back',()=>move(-1));bind('next',()=>move(1));bind('finish',()=>{if(s.complete)results();else if(confirm(caseMode?'Finish this case? Unanswered questions will be reported separately.':'Finish this session? Unanswered questions will be reported separately.'))finish();});
+ bind('submit',()=>{if(answer(p,q,it)){save();quiz();window.scrollTo(0,prevScroll);}});bind('back',()=>move(-1));bind('next',()=>move(1));bind('finish',()=>{if(s.complete)results();else if(confirm(caseMode&&s.case_id!=='all'?'Finish this case? Unanswered questions will be reported separately.':'Finish this session? Unanswered questions will be reported separately.'))finish();});
  bind('mark',()=>{
     const st=p.questions[q.question_id]??={times_seen:0,times_answered:0,correct_count:0,incorrect_count:0,last_result:null,marked:false};
     st.marked=!st.marked;
@@ -693,8 +734,8 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
         btn.setAttribute('aria-pressed',String(st.marked));
     }
  });
- bind('flag',()=>{if(caseQuestion)return flagCaseImage(q);const note=prompt('What needs attention in this image?',p.flags[q.question_id]?.note||'');if(note===null)return;p.flags[q.question_id]={question_id:q.question_id,source_id:q.source_id,variant_id:q.variant_id,status:'open',note,date:new Date().toISOString()};save();quiz();toast('Image flagged for review.');});
- bind('keanne',()=>{if(override(p,q,it)){if(s.complete&&Number.isInteger(s.result_index))p.exams[s.result_index]={...p.exams[s.result_index],...totals(s)};save();quiz();}});
+ bind('flag',()=>openFlagDialog(q));
+ bind('keanne',()=>{if(override(p,q,it)){if(s.complete&&Number.isInteger(s.result_index))p.exams[s.result_index]={...p.exams[s.result_index],...totals(s)};save();quiz();window.scrollTo(0,prevScroll);}});
  bind('toggle-compare',()=>{
     const panel=$('#compare-panel');
     const btn=$('#toggle-compare');
@@ -718,7 +759,9 @@ function quiz(){screen='quiz';const s=p.session;if(!s?.items.length)return home(
  }
  positionQuestion();
  if(!tableQuestion&&!textQuestion)wireImage(q,reveal);
-
+ const nextItem=s.items[s.index+1];
+ const nextQ=nextItem?byId[nextItem.id]:null;
+ if(nextQ?.image&&nextQ.visual_kind!=='table'&&nextQ.visual_kind!=='text'){const pre=new Image();pre.src=nextQ.image;}
 }
 function move(delta){const s=p.session;if(s.index+delta<0)return;if(s.index+delta>=s.items.length){if(s.endless&&!s.complete){if(combinedMode){const wanted=new Set(s.pool);s.items.push(...combinedSession(STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&wanted.has(q.question_id))),s.mode,'all').items);}else{const prior=byId[s.items.at(-1).id].source_group_id;s.items.push(...ordered(bank.filter(q=>s.pool.includes(q.question_id)),Math.random,prior).map(q=>item(q)));}}else{return s.complete?results():finish();}}s.index+=delta;resetZoom();save();quiz();window.scrollTo(0,0);}
 function finish(){const s=p.session;if(!s.complete){s.complete=true;s.result_index=p.exams.length;p.exams.push({date:new Date().toISOString(),mode:s.mode,...(caseMode?{case_id:s.case_id}:{}),...totals(s)});save();}results();}
@@ -726,7 +769,10 @@ function scoreBreakdown(s,keyFor){const out={};s.items.filter(it=>byId[it.id]).f
 function results(){screen='results';const s=p.session,validItems=s.items.filter(it=>byId[it.id]),t=totals(s),categories=scoreBreakdown(s,q=>q.category),concepts=scoreBreakdown(s,q=>q.tested_concept),
 skills=studySkillStats(validItems.map(it=>({...it,study_skill:byId[it.id].study_skill})),it=>({
     correct:Number(it.locked&&!!it.correct),answered:Number(it.locked),
-})),focus=s.items.map((it,i)=>({it,i,q:byId[it.id]})).filter(({it,q})=>q&&(it.locked&&!it.correct||p.questions[q.question_id]?.marked));root.innerHTML=`<section class="summary"><p class="eyebrow">${caseMode?'Case complete':'Session complete'}</p><h1>${caseMode?esc(cases.find(c=>c.case_id===s.case_id)?.title):'A closer look,<br>a stronger memory.'}</h1><p class="muted">${t.total-t.unanswered?((t.correct/(t.total-t.unanswered))*100).toFixed(2):'0.00'}% of answered questions correct. Unanswered questions are not scored.</p><div class="stats"><div class="card stat"><strong>${t.correct}</strong><span>Correct</span></div><div class="card stat"><strong>${t.incorrect}</strong><span>Incorrect</span></div><div class="card stat"><strong>${t.unanswered}</strong><span>Unanswered</span></div></div><div class="card"><h2>${caseMode?'Review your case':'Review your session'}</h2>${skillReport(skills)}<h3>Performance by visual category</h3><p class="fine">${Object.entries(categories).map(([k,v])=>`${esc(k)} ${v.correct}/${v.answered} answered`).join(' · ')}</p><details><summary>Performance by tested concept · ${Object.keys(concepts).length} concepts</summary>${Object.entries(concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct}/${v.answered} answered</p>`).join('')}</details><div class="row mt">${caseMode?'':`<button id="retry" ${!t.incorrect?'disabled':''}>${combinedMode?'Retry missed questions and cases':'Retry missed questions'}</button>`}<button id="again" class="primary">${caseMode?'All cases':'New practice'}</button></div><h3 class="mt">Missed and marked questions</h3>${focus.length?focus.map(({it,i,q})=>`<p class="row spread"><span>${i+1}. ${esc(q.tested_concept)}${p.questions[q.question_id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${it.overridden?'Corrected':it.correct?'Marked':'Incorrect'} · Review</button></p>`).join(''):'<p class="fine">No missed or marked questions in this session.</p>'}<details class="mt" ${caseMode?'open':''}><summary>Review every question</summary>${s.items.map((it,i)=>byId[it.id]?`<p class="row spread"><span>${i+1}. ${esc(byId[it.id].tested_concept)}${p.questions[it.id]?.marked?' ★':''}</span><button data-review="${i}" class="quiet">${!it.locked?'Unanswered':it.overridden?'Corrected':it.correct?'Correct':'Incorrect'} · Review</button></p>`:'').join('')}</details></div></section>`;
+})),focus=s.items.map((it,i)=>({it,i,q:byId[it.id]})).filter(({it,q})=>q&&(it.locked&&!it.correct||p.questions[q.question_id]?.marked));
+const caseTitle=s.case_id==='all'?'All clinical cases':cases.find(c=>c.case_id===s.case_id)?.title;
+const answeredCount=t.total-t.unanswered;
+root.innerHTML=`<section class="summary"><p class="eyebrow">${caseMode&&s.case_id!=='all'?'Case complete':'Session complete'}</p><h1>${caseMode?esc(caseTitle):'A closer look,<br>a stronger memory.'}</h1><p class="muted">${answeredCount?Math.round((t.correct/answeredCount)*100):0}% of answered questions correct (${t.correct}/${answeredCount}). Unanswered questions are not scored.</p><div class="stats"><div class="card stat"><strong>${t.correct}</strong><span>Correct</span></div><div class="card stat"><strong>${t.incorrect}</strong><span>Incorrect</span></div><div class="card stat"><strong>${t.unanswered}</strong><span>Unanswered</span></div></div><div class="card"><h2>${caseMode&&s.case_id!=='all'?'Review your case':'Review your session'}</h2>${skillReport(skills)}<h3>Performance by content category</h3><p class="fine">${Object.entries(categories).map(([k,v])=>`${esc(k)}: ${v.correct}/${v.answered} correct`).join(' · ')}</p><details><summary>Performance by tested concept · ${Object.keys(concepts).length} concepts</summary>${Object.entries(concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct}/${v.answered} correct</p>`).join('')}</details><div class="row mt">${caseMode?'':`<button id="retry" ${!t.incorrect?'disabled':''}>${combinedMode?'Retry missed questions and cases':'Retry missed questions'}</button>`}<button id="again" class="primary">${caseMode?'All cases':'New practice'}</button></div><h3 class="mt">Missed and marked questions</h3>${focus.length?focus.map(({it,i,q})=>`<p class="row spread"><span>${i+1}. ${esc(q.tested_concept)}${p.questions[q.question_id]?.marked?' ★':''}</span><button data-review="${i}" class="pill-btn">${it.overridden?'Corrected':it.correct?'Marked':'Incorrect'} · Review</button></p>`).join(''):'<p class="fine">No missed or marked questions in this session.</p>'}<details class="mt" ${caseMode?'open':''}><summary>Review every question</summary>${s.items.map((it,i)=>byId[it.id]?`<p class="row spread"><span>${i+1}. ${esc(byId[it.id].tested_concept)}${p.questions[it.id]?.marked?' ★':''}</span><button data-review="${i}" class="pill-btn">${!it.locked?'Unanswered':it.overridden?'Corrected':it.correct?'Correct':'Incorrect'} · Review</button></p>`:'').join('')}</details></div></section>`;
  document.querySelectorAll('[data-review]').forEach(el=>el.onclick=()=>{s.index=Number(el.dataset.review);resetZoom();quiz();});bind('again',home);bind('retry',()=>{
     const missed=s.items.filter(i=>i.locked&&!i.correct&&byId[i.id]).map(i=>byId[i.id]);
     const ids=new Set(missed.map(q=>q.question_id));
@@ -750,15 +796,15 @@ function sessionHistory(){
         const score=answered?100*entry.correct/answered:null;
         const date=new Date(entry.date);
         const when=Number.isNaN(date.getTime())?'Date unavailable':date.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'});
-        const title=cases.find(c=>c.case_id===entry.case_id)?.title||(entry.mode==='exam'?'Exam':'Learn');
+        const title=entry.case_id==='all'?'All clinical cases':cases.find(c=>c.case_id===entry.case_id)?.title||(entry.mode==='exam'?'Exam':'Learn');
         return `<li class="history-row"><div><strong>${esc(title)}</strong><br><span class="fine">${esc(when)}</span></div>
             <div>${entry.correct} of ${answered} correct · ${entry.unanswered} skipped</div>
-            <div>${score===null?'Unscored':`<meter min="0" max="100" value="${score}" aria-label="Session accuracy"></meter> ${score.toFixed(2)}%`}</div></li>`;
+            <div>${score===null?'Unscored':`<meter min="0" max="100" value="${score}" aria-label="Session accuracy"></meter> ${Math.round(score)}%`}</div></li>`;
     }).join('');
     return `<section class="mt"><h3>Session history</h3><ol class="history-list">${view([0,10])}</ol>
         ${recent.length>10?`<details><summary>Earlier sessions (${recent.length-10})</summary><ol class="history-list">${view([10,recent.length-10])}</ol></details>`:''}</section>`;
 }
-function progress(){screen='progress';const stats=Object.values(p.questions),n=stats.reduce((a,s)=>a+s.times_answered,0),c=stats.reduce((a,s)=>a+s.correct_count,0);root.innerHTML=`<section class="summary"><p class="eyebrow">Your local record</p><h1>Keep your progress.</h1><p class="muted">${n} answered attempts · ${n?(100*c/n).toFixed(2):'0.00'}% correct. Browser data does not automatically sync between devices or site addresses.</p><div class="card"><div class="row"><button id="export">Export progress</button>${localStorage.getItem(LEGACY_KEY)?'<button id="legacy-export">Export previous combined progress</button>':''}<label class="file-label">Import progress<input id="import" type="file" accept=".json,application/json"></label><button id="reset">Reset progress</button></div><p class="fine mt">Export before changing browsers, moving to a hosted URL, or clearing browser storage. Import replaces this browser’s progress only after confirmation.</p>${skillReport(studySkillStats(bank,q=>{
+function progress(){screen='progress';const stats=Object.values(p.questions),n=stats.reduce((a,s)=>a+s.times_answered,0),c=stats.reduce((a,s)=>a+s.correct_count,0);root.innerHTML=`<section class="summary"><p class="eyebrow">Your local record</p><h1>Keep your progress.</h1><p class="muted">${n} answered attempts · ${n?Math.round(100*c/n):0}% correct. Browser data does not automatically sync between devices or site addresses.</p><div class="card"><div class="row"><button id="export">Export progress</button>${localStorage.getItem(LEGACY_KEY)?'<button id="legacy-export">Export previous combined progress</button>':''}<label class="file-label">Import progress<input id="import" type="file" accept=".json,application/json"></label><button id="reset">Reset progress</button></div><p class="fine mt">Export before changing browsers, moving to a hosted URL, or clearing browser storage. Import replaces this browser’s progress only after confirmation.</p>${skillReport(studySkillStats(bank,q=>{
     const row=p.questions[q.question_id];
     return row?{correct:row.correct_count,answered:row.times_answered}:null;
 }))}${lectureReport()}${sessionHistory()}<h3 class="mt">Concept practice</h3>${Object.entries(p.concepts).map(([k,v])=>`<p class="fine">${esc(k)} · ${v.correct} correct / ${v.correct+v.incorrect} answered</p>`).join('')||'<p class="fine">Your first session will appear here.</p>'}</div></section>`;
@@ -770,9 +816,9 @@ function progress(){screen='progress';const stats=Object.values(p.questions),n=s
     if(combinedMode){
         const matchingCases=new Set(pool.filter(q=>q.case_id).map(q=>q.case_id));
         const pools=STUDY_SECTIONS.map(section=>bank.filter(q=>q.studySection===section.id&&(q.collection===lectureId||matchingCases.has(q.case_id))));
-        p.session=combinedSession(pools,'learn','10',Math.random,{progress:p});
+        p.session=combinedSession(pools,'learn','10',Math.random,{progress:withGlobalSeen(p)});
     }else{
-        p.session=session(pool,'learn','10',Math.random,{progress:p});
+        p.session=session(pool,'learn','10',Math.random,{progress:withGlobalSeen(p)});
     }
     save();resetZoom();quiz();window.scrollTo(0,0);
  });
@@ -850,15 +896,15 @@ async function review(page=0){
     ['undecided',`No decision yet (${undecidedCount})`]
  ];
 
- root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${referenceCount} ${referenceCount===1?'remains':'remain'} teaching references or alternate annotated views.</p>
+ root.innerHTML=`<p class="eyebrow">Reviewer workspace · Answers visible</p><h1>Sources, not shortcuts.</h1><p class="muted">${manifest.sources.length} source files inventoried. ${new Set(bank.map(q=>q.source_group_id)).size} distinct visual source groups support scored tasks. ${referenceCount} ${referenceCount===1?'remains a teaching reference or alternate annotated view':'remain teaching references or alternate annotated views'}.</p>
  <div class="row">
     <button id="export-flags">Export flags & decisions</button>
-    <button id="open-flags">${openFlagCount} open image flags</button>
-    <button id="toggle-triage" class="quiet" aria-pressed="${triageMode}">${triageMode?'Exit single-card triage (T)':'Single-card triage mode (T)'}</button>
+    <button id="open-flags">${openFlagCount} open image ${openFlagCount===1?'flag':'flags'}</button>
+    <button id="toggle-triage" class="pill-btn" aria-pressed="${triageMode}">${triageMode?'Exit single-card triage (T)':'Single-card triage mode (T)'}</button>
  </div>
  ${triageMode?'<p class="fine mt">Triage shortcuts (when not typing in a field): <strong>A</strong> approve · <strong>R</strong> retain · <strong>C</strong> crop · <strong>E</strong> exclude · <strong>N</strong> needs review (auto-advances) · <strong>←/→</strong> step</p>':''}
  <div class="filter-pills" role="group" aria-label="Filter review sources">
-    ${filterOptions.map(([id,label])=>`<button class="quiet" data-review-filter="${id}" aria-pressed="${reviewFilter===id}">${label}</button>`).join('')}
+    ${filterOptions.map(([id,label])=>`<button data-review-filter="${id}" aria-pressed="${reviewFilter===id}">${label}</button>`).join('')}
  </div>
  <div class="card mt"><h3>Learner image flags</h3>${flags.length?flags.map(f=>`<div class="rationale"><p>${esc(byId[f.question_id]?.tested_concept||retired.find(q=>q.question_id===f.question_id)?.tested_concept||f.question_id)} · ${esc(f.status)}${retired.some(q=>q.question_id===f.question_id)?' · Reference only':''}</p><p>${esc(f.note)}</p><button data-flag="${esc(f.question_id)}">${f.status==='open'?'Mark resolved':'Reopen flag'}</button></div>`).join(''):'<p class="fine">No image flags yet. Use Flag image during a quiz to record a problem.</p>'}</div>
  ${sourceNav}
@@ -917,13 +963,17 @@ document.addEventListener('keydown', event => {
 
     if (screen !== 'quiz') return;
 
-    if (event.shiftKey && (/^[1-5]$/.test(key) || Object.hasOwn(shiftDigits, key))) {
-        const s = p.session;
-        const it = s?.items[s.index];
-        if (!it || it.locked || s.complete) return;
+    const activeSession = p.session;
+    const activeItem = activeSession?.items[activeSession.index];
+    const activeQuestion = activeItem ? byId[activeItem.id] : null;
+    const isCaseQ = Boolean(activeQuestion?.case_id);
+    const letterPos = /^[a-e]$/i.test(key) ? key.toLowerCase().charCodeAt(0) - 97 : -1;
+
+    if (event.shiftKey && (/^[1-5]$/.test(key) || Object.hasOwn(shiftDigits, key) || (isCaseQ && letterPos >= 0))) {
+        if (!activeItem || activeItem.locked || activeSession.complete) return;
         event.preventDefault();
-        const pos = /^[1-5]$/.test(key) ? Number(key) - 1 : shiftDigits[key] - 1;
-        if (pos >= 0 && pos < it.order.length) toggleChoiceStrike(it, it.order[pos]);
+        const pos = /^[1-5]$/.test(key) ? Number(key) - 1 : Object.hasOwn(shiftDigits, key) ? shiftDigits[key] - 1 : letterPos;
+        if (pos >= 0 && pos < activeItem.order.length) toggleChoiceStrike(activeItem, activeItem.order[pos]);
         return;
     }
 
@@ -937,6 +987,8 @@ document.addEventListener('keydown', event => {
 
     if (/^[1-5]$/.test(key)) {
         document.querySelectorAll('[data-choice]')[Number(key) - 1]?.click();
+    } else if (isCaseQ && letterPos >= 0) {
+        document.querySelectorAll('[data-choice]')[letterPos]?.click();
     } else if (key === 'Enter') {
         if (target.closest?.('a, summary, button:not([data-choice])')) return;
         event.preventDefault();
@@ -949,6 +1001,8 @@ document.addEventListener('keydown', event => {
         $('#mark')?.click();
     } else if (key.toLowerCase() === 'f') {
         $('#flag')?.click();
+    } else if (key.toLowerCase() === 'o') {
+        $('#original')?.click();
     }
 });
 const DATA_VERSION='dev';
@@ -1020,7 +1074,7 @@ try{
     combinedMode?loadCombined():fetchData(CONFIG,'question-bank'),
     caseMode||combinedMode?null:fetchData(CONFIG,'flag-remediation').catch(()=>null),
  ]);
- document.title=CONFIG.title;document.querySelector('.brand-sub').textContent=CONFIG.brand;document.querySelector('.brand').href=CONFIG.homeUrl;document.querySelector('#app-footer').textContent=CONFIG.footer;remediation=rem;bank=b.questions;cases=b.cases||[];retired=b.retired_questions||[];bankVersion=DATA_VERSION==='dev'?b.bank_version:DATA_VERSION;if(combinedMode)settings=combinedSettings();try{const saved=JSON.parse(localStorage.getItem(PREF_KEY)||'null');if(saved?.schema_version===1)settings=combinedMode?combinedSettings(saved):normalizeSettings(saved,bank);}catch{toast('Saved menu preferences could not be loaded.');}if(thirdPartyLink)settings={...settings,origin:'third_party',collection:'all',category:'all',filter:'all',skill:'all'};
+ document.title=CONFIG.title;document.querySelector('.brand-sub').textContent=CONFIG.brand;document.querySelector('.brand').href=CONFIG.homeUrl;const footerTitle=document.querySelector('#footer-title');if(footerTitle)footerTitle.textContent=CONFIG.footer;remediation=rem;bank=b.questions;cases=b.cases||[];retired=b.retired_questions||[];bankVersion=DATA_VERSION==='dev'?b.bank_version:DATA_VERSION;if(combinedMode)settings=combinedSettings();else if(caseMode)settings={...defaultSettings(),mode:'exam'};try{const saved=JSON.parse(localStorage.getItem(PREF_KEY)||'null');if(saved?.schema_version===1)settings=combinedMode?combinedSettings(saved):normalizeSettings(saved,bank);}catch{toast('Saved menu preferences could not be loaded.');}if(thirdPartyLink)settings={...settings,origin:'third_party',collection:'all',category:'all',filter:'all',skill:'all'};
  byId=Object.fromEntries(bank.map(q=>[q.question_id,q]));
  cases=cases.filter(c=>Array.isArray(c.question_ids)&&c.question_ids.length&&c.question_ids.every(id=>byId[id]));
  try{
@@ -1039,15 +1093,26 @@ try{
         }catch{toast('Earlier 3rd Party progress could not be loaded.');}
     }
     reconcileFlags(p,remediation);save();
- }catch{storageLocked=true;toast('Saved data could not be loaded. Export or reset it before saving new progress.');}Promise.all(STUDY_SECTIONS.map(sec=>fetchData(sec,'question-bank').then(d=>[sec.id,d?.questions?.length??0]).catch(()=>[sec.id,null]))).then(counts=>{
+ }catch{storageLocked=true;toast('Saved data could not be loaded. Export or reset it before saving new progress.');}
+ const applyNavCounts=countsMap=>{
     let totalAll=0;
-    for(const [id,n] of counts){
-        const link=document.querySelector(`#bank-switch a[data-nav-bank="${id}"]`);
-        if(!link||n===null)continue;
+    for(const sec of STUDY_SECTIONS){
+        const n=countsMap[sec.id];
+        const link=document.querySelector(`#bank-switch a[data-nav-bank="${sec.id}"]`);
+        if(!link||typeof n!=='number')continue;
         if(n>0){totalAll+=n;link.insertAdjacentHTML('beforeend',` <span class="tab-count">${n}</span>`);}
         else{link.classList.add('tab-empty');link.title='Coming soon — no questions loaded yet';}
     }
     const combLink=document.querySelector('#bank-switch a[data-nav-bank="combined"]');
     if(combLink&&totalAll>0)combLink.insertAdjacentHTML('beforeend',` <span class="tab-count">${totalAll}</span>`);
-});
+ };
+ if(combinedMode){
+    const localCounts=Object.fromEntries(STUDY_SECTIONS.map(sec=>[sec.id,bank.filter(q=>q.studySection===sec.id).length]));
+    applyNavCounts(localCounts);
+ }else{
+    fetch(`./data/section-counts.json?v=${DATA_VERSION}`).then(r=>r.ok?r.json():Promise.reject()).then(applyNavCounts).catch(()=>{
+        Promise.all(STUDY_SECTIONS.map(sec=>fetchData(sec,'question-bank').then(d=>[sec.id,d?.questions?.length??0]).catch(()=>[sec.id,null])))
+            .then(entries=>applyNavCounts(Object.fromEntries(entries)));
+    });
+ }
 bind('home',()=>{home();window.scrollTo(0,0);});bind('review',()=>{review();window.scrollTo(0,0);});bind('progress',()=>{progress();window.scrollTo(0,0);});home();}catch(e){root.innerHTML=`<div class="notice warning"><h2>The quiz could not load</h2><p>${esc(e.message)}</p><p>Use Start Quiz.command or serve this folder locally. Do not open index.html directly with a file URL.</p></div>`;}

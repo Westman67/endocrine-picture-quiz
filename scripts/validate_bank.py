@@ -32,7 +32,7 @@ def load(path: Path) -> Any:
 
 
 IMAGE_FIELDS = ("image", "zoom_image", "original_image")
-ASSET = re.compile(r"assets/(?:originals|display|zoom)/[a-f0-9]+(?:-[a-z0-9-]+)?\.(?:png|webp)")
+ASSET = re.compile(r"assets/(?:originals|display|zoom)/[a-z0-9]+(?:-[a-z0-9-]+)?\.(?:png|webp)")
 MAX_PUBLISHED_IMAGE_BYTES = 1024 * 1024
 
 

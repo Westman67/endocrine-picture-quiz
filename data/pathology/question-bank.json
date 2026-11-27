@@ -665,7 +665,7 @@
       "choice_rationales": [
         "Rathke cleft cyst histology shows ciliated columnar epithelium and goblet cells rather than autoimmune lymphoplasmacytic effacement.",
         "Sheehan syndrome causes bland ischemic coagulative necrosis following massive postpartum hemorrhage rather than a dense autoimmune lymphocytic infiltrate.",
-        "PitNETs consist of uniform sheets of neoplastic endocrine cells without dense inflammatory lymphocytic destruction.",
+        "A pituitary neuroendocrine tumor (PitNET) driven by clonal proliferation of monomorphic acidophils forms uniform sheets of neoplastic cells without dense inflammatory lymphocytic destruction.",
         "Dense lymphoplasmacytic infiltration in a peripartum woman with stalk thickening defines lymphocytic hypophysitis, which associates with Hashimoto thyroiditis and CTLA-4 inhibitors."
       ],
       "visual_clues": [
@@ -1000,7 +1000,7 @@
         "Vaptans antagonize principal-cell V₂ receptors to block AQP2 trafficking, increasing free-water excretion and normalizing serum Na⁺ in SIAD.",
         "V₁a receptors mediate vascular smooth muscle vasoconstriction rather than collecting duct AQP2 water channel insertion.",
         "Mineralocorticoid receptor antagonists (e.g., spironolactone) block aldosterone-driven ENaC Na⁺ reabsorption rather than ADH-driven AQP2 water channels.",
-        "V₂ agonists (like desmopressin) treat central DI and would worsen hyponatremia in SIAD."
+        "V₂ receptor agonism (e.g., desmopressin) accelerates aquaporin-2 (AQP2) insertion to treat central DI and would worsen hyponatremia in SIAD."
       ],
       "visual_clues": [
         "Basolateral receptor on a collecting duct principal cell blocked by the green antagonist (red X)",
@@ -1111,7 +1111,7 @@
         "Septo-optic dysplasia causes optic nerve hypoplasia, absent septum pellucidum, and GH deficiency rather than isolated anosmia with hypogonadotropic hypogonadism."
       ],
       "visual_clues": [
-        "Top blue box with developing neuron blocked by a bold red X before reaching the hypothalamic GnRH neuron",
+        "Top shaded panel with developing neuron blocked by a bold red X before reaching the hypothalamic GnRH neuron",
         "Downstream red X symbols interrupting GnRH portal signaling and pituitary FSHβ/LHβ release",
         "Target male and female gonads deprived of gonadotropin stimulation"
       ],
@@ -1731,7 +1731,16 @@
       "review_status": "approved",
       "case_context": null,
       "condition_name": "Papillary Thyroid Carcinoma",
-      "condition_overview": "Because papillary carcinoma is diagnosed by its nuclear cytology (Orphan Annie eyes, grooves, pseudoinclusions), fine-needle aspiration (FNA) readily diagnoses it—whereas follicular carcinoma requires surgical excision to demonstrate capsular or vascular invasion."
+      "condition_overview": "Because papillary carcinoma is diagnosed by its nuclear cytology (Orphan Annie eyes, grooves, pseudoinclusions), fine-needle aspiration (FNA) readily diagnoses it—whereas follicular carcinoma requires surgical excision to demonstrate capsular or vascular invasion.",
+      "choice_images": {
+        "1": [
+          {
+            "image": "assets/display/supp-bc-ptc-histology-68f913dba5af327f.webp",
+            "caption": "High-magnification papillary thyroid carcinoma histology showing classic overlapping optically clear nuclei ('Orphan Annie eyes')",
+            "source": "3rd party (Bootcamp Endocrinology)"
+          }
+        ]
+      }
     },
     {
       "question_id": "q-ex6-thyroid-synthesis-wolff-chaikoff",

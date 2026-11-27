@@ -182,7 +182,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "Hypophyseal portal vascular link vs neural link",
-      "stem": "Which functional consequence best distinguishes the masked vascular pathway on the left from the direct axonal tracts descending into the right lobe?",
+      "stem": "Which functional consequence best distinguishes the indicated vascular pathway on the left from the direct axonal tracts descending into the right lobe?",
       "options": [
         "Magnocellular neurons release vasopressin directly into portal veins",
         "Pituicytes synthesize tropic hormones for systemic venous drainage",
@@ -190,7 +190,7 @@
         "Hypothalamic releasing factors reach anterior pituitary endocrine cells"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. The masked label identifies the hypophyseal portal vein linking the hypothalamic capillary plexus to the anterior pituitary lobe. Step 2. This vascular link delivers hypothalamic releasing and inhibiting factors to anterior lobe secretory cells, whereas the posterior lobe relies on a direct neural link.",
+      "explanation": "Step 1. The indicated label identifies the hypophyseal portal vein linking the hypothalamic capillary plexus to the anterior pituitary lobe. Step 2. This vascular link delivers hypothalamic releasing and inhibiting factors to anterior lobe secretory cells, whereas the posterior lobe relies on a direct neural link.",
       "choice_rationales": [
         "Magnocellular neurons project their axons directly into the posterior pituitary (right lobe) to release vasopressin and oxytocin into systemic capillaries, not into the anterior portal vein.",
         "Pituicytes are supportive glial cells in the posterior lobe that do not synthesize anterior pituitary tropic hormones.",
@@ -238,7 +238,7 @@
       "study_skill": "mechanism",
       "question_type": "Molecular Diagram",
       "tested_concept": "Preprovasopressin processing and copeptin",
-      "stem": "Which circulating peptide corresponds to the masked C-terminal glycopeptide domain on the upper precursor, and why is it measured clinically?",
+      "stem": "Which circulating peptide corresponds to the indicated C-terminal glycopeptide domain on the upper precursor, and why is it measured clinically?",
       "options": [
         "Copeptin, released in equimolar amounts as a vasopressin surrogate",
         "C-peptide, released in equimolar amounts as an insulin surrogate",
@@ -250,7 +250,7 @@
       "choice_rationales": [
         "Copeptin occupies the glycosylated C-terminal segment of preprovasopressin and is co-secreted 1:1 with vasopressin, making it a clinical surrogate for ADH production.",
         "C-peptide is cleaved from proinsulin in pancreatic beta cells rather than from preprovasopressin in magnocellular neurons; a pancreatic secretory granule diagram would point to C-peptide.",
-        "Neurophysin I is the carrier segment of the lower oxytocin precursor, not the masked C-terminal glycopeptide on the vasopressin precursor.",
+        "Neurophysin I is the carrier segment of the lower oxytocin precursor, not the indicated C-terminal glycopeptide on the vasopressin precursor.",
         "Beta-lipotropin is a cleavage product of POMC in the anterior pituitary rather than a domain of preprovasopressin."
       ],
       "visual_clues": [
@@ -582,7 +582,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram (EXCEPT)",
       "tested_concept": "Thyroid peroxidase (TPO) three luminal roles",
-      "stem": "In this endocrine follicular cell diagram, ALL of the following luminal reactions are catalyzed by the masked apical enzyme EXCEPT:",
+      "stem": "In this endocrine follicular cell diagram, ALL of the following luminal reactions are catalyzed by the apical-border enzyme EXCEPT:",
       "options": [
         "Iodination of tyrosine residues along secreted thyroglobulin chains",
         "Coupling of iodinated tyrosine residues within the follicular colloid",
@@ -590,7 +590,7 @@
         "Oxidation of luminal iodide into reactive iodine inside the colloid"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. The masked blue oval at the apical-colloid border is thyroid peroxidase (TPO), whereas the masked basolateral channel on the left is NIS and the apical channel is pendrin. Step 2. TPO performs oxidation, iodination, and coupling inside the colloid, whereas basolateral iodide import is performed by NIS.",
+      "explanation": "Step 1. The apical-colloid enzyme is thyroid peroxidase (TPO), whereas basolateral iodide uptake is mediated separately by the sodium-iodide symporter (NIS). Step 2. TPO catalyzes luminal iodide oxidation, iodination (organification) of thyroglobulin tyrosine residues, and coupling of MIT/DIT into T₃ and T₄—not basolateral NIS uptake.",
       "choice_rationales": [
         "Thyroid peroxidase catalyzes the iodination (organification) of tyrosine residues on thyroglobulin inside the colloid.",
         "Thyroid peroxidase couples iodinated tyrosine residues on thyroglobulin inside the colloid to form T₄ and T₃ precursors.",
@@ -798,7 +798,7 @@
       "study_skill": "morphology",
       "question_type": "Histology + Physiology",
       "tested_concept": "Adrenal cortex zonation and trophic control",
-      "stem": "Following the three masked arrows from the capsule inward across the cortex in this adrenal section, which sequence correctly pairs each zone with its primary stimulus and hormone?",
+      "stem": "Following the three indicated arrows from the capsule inward across the cortex in this adrenal section, which sequence correctly pairs each zone with its primary stimulus and hormone?",
       "options": [
         "TSH→thyroxine; low calcium→PTH; elevated calcium→calcitonin",
         "Sympathetic ACh→epinephrine; ACTH→cortisol; Ang II→aldosterone",
@@ -1102,20 +1102,20 @@
       "study_skill": "morphology",
       "question_type": "Anatomy Diagram (3rd Party)",
       "tested_concept": "Sella turcica anatomy, optic chiasm, and portal stalk",
-      "stem": "In the right panel showing an enlarged pituitary mass rising out of the masked bony fossa (sella turcica), which anatomical relationship and vascular consequence best explain the clinical presentation of a sellar mass?",
+      "stem": "In the right panel showing an enlarged pituitary mass rising out of the sellar fossa, which anatomical relationship and vascular consequence best explain the clinical presentation of a sellar mass?",
       "options": [
         "Upward growth compresses the overlying optic chiasm while stalk compression disrupts portal transport",
-        "Inferior growth invades the thyroid isthmus while blocking basolateral sodium-iodide symporters",
-        "Posterior growth compresses the adrenal cortex while eliminating sinusoidal cortisol-driven PNMT",
-        "Lateral growth severs the third pharyngeal pouch while impairing chief cell calcium sensing"
+        "Downward erosion into the sphenoid sinus directly severs the optic radiations in the temporal lobe",
+        "Lateral extension into the cavernous sinus stimulates portal GHRH transport to boost anterior hormones",
+        "Posterior expansion against the dorsum sellae enhances hypothalamic dopamine delivery to lactotrophs"
       ],
       "correct_index": 0,
       "explanation": "Step 1. The middle and right panels contrast a normal pituitary nested inside the sella turcica against an enlarged mass rising superiorly against the overlying optic chiasm. Step 2. Upward expansion compresses the optic chiasm (causing bitemporal hemianopsia) and can compromise the infundibular stalk carrying the hypophyseal portal vessels.",
       "choice_rationales": [
-        "The pituitary sits in the sella turcica directly below the optic chiasm; upward mass expansion compresses the chiasm and disrupts hypothalamic-pituitary portal communication down the stalk.",
-        "The thyroid lies in the anterior neck rather than inside the cranial sella turcica; an anterior neck midline schematic would match thyroid anatomy.",
-        "The adrenal glands are retroperitoneal organs atop the kidneys, anatomically distant from the cranial sella turcica and optic chiasm.",
-        "Parathyroid chief cells develop from the third and fourth pharyngeal pouches in the neck rather than residing beneath the optic chiasm."
+        "Suprasellar extension compresses crossing nasal retinal fibers at the optic chiasm (bitemporal hemianopia) while pituitary stalk compression interrupts hypophyseal portal hormone delivery.",
+        "Inferior erosion enters the sphenoid sinus below the sella rather than severing the temporal-lobe optic radiations, which course far posteriorly and laterally.",
+        "Cavernous sinus invasion compresses cranial nerves III, IV, V₁/V₂, and VI and the internal carotid artery rather than stimulating portal GHRH transport.",
+        "Stalk or suprasellar compression blocks—rather than enhances—hypothalamic dopamine delivery down the portal vessels, disinhibiting lactotrophs (stalk effect)."
       ],
       "visual_clues": [
         "Middle panel shows normal pituitary beneath the chiasm; right panel shows an enlarged pituitary mass rising out of the sella turcica against the chiasm."
@@ -1162,7 +1162,7 @@
       "study_skill": "mechanism",
       "question_type": "Embryology Diagram (3rd Party)",
       "tested_concept": "Embryonic thyroid descent and congenital hypothyroidism",
-      "stem": "In this embryonic schematic of thyroid descent from the tongue (foramen cecum) to the anterior neck, what clinical consequence did the E1 lecturer emphasize if thyroid descent arrests along the masked tract?",
+      "stem": "In this embryonic schematic of thyroid descent from the tongue (foramen cecum) to the anterior neck, what clinical consequence did the E1 lecturer emphasize if thyroid descent arrests along this migration tract?",
       "options": [
         "Medullary thyroid carcinoma from neural crest arrest in the hyoid",
         "Congenital hypothyroidism because ectopic arrested tissue fails to function",
@@ -1170,11 +1170,11 @@
         "Central diabetes insipidus from failure of neurohypophyseal outgrowth"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. The schematic traces midline thyroid descent from the foramen cecum at the base of the tongue past the hyoid via the thyroglossal duct. Step 2. As emphasized in E1 Tran1 (p.11), thyroid tissue that becomes arrested along its descent from the tongue fails to function normally, causing congenital hypothyroidism.",
+      "explanation": "Step 1. The schematic traces midline thyroid descent from the foramen cecum at the base of the tongue past the hyoid via the thyroglossal duct. Step 2. As emphasized in E1 Tran1, thyroid tissue that becomes arrested along its descent from the tongue fails to function normally, causing congenital hypothyroidism.",
       "choice_rationales": [
-        "Medullary thyroid carcinoma arises from parafollicular C cells (which E1 p.24 notes are now considered endodermal, not neural crest).",
+        "Medullary thyroid carcinoma arises from parafollicular C cells (which lecture notes are now considered endodermal, not neural crest).",
         "Arrest of embryonic thyroid migration along the thyroglossal tract produces non-functioning ectopic tissue and congenital hypothyroidism.",
-        "Parathyroid glands derive from the 3rd and 4th pharyngeal pouches rather than descending from the foramen cecum.",
+        "Primary hyperparathyroidism from ectopic chief cell hyperplasia involves parathyroid glands derived from the 3rd and 4th pharyngeal pouches, not thyroid descent from the foramen cecum.",
         "Central diabetes insipidus reflects impaired hypothalamic-neurohypophyseal vasopressin synthesis rather than thyroid descent arrest."
       ],
       "visual_clues": [
@@ -1382,7 +1382,7 @@
         "Both Statement 1 and Statement 2 are false"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. The diagram shows a peripheral gland hormone feeding back negatively (red minus signs) on both the pituitary and hypothalamus—a classic closed-loop long-loop negative feedback axis. Step 2. By E2 p.20, negative closed-loop feedback maintains constancy, whereas open-loop control is independent of output and is often a sign of pathology.",
+      "explanation": "Step 1. The diagram shows a peripheral gland hormone feeding back negatively (red minus signs) on both the pituitary and hypothalamus—a classic closed-loop long-loop negative feedback axis. Step 2. By, negative closed-loop feedback maintains constancy, whereas open-loop control is independent of output and is often a sign of pathology.",
       "choice_rationales": [
         "Statement 1 accurately describes closed-loop long-loop negative feedback shown by the inhibitory arrows, while Statement 2 is false because open-loop control is independent of output and often signals pathology.",
         "Statement 1 is directly supported by the inhibitory feedback arrows in the diagram, and Statement 2 misdefines open-loop control as normal closed-loop feedback.",
@@ -1442,7 +1442,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "GPCR activation cycle and G-alpha GTPase reversibility",
-      "stem": "In this transmembrane receptor cycle, what enzymatic activity at the two masked sites terminates signaling and restores the inactive complex?",
+      "stem": "In this transmembrane receptor cycle, what enzymatic activity at the two indicated sites terminates signaling and restores the inactive complex?",
       "options": [
         "Phosphodiesterase hydrolyzing cyclic AMP into inactive 5′-AMP",
         "Receptor trans-autophosphorylation recruiting SH2 adaptor proteins",
@@ -1450,7 +1450,7 @@
         "Extracellular ligand protease cleaving agonist off the GPCR"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Moving from the middle ACTIVE state to the bottom INACTIVE state releases Pi, converts Gα-GTP back to Gα-GDP, and reassociates Gα with Gβγ. Step 2. Per E3 p.6 & Tran p.3, this reversibility is driven by the intrinsically weak Gα-GTPase activity, whose rate sets the duration of GPCR signal activation.",
+      "explanation": "Step 1. Moving from the middle ACTIVE state to the bottom INACTIVE state releases Pi, converts Gα-GTP back to Gα-GDP, and reassociates Gα with Gβγ. Step 2. Per & Tran p.3, this reversibility is driven by the intrinsically weak Gα-GTPase activity, whose rate sets the duration of GPCR signal activation.",
       "choice_rationales": [
         "Phosphodiesterase terminates downstream cAMP accumulation rather than directly hydrolyzing GTP on the Gα subunit; a cAMP-to-5′-AMP diagram would point to PDE.",
         "Trans-autophosphorylation and SH2 adaptor recruitment are hallmarks of receptor tyrosine kinases rather than seven-pass GPCRs.",
@@ -1506,7 +1506,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "cAMP/PKA signal integration and PDE termination",
-      "stem": "In this intracellular signaling diagram, pharmacologic inhibition of the masked yellow diamond enzyme produces which immediate downstream effect?",
+      "stem": "In this intracellular signaling diagram, pharmacologic inhibition of Enzyme X produces which immediate downstream effect?",
       "options": [
         "Blocked conversion of ATP to cAMP by membrane adenylate cyclase",
         "Prevented dissociation of inhibitory Gαi from beta-gamma",
@@ -1514,12 +1514,12 @@
         "Prolonged elevation of cAMP and sustained PKA/CREB activation"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. The masked yellow diamond catalyzes the conversion of cAMP into 5′-AMP—that enzyme is phosphodiesterase (PDE). Step 2. Inhibiting PDE blocks cAMP breakdown, prolonging cAMP accumulation and downstream PKA/CREB signaling.",
+      "explanation": "Step 1. Enzyme X catalyzes the hydrolysis of cAMP into 5′-AMP—that enzyme is phosphodiesterase (PDE). Step 2. Inhibiting PDE prevents cAMP breakdown, elevating intracellular cAMP and sustaining PKA activation and CREB-mediated gene transcription.",
       "choice_rationales": [
-        "Adenylate cyclase (AC, shown at the membrane) synthesizes cAMP from ATP; blocking AC—not the masked cytosolic enzyme—would prevent cAMP formation.",
+        "Adenylate cyclase (AC, shown at the membrane) synthesizes cAMP from ATP; blocking AC—not Enzyme X (PDE)—would lower cAMP.",
         "Gαi dissociation is triggered by ligand binding to the inhibitory GPCR at the top right, upstream of cAMP hydrolysis.",
         "PIP₂ cleavage into IP₃ and DAG is catalyzed by phospholipase C-beta in the Gαq pathway rather than by the cAMP/PKA pathway.",
-        "The masked enzyme is phosphodiesterase (PDE), which degrades cAMP to 5′-AMP; inhibiting it sustains elevated cAMP and PKA/CREB activity."
+        "Enzyme X is phosphodiesterase (PDE), which degrades cAMP to 5′-AMP; inhibiting it sustains cAMP-driven PKA activation rather than blocking receptor-G protein coupling."
       ],
       "visual_clues": [
         "Phosphodiesterase (PDE) sits on the cytosolic arrow hydrolyzing orange cAMP circles into inactive 5′-AMP, while Gαs and Gαi converge oppositely on adenylate cyclase (AC)."
@@ -1574,7 +1574,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "Gαq PLC-beta and IP3/DAG/Ca2+ convergence on PKC",
-      "stem": "In this membrane signaling pathway, which pair of enzymes corresponds to the masked green membrane effector (left) and the masked brown cytosolic kinase (right)?",
+      "stem": "In this membrane signaling pathway, which pair of enzymes corresponds to Effector A (green membrane enzyme, left) and Kinase B (brown cytosolic kinase, right)?",
       "options": [
         "Phospholipase C-beta (PLCβ) and protein kinase C (PKC)",
         "Adenylate cyclase (AC) and cAMP-dependent protein kinase A (PKA)",
@@ -1642,7 +1642,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "RTK Ras/MAPK cascade and GAP feedback regulation",
-      "stem": "In this receptor tyrosine kinase pathway, loss-of-function of the masked green regulator (left of the receptor tail) would have which direct effect on Ras signaling?",
+      "stem": "In this receptor tyrosine kinase pathway, loss-of-function of the indicated green regulator (left of the receptor tail) would have which direct effect on Ras signaling?",
       "options": [
         "Inhibition of ERK nuclear translocation across the nuclear envelope",
         "Impaired GTP hydrolysis, locking Ras in its active GTP-bound state",
@@ -1650,7 +1650,7 @@
         "Failure of GNRP (SOS) to load GTP onto inactive GDP-bound Ras"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. The masked green protein binds a phosphorylated tyrosine on the RTK and points directly to the arrow converting active Ras-GTP back into inactive Ras-GDP. Step 2. That regulator is GAP (GTPase-activating protein), which stimulates GTP hydrolysis to shut off Ras and control RTK signal strength and duration.",
+      "explanation": "Step 1. The indicated green protein binds a phosphorylated tyrosine on the RTK and points directly to the arrow converting active Ras-GTP back into inactive Ras-GDP. Step 2. That regulator is GAP (GTPase-activating protein), which stimulates GTP hydrolysis to shut off Ras and control RTK signal strength and duration.",
       "choice_rationales": [
         "ERK nuclear translocation occurs at the bottom of the MAPK cascade downstream of Ras, Raf, and MEK.",
         "GAP stimulates Ras GTP hydrolysis to return Ras-GTP to inactive Ras-GDP; losing GAP prolongs active Ras-GTP signaling to Raf/MEK/ERK.",
@@ -1706,18 +1706,18 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram (INCORRECT)",
       "tested_concept": "Insulin/IGF1 IRS branching (PI3K/AKT vs MAPK)",
-      "stem": "In this receptor signaling diagram, which functional statement comparing the masked left kinase branch against the right branch is INCORRECT?",
+      "stem": "In this receptor signaling diagram, which functional statement comparing the indicated left kinase branch against the right branch is INCORRECT?",
       "options": [
         "AKT regulates mTOR (translation/autophagy) and FOXO (metabolic stress)",
-        "The masked left branch converts membrane PIP₂ into PIP₃ to activate PDK1",
+        "The indicated left branch converts membrane PIP₂ into PIP₃ to activate PDK1",
         "The right GRB2/SOS/MAPK branch mediates insulin's primary metabolic effects",
         "IRS serves as a tyrosine-phosphorylated docking platform for both branches"
       ],
       "correct_index": 2,
-      "explanation": "Step 1. Autophosphorylated INSR/IGF1R phosphorylates IRS, which branches left through PI3K/PIP₃/PDK1/AKT/mTOR and right through GRB2/SOS/Ras/Raf/MEK/ERK. Step 2. Per E3 p.11 & Tran p.4, the PI3K/AKT branch mediates insulin's primary metabolic actions, whereas the GRB2/SOS/MAPK branch regulates cell growth and differentiation.",
+      "explanation": "Step 1. Autophosphorylated INSR/IGF1R phosphorylates IRS, which branches left through PI3K/PIP₃/PDK1/AKT/mTOR and right through GRB2/SOS/Ras/Raf/MEK/ERK. Step 2. Per & Tran p.4, the PI3K/AKT branch mediates insulin's primary metabolic actions, whereas the GRB2/SOS/MAPK branch regulates cell growth and differentiation.",
       "choice_rationales": [
-        "AKT does regulate both mTOR (translation and autophagy) and FOXO (metabolic stress response), as stated in E3 p.11.",
-        "The masked enzyme (PI3K) converts PIP₂ into PIP₃ to recruit and activate PDK1 and AKT, as depicted directly in the diagram.",
+        "AKT does regulate both mTOR (translation and autophagy) and FOXO (metabolic stress response), as stated.",
+        "The indicated enzyme (PI3K) converts PIP₂ into PIP₃ to recruit and activate PDK1 and AKT, as depicted directly in the diagram.",
         "This statement is INCORRECT (making it the keyed answer): the left PI3K/AKT branch—not the right MAPK branch—mediates insulin/IGF1's primary metabolic actions, whereas MAPK drives growth and differentiation.",
         "IRS is indeed a large adaptor phosphorylated on multiple tyrosine residues to dock both PI3K and GRB2."
       ],
@@ -1770,7 +1770,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "JAK-STAT cytokine receptor signaling",
-      "stem": "In this cytokine receptor cascade, what is the role of the masked orange intracellular kinases associated with the dimerized receptor chains?",
+      "stem": "In this cytokine receptor cascade, what is the role of the indicated orange intracellular kinases associated with the dimerized receptor chains?",
       "options": [
         "Cleave membrane PIP₂ into IP₃ and DAG to release endoplasmic reticulum Ca²⁺",
         "Release heat shock protein 90 to unmask a cytosolic nuclear localization signal",
@@ -1778,7 +1778,7 @@
         "Trans-phosphorylate each other and receptor tails to recruit and activate STAT"
       ],
       "correct_index": 3,
-      "explanation": "Step 1. Cytokine binding dimerizes two receptor chains, bringing the masked orange kinases together so they become phosphorylated and subsequently phosphorylate green STAT proteins that dimerize and enter the nucleus. Step 2. Those kinases are JAKs (Janus kinases), which trans-phosphorylate each other and the receptor to create docking sites and phosphorylate STAT transcription factors.",
+      "explanation": "Step 1. Cytokine binding dimerizes two receptor chains, bringing the indicated orange kinases together so they become phosphorylated and subsequently phosphorylate green STAT proteins that dimerize and enter the nucleus. Step 2. Those kinases are JAKs (Janus kinases), which trans-phosphorylate each other and the receptor to create docking sites and phosphorylate STAT transcription factors.",
       "choice_rationales": [
         "PIP₂ cleavage into IP₃ and DAG is catalyzed by Gαq-activated PLCβ at a seven-pass GPCR; seeing a heterotrimeric G protein and ER Ca²⁺ channels would make this mechanism correct.",
         "HSP90 dissociation unmasking a nuclear localization signal occurs on cytosolic steroid receptors (like GR) rather than dimerized transmembrane cytokine receptors.",
@@ -1834,7 +1834,7 @@
       "study_skill": "mechanism",
       "question_type": "Pathway Diagram",
       "tested_concept": "TGF-beta serine/threonine kinase and Smad activation",
-      "stem": "In the signaling cascade shown, after the ligand-bound receptor heterodimer activates its partner chain, which masked transcription factor family is directly phosphorylated to regulate gene expression?",
+      "stem": "In the signaling cascade shown, after the ligand-bound receptor heterodimer activates its partner chain, which indicated transcription factor family is directly phosphorylated to regulate gene expression?",
       "options": [
         "Smad transcription factors that complex and translocate to the nucleus",
         "CREB transcription factors phosphorylated by cytosolic protein kinase A",
@@ -1842,7 +1842,7 @@
         "STAT dimers phosphorylated by cytokine-associated Janus kinases"
       ],
       "correct_index": 0,
-      "explanation": "Step 1. Panels A and B show TGF-β/activin/BMP ligands assembling type II and type I receptor dimers, followed by phosphorylation of the masked green cytosolic proteins that pair with a yellow partner and enter the nucleus. Step 2. Activated type I serine/threonine kinase receptors phosphorylate Smad family transcription factors (Smad 2/3 or Smad 1/5 pairing with Smad 4).",
+      "explanation": "Step 1. Panels A and B show TGF-β/activin/BMP ligands assembling type II and type I receptor dimers, followed by phosphorylation of the indicated green cytosolic proteins that pair with a yellow partner and enter the nucleus. Step 2. Activated type I serine/threonine kinase receptors phosphorylate Smad family transcription factors (Smad 2/3 or Smad 1/5 pairing with Smad 4).",
       "choice_rationales": [
         "Activated type I TGF-β receptors phosphorylate Smad transcription factors (Smad 2/3 or 1/5), which complex with Smad 4 and translocate to the nucleus.",
         "CREB is phosphorylated by cAMP-activated PKA downstream of a seven-pass GPCR, whereas this figure depicts single-pass Type II and Type I catalytic receptor dimers.",
@@ -1901,12 +1901,12 @@
       "stem": "In this intracellular nuclear receptor model, what happens immediately after the yellow hormone (G) binds the receptor's steroid-binding domain?",
       "options": [
         "Type II receptor phosphorylates the zinc-finger domain at the membrane",
-        "The masked chaperone releases, exposing the hinge NLS for nuclear entry",
+        "The indicated chaperone releases, exposing the hinge NLS for nuclear entry",
         "The receptor activates adenylate cyclase to elevate cytosolic cAMP",
         "Gα-GTP dissociates from beta-gamma to open ER calcium channels"
       ],
       "correct_index": 1,
-      "explanation": "Step 1. In the unliganded cytosolic state, the masked dark-blue chaperone sits over the receptor; after hormone G binds, the chaperone dissociates and the receptor dimerizes on nuclear DNA (GRE). Step 2. Per E3 p.14, heat shock proteins (HSP90) cover the nuclear localization signal (NLS) in the hinge region until hormone binding triggers a conformational change releasing HSP and permitting nuclear entry.",
+      "explanation": "Step 1. In the unliganded cytosolic state, the indicated dark-blue chaperone sits over the receptor; after hormone G binds, the chaperone dissociates and the receptor dimerizes on nuclear DNA (GRE). Step 2., heat shock proteins (HSP90) cover the nuclear localization signal (NLS) in the hinge region until hormone binding triggers a conformational change releasing HSP and permitting nuclear entry.",
       "choice_rationales": [
         "Type II receptor phosphorylation of a partner chain describes transmembrane TGF-β serine/threonine kinase heterodimers, not cytosolic steroid hormone receptors.",
         "Hormone binding causes a conformational change that releases HSP90 from the hinge region, unmasking the nuclear localization signal (NLS) so the hormone-receptor complex enters the nucleus.",
@@ -1960,10 +1960,10 @@
       "correct_index": 2,
       "explanation": "Step 1. In the left panel, SERM competitively blocks E2 and allows ERα dimerization on ERE while blocking co-activator recruitment (flat red bar). Step 2. In the right panel, the glowing ERα Y537S gain-of-function mutant is constitutively active and has reduced affinity for SERM binding, driving persistent CoReg recruitment and cell proliferation despite endocrine therapy.",
       "choice_rationales": [
-        "Per E3 p.18, SERM-bound wild-type ERα CAN still dimerize and bind chromatin (shown at bottom left)—SERMs instead block co-activator recruitment.",
+        ", SERM-bound wild-type ERα CAN still dimerize and bind chromatin (shown at bottom left)—SERMs instead block co-activator recruitment.",
         "Progestins bind progesterone receptors (PR) and do not enzymatically convert SERMs into estrogen agonists.",
         "ERα Y537S is a gain-of-function mutation that is constitutively active and exhibits reduced SERM affinity, rendering cells resistant to SERM endocrine therapy.",
-        "Misfolding and impaired plasma membrane trafficking describe loss-of-function seven-pass GPCR mutations (such as FSHR/LHCGR on E3 p.17), not nuclear ERα Y537S."
+        "Misfolding and impaired plasma membrane trafficking describe loss-of-function seven-pass GPCR mutations (such as FSHR/LHCGR), not nuclear ERα Y537S."
       ],
       "visual_clues": [
         "Left panel shows SERM blocking E2 and halting ERE activation; right panel shows glowing ERα Y537S driving ERE/PRE transcription and proliferation."
@@ -2004,7 +2004,7 @@
       "study_skill": "interpretation",
       "question_type": "Table completion",
       "tested_concept": "Peptide vs steroid hormone transport, half-life, and spare receptors",
-      "stem": "In this E2 comparison table of hormone classes, which set of properties correctly fills the three masked cells for a classic steroid hormone?",
+      "stem": "In this E2 comparison table of hormone classes, which set of properties correctly fills the three indicated cells for a classic steroid hormone?",
       "options": [
         "Free in blood; short (minutes); spare receptors",
         "Carrier proteins; short (minutes); spare receptors",
@@ -2130,8 +2130,8 @@
       "explanation": "Step 1. At equilibrium, [H] = Kd x ([RH] / [R_free]) = Kd x (Bound / Free). Step 2. With 500 bound and 2,000 free receptors after up-regulation, [H] = Kd x (500 / 2,000) = 0.25 × Kd, demonstrating increased target-cell sensitivity without changing Kd.",
       "choice_rationales": [
         "Substituting Bound = 500 and Free = 2,000 into [H] = Kd x (Bound/Free) yields [H] = (500/2,000) × Kd = 0.25 × Kd, showing higher sensitivity.",
-        "5.0 × Kd corresponds to receptor down-regulation to 600 total receptors (500 bound / 100 free = 5 × Kd); down-regulation instead of up-regulation would make 5.0 × Kd correct.",
-        "1.0 × Kd applies to the baseline state (500 bound / 500 free) before up-regulation expands the pool of free receptors.",
+        "5.0 × Kd (5-fold higher hormone concentration required) corresponds to receptor down-regulation to 600 total receptors (500 bound / 100 free = 5 × Kd), not up-regulation to 2,500.",
+        "1.0 × Kd (unchanged hormone concentration required) applies to the baseline state (500 bound / 500 free) before up-regulation expands the free receptor pool.",
         "2.5 × Kd multiplies Kd by the fold increase in total receptors rather than dividing Bound by Free receptors."
       ],
       "visual_clues": [],
@@ -2178,7 +2178,7 @@
       "explanation": "Step 1. Seven-pass transmembrane GPCRs (FSHR and LHCGR) require accurate protein folding and trafficking to orient properly in the plasma membrane, so misfolding mutations cause loss-of-function disease. Step 2. In wild-type ERα cells, SERM-bound ERα can still dimerize and bind chromatin, but SERMs block recruitment of the co-activators required for transcription.",
       "choice_rationales": [
         "Statement 1 is true (misfolding/trafficking defects cause GPCR loss-of-function), while Statement 2 is false because SERM-bound WT ERα still dimerizes and binds chromatin while blocking co-activators.",
-        "Statement 1 is directly confirmed by E3 p.17, whereas Statement 2 contradicts E3 p.18 mechanism of SERM inhibition.",
+        "Statement 1 is directly confirmed by, whereas Statement 2 contradicts mechanism of SERM inhibition.",
         "Statement 2 is false: SERMs do not prevent ERα dimerization or chromatin binding; they block co-activator recruitment.",
         "Statement 1 is true because accurate folding and trafficking of 7-TM hydrophobic alpha-helices are required for GPCR membrane localization."
       ],
@@ -2215,7 +2215,7 @@
       "study_skill": "mechanism",
       "question_type": "Table completion",
       "tested_concept": "Anterior pituitary cell types and inhibitory dopamine regulation of lactotrophs",
-      "stem": "In this E1 table of anterior pituitary endocrine cells and their hypothalamic control, which cell-hormone-regulator pairing correctly fills the masked row?",
+      "stem": "In this E1 table of anterior pituitary endocrine cells and their hypothalamic control, which cell-hormone-regulator pairing correctly fills the indicated row?",
       "options": [
         "Thyrotropes | ACTH | CRH (+)",
         "Lactotrophs | Prolactin | Dopamine (−)",
@@ -2328,9 +2328,9 @@
       "explanation": "Step 1. E1 explicitly highlights updated literature showing that both medial and lateral thyroid anlagen—including parafollicular (C) cells—arise from endoderm, superseding the older neural crest theory for exams. Step 2. E1 links thyroid follicular cells to papillary and follicular carcinomas and parafollicular (C) cells to medullary thyroid carcinoma.",
       "choice_rationales": [
         "Both statements match E1 lecture emphasis verbatim: C cells are endodermal on updated embryologic evidence, and medullary carcinoma arises from C cells while papillary and follicular cancers arise from follicular cells.",
-        "Statement 2 is also true: E1 p.27 explicitly pairs papillary and follicular cancers with follicular cells and medullary cancer with parafollicular C cells.",
-        "Statement 1 is also true: E1 p.24 and the E1 emphasis ledger specifically instruct using the updated endodermal origin of C cells for examinations.",
-        "Both statements are directly supported by E1 p.24 and p.27 rather than contradicted by lecture."
+        "Statement 2 is also true: explicitly pairs papillary and follicular cancers with follicular cells and medullary cancer with parafollicular C cells.",
+        "Statement 1 is also true: and the E1 emphasis ledger specifically instruct using the updated endodermal origin of C cells for examinations.",
+        "Both statements are directly supported by and p.27 rather than contradicted by lecture."
       ],
       "visual_clues": [],
       "visual_target": "Two-statement conceptual evaluation of E1 thyroid embryology and carcinoma lineage (p.24, p.27).",
@@ -2376,8 +2376,8 @@
       "explanation": "Step 1. Although endocrine hormones travel in the bloodstream to all perfused organs, a cell qualifies as a target tissue only if it expresses specific high-affinity receptors for that hormone. Step 2. E2 also emphasizes pleiotropic actions (insulin acting on both glucagon secretion and glucose metabolism) and on-demand steroid synthesis without storage granules.",
       "choice_rationales": [
         "High-affinity receptors enable target tissues to respond specifically to hormones circulating at very low concentrations (10⁻⁶ to 10⁻¹⁵ M).",
-        "E2 p.15 specifically cites insulin as having both paracrine actions on glucagon secretion and metabolic effects on glucose.",
-        "E2 p.18 emphasizes that steroid hormones have no secretory storage granules, so synthesis rate is directly proportional to secretory rate.",
+        "specifically cites insulin as having both paracrine actions on glucagon secretion and metabolic effects on glucose.",
+        "emphasizes that steroid hormones have no secretory storage granules, so synthesis rate is directly proportional to secretory rate.",
         "This statement is false (making it the correct EXCEPT choice): blood delivers hormones broadly, but a cell is a target tissue only if it expresses specific receptors for that hormone."
       ],
       "visual_clues": [],
@@ -3363,7 +3363,7 @@
         "This describes acidemia (left panel), where excess H⁺ displaces Ca²⁺ off albumin and raises free ionized Ca²⁺.",
         "Reduced H⁺ in alkalemia exposes more anionic albumin binding sites for Ca²⁺, lowering free ionized Ca²⁺ and triggering acute tetany despite normal total calcium.",
         "Acute hyperventilation does not degrade albumin; it shifts the equilibrium between albumin-bound and free ionized Ca²⁺.",
-        "Vitamin D 1α-hydroxylation operates over hours to days and cannot explain rapid-onset tetany during acute hyperventilation."
+        "Alkalemia does not acutely block renal 1α-hydroxylase or halt intestinal calcium absorption within minutes; acute tetany during hyperventilation reflects immediate albumin-binding shifts."
       ],
       "visual_clues": [
         "Left (Acidemia): three H⁺ ions occupying albumin sites, leaving more free Ca²⁺ in solution",
@@ -3414,7 +3414,7 @@
       "explanation": "Step 1. Cutaneous and dietary vitamin D undergoes hepatic 25-hydroxylation to 25-(OH)D (calcidiol, A), followed by tightly regulated renal proximal-tubule 1α-hydroxylation to active 1,25-(OH)₂D (calcitriol, B). Step 2. In chronic kidney disease, loss of renal 1α-hydroxylase (plus hyperphosphatemia) drops calcitriol (B), reducing gut Ca²⁺ absorption and driving hypocalcemia and compensatory secondary hyperparathyroidism.",
       "choice_rationales": [
         "7-dehydrocholesterol is the skin precursor converted by UV light, and calcitonin is secreted by thyroid C cells rather than the kidney.",
-        "This swaps the liver and kidney metabolites: 25-(OH)D is made in the liver (A) and active 1,25-(OH)₂D is made in the kidney (B).",
+        "Step A produces storage 25-(OH)D via hepatic 25-hydroxylase (which remains intact in CKD), whereas CKD impairs renal 1α-hydroxylase at Step B to reduce active calcitriol (1,25-(OH)₂D).",
         "The liver generates storage 25-(OH)D (A) and the kidney activates it via 1α-hydroxylase to 1,25-(OH)₂D (B); CKD impairs step B, causing hypocalcemia and secondary hyperparathyroidism.",
         "CKD causes calcitriol deficiency and hypocalcemia (not calcitriol excess and hypercalcemia)."
       ],
@@ -3846,9 +3846,9 @@
         "Phosphate excretion (PTH), iodide trapping (TSH), and prolactin inhibition (D₂) belong to other endocrine axes."
       ],
       "visual_clues": [
-        "Row 1 (V1): Vascular smooth muscle, platelets, and hepatocyte",
-        "Row 2 (V2): Distal tubule and collecting duct of the kidney",
-        "Row 3 (V3 / V1b): Anterior pituitary corticotrophs"
+        "Row 1 (V₁): Vascular smooth muscle, platelets, and hepatocyte",
+        "Row 2 (V₂): Distal tubule and collecting duct of the kidney",
+        "Row 3 (V₃ / V₁b): Anterior pituitary corticotrophs"
       ],
       "visual_target": "V1, V2, and V3 (V1b) vasopressin receptor functions",
       "joint_panels": [],
@@ -3950,7 +3950,7 @@
         "Curve B: primary polydipsia (medullary washout); Curve C: diabetes insipidus — urine osmolality roughly doubles in AVP deficiency",
         "Curve B: complete AVP resistance; Curve C: primary polydipsia — urine osmolality stays flat in AVP deficiency",
         "Curve B: SIADH; Curve C: normal renal response — urine osmolality drops by half after aqueous vasopressin",
-        "Curve B: osmotic diuresis from hyperglycemia; Curve C: normal response — aqueous vasopressin has no effect"
+        "Curve B: osmotic diuresis from hyperglycemia; Curve C: normal response — aqueous vasopressin fails to concentrate urine"
       ],
       "correct_index": 0,
       "explanation": "Step 1. Normal kidneys concentrate steeply above 280 mOsm/kg (solid white curve), whereas habitual excessive drinking washes out the renal medullary gradient, producing an intermediate blunted curve in primary polydipsia (Curve B, dotted). Step 2. Diabetes insipidus stays flat below 300 mOsm/kg despite serum osmolality >300 mOsm/kg (Curve C, dashed); administering aqueous vasopressin at the yellow arrow roughly doubles urine osmolality within 1 hour in AVP deficiency (central DI) but produces little/no rise in AVP resistance (nephrogenic DI).",
@@ -4065,7 +4065,7 @@
         "Effect 1: blocks hepatic clearance of cortisol; Effect 2: activates V₃ ACTH release — avoid all dietary sodium",
         "Effect 1: selective V₁ pressor agonist; Effect 2: shortens half-life to 2 minutes — encourage unlimited free water intake",
         "Effect 1: half-life 5 min → 12 h; Effect 2: selective V₂ agonist — must restrict fluid (~1 L/m²/d) with daily urine breakthrough",
-        "Effect 1: enables oral absorption only; Effect 2: blocks collecting-duct AQP2 — treat with hypertonic saline"
+        "Effect 1: enables oral absorption; Effect 2: blocks collecting-duct AQP2 — treat with hypertonic saline"
       ],
       "correct_index": 2,
       "explanation": "Step 1. Deaminating Cys¹ blocks aminopeptidase cleavage, extending half-life from ~5 minutes to ~12 hours (Effect 1), while substituting D-Arg⁸ confers selective V₂ antidiuretic agonism with minimal V₁ vasoconstriction (Effect 2). Step 2. Because desmopressin locks the kidneys into maximal urine concentration, fluid intake MUST be restricted (~1 L/m²/day) and doses timed to allow daily dilute urine breakthrough—otherwise water retention causes severe hyponatremia.",

@@ -1,13 +1,15 @@
 import {execFile} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import {promisify} from 'node:util';
 
 const root = path.resolve(import.meta.dirname, '..');
 const out = path.resolve(process.env.DIST_DIR || path.join(root, 'dist'));
-const runtime = ['index.html', 'app.js', 'engine.js', 'bank-config.js', 'progress-migration.js', 'styles.css', 'sw.js', 'manifest.webmanifest'];
+const runtime = ['index.html', 'app.js', 'engine.js', 'bank-config.js', 'progress-migration.js', 'styles.css', 'sw.js', 'manifest.webmanifest', 'icon.svg'];
 const dataNames = ['question-bank.json', 'source-manifest.json', 'coverage.json', 'flag-remediation.json'];
+const sectionIds = ['physiology', 'pathology', 'pharmacology', 'clinical-cases'];
 const assetPath = /^assets\/(?:originals|display|zoom)\/[a-z0-9]+(?:-[a-z0-9-]+)?\.(?:png|webp)$/;
 const maxImageBytes = 1024 * 1024;
 const run = promisify(execFile);
@@ -30,7 +32,6 @@ async function writeImage({input, output, convert}, staging) {
     const dest = path.join(staging, output);
     fs.mkdirSync(path.dirname(dest), {recursive: true});
     if (convert) {
-        // cwebp preserves the aspect ratio when one dimension is zero.
         const header = fs.readFileSync(input);
         const dims = input.endsWith('.png')
             ? [header.readUInt32BE(16), header.readUInt32BE(20)]
@@ -55,6 +56,8 @@ async function writeImage({input, output, convert}, staging) {
 }
 
 const data = new Map();
+const sectionCounts = {};
+let totalQuestions = 0;
 for (const folder of ['data', ...fs.readdirSync(path.join(root, 'data'), {withFileTypes: true})
     .filter(entry => entry.isDirectory()).map(entry => `data/${entry.name}`).sort()]) {
     for (const name of dataNames) {
@@ -62,11 +65,21 @@ for (const folder of ['data', ...fs.readdirSync(path.join(root, 'data'), {withFi
         const file = path.join(root, relative);
         if (!fs.existsSync(file)) continue;
         const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
-        if (name === 'question-bank.json') delete raw.bank_version;
+        if (name === 'question-bank.json') {
+            delete raw.bank_version;
+            const sec = folder.startsWith('data/') ? folder.slice(5) : null;
+            if (sec && sectionIds.includes(sec)) {
+                const n = Array.isArray(raw.questions) ? raw.questions.length : 0;
+                sectionCounts[sec] = n;
+                totalQuestions += n;
+            }
+        }
         const published = JSON.parse(JSON.stringify(raw, (_key, value) => typeof value === 'string' ? publishPath(value) : value));
         data.set(relative, published);
     }
 }
+data.set('data/section-counts.json', {...sectionCounts, total: totalQuestions});
+
 const runtimeText = runtime.map(relative => [relative, fs.readFileSync(path.join(root, relative), 'utf8')]);
 const fingerprint = createHash('sha256').update(JSON.stringify([...runtimeText, ...data]));
 for (const {input, output} of assets.values()) {
@@ -74,11 +87,10 @@ for (const {input, output} of assets.values()) {
 }
 const version = fingerprint.digest('hex').slice(0, 16);
 
-fs.mkdirSync(path.dirname(out), {recursive: true});
-const work = fs.mkdtempSync(path.join(path.dirname(out), '.quiz-build-'));
+// Stage in os.tmpdir() instead of inside the repo root to avoid iCloud Drive conflict folders (dist 2, dist 3, ...).
+const work = fs.mkdtempSync(path.join(os.tmpdir(), 'endo-quiz-build-'));
 const staging = path.join(work, 'next');
-const previous = path.join(work, 'previous');
-fs.mkdirSync(staging);
+fs.mkdirSync(staging, {recursive: true});
 try {
     for (const [relative, raw] of data) {
         const file = path.join(staging, relative);
@@ -87,8 +99,10 @@ try {
         fs.writeFileSync(file, JSON.stringify(raw) + '\n');
     }
     for (const [relative, source] of runtimeText) {
-        const content = source.replaceAll(/(\.\/[\w.-]+\.(?:js|css))(['"])/g, `$1?v=${version}$2`)
-            .replace("const DATA_VERSION='dev';", `const DATA_VERSION='${version}';`);
+        const content = source
+            .replaceAll(/(\.\/[\w.-]+\.(?:js|css))(['"])/g, `$1?v=${version}$2`)
+            .replace("const DATA_VERSION='dev';", `const DATA_VERSION='${version}';`)
+            .replace("const CACHE_NAME = 'endo-quiz-offline-dev';", `const CACHE_NAME = 'endo-quiz-offline-${version}';`);
         fs.writeFileSync(path.join(staging, relative), content);
     }
     const tasks = [...assets.values()];
@@ -97,13 +111,12 @@ try {
     }));
     const failure = results.find(result => result.status === 'rejected');
     if (failure) throw failure.reason;
-    if (fs.existsSync(out)) fs.renameSync(out, previous);
-    try {
-        fs.renameSync(staging, out);
-    } catch (error) {
-        if (fs.existsSync(previous)) fs.renameSync(previous, out);
-        throw error;
+
+    fs.mkdirSync(out, {recursive: true});
+    for (const entry of fs.readdirSync(out)) {
+        fs.rmSync(path.join(out, entry), {recursive: true, force: true, maxRetries: 4});
     }
+    fs.cpSync(staging, out, {recursive: true});
 } finally {
     fs.rmSync(work, {recursive: true, force: true, maxRetries: 4});
 }

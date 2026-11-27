@@ -9,7 +9,12 @@ from pathlib import Path
 
 SECTIONS = ("physiology", "pathology", "pharmacology", "clinical-cases")
 VALID_FORMATS = {"vignette", "except", "two_statement", "incorrect_statement", "matching", "comparison"}
-ABSOLUTE_RE = re.compile(r"\b(always|never|only|proves|guarantees|all cases|no risk|no effect)\b", re.I)
+ABSOLUTE_RE = re.compile(
+    r"\b(always|never|only|exclusively|proves|guarantees|all of the above|none of the above|all cases|no risk|no effect)\b",
+    re.I,
+)
+ASCII_CHEM_RE = re.compile(r"\b(Ca2\+|PO4(?:3-)?|T3|T4|rT3|V1a?|V2|V3|D2|H\+|Na\+|K\+|ug/dL|mcg/dL)\b")
+INLINE_PAGE_RE = re.compile(r"\b(?:E\d+|EX\.\d+)\s+p\.\s*\d+|\(p\.\s*\d+\)", re.I)
 STOP = set("the and this that with for has have which when what there without from than shown shows inside rather field other tissue image".split())
 
 
@@ -25,6 +30,18 @@ def normalized(text):
     return " ".join(text.casefold().split())
 
 
+def resolve_targets(data_path: Path):
+    """Support passing either the parent data/ folder or a single section directory."""
+    if (data_path / "question-bank.json").is_file() and not any((data_path / s / "question-bank.json").is_file() for s in SECTIONS):
+        return [(data_path.name, data_path / "question-bank.json")]
+    targets = []
+    for section in SECTIONS:
+        bank_file = data_path / section / "question-bank.json"
+        if bank_file.is_file():
+            targets.append((section, bank_file))
+    return targets
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", type=Path, default=Path(__file__).resolve().parents[1] / "data")
@@ -32,13 +49,14 @@ def main():
     parser.add_argument("--strict", action="store_true", help="Exit nonzero on hard protocol violations")
     args = parser.parse_args()
 
+    targets = resolve_targets(args.data)
+    if not targets:
+        raise SystemExit(f"ERROR: No question-bank.json files found under {args.data}")
+
     hard_errors = []
     review_leads = []
 
-    for section in SECTIONS:
-        bank_file = args.data / section / "question-bank.json"
-        if not bank_file.is_file():
-            continue
+    for section, bank_file in targets:
         questions = json.loads(bank_file.read_bytes()).get("questions", [])
         if not questions:
             print(f"{section}: 0 questions (ready stub)")
@@ -80,6 +98,20 @@ def main():
                 vocab = tokens(opt)
                 if idx != keyed and len(vocab) > 1 and not vocab.intersection(tokens(rat)):
                     review_leads.append((section, lecture, label, "distractor wording to inspect", opt))
+
+            # Check ASCII scientific formulas & inline page tags across user-facing copy
+            for fname, text in [
+                ("stem", q.get("stem") or ""),
+                ("explanation", q.get("explanation") or ""),
+                ("condition_overview", q.get("condition_overview") or ""),
+                *[(f"opt[{i}]", o or "") for i, o in enumerate(options)],
+                *[(f"rat[{i}]", r or "") for i, r in enumerate(rationales)],
+                *[(f"clue[{i}]", c or "") for i, c in enumerate(q.get("visual_clues") or [])],
+            ]:
+                if ASCII_CHEM_RE.search(text):
+                    review_leads.append((section, lecture, label, f"ascii formula in {fname}", ", ".join(ASCII_CHEM_RE.findall(text))))
+                if INLINE_PAGE_RE.search(text):
+                    review_leads.append((section, lecture, label, f"inline page tag in {fname}", ", ".join(INLINE_PAGE_RE.findall(text))))
 
             if q.get("source_origin") != "third_party":
                 lengths = [len(o) for o in options]

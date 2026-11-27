@@ -23,7 +23,7 @@ jobs:
       - name: Run unit tests, validate, and build
         run: npm run build
       - name: Audit question quality
-        run: python3 scripts/audit_question_quality.py --strict
+        run: python3 scripts/audit_question_quality.py --data data --strict
       - name: Validate published dist
         run: python3 scripts/validate_bank.py --all --data dist/data --published
       - uses: actions/configure-pages@v5

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import { empty, filtered, session, see, answer, override, totals, canReveal, validateImport, ordered, CONTENT_CATEGORIES } from '../engine.js';
+import { empty, filtered, session, see, answer, override, totals, canReveal, validateImport, ordered, caseSession, allCasesSession, CONTENT_CATEGORIES } from '../engine.js';
 import { BANKS, CLINICAL_CASES, PHARMACOLOGY, COMBINED, STUDY_SECTIONS, resolveBankConfig } from '../bank-config.js';
 
 const base = path.resolve(import.meta.dirname, '..');
@@ -189,4 +189,23 @@ test('canonical 3-bucket content categories support multi-select filtering acros
         assert.equal(imgOnly.length + dgtOnly.length + qOnly.length, qs.length);
         assert.equal(combinedTwo.length, imgOnly.length + qOnly.length);
     }
+});
+
+test('clinical cases support Learn/Exam modes and Practice All Cases session validation', () => {
+    const byId = Object.fromEntries(casesBank.map(q => [q.question_id, q]));
+    for (const mode of ['learn', 'exam']) {
+        const s = caseSession(casesList[0], byId, mode);
+        assert.equal(s.mode, mode);
+        assert.equal(s.items.length, casesList[0].question_ids.length);
+        const p = empty();
+        p.session = s;
+        assert.deepEqual(validateImport(JSON.parse(JSON.stringify(p)), casesBank, casesList), p);
+    }
+    const allS = allCasesSession(casesList, byId, 'learn');
+    assert.equal(allS.case_id, 'all');
+    assert.equal(allS.mode, 'learn');
+    assert.equal(allS.items.length, casesBank.length);
+    const pAll = empty();
+    pAll.session = allS;
+    assert.deepEqual(validateImport(JSON.parse(JSON.stringify(pAll)), casesBank, casesList), pAll);
 });

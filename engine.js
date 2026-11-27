@@ -137,11 +137,22 @@ export function combinedSession(sectionPools, mode, length, rng = Math.random, o
     };
 }
 
-export function caseSession(caseDefinition, byId) {
+export function caseSession(caseDefinition, byId, mode = 'exam') {
     return {
         case_id: caseDefinition.case_id,
-        mode: 'exam',
+        mode: mode === 'learn' ? 'learn' : 'exam',
         items: caseDefinition.question_ids.map(id => item(byId[id])),
+        index: 0,
+        complete: false,
+        endless: false,
+    };
+}
+
+export function allCasesSession(caseList, byId, mode = 'exam') {
+    return {
+        case_id: 'all',
+        mode: mode === 'learn' ? 'learn' : 'exam',
+        items: caseList.flatMap(c => c.question_ids.map(id => item(byId[id]))),
         index: 0,
         complete: false,
         endless: false,
@@ -188,11 +199,17 @@ export function validateImport(p,bank,cases=[],retired=[]){
   }
   if(retiredById.size&&Array.isArray(s.pool))s.pool=s.pool.filter(id=>byId.has(id));
   if(cases.length){
-    const selected=cases.find(c=>c.case_id===s.case_id);
-    if(!selected||s.mode!=='exam'||s.endless)throw Error('Invalid saved case order.');
-    const allowedLengths = [selected.question_ids.length, ...(selected.previous_question_counts ?? [])];
-    if(!allowedLengths.includes(s.items.length) ||
-        s.items.some((entry,index)=>entry.id!==selected.question_ids[index]))throw Error('Invalid saved case order.');
+    if(s.endless)throw Error('Invalid saved case order.');
+    if(s.case_id==='all'){
+      const validIds=new Set(cases.flatMap(c=>c.question_ids));
+      if(!s.items.length||s.items.some(entry=>!validIds.has(entry.id)))throw Error('Invalid saved case order.');
+    }else{
+      const selected=cases.find(c=>c.case_id===s.case_id);
+      if(!selected)throw Error('Invalid saved case order.');
+      const allowedLengths = [selected.question_ids.length, ...(selected.previous_question_counts ?? [])];
+      if(!allowedLengths.includes(s.items.length) ||
+          s.items.some((entry,index)=>entry.id!==selected.question_ids[index]))throw Error('Invalid saved case order.');
+    }
   }
  }
  return p;

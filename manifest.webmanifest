@@ -1,8 +1,18 @@
 {
+  "id": "./",
+  "scope": "./",
   "name": "Endocrine Picture Quiz",
   "short_name": "Endo Quiz",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f6f8f7",
-  "theme_color": "#11695d"
+  "background_color": "#f4f6f2",
+  "theme_color": "#11695d",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
