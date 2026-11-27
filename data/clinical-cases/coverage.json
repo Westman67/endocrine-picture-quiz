@@ -1,5 +1,18 @@
 {
   "schema_version": 1,
   "section": "clinical-cases",
-  "lectures": []
+  "lectures": {
+    "E9": {
+      "status": "Reviewed and integrated",
+      "title": "Physiologist and Clinician Mini-Case Study Review",
+      "questions": 18,
+      "cases": 9,
+      "visual_questions": 2,
+      "text_questions": 16,
+      "gaps": [
+        "No remaining high-yield gaps; all 9 E9 cases and both Case 7 diagrams are covered."
+      ],
+      "next_capture": "Add future clinical case sessions as additional endocrine blocks are released."
+    }
+  }
 }

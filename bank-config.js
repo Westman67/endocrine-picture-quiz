@@ -28,7 +28,7 @@ export const CLINICAL_CASES = {
     title: 'Endocrine · Clinical Cases',
     brand: 'CLINICAL CASES',
     eyebrow: 'Endocrine · Clinical Cases',
-    description: 'Multi-question linked clinical-visual cases will populate here as clinical endocrine lectures are added.',
+    description: 'Work through E9’s 9 integrated endocrine mini-cases covering prolactinoma, acromegaly, type 1 diabetes, insulinoma, primary hyperparathyroidism, Hashimoto thyroiditis, Cushing syndrome, and primary adrenal insufficiency.',
     footer: 'Endocrine · Clinical Cases',
     homeUrl: '?bank=clinical-cases',
 };

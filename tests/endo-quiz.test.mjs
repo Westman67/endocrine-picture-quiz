@@ -18,6 +18,11 @@ const pharmBankPayload = JSON.parse(fs.readFileSync(path.join(base, 'data/pharma
 const pharmBank = pharmBankPayload.questions;
 const pharmSources = JSON.parse(fs.readFileSync(path.join(base, 'data/pharmacology/source-manifest.json'), 'utf8')).sources;
 
+const casesBankPayload = JSON.parse(fs.readFileSync(path.join(base, 'data/clinical-cases/question-bank.json'), 'utf8'));
+const casesBank = casesBankPayload.questions;
+const casesList = casesBankPayload.cases || [];
+const casesSources = JSON.parse(fs.readFileSync(path.join(base, 'data/clinical-cases/source-manifest.json'), 'utf8')).sources;
+
 test('4-section Endocrine bank config resolves cleanly with isolated storage keys', () => {
     assert.equal(STUDY_SECTIONS.length, 4);
     assert.equal(resolveBankConfig('').id, 'physiology');
@@ -71,18 +76,21 @@ function validateBankIntegrity(questions, manifestSources, label) {
     }
 }
 
-test('physiology, pathology, and pharmacology banks pass full lineage, asset, and schema v2 checks', () => {
+test('all four endocrine banks pass full lineage, asset, and schema v2 checks', () => {
     assert.ok(bank.length >= 80, `expected >= 80 physiology questions, got ${bank.length}`);
     assert.ok(pathBank.length >= 35, `expected >= 35 pathology questions, got ${pathBank.length}`);
     assert.ok(pharmBank.length >= 14, `expected >= 14 pharmacology questions, got ${pharmBank.length}`);
+    assert.ok(casesBank.length >= 18, `expected >= 18 clinical-cases questions, got ${casesBank.length}`);
+    assert.equal(casesList.length, 9, `expected 9 E9 clinical cases, got ${casesList.length}`);
     validateBankIntegrity(bank, sources, 'physiology');
     validateBankIntegrity(pathBank, pathSources, 'pathology');
     validateBankIntegrity(pharmBank, pharmSources, 'pharmacology');
+    validateBankIntegrity(casesBank, casesSources, 'clinical-cases');
 });
 
-test('all E1-E8 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
-    const allQs = [...bank, ...pathBank, ...pharmBank];
-    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8']) {
+test('all E1-E9 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party support are represented', () => {
+    const allQs = [...bank, ...pathBank, ...pharmBank, ...casesBank];
+    for (const id of ['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'E9']) {
         assert.ok(allQs.some(q => q.collection === id), `missing lecture ${id}`);
     }
     for (let i = 1; i <= 12; i++) {
@@ -93,8 +101,8 @@ test('all E1-E8 lectures and all 12 EX.1-EX.12 RxBricks plus labeled third-party
     assert.ok(pathBank.some(q => q.source_origin === 'third_party'), 'missing pathology third_party items');
 });
 
-test('option length parity stays within protocol ceilings across physiology, pathology, and pharmacology', () => {
-    for (const [label, qs] of [['physiology', bank], ['pathology', pathBank], ['pharmacology', pharmBank]]) {
+test('option length parity stays within protocol ceilings across all four sections', () => {
+    for (const [label, qs] of [['physiology', bank], ['pathology', pathBank], ['pharmacology', pharmBank], ['clinical-cases', casesBank]]) {
         const lectureQs = qs.filter(q => q.source_origin !== 'third_party');
         let longest = 0;
         const flagged = [];

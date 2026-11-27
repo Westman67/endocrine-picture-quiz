@@ -1,5 +1,104 @@
 {
   "schema_version": 2,
   "section": "clinical-cases",
-  "sources": []
+  "sources": [
+    {
+      "asset_id": "a-1d84cffbedd146d31862b7d00289013edf843cae5d47db89c661c5e6011ec7fd",
+      "source_id": "s-7753e7b3a49ea3757e5a",
+      "source_group_id": "g-7753e7b3a49ea3757e5a",
+      "lecture_id": "E9",
+      "relative_path": "E9/ACTH and Cortisol Negative Feedback Loop - Diagram.png",
+      "sha256": "1d84cffbedd146d31862b7d00289013edf843cae5d47db89c661c5e6011ec7fd",
+      "dimensions": [
+        596,
+        426
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "ACTH-independent Cushing syndrome (exogenous glucocorticoids most common, adrenal tumor) and mandatory post-adrenalectomy steroid replacement",
+      "original_asset": "assets/originals/1d84cffbedd146d3.png",
+      "display_asset": "assets/display/e9-acth-cortisol-feedback-1d84cffbedd146d3.webp",
+      "source_origin": "lecture",
+      "source_collection": "E9 Lecture RLS",
+      "source_citation": {
+        "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "6e68cfa3764eb106d6e8b7f8949988f0ee585cd652efdfc80b92e7d698a201c6",
+      "current_document_sha256": "6e68cfa3764eb106d6e8b7f8949988f0ee585cd652efdfc80b92e7d698a201c6",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-a5bfc36e897f485bc72c",
+          "asset": "assets/display/e9-acth-cortisol-feedback-1d84cffbedd146d3.webp",
+          "zoom_asset": "assets/zoom/e9-acth-cortisol-feedback-1d84cffbedd146d3.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              596,
+              426
+            ],
+            "output_dimensions": [
+              596,
+              426
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    },
+    {
+      "asset_id": "a-6b59b1df1a498bcd3d7f8a0293862d90ab1a30b7537f6eca8b7508edeeff1467",
+      "source_id": "s-1197c0a6d9ee99983a49",
+      "source_group_id": "g-1197c0a6d9ee99983a49",
+      "lecture_id": "E9",
+      "relative_path": "E9/Cortisol Actions on Muscle Liver and Adipose Tissue - Diagram.png",
+      "sha256": "6b59b1df1a498bcd3d7f8a0293862d90ab1a30b7537f6eca8b7508edeeff1467",
+      "dimensions": [
+        596,
+        506
+      ],
+      "status": "USABLE",
+      "review_reason": "Individually inspected lecture original and quiz-safe derivative.",
+      "tested_concept": "Cortisol muscle proteolysis (amino acids) and adipose lipolysis (glycerol) feeding hepatic gluconeogenesis (glucose)",
+      "original_asset": "assets/originals/6b59b1df1a498bcd.png",
+      "display_asset": "assets/display/e9-cortisol-metabolic-actions-6b59b1df1a498bcd.webp",
+      "source_origin": "lecture",
+      "source_collection": "E9 Lecture RLS",
+      "source_citation": {
+        "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+        "page": 8
+      },
+      "source_document_sha256": "6e68cfa3764eb106d6e8b7f8949988f0ee585cd652efdfc80b92e7d698a201c6",
+      "current_document_sha256": "6e68cfa3764eb106d6e8b7f8949988f0ee585cd652efdfc80b92e7d698a201c6",
+      "document_hash_matches": true,
+      "document_available": true,
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "rights_status": "Underlying image rights retained by original owners; local study use only.",
+      "variants": [
+        {
+          "variant_id": "v-f282f3fbb9dc24ba1a62",
+          "asset": "assets/display/e9-cortisol-metabolic-actions-6b59b1df1a498bcd.webp",
+          "zoom_asset": "assets/zoom/e9-cortisol-metabolic-actions-6b59b1df1a498bcd.webp",
+          "transform": {
+            "type": "quiz_safe_derivative",
+            "coordinate_basis": "immutable teaching original",
+            "input_dimensions": [
+              596,
+              506
+            ],
+            "output_dimensions": [
+              596,
+              506
+            ],
+            "reason": "Quiz-safe masked/cropped derivative hiding answer-bearing labels."
+          }
+        }
+      ]
+    }
+  ]
 }

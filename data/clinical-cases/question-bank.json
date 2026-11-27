@@ -1,8 +1,1019 @@
 {
   "schema_version": 2,
-  "title": "Endocrine \u00b7 Clinical Cases",
+  "title": "Endocrine · Clinical Cases",
   "section": "clinical-cases",
-  "questions": [],
-  "cases": [],
+  "questions": [
+    {
+      "question_id": "q-e9-c1-prolactinoma-dx-tx",
+      "case_id": "case-e9-1",
+      "scenario": "A 42-year-old man has 2 months of decreased libido and erectile dysfunction plus 1 month of headaches and visual difficulty. Exam shows gynecomastia and expressible galactorrhea. Labs: testosterone 150 ng/dL (normal 300–900), total T₄ 8 μg/dL (normal 5–12), prolactin 300 ng/mL (normal <20). Pituitary MRI shows a 2 cm macroadenoma.",
+      "lead_in": "What visual field defect is expected on perimetry, and what is the first-line treatment?",
+      "source_group_id": "g-079a1cf01190085b16d0",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Diagnosis & Management",
+      "tested_concept": "Prolactinoma bitemporal hemianopia and first-line dopamine agonist (cabergoline) therapy",
+      "stem": "What visual field defect is expected on perimetry, and what is the first-line treatment?",
+      "options": [
+        "Bitemporal hemianopia from chiasmal compression; first-line cabergoline",
+        "Right homonymous hemianopia from optic tract compression; urgent transsphenoidal surgery",
+        "Central scotoma from retinal ischemia; first-line octreotide depot injections",
+        "Binasal hemianopia from cavernous sinus invasion; first-line oral levothyroxine"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. A 2 cm pituitary macroadenoma expands superiorly out of the sella and compresses the crossing nasal retinal fibers at the optic chiasm, producing bitemporal visual field loss. Step 2. Prolactinomas are treated medically with a dopamine agonist—typically cabergoline (dosed once or twice weekly) or bromocriptine (daily)—rather than surgery, shrinking the tumor and restoring vision and gonadal function within weeks.",
+      "choice_rationales": [
+        "Matches chiasmal compression (bitemporal hemianopia) and first-line medical therapy with cabergoline rather than surgery.",
+        "Optic chiasm compression causes bitemporal (not homonymous) field loss, and prolactinomas are treated with dopamine agonists rather than surgery.",
+        "Central scotoma is not the classic sellar mass defect, and octreotide targets GH-secreting tumors rather than prolactinomas.",
+        "Binasal hemianopia does not result from central chiasmal compression, and total T₄ is normal."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 2
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Prolactinoma Management & Visual Fields",
+      "condition_overview": "Always take a medication history (e.g., dopamine-blocking antipsychotics such as risperidone) when evaluating hyperprolactinemia, though visual loss and a 2 cm macroadenoma with prolactin 300 ng/mL point to a prolactinoma."
+    },
+    {
+      "question_id": "q-e9-c1-stalk-panhypopit-gnrh",
+      "case_id": "case-e9-1",
+      "scenario": "In the same 42-year-old man with a 2 cm prolactinoma and testosterone 150 ng/dL, the endocrine team discusses how excess prolactin causes hypogonadism and what happens if a large sellar mass compresses the hypothalamic-pituitary portal system.",
+      "lead_in": "How does hyperprolactinemia lower testosterone, and what hormone pattern defines portal-stalk panhypopituitarism?",
+      "source_group_id": "g-e95905e1165f5379689e",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Mechanism",
+      "tested_concept": "Prolactin suppression of kisspeptin/GnRH pulses and stalk-compression panhypopituitarism with elevated prolactin",
+      "stem": "How does hyperprolactinemia lower testosterone, and what hormone pattern defines portal-stalk panhypopituitarism?",
+      "options": [
+        "Prolactin destroys Leydig cells directly; stalk compression lowers every anterior hormone including prolactin",
+        "Prolactin suppresses kisspeptin/GnRH pulses; stalk compression lowers anterior hormones except prolactin, which rises",
+        "Prolactin blocks hepatic SHBG binding; stalk compression raises GH, ACTH, and TSH while suppressing prolactin",
+        "Prolactin converts testosterone to estradiol in Sertoli cells; stalk compression causes isolated posterior ADH excess"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Elevated prolactin acts on hypothalamic kisspeptin neurons to disrupt GnRH pulse frequency, causing inappropriate LH/FSH secretion and secondary hypogonadism. Step 2. If a large tumor mechanically compresses the hypothalamic-pituitary portal vessels, losing stimulatory releasing factors causes panhypopituitarism (low GH, ACTH, TSH, LH, FSH) while losing tonic dopamine inhibition causes prolactin to rise.",
+      "choice_rationales": [
+        "Prolactin suppresses hypothalamic GnRH rather than destroying Leydig cells, and stalk compression raises (not lowers) prolactin.",
+        "Accurately links prolactin-mediated kisspeptin/GnRH suppression to hypogonadism and explains why stalk-effect panhypopituitarism spares and elevates prolactin.",
+        "Stalk compression removes stimulatory releasing factors (lowering GH/ACTH/TSH) and removes tonic dopamine (raising prolactin).",
+        "Posterior pituitary function is typically preserved with anterior portal compression, and hypogonadism is central via GnRH suppression."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 2
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Prolactin-Induced Hypogonadism & Stalk Effect",
+      "condition_overview": "Unlike anterior pituitary hormones that rely on hypothalamic releasing factors, prolactin is under tonic hypothalamic dopamine inhibition."
+    },
+    {
+      "question_id": "q-e9-c2-acromegaly-workup-tx",
+      "case_id": "case-e9-2",
+      "scenario": "A 51-year-old man reports progressive enlargement of his nose and ears, a wedding ring that had to be cut off with persistent finger numbness, a protruding jaw, sausage-shaped fingers, and bitemporal visual field loss.",
+      "lead_in": "Which diagnostic index, dynamic test principle, and medical therapy best fit this patient's condition?",
+      "source_group_id": "g-a146a3daa9fcd6b008d5",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Diagnostics & Therapy",
+      "tested_concept": "Acromegaly closed-epiphysis thickening, IGF-1 integrated index, suppression testing, and long-acting somatostatin analogs",
+      "stem": "Which diagnostic index, dynamic test principle, and medical therapy best fit this patient's condition?",
+      "options": [
+        "Random afternoon GH level; arginine stimulation test to confirm excess; oral cabergoline monotherapy",
+        "Serum IGF-1; suppression test for excess (stimulation is for deficiency); long-acting octreotide/lanreotide",
+        "24-hour urine free GH; cosyntropin stimulation test to confirm excess; high-dose levothyroxine suppression",
+        "Serum prolactin alone; water deprivation test to confirm excess; oral desmopressin (DDAVP) monotherapy"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Because epiphyseal plates are closed in adulthood, a GH-secreting somatotrope adenoma (second most common functional pituitary tumor after prolactinoma) thickens bone and soft tissue (acromegaly) rather than lengthening long bones (gigantism). Step 2. Serum IGF-1 integrates pulsatile GH over hours (versus minutes for GH), suspected hormone excess is evaluated with a suppression test (deficiency with a stimulation test such as arginine), pituitary MRI localizes the tumor, and long-acting somatostatin analogs (octreotide/lanreotide) suppress GH medically.",
+      "choice_rationales": [
+        "Pulsatile GH makes a random level unreliable, stimulation tests evaluate deficiency (not excess), and somatostatin analogs—not cabergoline—are standard medical therapy for acromegaly.",
+        "Matches IGF-1 as the integrated GH index, suppression testing for excess (vs. stimulation for deficiency), and long-acting somatostatin analogs.",
+        "Cosyntropin tests adrenal reserve and levothyroxine treats hypothyroidism rather than GH excess.",
+        "Water deprivation and DDAVP evaluate and treat diabetes insipidus, not acromegaly."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 3
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Acromegaly Workup & Somatostatin Analogs",
+      "condition_overview": "In acromegaly, also screen clinically for MEN1 (the 3 P's: pituitary, pancreas, parathyroid, plus peptic ulcer history)."
+    },
+    {
+      "question_id": "q-e9-c2-gh-metabolic-steroid-first",
+      "case_id": "case-e9-2",
+      "scenario": "Before transsphenoidal resection of the 51-year-old man's GH-secreting pituitary macroadenoma, the team reviews GH's physiological metabolic actions and postoperative hormone replacement priorities if panhypopituitarism develops.",
+      "lead_in": "Which pair of GH metabolic effects and which postoperative replacement rule must be remembered?",
+      "source_group_id": "g-3957eb4b0cab52acd9c9",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Perioperative Management",
+      "tested_concept": "GH lipolysis & GLUT4 insulin resistance, and replacing glucocorticoids before thyroid hormone in hypopituitarism",
+      "stem": "Which pair of GH metabolic effects and which postoperative replacement rule must be remembered?",
+      "options": [
+        "GH increases adipose lipogenesis and peripheral insulin sensitivity; replace thyroid hormone first before cortisol",
+        "GH blocks brain glucose uptake directly and prevents fatty acid release; replace GH first before cortisol or T₄",
+        "GH drives lipolysis and GLUT4 insulin resistance; replace steroids before thyroid hormone to avoid adrenal crisis",
+        "GH stimulates hepatic glycogenesis and lowers fasting glucose; withhold steroids postoperatively to test recovery"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Physiologically, GH stimulates lipolysis (releasing free fatty acids as alternative fuel) and lowers insulin sensitivity in peripheral GLUT4-expressing tissues (muscle and fat) while sparing insulin-independent brain glucose uptake. Step 2. When replacing multiple anterior pituitary deficits after surgery, replace glucocorticoids (cortisol/steroids) before thyroid hormone, because thyroid replacement accelerates metabolism and can precipitate fatal adrenal crisis if cortisol is deficient.",
+      "choice_rationales": [
+        "GH causes lipolysis and insulin resistance (not lipogenesis/sensitivity), and giving thyroid hormone before steroids can trigger adrenal crisis.",
+        "Brain glucose uptake is insulin-independent and unaffected by GH, and cortisol—not GH—is the urgent life-saving replacement.",
+        "Accurately captures GH's emphasized metabolic effects (lipolysis + GLUT4 insulin resistance) and the critical rule to replace steroids before thyroid hormone.",
+        "GH is diabetogenic (raises glucose via insulin resistance) and stress-dose steroids must not be withheld when adrenal insufficiency is suspected."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 3
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "GH Metabolic Effects & Hypopituitarism Replacement",
+      "condition_overview": "Known physiologic stimuli of GH secretion include the onset of deep sleep, hypoglycemia, exercise, and puberty (where GH-driven insulin resistance contributes to peak T1DM presentation)."
+    },
+    {
+      "question_id": "q-e9-c3-t1dm-lipases-glucagon",
+      "case_id": "case-e9-3",
+      "scenario": "A thin, ill-appearing 12-year-old boy presents with weight loss, fatigue, polyuria, polydipsia, polyphagia, glucosuria, markedly elevated fasting glucose, and a strong family history of autoimmune endocrine disease.",
+      "lead_in": "How do C-peptide, pancreatic α-cells, and adipose lipases explain his rapid hyperglycemia and weight loss?",
+      "source_group_id": "g-7492d972acbf6168ec12",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Pathophysiology",
+      "tested_concept": "Type 1 diabetes low C-peptide, unopposed glucagon, disinhibited hormone-sensitive lipase, and glucose-corrected Na⁺",
+      "stem": "How do C-peptide, pancreatic α-cells, and adipose lipases explain his rapid hyperglycemia and weight loss?",
+      "options": [
+        "High C-peptide; insulin suppresses glucagon excessively; lipoprotein lipase breaks down stored adipose fat",
+        "Low C-peptide; lost insulin disinhibits glucagon and hormone-sensitive lipase while halting fat storage",
+        "Normal C-peptide; high insulin overactivates hormone-sensitive lipase; hyperosmolar nonketotic coma without ketones",
+        "Low C-peptide; glucagon falls to zero; peripheral muscle takes up excess glucose causing rapid weight loss"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Autoimmune β-cell destruction leaves both insulin and equimolar C-peptide very low. Without insulin, α-cells fail to sense/inhibit appropriately and secrete unopposed glucagon, driving hepatic glucose output while GLUT4-dependent muscle and fat cannot take up glucose. Step 2. Simultaneously, insulin lack lowers capillary lipoprotein lipase (halting fat storage) and disinhibits hormone-sensitive lipase (driving massive lipolysis, weight loss, and free fatty acid oxidation to ketone bodies in DKA).",
+      "choice_rationales": [
+        "C-peptide is very low in T1DM, glucagon is unopposed (high), and hormone-sensitive lipase—not lipoprotein lipase—mobilizes stored fat.",
+        "Correctly integrates very low C-peptide, unopposed glucagon, disinhibited hormone-sensitive lipase, and lost triglyceride storage.",
+        "C-peptide and insulin are deficient in T1DM, and insulin normally inhibits rather than activates hormone-sensitive lipase.",
+        "Glucagon rises (not falls) without insulin inhibition, and muscle cannot take up glucose via GLUT4 without insulin."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 4
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Type 1 Diabetes & DKA Pathophysiology",
+      "condition_overview": "In DKA, severe hyperglycemia pulls water osmotically out of cells and lowers measured serum Na⁺ (e.g., Na⁺ 132 with glucose ~450 mg/dL), so always correct Na⁺ for glucose."
+    },
+    {
+      "question_id": "q-e9-c3-t1dm-transporters-insulins",
+      "case_id": "case-e9-3",
+      "scenario": "The 12-year-old boy with newly diagnosed type 1 diabetes is being started on insulin therapy. His parents ask why oral sulfonylureas or GLP-1 drugs cannot replace insulin, how his brain still gets glucose, and which basal insulins last 24 hours.",
+      "lead_in": "Which statement accurately answers these three clinical questions?",
+      "source_group_id": "g-5df8a45de99c879a2c0f",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Therapeutics & Physiology",
+      "tested_concept": "Insulin-independent brain/RBC glucose uptake, why sulfonylureas/GLP-1 fail in T1DM, and 24-hour basal insulins glargine/detemir",
+      "stem": "Which statement accurately answers these three clinical questions?",
+      "options": [
+        "Brain/RBCs use GLUT4; sulfonylureas fail because they block KATP channels; NPH and regular insulin last 24 hours",
+        "Brain switches immediately to ketones on day 1; GLP-1 agonists regenerate β-cells acutely; pumps infuse glargine",
+        "Skeletal muscle is insulin-independent; sulfonylureas act directly on muscle receptors; detemir is a mealtime bolus",
+        "Brain/RBCs are insulin-independent; sulfonylureas/GLP-1 fail without β-cell stores; glargine/detemir last 24 hours"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. The brain and red blood cells rely on insulin-independent glucose uptake (the brain cannot readily use ketones without prolonged starvation adaptation), whereas muscle and adipose tissue depend on insulin-regulated GLUT4. Step 2. Sulfonylureas (closing KATP via SUR) and GLP-1 agonists require functional β-cells with stored insulin granules and fail in T1DM; basal coverage uses 24-hour long-acting insulins glargine (Lantus) or detemir (whereas insulin pumps infuse short-acting insulin, so a kinked site causes rapid DKA).",
+      "choice_rationales": [
+        "Brain and RBCs use insulin-independent uptake (not GLUT4), and glargine/detemir are the emphasized 24-hour basal insulins.",
+        "Brain adaptation to ketones is slow, GLP-1 agonists do not acutely replace absent β-cells, and pumps deliver short-acting insulin.",
+        "Skeletal muscle uses insulin-dependent GLUT4, sulfonylureas act on β-cell KATP channels rather than muscle receptors, and detemir is long-acting basal insulin.",
+        "Accurately states insulin-independent brain/RBC uptake, why β-cell-dependent agents fail in T1DM, and glargine/detemir as 24-hour basal insulins."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 4
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Glucose Transporters & T1DM Insulin Therapy",
+      "condition_overview": "OGTT thresholds (75 g load): fasting >100 mg/dL = impaired fasting glucose; 2-hour 140–200 mg/dL = impaired glucose tolerance; 2-hour >200 mg/dL = diabetes."
+    },
+    {
+      "question_id": "q-e9-c4-insulinoma-cpeptide-symp",
+      "case_id": "case-e9-4",
+      "scenario": "A 46-year-old man experiences morning confusion, headache, disorientation, visual difficulty, palpitations, sweating, and tremor that resolve after breakfast and recur if he skips a meal. Fasting glucose is <50 mg/dL with both elevated insulin and elevated C-peptide; alcohol and drug screens are negative.",
+      "lead_in": "What is the diagnosis, how would exogenous insulin overdose differ on labs, and what drives his two symptom clusters?",
+      "source_group_id": "g-2fe4c36031366075eff5",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Differential Diagnosis",
+      "tested_concept": "Insulinoma (high insulin + high C-peptide) vs. exogenous insulin (low C-peptide), neuroglycopenia vs. catecholamines",
+      "stem": "What is the diagnosis, how would exogenous insulin overdose differ on labs, and what drives his two symptom clusters?",
+      "options": [
+        "Insulinoma; exogenous insulin gives low C-peptide; neuroglycopenia causes confusion, catecholamines cause tremor",
+        "Exogenous insulin overdose; insulinoma shows high insulin with low C-peptide; symptoms stem from acute cortisol",
+        "Type 1 diabetes; exogenous insulin raises both insulin and C-peptide equally; palpitations stem from hypokalemia",
+        "Reactive postprandial hypoglycemia; insulinoma lowers both insulin and C-peptide; confusion reflects excess glucagon"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Because C-peptide is co-secreted 1:1 with endogenous insulin from pancreatic β-cells, hypoglycemia (<50 mg/dL) with BOTH high insulin and high C-peptide diagnoses endogenous hyperinsulinism (insulinoma), whereas surreptitious/exogenous insulin produces high insulin with suppressed C-peptide. Step 2. Confusion, headache, and visual symptoms reflect neuroglycopenia, while palpitations, sweating, and tremor stem from sympathetic catecholamine release (cortisol is slow-acting and acts permissively).",
+      "choice_rationales": [
+        "Matches insulinoma (high endogenous insulin + high C-peptide), distinguishes exogenous insulin (low C-peptide), and separates neuroglycopenic from catecholaminergic symptoms.",
+        "Reverses insulinoma vs. exogenous insulin C-peptide patterns, and cortisol is too slow to drive acute autonomic tremor/palpitations.",
+        "Exogenous insulin contains no C-peptide, and autonomic palpitations are catecholamine-driven rather than primarily hypokalemic.",
+        "Fasting morning hypoglycemia with elevated insulin/C-peptide is insulinoma, not reactive hypoglycemia."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 5
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Insulinoma & Hypoglycemia Counter-Regulation",
+      "condition_overview": "Symptoms appear in the morning after an overnight fast because autonomous tumor insulin secretion continues despite falling blood glucose."
+    },
+    {
+      "question_id": "q-e9-c4-cortisol-permissive-counterreg",
+      "case_id": "case-e9-4",
+      "scenario": "In the same 46-year-old man with an insulinoma and fasting morning hypoglycemia (<50 mg/dL), a student asks why his symptoms strike in the morning and whether an acute surge of cortisol drives his immediate palpitations and sweating.",
+      "lead_in": "How do the overnight fast, sympathetic catecholamines, and cortisol interact during acute hypoglycemia?",
+      "source_group_id": "g-38269dadb4bda2f8590c",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Counter-Regulation",
+      "tested_concept": "Overnight fast triggering insulinoma hypoglycemia, sympathetic inhibition of insulin/stimulation of glucagon, and permissive basal cortisol",
+      "stem": "How do the overnight fast, sympathetic catecholamines, and cortisol interact during acute hypoglycemia?",
+      "options": [
+        "Overnight fasting lowers tumor insulin; cortisol surges within 30 seconds to trigger tremor and palpitations",
+        "Overnight fasting unmasks autonomous insulin; catecholamines stimulate glucagon/inhibit insulin, while cortisol acts permissively",
+        "Morning cortisol peak destroys pancreatic β-cells; glucagon falls to zero while sympathetic tone stimulates insulin",
+        "Overnight fasting raises hepatic glycogen stores; cortisol directly opens β-cell KATP channels to cause sweating"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Overnight fasting removes dietary glucose while the autonomous insulinoma keeps secreting insulin, precipitating morning hypoglycemia. Step 2. Hypoglycemia triggers rapid sympathetic catecholamine release (driving palpitations, sweating, tremor, inhibiting normal β-cell insulin, and stimulating glucagon), whereas cortisol is a slow-acting steroid hormone that follows its basal pattern and acts permissively so counter-regulatory hormones work effectively.",
+      "choice_rationales": [
+        "Autonomous insulinomas continue secreting insulin during fasting, and cortisol is too slow to drive immediate autonomic palpitations.",
+        "Accurately links the overnight fast to autonomous insulin hypoglycemia, sympathetic catecholamine counter-regulation, and cortisol's permissive role.",
+        "Sympathetic catecholamines inhibit (not stimulate) normal insulin release and stimulate (not suppress) glucagon.",
+        "Overnight fasting depletes rather than raises hepatic glycogen, and autonomic sweating is sympathetic rather than cortisol-driven."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 5
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hypoglycemia Counter-Regulation & Cortisol Permissiveness",
+      "condition_overview": "Cortisol is essential for survival (without it a person can die within ~24 hours), largely because it acts permissively to enable normal catecholamine and glucagon responses."
+    },
+    {
+      "question_id": "q-e9-c5-primary-hyperpth-renal",
+      "case_id": "case-e9-5",
+      "scenario": "A 58-year-old woman sustains a midshaft femur fracture after minor compression. Labs show serum Ca²⁺ 14.2 mg/dL (normal 8.4–10.2), phosphorus 2.1 mg/dL (normal 3.0–4.5), and PTH 220 pg/mL (normal 23–63).",
+      "lead_in": "Why is this primary rather than secondary hyperparathyroidism, and how does PTH act on bone and the nephron?",
+      "source_group_id": "g-d425df4a618f3ba4d725",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Calcium & Phosphate Homeostasis",
+      "tested_concept": "Primary hyperparathyroidism (inappropriately high PTH with hypercalcemia), indirect osteoblast RANKL, proximal PO₄³⁻ block, distal Ca²⁺ reabsorption",
+      "stem": "Why is this primary rather than secondary hyperparathyroidism, and how does PTH act on bone and the nephron?",
+      "options": [
+        "PTH is appropriately high for Ca²⁺ 14.2; PTH directly binds osteoclasts and blocks distal tubular Ca²⁺ reabsorption",
+        "Low phosphorus proves secondary renal hyperparathyroidism; PTH activates 24-hydroxylase to raise calcitonin release",
+        "High PTH despite hypercalcemia proves autonomous gland; blocks proximal PO₄³⁻, boosts distal Ca²⁺, indirect RANKL",
+        "High PTH with hypercalcemia reflects calcitonin deficiency; PTH acts directly on loop of Henle to excrete Ca²⁺"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Hypercalcemia (14.2 mg/dL) should suppress a normal parathyroid gland; an elevated PTH (220 pg/mL) proves autonomous primary hyperparathyroidism (whereas secondary hyperparathyroidism—such as in renal failure—reflects a normally responding gland driven by low Ca²⁺/calcitriol). Step 2. PTH blocks proximal tubule PO₄³⁻ reabsorption (controlling ~30% of filtered load → hypophosphatemia), promotes distal tubule Ca²⁺ reabsorption (~5% fine control), activates 1α-hydroxylase (25-OH → 1,25-(OH)₂D), and stimulates osteoclasts indirectly via osteoblast RANK ligand.",
+      "choice_rationales": [
+        "Hypercalcemia should suppress PTH, PTH activates osteoclasts indirectly via osteoblasts (not directly), and PTH increases (not blocks) distal Ca²⁺ reabsorption.",
+        "Secondary hyperparathyroidism in renal failure presents with hypocalcemia/hyperphosphatemia, and 24-hydroxylase inactivates vitamin D.",
+        "Correctly distinguishes autonomous primary hyperparathyroidism and summarizes PTH's proximal PO₄³⁻, distal Ca²⁺, 1α-hydroxylase, and osteoblast-RANKL mechanisms.",
+        "Calcitonin is a non-essential residual hormone in humans, and PTH conserves Ca²⁺ at the distal tubule."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 6
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Primary Hyperparathyroidism & PTH Mechanisms",
+      "condition_overview": "Measure 25-hydroxyvitamin D (the storage form) to assess vitamin D status; low serum phosphate also suppresses bone-derived FGF23, allowing PTH-independent vitamin D activation."
+    },
+    {
+      "question_id": "q-e9-c5-calcitonin-fgf23-vitd",
+      "case_id": "case-e9-5",
+      "scenario": "In the 58-year-old woman with primary hyperparathyroidism (Ca²⁺ 14.2 mg/dL, phosphorus 2.1 mg/dL, PTH 220 pg/mL), the team reviews calcitonin, vitamin D testing, and bone-derived FGF23.",
+      "lead_in": "Which combination accurately describes calcitonin, the vitamin D form to measure, and the effect of low phosphorus on FGF23?",
+      "source_group_id": "g-e4ab3ad207be31f18ec0",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Mineral Regulators",
+      "tested_concept": "Calcitonin non-essential in humans, measuring 25-OH vitamin D storage form, and low phosphate lowering FGF23 to permit 1α-hydroxylation",
+      "stem": "Which combination accurately describes calcitonin, the vitamin D form to measure, and the effect of low phosphorus on FGF23?",
+      "options": [
+        "Calcitonin is essential after thyroidectomy; measure 1,25-(OH)₂D for stores; low phosphate raises FGF23",
+        "Calcitonin activates 1α-hydroxylase; measure 24-OH vitamin D for stores; high phosphate lowers FGF23",
+        "Calcitonin is non-essential in humans; measure 25-OH vitamin D; low phosphate lowers FGF23, aiding vitamin D activation",
+        "Calcitonin blocks proximal PO₄³⁻ uptake; measure free calcitonin for stores; FGF23 stimulates 1α-hydroxylase"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Calcitonin is a non-essential residual hormone in humans (thyroidectomy does not require calcitonin replacement), and 25-hydroxyvitamin D is the storage form measured to assess vitamin D status. Step 2. Bone-derived FGF23 rises with phosphate/calcium to promote phosphaturia and inhibit 1α-hydroxylase; therefore, low serum phosphate suppresses FGF23 and allows vitamin D activation independent of PTH.",
+      "choice_rationales": [
+        "Thyroidectomy does not require calcitonin replacement, 25-OH vitamin D (not 1,25-(OH)₂D) reflects stores, and low phosphate lowers FGF23.",
+        "24-hydroxylase creates an inactive vitamin D product, and high (not low) phosphate stimulates FGF23.",
+        "Matches all three E9 Case 5 mineral-physiology principles: non-essential calcitonin, 25-OH vitamin D measurement, and low phosphate suppressing FGF23.",
+        "PTH (not calcitonin) blocks proximal phosphate reabsorption, and FGF23 inhibits rather than stimulates 1α-hydroxylase."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 6
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Calcitonin, Vitamin D Stores & FGF23",
+      "condition_overview": "PTH activates 1α-hydroxylase to form active 1,25-(OH)₂D, whereas 24-hydroxylase produces an inactive vitamin D metabolite."
+    },
+    {
+      "question_id": "q-e9-c6-hashimoto-t4-half-life",
+      "case_id": "case-e9-6",
+      "scenario": "A 48-year-old postmenopausal woman has fatigue, weight gain, cold intolerance, constipation, dry skin, brittle hair, HR 50/min, BP 100/64, and mild anemia. Labs: TSH 18.8 mIU/mL (normal 0.4–6.0), T₄ 3.9 μg/dL (low), T₃ 80 ng/dL, TSH-receptor antibody negative, and anti-thyroid antibodies positive.",
+      "lead_in": "What is the diagnosis, what role do the positive thyroid antibodies play, and when should labs be rechecked after starting levothyroxine?",
+      "source_group_id": "g-982c8e8a15f7dcfbcfb8",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Thyroid Autoimmunity & Kinetics",
+      "tested_concept": "Hashimoto thyroiditis, thyroid antibodies as markers of lymphocytic destruction, and levothyroxine ~7-day half-life (recheck in ~1 month)",
+      "stem": "What is the diagnosis, what role do the positive thyroid antibodies play, and when should labs be rechecked after starting levothyroxine?",
+      "options": [
+        "Graves disease; antibodies stimulate TSH receptors directly; recheck TSH the next morning after the first dose",
+        "Secondary pituitary hypothyroidism; antibodies block hypothalamic TRH release; recheck serum T₃ after 48 hours",
+        "Subacute thyroiditis; antibodies destroy pituitary thyrotropes; levothyroxine half-life is 6 hours needing TID dosing",
+        "Hashimoto thyroiditis; antibodies mark lymphocytic destruction; recheck in ~1 month (T₄ half-life ~7 days)"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. High TSH (18.8) with low T₄ (3.9), negative TSH-receptor antibody, and positive anti-thyroid antibodies diagnoses primary autoimmune hypothyroidism (Hashimoto thyroiditis). Anti-TPO and anti-thyroglobulin antibodies are markers of proteins leaking from lymphocyte-damaged thyroid cells rather than the primary destructive cause. Step 2. Treatment is levothyroxine (T₄), which has a ~7-day half-life and requires 4–5 half-lives (~1 month) to reach steady state before rechecking TSH/T₄.",
+      "choice_rationales": [
+        "Graves disease has suppressed TSH, high T₄, and positive TSH-receptor antibody; next-day labs do not reflect steady state.",
+        "Secondary hypothyroidism would show low/inappropriately normal TSH rather than TSH 18.8 mIU/mL.",
+        "Levothyroxine has a ~7-day (not 6-hour) half-life, allowing once-daily dosing and flexible makeup of a missed dose later the same day.",
+        "Correctly identifies Hashimoto thyroiditis, notes antibodies as markers of lymphocytic destruction, and links the ~7-day T₄ half-life to rechecking after ~1 month."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 7
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hashimoto Thyroiditis & Levothyroxine Pharmacokinetics",
+      "condition_overview": "At the pituitary, circulating T₄ is converted locally to T₃ and provides the dominant negative-feedback signal; mild anemia in hypothyroidism reflects reduced thyroid-driven erythropoietin support."
+    },
+    {
+      "question_id": "q-e9-c6-t4-feedback-bmr-anemia",
+      "case_id": "case-e9-6",
+      "scenario": "In the 48-year-old woman with Hashimoto thyroiditis (TSH 18.8 mIU/mL, T₄ 3.9 μg/dL, RBC 3.9 million/μL, cold intolerance, and weight gain), the team discusses why her symptoms and mild anemia occur and which thyroid hormone dominates pituitary negative feedback.",
+      "lead_in": "Which statement best explains her metabolic rate, mild anemia, and pituitary TSH feedback?",
+      "source_group_id": "g-a743698fcf7c34a3a4dc",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Thyroid Physiology",
+      "tested_concept": "BMR (~70% of energy use), thyroid support of erythropoietin (mild anemia), and pituitary conversion of circulating T₄ to T₃ for negative feedback",
+      "stem": "Which statement best explains her metabolic rate, mild anemia, and pituitary TSH feedback?",
+      "options": [
+        "Circulating T₄ enters the pituitary (converted to T₃) for main feedback; low BMR (~70% energy use) and low erythropoietin fit",
+        "Circulating reverse T₃ drives pituitary negative feedback; BMR is ~10% of energy use; iron overload causes mild anemia",
+        "TRH destroys marrow erythroblasts directly; peripheral T₃ alone controls pituitary TSH without pituitary deiodinase",
+        "Anti-TPO antibodies hemolyze red cells directly; BMR rises in hypothyroidism causing cold intolerance and bradycardia"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. Circulating T₄ is the dominant feedback signal at the pituitary, where local deiodinase converts T₄ into active T₃ to suppress TSH. Step 2. Because basal metabolic rate accounts for ~70% of total energy expenditure, hypothyroidism produces cold intolerance, fatigue, and weight gain, while reduced thyroid hormone support of erythropoietin explains her mildly low red blood cell count.",
+      "choice_rationales": [
+        "Accurately connects pituitary T₄→T₃ negative feedback, ~70% BMR energy expenditure, and reduced erythropoietin support for mild anemia.",
+        "Reverse T₃ is inactive, BMR represents ~70% (not 10%) of total energy use, and hypothyroidism lowers erythropoietin rather than causing iron overload.",
+        "Pituitary negative feedback relies primarily on circulating T₄ converted locally to T₃, and TRH does not destroy erythroblasts.",
+        "Anti-TPO antibodies mark thyroid lymphocytic injury rather than causing hemolysis, and hypothyroidism lowers BMR."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 7
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Thyroid Feedback, BMR & Erythropoiesis",
+      "condition_overview": "Because the T₃ assay is relatively poor and the body defends active T₃, TSH and T₄ are the primary clinical monitors for hypothyroidism."
+    },
+    {
+      "question_id": "q-e9-c7-cushing-feedback-diagram",
+      "case_id": "case-e9-7",
+      "scenario": "A 31-year-old woman presents with truncal obesity, rounded red face, thin skin, purple striae on the abdomen and limbs, hirsutism, hypertension, and hyperglycemia. Blood and urine cortisol are markedly elevated, whereas plasma ACTH is suppressed.",
+      "lead_in": "In this pituitary-adrenal feedback loop, Hormone X is low while Hormone Y is high. What is the most common cause of this pattern, and what postoperative precaution is mandatory if an adrenal adenoma is resected?",
+      "source_id": "s-7753e7b3a49ea3757e5a",
+      "source_group_id": "g-7753e7b3a49ea3757e5a",
+      "variant_id": "v-a5bfc36e897f485bc72c",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Visual Feedback Loop",
+      "tested_concept": "ACTH-independent Cushing syndrome (exogenous glucocorticoids most common, adrenal tumor) and mandatory post-adrenalectomy steroid replacement",
+      "stem": "In this pituitary-adrenal feedback loop, Hormone X is low while Hormone Y is high. What is the most common cause of this pattern, and what postoperative precaution is mandatory if an adrenal adenoma is resected?",
+      "options": [
+        "X = ACTH, Y = cortisol; exogenous steroids most common; discharge on steroids until contralateral gland recovers",
+        "X = CRH, Y = aldosterone; pituitary Cushing disease most common; discharge without steroids to speed recovery",
+        "X = cortisol, Y = ACTH; ectopic lung ACTH most common; prescribe ketoconazole lifelong after adrenalectomy",
+        "X = ACTH, Y = DHEA; primary adrenal insufficiency most common; start lifelong fludrocortisone monotherapy"
+      ],
+      "correct_index": 0,
+      "explanation": "Step 1. The pituitary secretes ACTH (Hormone X) to stimulate adrenal cortisol (Hormone Y), which feeds back negatively on the pituitary. High cortisol with suppressed ACTH defines ACTH-independent Cushing syndrome—most commonly caused by exogenous glucocorticoid therapy (treated by tapering) or an autonomous adrenal tumor. Step 2. After resecting a cortisol-producing adrenal mass, the contralateral adrenal gland has been chronically suppressed by low ACTH, so the patient must be discharged on replacement/stress steroids until morning cortisol recovers.",
+      "choice_rationales": [
+        "Matches the ACTH–cortisol negative feedback loop, identifies exogenous glucocorticoids as the most common ACTH-independent cause, and notes mandatory post-adrenalectomy steroid coverage.",
+        "Hormone X is pituitary ACTH (not CRH), pituitary Cushing disease has elevated ACTH, and discharging without steroids risks fatal adrenal crisis.",
+        "Reverses Hormone X and Y; ectopic ACTH produces high (not low) ACTH, and ketoconazole is rarely used due to broad steroid-synthesis blockade and electrolyte toxicity.",
+        "High cortisol with low ACTH is Cushing syndrome (not adrenal insufficiency)."
+      ],
+      "visual_clues": [
+        "Pituitary Gland sending stimulatory (+) arrow via Hormone X (ACTH) to Adrenal Glands",
+        "Adrenal Glands releasing Hormone Y (Cortisol) with negative (-) feedback arrow suppressing the Pituitary Gland"
+      ],
+      "visual_target": "Pituitary-adrenal negative feedback loop (Hormone X = ACTH, Hormone Y = Cortisol)",
+      "joint_panels": [],
+      "image": "assets/display/e9-acth-cortisol-feedback-1d84cffbedd146d3.webp",
+      "zoom_image": "assets/zoom/e9-acth-cortisol-feedback-1d84cffbedd146d3.webp",
+      "original_image": "assets/originals/1d84cffbedd146d3.png",
+      "original_filename": "ACTH and Cortisol Negative Feedback Loop - Diagram.png",
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 8
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "ACTH-Independent Cushing Syndrome",
+      "condition_overview": "In children, rising weight paired with a falling height percentile is a red flag for an endocrine cause (Cushing syndrome or hypothyroidism), unlike simple obesity where height rises with weight via IGF-1."
+    },
+    {
+      "question_id": "q-e9-c7-cortisol-metabolism-diagram",
+      "case_id": "case-e9-7",
+      "scenario": "To explain the 31-year-old Cushing syndrome patient's hyperglycemia, thin skin, and proximal muscle weakness, the lecturer shows this diagram of cortisol's catabolic actions on skeletal muscle, adipose tissue, and the liver.",
+      "lead_in": "Which pairing correctly identifies Substrate A (from muscle), Substrate B (from adipose tissue), and Product C (exported by the liver)?",
+      "source_id": "s-1197c0a6d9ee99983a49",
+      "source_group_id": "g-1197c0a6d9ee99983a49",
+      "variant_id": "v-f282f3fbb9dc24ba1a62",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Diagrams/Graphs/Tables",
+      "visual_kind": "image",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Visual Metabolic Pathway",
+      "tested_concept": "Cortisol muscle proteolysis (amino acids) and adipose lipolysis (glycerol) feeding hepatic gluconeogenesis (glucose)",
+      "stem": "Which pairing correctly identifies Substrate A (from muscle), Substrate B (from adipose tissue), and Product C (exported by the liver)?",
+      "options": [
+        "Substrate A: ketone bodies; Substrate B: glycogen; Product C: insulin",
+        "Substrate A: lactate; Substrate B: cholesterol; Product C: urea",
+        "Substrate A: amino acids; Substrate B: glycerol; Product C: glucose",
+        "Substrate A: free fatty acids; Substrate B: amino acids; Product C: triglycerides"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Cortisol stimulates proteolysis in skeletal muscle, releasing amino acids (Substrate A), and lipolysis in adipose tissue, releasing glycerol (Substrate B). Step 2. Both substrates travel to the liver, where cortisol upregulates gluconeogenesis to export glucose (Product C)—explaining hyperglycemia, muscle wasting, and thin skin/striae in chronic hypercortisolism.",
+      "choice_rationales": [
+        "Muscle exports amino acids (not ketones), adipose stores triglycerides (not glycogen), and the liver exports glucose (not insulin).",
+        "The primary gluconeogenic muscle catabolite shown is amino acids, and the adipose backbone feeding hepatic gluconeogenesis is glycerol.",
+        "Correctly maps muscle-derived amino acids (Substrate A) and adipose-derived glycerol (Substrate B) to hepatic gluconeogenic glucose output (Product C).",
+        "Swaps muscle and adipose substrates and misses hepatic glucose export driving Cushing hyperglycemia."
+      ],
+      "visual_clues": [
+        "Cortisol arrows targeting Muscle (exporting Substrate A = Amino Acids) and Adipose Tissue (exporting Substrate B = Glycerol)",
+        "Both arrows converging on the Liver, which exports Product C (Glucose)"
+      ],
+      "visual_target": "Cortisol-driven gluconeogenic substrates (Substrates A and B) and hepatic output (Product C)",
+      "joint_panels": [],
+      "image": "assets/display/e9-cortisol-metabolic-actions-6b59b1df1a498bcd.webp",
+      "zoom_image": "assets/zoom/e9-cortisol-metabolic-actions-6b59b1df1a498bcd.webp",
+      "original_image": "assets/originals/6b59b1df1a498bcd.png",
+      "original_filename": "Cortisol Actions on Muscle Liver and Adipose Tissue - Diagram.png",
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 8
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, reconciled Obsidian Detailed Notes, and full-size visual inspection.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Cortisol Catabolic & Gluconeogenic Actions",
+      "condition_overview": "Unlike ACTH-independent Cushing syndrome, high-ACTH states (Cushing disease or ectopic ACTH) cause hyperpigmentation because ACTH and MSH share the POMC precursor."
+    },
+    {
+      "question_id": "q-e9-c8-addison-pomc-replacement",
+      "case_id": "case-e9-8",
+      "scenario": "A 21-year-old night-shift worker lifting 60 lb boxes has near-syncope, nausea, poor appetite, intense salt craving, BP 106/54, low blood glucose, and persistent dark skin in January with hyperpigmentation of the oral mucosa.",
+      "lead_in": "What is the diagnosis, what accounts for his salt craving and oral mucosal hyperpigmentation, and what replacement regimen is required?",
+      "source_group_id": "g-65ce29ad95f886782481",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Adrenal Insufficiency",
+      "tested_concept": "Primary adrenal insufficiency (Addison disease): low aldosterone (salt craving/hypotension), high POMC/ACTH/MSH (mucosal hyperpigmentation), hydrocortisone + fludrocortisone",
+      "stem": "What is the diagnosis, what accounts for his salt craving and oral mucosal hyperpigmentation, and what replacement regimen is required?",
+      "options": [
+        "Secondary pituitary ACTH deficiency; high renin causes mucosal darkening; replace with hydrocortisone alone",
+        "Primary hyperaldosteronism; high cortisol darkens oral mucosa; treat with spironolactone and salt restriction",
+        "Congenital 11β-hydroxylase deficiency; excess aldosterone causes salt craving; treat with oral potassium chloride",
+        "Primary adrenal insufficiency; low aldosterone (salt craving), high POMC/MSH (dark mucosa); hydrocortisone + fludrocortisone"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. Loss of both cortisol (hypoglycemia, nausea) and aldosterone (salt craving, hypotension) with hyperpigmentation of non-sun-exposed oral mucosa diagnoses primary adrenal insufficiency (Addison disease, most often autoimmune). Step 2. Lost cortisol feedback raises pituitary POMC cleavage into ACTH and MSH (which share melanocortin sequences), darkening skin and mucosa; treatment replaces both glucocorticoid (hydrocortisone) and mineralocorticoid (fludrocortisone).",
+      "choice_rationales": [
+        "Secondary pituitary ACTH deficiency has low ACTH (so no hyperpigmentation) and spares aldosterone.",
+        "Primary hyperaldosteronism causes hypertension and hypokalemia rather than hypotension, salt craving, and hypoglycemia.",
+        "Excess aldosterone causes salt retention and hypertension rather than salt craving and hypotension.",
+        "Matches primary adrenal insufficiency, links aldosterone loss to salt craving/BP 106/54, links POMC/ACTH/MSH excess to mucosal hyperpigmentation, and prescribes hydrocortisone + fludrocortisone."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 9
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Primary Adrenal Insufficiency (Addison Disease)",
+      "condition_overview": "Clinical pearl: sudden unexplained improvement in blood glucose/A1C in a patient with type 1 diabetes is a classic clue to emerging adrenal insufficiency (consider autoimmune polyglandular syndrome)."
+    },
+    {
+      "question_id": "q-e9-c8-addison-missed-aps-t1dm",
+      "case_id": "case-e9-8",
+      "scenario": "During debriefing of the 21-year-old man with autoimmune primary adrenal insufficiency (Addison disease), the clinician emphasizes that adrenal insufficiency is one of the most commonly missed diagnoses and highlights key board-relevant associations.",
+      "lead_in": "Which clinical clue in a patient with type 1 diabetes and which two systemic associations should trigger evaluation for primary adrenal insufficiency?",
+      "source_group_id": "g-f3e8ee0f0b4860d73de0",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Clinical Clues & Syndromes",
+      "tested_concept": "Sudden unexplained A1C/glucose improvement in T1DM as a clue to adrenal insufficiency; autoimmune polyglandular syndrome (APS) and adrenoleukodystrophy (VLCFA)",
+      "stem": "Which clinical clue in a patient with type 1 diabetes and which two systemic associations should trigger evaluation for primary adrenal insufficiency?",
+      "options": [
+        "Sudden unexplained worsening of hyperglycemia in T1DM; MEN2A and pheochromocytoma",
+        "Unexplained glucose/A1C drop in T1DM; autoimmune polyglandular syndrome (APS) and adrenoleukodystrophy",
+        "Sudden onset of hypercalcemia and nephrolithiasis; MEN1 and gastrinoma",
+        "Sudden development of acromegalic facial coarsening; primary pigmented nodular adrenal disease"
+      ],
+      "correct_index": 1,
+      "explanation": "Step 1. Cortisol opposes insulin; therefore, a sudden unexplained drop in insulin requirements or A1C (recurrent hypoglycemia) in a patient with type 1 diabetes is a classic clinical red flag for emerging adrenal insufficiency. Step 2. Key exam associations include autoimmune polyglandular syndrome (APS—watch for coexisting megaloblastic anemia from intrinsic factor deficiency) and X-linked adrenoleukodystrophy (accumulated very long chain fatty acids).",
+      "choice_rationales": [
+        "Adrenal insufficiency lowers counter-regulatory cortisol, improving glucose/causing hypoglycemia rather than worsening hyperglycemia.",
+        "Correctly identifies unexplained A1C/glucose improvement in T1DM plus autoimmune polyglandular syndrome (APS) and adrenoleukodystrophy (VLCFA).",
+        "Hypercalcemia with gastrinoma points to MEN1 rather than autoimmune adrenal insufficiency.",
+        "Acromegaly reflects GH excess and PPNAD causes intermittent Cushing syndrome, not adrenal insufficiency."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 9
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Adrenal Insufficiency Clues & Associations",
+      "condition_overview": "In congenital adrenal hyperplasia (which can also lack aldosterone), fludrocortisone dosing is adjusted to salt intake and infants receive supplemental salt."
+    },
+    {
+      "question_id": "q-e9-c9-female-prl-trh-pituitary-size",
+      "case_id": "case-e9-9",
+      "scenario": "A 44-year-old woman has 8 months of amenorrhea, two negative pregnancy tests, daily headaches, galactorrhea, and bilateral peripheral visual field loss. She takes no medications; TSH is normal and prolactin is markedly elevated.",
+      "lead_in": "Why was TSH checked in her hyperprolactinemia workup, and how does clinical context govern management of an enlarged pituitary on MRI?",
+      "source_group_id": "g-e20df453ab17b011b0cb",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 3,
+      "study_skill": "management",
+      "question_type": "Clinical Case · Contextual Pituitary Reasoning",
+      "tested_concept": "High TRH cross-stimulating lactotropes in primary hypothyroidism, and avoiding surgery for physiologic pregnancy or hypothyroid pituitary enlargement",
+      "stem": "Why was TSH checked in her hyperprolactinemia workup, and how does clinical context govern management of an enlarged pituitary on MRI?",
+      "options": [
+        "TSH directly degrades prolactin in plasma; any enlarged pituitary on MRI requires immediate neurosurgical resection",
+        "High TSH suppresses dopamine receptors on gonadotropes; pituitary enlargement in pregnancy needs urgent surgery",
+        "High TRH in hypothyroidism stimulates lactotropes; pregnancy/hypothyroid pituitary enlargement is non-surgical",
+        "Normal TSH confirms posterior pituitary ADH overproduction; prolactinomas are treated with oral levothyroxine"
+      ],
+      "correct_index": 2,
+      "explanation": "Step 1. Always check TSH in hyperprolactinemia because primary hypothyroidism elevates hypothalamic TRH, which can cross-stimulate lactotropes to raise prolactin (alongside excluding pregnancy, lactation, medications, and stalk compression). Step 2. Pituitary size must be interpreted in context: physiologic lactotrope hyperplasia enlarges the pituitary in pregnancy (no surgery), and severe primary hypothyroidism enlarges thyrotropes (shrinks with levothyroxine)—whereas this patient's normal TSH, negative pregnancy test, visual loss, and high prolactin indicate a prolactin-secreting adenoma.",
+      "choice_rationales": [
+        "TSH does not degrade prolactin, and operating on physiologic pregnancy or hypothyroid pituitary enlargement is harmful and unnecessary.",
+        "Pituitary enlargement in pregnancy is normal physiologic hyperplasia (driven by high estrogen) and should not go to neurosurgery.",
+        "Explains TRH-driven hyperprolactinemia in hypothyroidism and distinguishes physiologic/hypothyroid pituitary enlargement from a prolactinoma.",
+        "Posterior pituitary ADH/oxytocin are synthesized in the hypothalamus and transported axonally, unrelated to prolactinoma therapy."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 10
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Hyperprolactinemia Differential & Pituitary Enlargement",
+      "condition_overview": "TSH, FSH, and LH are heterodimeric glycoproteins sharing a common α-subunit with specificity conferred by their β-subunits—so very high TSH can cross-react at other glycoprotein receptors."
+    },
+    {
+      "question_id": "q-e9-c9-glycoprotein-subunits-axonal",
+      "case_id": "case-e9-9",
+      "scenario": "To close Case 9 (hyperprolactinemia and pituitary enlargement), the lecturers review two foundational pituitary structure-function rules tying together anterior glycoprotein hormones and posterior pituitary hormone transport.",
+      "lead_in": "Which statement accurately describes TSH/FSH/LH subunit specificity and anterior versus posterior pituitary hormone synthesis?",
+      "source_group_id": "g-a0ecde488da29b246b5c",
+      "collection": "E9",
+      "source_origin": "lecture",
+      "category": "Questions",
+      "visual_kind": "text",
+      "format_type": "vignette",
+      "reasoning_order": 2,
+      "study_skill": "mechanism",
+      "question_type": "Clinical Case · Pituitary Architecture",
+      "tested_concept": "TSH/FSH/LH heterodimer β-subunit specificity (high-TSH cross-reactivity) and anterior local synthesis vs. hypothalamic axonal transport of ADH/oxytocin",
+      "stem": "Which statement accurately describes TSH/FSH/LH subunit specificity and anterior versus posterior pituitary hormone synthesis?",
+      "options": [
+        "The α-subunit gives receptor specificity for TSH/FSH/LH; ADH and oxytocin are synthesized in the posterior pituitary",
+        "TSH/FSH/LH are single-chain peptides; anterior pituitary hormones travel axonally from the supraoptic nucleus",
+        "TSH/FSH/LH bind nuclear steroid receptors; posterior pituitary cells synthesize prolactin and transport it to the hypothalamus",
+        "β-subunit gives TSH/FSH/LH specificity; anterior hormones are made locally, while ADH/oxytocin travel axonally"
+      ],
+      "correct_index": 3,
+      "explanation": "Step 1. TSH, FSH, and LH are heterodimeric glycoproteins sharing a common α-subunit, with biological receptor specificity determined by their unique β-subunit—though markedly elevated TSH in severe hypothyroidism can still cross-react at other glycoprotein receptors. Step 2. Anterior pituitary hormones are synthesized locally in adenohypophyseal endocrine cells, whereas posterior pituitary hormones (ADH and oxytocin) are synthesized in hypothalamic neurons and delivered by axonal transport.",
+      "choice_rationales": [
+        "The β-subunit (not α-subunit) confers specificity, and ADH/oxytocin are synthesized in the hypothalamus rather than posterior pituitary cells.",
+        "TSH, FSH, and LH are two-subunit glycoproteins (not single chains), and anterior pituitary hormones are made locally rather than transported axonally.",
+        "Glycoprotein hormones bind cell-surface membrane receptors (not nuclear receptors), and prolactin is synthesized by anterior pituitary lactotropes.",
+        "Accurately captures β-subunit specificity of TSH/FSH/LH and local anterior synthesis versus hypothalamic axonal transport for ADH/oxytocin."
+      ],
+      "visual_clues": [],
+      "visual_target": "Clinical case reasoning item",
+      "joint_panels": [],
+      "image": null,
+      "zoom_image": null,
+      "original_image": null,
+      "original_filename": null,
+      "citations": [
+        {
+          "document": "E9 Physiologist and Clinician Mini-Case Study Review RLS.pdf",
+          "page": 10
+        }
+      ],
+      "ground_truth_confidence": "high",
+      "ground_truth_basis": "Verified directly against supplied lecture RLS, transcript, and reconciled Obsidian Detailed Notes.",
+      "accepted_synonyms": [],
+      "review_status": "approved",
+      "case_context": null,
+      "condition_name": "Glycoprotein Subunits & Pituitary Synthesis",
+      "condition_overview": "Always interpret a single hormone level or pituitary scan in clinical context—never jump to surgery or a single diagnosis without checking thyroid status, medications, and pregnancy."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "case-e9-1",
+      "lecture": "E9",
+      "title": "Case 1 · Male Prolactinoma & Macroadenoma",
+      "question_ids": [
+        "q-e9-c1-prolactinoma-dx-tx",
+        "q-e9-c1-stalk-panhypopit-gnrh"
+      ]
+    },
+    {
+      "case_id": "case-e9-2",
+      "lecture": "E9",
+      "title": "Case 2 · Acromegaly & Pituitary Workup",
+      "question_ids": [
+        "q-e9-c2-acromegaly-workup-tx",
+        "q-e9-c2-gh-metabolic-steroid-first"
+      ]
+    },
+    {
+      "case_id": "case-e9-3",
+      "lecture": "E9",
+      "title": "Case 3 · New-Onset Type 1 Diabetes & DKA",
+      "question_ids": [
+        "q-e9-c3-t1dm-lipases-glucagon",
+        "q-e9-c3-t1dm-transporters-insulins"
+      ]
+    },
+    {
+      "case_id": "case-e9-4",
+      "lecture": "E9",
+      "title": "Case 4 · Fasting Hypoglycemia & Insulinoma",
+      "question_ids": [
+        "q-e9-c4-insulinoma-cpeptide-symp",
+        "q-e9-c4-cortisol-permissive-counterreg"
+      ]
+    },
+    {
+      "case_id": "case-e9-5",
+      "lecture": "E9",
+      "title": "Case 5 · Primary Hyperparathyroidism",
+      "question_ids": [
+        "q-e9-c5-primary-hyperpth-renal",
+        "q-e9-c5-calcitonin-fgf23-vitd"
+      ]
+    },
+    {
+      "case_id": "case-e9-6",
+      "lecture": "E9",
+      "title": "Case 6 · Hashimoto Thyroiditis & Levothyroxine",
+      "question_ids": [
+        "q-e9-c6-hashimoto-t4-half-life",
+        "q-e9-c6-t4-feedback-bmr-anemia"
+      ]
+    },
+    {
+      "case_id": "case-e9-7",
+      "lecture": "E9",
+      "title": "Case 7 · ACTH-Independent Cushing Syndrome",
+      "question_ids": [
+        "q-e9-c7-cushing-feedback-diagram",
+        "q-e9-c7-cortisol-metabolism-diagram"
+      ]
+    },
+    {
+      "case_id": "case-e9-8",
+      "lecture": "E9",
+      "title": "Case 8 · Primary Adrenal Insufficiency (Addison)",
+      "question_ids": [
+        "q-e9-c8-addison-pomc-replacement",
+        "q-e9-c8-addison-missed-aps-t1dm"
+      ]
+    },
+    {
+      "case_id": "case-e9-9",
+      "lecture": "E9",
+      "title": "Case 9 · Female Hyperprolactinemia & Context",
+      "question_ids": [
+        "q-e9-c9-female-prl-trh-pituitary-size",
+        "q-e9-c9-glycoprotein-subunits-axonal"
+      ]
+    }
+  ],
   "retired_questions": []
 }

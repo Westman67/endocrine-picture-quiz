@@ -1592,7 +1592,7 @@
         "B: Hashimoto thyroiditis; C: solitary hot nodule; E: iodine deficiency",
         "B: toxic adenoma; C: Graves disease; E: toxic multinodular goiter",
         "B: subacute thyroiditis; C: normal thyroid; E: Graves disease",
-        "B: Graves disease; C: toxic multinodular goiter; E: thyroiditis or exogenous thyroid hormone"
+        "B: Graves disease; C: toxic multinodular goiter; E: thyroiditis or exogenous T₄"
       ],
       "correct_index": 3,
       "explanation": "Step 1. Scan A shows normal symmetric uptake, B shows diffusely dark high uptake across both enlarged lobes, C shows patchy heterogeneous hot and cold nodules, D shows one dominant hot nodule with suppressed background, and E shows near-absent uptake. Step 2. Diffuse high uptake (B) is classic Graves disease, patchy uptake (C) is toxic multinodular goiter, and low/absent uptake (E) indicates destructive thyroiditis or exogenous levothyroxine.",
